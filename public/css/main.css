@@ -1,0 +1,531 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/440
+ */
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+/*header*/
+.top_logo{
+    border-radius: 55px/10px;
+    background: #005695;
+    height: 85px;
+    margin-top: 5px;
+}
+.experienced{
+    color: #ffffff;
+    font-size: 15px;
+}
+.phone_contact{
+    border-radius: 5px 72px 30px;
+    background: #000;
+    height: 45px;
+    margin-top: 7px;
+}
+
+.live_chat {
+    padding: 10px;
+    border-radius: 5px;
+
+    /* HOVER OFF */
+    -webkit-transition: padding 2s;
+}
+
+/* Pulse Grow */
+@-webkit-keyframes pulse-grow {
+    to {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+}
+
+@keyframes pulse-grow {
+    to {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+}
+
+.pulse-grow {
+    display: inline-block;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.pulse-grow:hover, .pulse-grow:focus, .pulse-grow:active {
+    -webkit-animation-name: pulse-grow;
+    animation-name: pulse-grow;
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
+
+/* Wobble Bottom */
+@-webkit-keyframes wobble-bottom {
+    16.65% {
+        -webkit-transform: skew(-12deg);
+        transform: skew(-12deg);
+    }
+
+    33.3% {
+        -webkit-transform: skew(10deg);
+        transform: skew(10deg);
+    }
+
+    49.95% {
+        -webkit-transform: skew(-6deg);
+        transform: skew(-6deg);
+    }
+
+    66.6% {
+        -webkit-transform: skew(4deg);
+        transform: skew(4deg);
+    }
+
+    83.25% {
+        -webkit-transform: skew(-2deg);
+        transform: skew(-2deg);
+    }
+
+    100% {
+        -webkit-transform: skew(0);
+        transform: skew(0);
+    }
+}
+
+@keyframes wobble-bottom {
+    16.65% {
+        -webkit-transform: skew(-12deg);
+        transform: skew(-12deg);
+    }
+
+    33.3% {
+        -webkit-transform: skew(10deg);
+        transform: skew(10deg);
+    }
+
+    49.95% {
+        -webkit-transform: skew(-6deg);
+        transform: skew(-6deg);
+    }
+
+    66.6% {
+        -webkit-transform: skew(4deg);
+        transform: skew(4deg);
+    }
+
+    83.25% {
+        -webkit-transform: skew(-2deg);
+        transform: skew(-2deg);
+    }
+
+    100% {
+        -webkit-transform: skew(0);
+        transform: skew(0);
+    }
+}
+
+.wobble-bottom {
+    display: inline-block;
+    -webkit-transform-origin: 100% 0;
+    transform-origin: 100% 0;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.wobble-bottom:hover, .wobble-bottom:focus, .wobble-bottom:active {
+    -webkit-animation-name: wobble-bottom;
+    animation-name: wobble-bottom;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+
+
+.social_logo{
+    -moz-transition: all 0.8s ease-in-out;
+    -webkit-transition: all 0.8s ease-in-out;
+    -o-transition: all 0.8s ease-in-out;
+    -ms-transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
+}
+
+.social_logo:hover{
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+
+/*carasaul-homepage*/
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+/*contact-us form*/
+
+
+/*feedback form*/
+.feedback{
+    position:absolute;
+    right:0;
+    top:50px;
+}
+.feedback a {
+    display:block;
+    height:50px;
+    width:100px;
+    text-align:center;
+    background:gray;
+    border:2px solid #fff;
+    outline:1px solid #a1a1a1;
+    padding:5px;
+    float:right;
+    cursor:pointer;
+
+    /*Font*/
+    color:#FFF;
+    font-weight:bold;
+    font-size:18px;
+}
+.feedback .form{
+    clear:both;
+    height:300px;
+    width:450px;
+    border:1px solid #000;
+    background:#fff;
+    padding:15px;
+    display: none;
+}
+.feedback .form textarea{
+    height:170px;
+    width:400px;
+    padding:5px;
+}
+.feedback .status{
+    font-size:16px;
+}
+
+/*homepage carasaul bootstrap*/
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+/* Carousel base class */
+.is_carasaul{
+      background: gray;
+    color: blue;
+}
+.carousel {
+
+    margin: 176px 5px 3px 5px;
+}
+
+.carousel .container {
+    position: relative;
+    z-index: 9;
+}
+
+.carousel-control {
+    top: 100px;
+    margin-top: 0;
+    font-size: 120px;
+    text-shadow: 0 1px 1px rgba(0,0,0,.4);
+    background-color: transparent;
+    border: 0;
+    z-index: 10;
+}
+
+.carousel .item {
+    height: 500px;
+}
+.carousel img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 500px;
+}
+
+.carousel-caption {
+    background-color: transparent;
+    position: static;
+    max-width: 550px;
+    padding: 0 20px;
+    margin-top: 200px;
+}
+.carousel-caption h1,
+.carousel-caption .lead {
+    margin: 0;
+    line-height: 1.25;
+    color: #fff;
+    text-shadow: 0 1px 1px rgba(0,0,0,.4);
+}
+.carousel-caption .btn {
+    margin-top: 10px;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (max-width: 979px) {
+
+
+    .carousel .item {
+        height: 500px;
+    }
+    .carousel img {
+        width: auto;
+        height: 500px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .navbar-inner {
+        margin: -20px;
+    }
+
+    .carousel {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+    .carousel .container {
+
+    }
+    .carousel .item {
+        height: 300px;
+    }
+    .carousel img {
+        height: 300px;
+    }
+    .carousel-caption {
+        width: 65%;
+        padding: 0 70px;
+        margin-top: 100px;
+    }
+    .carousel-caption h1 {
+        font-size: 30px;
+    }
+    .carousel-caption .lead,
+    .carousel-caption .btn {
+        font-size: 18px;
+    }
+
+/*about carousel*/
+
+
+/*#wrapper {*/
+    /*width: 100%;*/
+    /*margin: 0 auto;*/
+    /*overflow: hidden;*/
+    /*position: absolute;*/
+    /*left: 10%;*/
+    /*top:30%;*/
+/*}*/
+/*#overlay {*/
+    /*background: #def;*/
+    /*width: 300px;*/
+    /*height: 560px;*/
+    /*overflow: hidden;*/
+    /*position: absolute;*/
+    /*left: -300px;*/
+    /*top: 0;*/
+    /*z-index: 1;*/
+    /*-webkit-transition: left .5s ease;*/
+    /*-moz-transition: left .5s ease;*/
+    /*transition: left .5s ease;*/
+/*}*/
+/*#wrapper:hover #overlay {*/
+    /*left: 0px;*/
+/*}*/
+/*#carasaul_description {*/
+    /*padding-top: 40px;*/
+    /*width: 250px;*/
+    /*margin-left: 450px;*/
+
+    /*-webkit-transition: margin .5s ease;*/
+    /*-moz-transition: margin .5s ease;*/
+    /*transition: margin .5s ease;*/
+/*}*/
+/*#wrapper:hover #carasaul_description {*/
+    /*margin-left: 0px;*/
+/*}*/
+/*#carasaul_description h3 {*/
+    /*color: #69c;*/
+    /*font-size: 35px;*/
+    /*font-weight: normal;*/
+    /*text-align: right;*/
+    /*line-height: 30px;*/
+    /*margin: 30px 0;*/
+/*}*/
+/*#carasaul_description p {*/
+    /*font-size: 13px;*/
+    /*text-align: justify;*/
+/*}*/
+
+/*#wrapper .caroufredsel_wrapper {*/
+    /*margin-left: 0px !important;*/
+
+    /*-webkit-transition: margin .5s ease;*/
+    /*-moz-transition: margin .5s ease;*/
+    /*transition: margin .5s ease;*/
+/*}*/
+/*#wrapper:hover .caroufredsel_wrapper {*/
+    /*margin-left: 150px !important;*/
+/*}*/
+/*#carousel img {*/
+    /*display: block;*/
+    /*float: left;*/
+/*}*/
+
+/*#pager {*/
+    /*text-align: center;*/
+    /*padding: 40px 20px 0 0;*/
+/*}*/
+/*#pager a {*/
+    /*border-radius: 5px;*/
+    /*background: #69c;*/
+    /*display: block;*/
+    /*width: 10px;*/
+    /*height: 10px;*/
+    /*margin: 0 5px;*/
+    /*float: right;*/
+/*}*/
+/*#pager a.selected {*/
+    /*background: #333;*/
+/*}*/
+/*#pager span {*/
+    /*display: none;*/
+/*}*/
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+}
+
