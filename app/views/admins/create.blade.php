@@ -27,5 +27,5 @@
 
         </div>
     </div>
-<a href="{{('/register')}}"><button type="button" class="btn btn-primary">Register</button></a>
+<a href="{{URL::to('/register') }}"><button type="button" class="btn btn-primary">Register</button></a>
 @stop
