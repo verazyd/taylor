@@ -16,8 +16,9 @@ class BlogsController extends \BaseController {
 
     public function index_users()
     {
+        $tags = Tag::all();
         $blogs = Blog::orderBy('created_at', 'desc')->paginate(10);
-        return View::make('blogs.index_user', compact('blogs'));
+        return View::make('blogs.index_user', compact('blogs', 'tags'));
     }
 
 	/**
@@ -28,7 +29,8 @@ class BlogsController extends \BaseController {
 	 */
 	public function create()
 	{
-		return View::make('blogs.create');
+        $tags = Tag::all();
+		return View::make('blogs.create', compact('tags'));
 	}
 
 	/**
@@ -49,6 +51,7 @@ class BlogsController extends \BaseController {
         {
             $blog = new Blog;
             $blog->topic = Input::get('topic');
+            $blog->tag_id = Input::get('tag_id');
             $blog->description = Input::get('description');
 
             if($blog->save())

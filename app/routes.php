@@ -47,6 +47,11 @@ Route::group(array('before' => 'admin'), function(){
     Route::post('image.store', ['as' => 'image.store', 'uses' => 'AddimagesController@store']);
     Route::patch('images/{id}', ['as' => 'images.update', 'uses' => 'AddimagesController@update']);
     Route::resource('image', 'AddimagesController');
+    Route::get('createTag', ['as' => 'createTag', 'uses' => 'TagsController@create']);
+    Route::post('tags.store', ['as' => 'tags.store', 'uses' => 'TagsController@store']);
+    Route::get('tags', ['as' => 'tags', 'uses' => 'TagsController@index']);
+    Route::get('tags/{id}', 'TagsController@show');
+    Route::resource('tags', 'TagsController');
 });
 
 

@@ -8,5 +8,11 @@
           <a href="{{('allblogs/'.$blog->id)}}" style="margin: 15% 0;">{{$blog->topic }}</a><br><br><br>
         @endforeach
     </div>
+    <div class="col-md-2">
+        <h4>Categories:</h4>
+        @foreach($tags as $tag)
+        <a href="{{('tags/'.$tag->id)}}" style="margin: 10% 0;">{{$tag->name }}</a><br><br><br>
+        @endforeach
+    </div>
 </div>
 @stop

@@ -2,9 +2,7 @@
 
 @section('content')
     <div class="container" style="margin-top: 17%;">
-
         <div class="col-md-8">
-
         <script src="http://maps.google.com/maps/api/js?sensor=false"type="text/javascript"></script>
            <div id="map" style="width: 750px; height: 400px;"></div>
                <script type="text/javascript">
@@ -41,37 +39,6 @@
                    }
             </script>
         </div>
-<!--        <div class="col-md-2">-->
-<!--            <p>Taylor&Prestonr Branches:</p>-->
-<!--            <div class="accordion" id="accordion2">-->
-<!--                <div class="accordion-group">-->
-<!--                    <div class="accordion-heading">-->
-<!--                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">-->
-<!--                            Victoria-->
-<!--                        </a>-->
-<!--                    </div>-->
-<!--                    <div id="collapseOne" class="accordion-body collapse in">-->
-<!--                        <div class="accordion-inner">-->
-<!--                            Office 15, The Clocktower Complex, 255 Drummond Street, Carlton VIC 3053-->
-<!--                            101 Hope Street, Brunswick VIC 3056-->
-<!--                            Level 13, 200 Queen Street, VIC 3000​.-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="accordion-group">-->
-<!--                    <div class="accordion-heading">-->
-<!--                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">-->
-<!--                           Sydney-->
-<!--                        </a>-->
-<!--                    </div>-->
-<!--                    <div id="collapseTwo" class="accordion-body collapse">-->
-<!--                        <div class="accordion-inner">-->
-<!--                            Level 26, 1 Bligh Street, Sydney NSW 2000.-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
         <div class="col-md-4">
 
             <p style="font-weight: bold; font-size: 25px;">Taylor&Preston Branches:</p>
@@ -93,6 +60,14 @@
                     <p>Coming Soon...</p>
                 </div>
 
+            </div>
+            <div class="contact_form">
+
+            </div>
+        </div>
+        <div class="row" style="margin-bottom: 80px;">
+            <div class="col-md-12">
+                @include('layouts.partials._contact_form')
             </div>
         </div>
     </div>

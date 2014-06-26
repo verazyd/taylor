@@ -37,10 +37,10 @@
     <!--        </div>-->
             {{ Form::close() }}
         </div>
-        <div class="col-md-4">
+        <div class="col-md-6">
             <h3>Locations:</h3>
             <script src="http://maps.google.com/maps/api/js?sensor=false"type="text/javascript"></script>
-            <div id="map" style="width: 450px; height: 400px;"></div>
+            <div id="map" style="width: 610px; height: 444px;"></div>
             <script type="text/javascript">
 
                 var locations = [
@@ -75,21 +75,21 @@
                 }
             </script>
         </div>
-        <div class="col-md-2">
-            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
-            {{ HTML::script("js/feedback._form.js")}}
-            <div class="feedback">
-                <a id="feedback_button">Feedback</a>
-
-                <div class="form">
-                    <h2>Please Send Us Your Feedback</h2>
-                    <span class="status"></span>
-                    <textarea id="feedback_text"></textarea>
-                    <input type="button" value="Send" id="submit_form" />
-                </div>
-            </div>
-
-        </div>
+<!--        <div class="col-md-2">-->
+<!--            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>-->
+<!--            {{ HTML::script("js/feedback._form.js")}}-->
+<!--            <div class="feedback">-->
+<!--                <a id="feedback_button">Feedback</a>-->
+<!---->
+<!--                <div class="form">-->
+<!--                    <h2>Please Send Us Your Feedback</h2>-->
+<!--                    <span class="status"></span>-->
+<!--                    <textarea id="feedback_text"></textarea>-->
+<!--                    <input type="button" value="Send" id="submit_form" />-->
+<!--                </div>-->
+<!--            </div>-->
+<!---->
+<!--        </div>-->
     </div>
 </div>
 @stop

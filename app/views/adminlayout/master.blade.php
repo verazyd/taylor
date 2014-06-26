@@ -81,6 +81,19 @@
                         </li>
                     </ul>
                 </li>
+                <li class="dropdown {{ set_active('tags*') }}">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <i class="fa fa-rss-square fa"></i>&nbsp;Tag <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="{{URL::to('/tags') }}">View All Tag</a>
+                        </li>
+                        <li>
+                            <a href="{{URL::to('/createTag')}}">Create a Tag</a>
+                        </li>
+                    </ul>
+                </li>
                 <li>
                     <a href="{{('/logout')}}"><i class="fa fa-power-off fa"></i> &nbsp;Logout</a>
                 </li>

@@ -94,7 +94,8 @@
         </div>
     </div>
 </div>
-<div class="container" style="margin: 10px 5px 95px 5px;">
+<div class="container" style="margin: 10px 0px">
+    <div class="row">
     <div class="btn-group btn-group-justified">
         <div class="col-md-2">
             <div class="btn-group">
@@ -133,6 +134,37 @@
             <button type="button" class="family_law">Will&Estates</button><br>
             <button type="button" class="family_law">Personal law</button><br>
             <button type="button" class="family_law">Family law</button><br>
+        </div>
+    </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            @include('layouts.partials._contact_form')
+        </div>
+        <div class="col-md-5 col-md-offset-1 pull-right">
+            <h5>How We Are Different?</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus animi beatae,
+                facilis fugit illo in placeat rem tempora. Asperiores culpa, illo illum nobis omnis quaerat
+                quasi quia repellat reprehenderit tempore. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Ad delectus excepturi fuga impedit, incidunt nisi omnis quam quas quo quos
+                repellendus vero, voluptatibus! Distinctio, ex harum inventore iusto nesciunt soluta!
+            </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus animi beatae,
+                facilis fugit illo in placeat rem tempora. Asperiores culpa, illo illum nobis omnis quaerat
+                quasi quia repellat reprehenderit tempore. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Ad delectus excepturi fuga impedit, incidunt nisi omnis quam quas quo quos
+                repellendus vero, voluptatibus! Distinctio, ex harum inventore iusto nesciunt soluta!
+            </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus animi beatae,
+                facilis fugit illo in placeat rem tempora. Asperiores culpa, illo illum nobis omnis quaerat
+                quasi quia repellat reprehenderit tempore. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Ad delectus excepturi fuga impedit, incidunt nisi omnis quam quas quo quos
+                repellendus vero, voluptatibus! Distinctio, ex harum inventore iusto nesciunt soluta!
+            </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus animi beatae,
+                facilis fugit illo in placeat rem tempora. Asperiores culpa, illo illum nobis omnis quaerat
+                quasi quia repellat reprehenderit tempore. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
         </div>
     </div>
 </div>
