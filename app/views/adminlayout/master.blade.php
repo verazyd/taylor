@@ -74,10 +74,10 @@
                     </a>
                     <ul class="dropdown-menu">
                         <li>
-                            <a href="{{('/blogs') }}">View All Blogs</a>
+                            <a href="{{URL::to('/blogs') }}">View All Blogs</a>
                         </li>
                         <li>
-                            <a href="{{('/create')}}">Create a Thread</a>
+                            <a href="{{URL::to('/create')}}">Create a Thread</a>
                         </li>
                     </ul>
                 </li>
