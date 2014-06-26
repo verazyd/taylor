@@ -30,7 +30,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li class="dropdown {{ set_active('admin_login*') }}">
-                    <a href="{{('admin_login')}}" class="dropdown-toggle" data-toggle="dropdown">
+                    <a href="{{ URL::to('admin_login') }}" class="dropdown-toggle" data-toggle="dropdown">
                         <i class="fa fa-home fa"></i>&nbsp;HOME <b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu">
@@ -51,7 +51,7 @@
                             <a href="">View All Victories</a>
                         </li>
                         <li>
-                            <a href="{{('addVictory')}}">Add Recent Victory</a>
+                            <a href="{{URL::to('addVictory') }}">Add Recent Victory</a>
                         </li>
                     </ul>
                 </li>
@@ -61,10 +61,10 @@
                     </a>
                     <ul class="dropdown-menu">
                         <li>
-                            <a href="{{('/alllocations') }}">View Locations</a>
+                            <a href="{{ URL::to('/alllocations') }}">View Locations</a>
                         </li>
                         <li>
-                            <a href="{{('/add_location') }}">Add Location</a>
+                            <a href="{{ URL::to('/add_location') }}">Add Location</a>
                         </li>
                     </ul>
                 </li>
@@ -95,7 +95,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="{{('/logout')}}"><i class="fa fa-power-off fa"></i> &nbsp;Logout</a>
+                    <a href="{{ URL::to('/logout') }}"><i class="fa fa-power-off fa"></i> &nbsp;Logout</a>
                 </li>
             </ul>
         </div>
