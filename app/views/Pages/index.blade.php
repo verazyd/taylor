@@ -20,21 +20,20 @@
 
     }
 </style>
-@foreach($images as $image)
+<!--@foreach($images as $image)-->
 
-<?php
-    $display_image[] = array();
-    $display_image[] = $image;
-//    var_dump($display_image);
-    $display_image = array_values($display_image);
-//echo $display_image[2];exit;
+<!--//    $display_image[] = array();-->
+<!--//    $display_image[] = $image;-->
+<!--//    var_dump($display_image);-->
+<!--    $display_image = array_values($display_image);-->
+<!--//echo $display_image[2];exit;-->
 
 
-    $images_json = json_encode($display_image);
-    $image_json_decode = json_decode($images_json);
-//    print_r($image_json_decode[1]->url);
-?>
-@endforeach
+<!--    $images_json = json_encode($display_image);-->
+<!--    $image_json_decode = json_decode($images_json);-->
+<!--//    print_r($image_json_decode[1]->url);-->
+<!--?>-->
+<!--@endforeach-->
 <div id="myCarousel" class="carousel slide">
     <div class="carousel-inner">
         <div class="item active">
@@ -159,5 +158,4 @@
         })
     }(window.jQuery)
 </script>
-@stop
 @stop

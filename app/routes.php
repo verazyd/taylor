@@ -64,4 +64,3 @@ Route::get('/allblogs/{id}', 'BlogsController@show');
 //Route::get('/blogs', ['as' => 'blogs', 'uses' => 'BlogsController@index']);
 //Route::get('/create', ['as' => 'create', 'uses' => 'BlogsController@create']);
 //Route::post('blog.store', ['as' => 'blogs.store', 'uses' => 'BlogsController@store']);
-
