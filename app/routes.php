@@ -50,10 +50,10 @@ Route::group(array('before' => 'admin'), function(){
     Route::get('createTag', ['as' => 'createTag', 'uses' => 'TagsController@create']);
     Route::post('tags.store', ['as' => 'tags.store', 'uses' => 'TagsController@store']);
     Route::get('tags', ['as' => 'tags', 'uses' => 'TagsController@index']);
-    Route::resource('tags', 'TagsController');
 });
 
 Route::get('tags/{id}', 'TagsController@show');
+Route::resource('tags', 'TagsController');
 #Login for Admin
 //Route::get('/login', ['as' =>'admin', 'uses' => 'SessionsController@create']);
 //Route::get('logout', ['as' => 'logout', 'uses' => 'SessionsController@destroy']);
