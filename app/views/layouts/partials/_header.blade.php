@@ -34,7 +34,7 @@
     <div class="" style="background: #294058; padding: 15px;">
         <div class="row">
             <div class="col-md-4">
-                <a href="{{URL::route('home') }}"> {{HTML::image('/img/logo.jpeg', $alt = 'Taylor&Preston', $attributes = array('class' => 'img-responsive top_logo')) }}</a>
+                <a href="{{URL::to('/') }}"> {{HTML::image('/img/logo.jpeg', $alt = 'Taylor&Preston', $attributes = array('class' => 'img-responsive top_logo')) }}</a>
             </div>
             <div class="col-md-2">
                 <p class="experienced">Experienced | Aggressive</p>
@@ -78,13 +78,13 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li class="{{ set_active('/') }}">
-                    <a href="{{URL::route('home')}}"<i class="fa fa-home fa"></i>&nbsp;HOME</a>
+                    <a href="{{URL::to('/')}}"<i class="fa fa-home fa"></i>&nbsp;HOME</a>
                 </li>
                 <li class="{{ set_active('/about') }}">
-                    <a href="{{URL::route('about') }}"><i class="fa fa-university"></i> &nbsp;FAMILY LAW</a>
+                    <a href="{{URL::to('about') }}"><i class="fa fa-university"></i> &nbsp;FAMILY LAW</a>
                 </li>
                 <li class="{{set_active('victories') }}">
-                    <a href="{{('victories') }}"><i class="fa fa-gavel"></i>&nbsp; OUR VICTORIES</a>
+                    <a href="{{URL::to('/victories') }}"><i class="fa fa-gavel"></i>&nbsp; OUR VICTORIES</a>
                 </li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -121,16 +121,16 @@
                         </li>
                     </ul>
                 <li class="{{set_active('location') }}">
-                    <a href="{{('/location')}}"> <i class="fa fa-location-arrow fa"></i> &nbsp;Our Locations</a>
+                    <a href="{{URL::to('/location')}}"> <i class="fa fa-location-arrow fa"></i> &nbsp;Our Locations</a>
                 </li>
                 <li class="{{ set_active('allblogs') }}">
-                    <a href="{{('/allblogs') }}">BLOG</a>
+                    <a href="{{URL::to('/allblogs') }}">BLOG</a>
                 </li>
 <!--                <li>-->
 <!--                    <a href="#">FAQ</a>-->
 <!--                </li>-->
                 <li class="{{set_active('contactus') }}">
-                    <a href="/contactus"><i class="fa fa-envelope"></i> &nbsp;CONTACT US</a>
+                    <a href="{{URL::to('/contactus') }}"><i class="fa fa-envelope"></i> &nbsp;CONTACT US</a>
                 </li>
             </ul>
             <form class="navbar-form navbar-right" role="search">

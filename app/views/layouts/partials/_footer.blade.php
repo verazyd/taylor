@@ -12,10 +12,10 @@
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
                 <li class="{{ set_active('/') }}">
-                    <a href="{{URL::route('home')}}">Home</a>
+                    <a href="{{URL::to('/')}}">Home</a>
                 </li>
                 <li class="{{ set_active('commonquestions') }}">
-                    <a href="{{URL::route('commonquestions') }}">Common Questions</a>
+                    <a href="{{URL::to('/commonquestions') }}">Common Questions</a>
                 </li>
                 <li><a href="#contact">Keywords</a></li>
                 <li><a href="#contact">Video Center</a></li>
