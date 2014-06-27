@@ -59,7 +59,7 @@
 </div><!-- /.carousel -->
 <div class="row" style="margin: 10px 5px;">
     {{HTML::style('css/image_animations.css') }}
-    <div class="col-md-12" style="background: #E4EEFF">
+    <div class="col-md-12">
         <h2 style="color:#273E55; text-align: center;">Why Choose Taylor & Preston ?</h2>
         <p style="padding:20px; font-weight: bold;">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur necessitatibus soluta ad, eveniet voluptas. Harum, ea debitis maiores sequi ducimus temporibus, accusamus ipsam nulla, velit, ad tempore rem voluptas voluptate.
@@ -91,34 +91,7 @@
         </div>
     </div>
 </div>
-<div class="row" style="margin: 10px 5px; background: #94CADA;">
-<div class="col-md-6">
-    <p style="text-align: center;font-size: 24px;"><span class="glyphicon glyphicon-envelopeHow"></span> Can We Help You?</p>
-</div>
-    <div class="col-md-6">
-    <form class="form" style="padding-top: 15px;">
-        <div class="com-md-6" style="float: left;">
-        <div class="name">
-            <label class="sr-only" >Name*:</label>
-            <input type="text" class="input_name"  placeholder="Name">
-        </div>
-        <div class="email">
-            <label class="sr-only" >Password</label>
-            <input type="email" class="input_email" placeholder="Email">
-        </div>
-        <div class="phone">
-            <label class="sr-only" >Password</label>
-            <input type="text" class="input_phone"  placeholder="Phone">
-        </div>
-        </div>
-        <div class="col-md-6 pull-left"  style="float: right; padding-bottom: 15px;">
-            <label class="sr-only" >Password</label>
-            <textarea class="form-control" class="input_details"  placeholder="Details"></textarea>
-            <button type="submit" class="btn btn-default">Submit</button>
-        </div>
-    </form>
-    </div>
-</div>
+@include('layouts.partials._contact_form')
 <div class="container" style="margin: 10px 5px 95px 5px;">
     <div class="btn-group btn-group-justified">
         <div class="col-md-2">

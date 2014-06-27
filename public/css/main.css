@@ -89,15 +89,7 @@ textarea {
 
 /*header*/
 .header_back{
-
-    background: rgba(112,184,205,1);
-    background: -moz-linear-gradient(left, rgba(112,184,205,1) 0%, rgba(112,184,205,1) 7%, rgba(167,213,226,0.99) 80%, rgba(190,225,234,0.99) 94%, rgba(200,230,238,0.99) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(112,184,205,1)), color-stop(7%, rgba(112,184,205,1)), color-stop(80%, rgba(167,213,226,0.99)), color-stop(94%, rgba(190,225,234,0.99)), color-stop(100%, rgba(200,230,238,0.99)));
-    background: -webkit-linear-gradient(left, rgba(112,184,205,1) 0%, rgba(112,184,205,1) 7%, rgba(167,213,226,0.99) 80%, rgba(190,225,234,0.99) 94%, rgba(200,230,238,0.99) 100%);
-    background: -o-linear-gradient(left, rgba(112,184,205,1) 0%, rgba(112,184,205,1) 7%, rgba(167,213,226,0.99) 80%, rgba(190,225,234,0.99) 94%, rgba(200,230,238,0.99) 100%);
-    background: -ms-linear-gradient(left, rgba(112,184,205,1) 0%, rgba(112,184,205,1) 7%, rgba(167,213,226,0.99) 80%, rgba(190,225,234,0.99) 94%, rgba(200,230,238,0.99) 100%);
-    background: linear-gradient(to right, rgba(112,184,205,1) 0%, rgba(112,184,205,1) 7%, rgba(167,213,226,0.99) 80%, rgba(190,225,234,0.99) 94%, rgba(200,230,238,0.99) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#70b8cd', endColorstr='#c8e6ee', GradientType=1 );
+    background: #217C9C;
 }
 /*.top_logo{*/
     /*border-radius: 55px/10px;*/
@@ -107,7 +99,7 @@ textarea {
 /*}*/
 .experienced{
     color: #ffffff;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
 }
 .phone_contact{
@@ -268,7 +260,17 @@ textarea {
 }
 
 /*contact-us form*/
-
+.input_name, .input_email,.input_phone, .input_details{
+    background: #001321;
+    color: #ffffff;
+    height: 35px;
+}
+.form_submit{
+    width: 100%;
+    margin: 2px 0px;
+    background: #001321;
+    font-size: 24px;
+}
 
 /*feedback form*/
 .feedback{

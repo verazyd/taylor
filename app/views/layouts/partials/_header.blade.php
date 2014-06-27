@@ -33,20 +33,19 @@
     </div>
     <div class="header_back" style=" padding: 15px;">
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <a href="{{URL::to('/') }}"> {{HTML::image('/img/logo.jpeg', $alt = 'Taylor&Preston', $attributes = array('class' => 'img-responsive')) }}</a>
             </div>
-            <div class="col-md-2">
-                <p class="experienced">Experienced | Aggressive</p>
+            <div class="col-md-3">
+<!--                <p class="experienced">Experienced | Aggressive</p>-->
                 <p class="experienced">No Win, No Fee Representation</p>
 
             </div>
-            <div class="col-md-6 pull-right">
-                <div class="col-md-2 col-md-offset-4">
+            <div class="col-md-5 pull-right">
+                <div class="col-md-3 col-md-offset-3">
                     <p>
                         <button type="button" class="btn btn-default btn-lg pulse-grow">
-                            <span class="glyphicon glyphicon-earphone"></span>
-                            1 800 633 625
+                            <span class="glyphicon glyphicon-earphone"></span>&nbsp;1 800 633 625
                         </button>
                     </p>
                 </div>
@@ -83,7 +82,7 @@
                 <li class="{{ set_active('/about') }}">
                     <a href="{{URL::to('about') }}">FAMILY LAW</a>
                 </li>
-                <li class="{{set_active('victories') }}">
+                <li class="{{set_active('') }}">
                     <a href="">PERSONAL INJURY</a>
                 </li>
                 <li class="{{set_active('victories') }}">

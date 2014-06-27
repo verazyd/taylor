@@ -12,14 +12,17 @@
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
                 <li class="{{ set_active('/') }}">
-                    <a href="{{URL::to('/')}}">Home</a>
+                    <a href="{{URL::to('/')}}">HOME</a>
+                </li>
+                <li class="{{ set_active('/about') }}">
+                    <a href="{{URL::to('/about') }}">ABOUT</a>
                 </li>
                 <li class="{{ set_active('commonquestions') }}">
-                    <a href="{{URL::to('/commonquestions') }}">Common Questions</a>
+                    <a href="{{URL::to('/commonquestions') }}">COMMON QUESTIONS</a>
                 </li>
-                <li><a href="#contact">Keywords</a></li>
-                <li><a href="#contact">Video Center</a></li>
-                <li><a href="#contact">Testimonials</a></li>
+                <li><a href="#contact">KEYWORDS</a></li>
+                <li><a href="#contact">VIDEO CENTER</a></li>
+                <li><a href="#contact">TESTIMONIALS</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <p style="margin-top: 5%;">

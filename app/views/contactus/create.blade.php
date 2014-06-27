@@ -27,7 +27,7 @@
                 {{ Form::textarea('description', null, ['class' => 'form-control', 'required' => 'required', 'placeholder' => 'Explain in details about any legal problems']) }}
                 {{ errors_for('description', $errors) }}
             </div>
-            <button type="submit" class="btn btn-primary">
+            <button type="submit" class="btn btn-primary form_submit">
                 <i class="fa fa-envelope"></i>&nbsp;
                 Submit
             </button>
@@ -40,7 +40,7 @@
         <div class="col-md-6">
             <h3>Locations:</h3>
             <script src="http://maps.google.com/maps/api/js?sensor=false"type="text/javascript"></script>
-            <div id="map" style="width: 610px; height: 444px;"></div>
+            <div id="map" style="width: 610px; height: 445px;"></div>
             <script type="text/javascript">
 
                 var locations = [
