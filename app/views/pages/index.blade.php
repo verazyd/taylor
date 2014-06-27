@@ -20,14 +20,10 @@
 
     }
 </style>
-
 <div id="myCarousel" class="carousel slide">
     <div class="carousel-inner">
         <div class="item active">
-
             <img src="./img/grozny3.jpg" alt="">
-
-
             <div class="container">
                 <div class="carousel-caption">
                     <h1>What our client's has to say?.</h1>
@@ -95,6 +91,34 @@
         </div>
     </div>
 </div>
+<div class="row" style="margin: 10px 5px; background: #94CADA;">
+<div class="col-md-6">
+    <p style="text-align: center;font-size: 24px;"><span class="glyphicon glyphicon-envelopeHow"></span> Can We Help You?</p>
+</div>
+    <div class="col-md-6">
+    <form class="form" style="padding-top: 15px;">
+        <div class="com-md-6" style="float: left;">
+        <div class="name">
+            <label class="sr-only" >Name*:</label>
+            <input type="text" class="input_name"  placeholder="Name">
+        </div>
+        <div class="email">
+            <label class="sr-only" >Password</label>
+            <input type="email" class="input_email" placeholder="Email">
+        </div>
+        <div class="phone">
+            <label class="sr-only" >Password</label>
+            <input type="text" class="input_phone"  placeholder="Phone">
+        </div>
+        </div>
+        <div class="col-md-6 pull-left"  style="float: right; padding-bottom: 15px;">
+            <label class="sr-only" >Password</label>
+            <textarea class="form-control" class="input_details"  placeholder="Details"></textarea>
+            <button type="submit" class="btn btn-default">Submit</button>
+        </div>
+    </form>
+    </div>
+</div>
 <div class="container" style="margin: 10px 5px 95px 5px;">
     <div class="btn-group btn-group-justified">
         <div class="col-md-2">
@@ -137,12 +161,12 @@
         </div>
     </div>
 </div>
-<script>
-    !function ($) {
-        $(function(){
-            // carousel demo
-            $('#myCarousel').carousel()
-        })
-    }(window.jQuery)
-</script>
+<!--<script>-->
+<!--    !function ($) {-->
+<!--        $(function(){-->
+<!--            // carousel demo-->
+<!--            $('#myCarousel').carousel()-->
+<!--        })-->
+<!--    }(window.jQuery)-->
+<!--</script>-->
 @stop

@@ -23,10 +23,6 @@
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <p style="margin-top: 5%;">
-                    <button type="button" class="btn btn-default btn-lg pulse-grow">
-                        <span class="glyphicon glyphicon-earphone"></span>
-                        1 800 633 625
-                    </button>
                     <a target="_blank" href="{{ Share::load(Request::url(), 'check this'.'http:/google.com')->facebook() }}" >
                         <i class="fa fa-lg fa-facebook btn btn-sm btn-primary social_logo"></i>
                     </a>

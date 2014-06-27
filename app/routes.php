@@ -5,15 +5,12 @@ Route::get('/about', ['as' => 'about', 'uses' => 'PagesController@about']);
 Route::get('/contactus', ['as' => 'contactus', 'uses' => 'ContactusController@create']);
 Route::post('contactus.store', ['as' => 'contactus.store', 'uses' => 'ContactusController@store']);
 Route::get('/commonquestions', ['as' => 'commonquestions', 'uses' => 'PagesController@commonQuestions']);
+
 #Locations
-//Route::get('/alllocations', ['as' => 'alllocations', 'uses' => 'LocationsController@index_admin']);
-//Route::get('/add_location', ['as' => 'add_location' , 'uses' => 'LocationsController@create']);
 Route::resource('location', 'LocationsController');
 
 #Victories
 Route::resource('victories', 'VictoriesController');
-
-//Route::get('addVictory', ['as' => 'addVictory', 'uses' => 'VictoriesController@create']);
 
 #Registration
 Route::get('/register','RegisterController@create');
@@ -26,9 +23,6 @@ Route::filter('admin', function(){
     }
 });
 
-//Route::get('/admin_login',array('before' => 'admin', function(){
-//    return Redirect::to('/admin_login');
-//}));
 
 Route::get('/login', ['as' =>'admin', 'uses' => 'SessionsController@create']);
 Route::get('logout', ['as' => 'logout', 'uses' => 'SessionsController@destroy']);
@@ -54,17 +48,10 @@ Route::group(array('before' => 'admin'), function(){
 
 Route::get('tags/{id}', 'TagsController@show');
 Route::resource('tags', 'TagsController');
-#Login for Admin
-//Route::get('/login', ['as' =>'admin', 'uses' => 'SessionsController@create']);
-//Route::get('logout', ['as' => 'logout', 'uses' => 'SessionsController@destroy']);
 
 Route::post('admin.store', ['as' => 'admin.store', 'uses' => 'SessionsController@store']);
 Route::get('/admin_login', ['as' => 'admin_login', 'uses' => 'SessionsController@index']);
 
-#Blogs for Admin
+#Blogs for Users
 Route::get('/allblogs', ['as' => 'allblogs', 'uses' => 'BlogsController@index_users' ]);
 Route::get('/allblogs/{id}', 'BlogsController@show');
-//Route::resource('blog', 'BlogsController', ['only' => 'destroy']);
-//Route::get('/blogs', ['as' => 'blogs', 'uses' => 'BlogsController@index']);
-//Route::get('/create', ['as' => 'create', 'uses' => 'BlogsController@create']);
-//Route::post('blog.store', ['as' => 'blogs.store', 'uses' => 'BlogsController@store']);
