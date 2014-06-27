@@ -4,7 +4,7 @@
     <div class="row">
         <div class="col-md-6">
             <h4>Receive a free case evaluation</h4>
-            {{ Form::open(['route' => 'contactus.store']) }}
+            {{ Form::open(['method' => 'POST', 'route' => 'contactus.store']) }}
             <!--Email Form Input -->
             <div class="form-group">
                 {{ Form::label('email', 'Email* ') }}

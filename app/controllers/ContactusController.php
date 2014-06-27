@@ -40,19 +40,16 @@ class ContactusController extends \BaseController {
 	public function store()
 	{
         $fromEmail = Input::get('email');
-        $fromName = Input::get('name');
+        $fromName = Input::get('from');
         $subject = Input::get('subject');
-        $data = array('description' =>Input::get('description'));
+        $data = array('description' => Input::get('description'));
+        
+        Mail::send('emails.contact',$data,function($message) use ($fromEmail, $fromName, $subject)
+        {
+            $message->from($fromEmail, $fromName);
+            $message->to('rayx.dev@gmail.com', 'Shankar Giri')->subject($subject);
+        });
 
-        $toEmail = 'rayx.dev@gmail.com';
-        $toName = 'Shankar Giri';
-
-        Mail::send('emails.contact',$data,
-            function($message) use ($toEmail, $toName, $fromEmail, $fromName, $subject){
-                $message->to($toEmail, $toName);
-                $message->from($fromEmail, $fromName);
-                $message->subject($subject);
-            });
         return Redirect::to('/contactus')->with('message', 'Your message has been successfully send');
 
 	}

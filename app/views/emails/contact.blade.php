@@ -5,5 +5,7 @@
 </head>
 <body>
 <h5>You have been contacted via Contact Us form of Taylor & Preston!</h5>
+<div></div>
+<div>}</div>
 </body>
 </html>
