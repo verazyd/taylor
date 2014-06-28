@@ -23,7 +23,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-             <a class="navbar-brand" href="#">Taylor & Preston Admin Panel</a>
+             <a class="navbar-brand" href="#">Taylor & Preston</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -39,6 +39,19 @@
                         </li>
                         <li>
                             <a href="{{URL::route('images') }}">All Images</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <i class="fa fa-users"></i>&nbsp;MANAGE USERS <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="{{ URL::to('/users') }}">All Users</a>
+                        </li>
+                        <li>
+                            <a href="{{URL::to('/register') }}">Add User</a>
                         </li>
                     </ul>
                 </li>
@@ -77,20 +90,20 @@
                             <a href="{{URL::to('/blogs') }}">View All Blogs</a>
                         </li>
                         <li>
-                            <a href="{{URL::to('/create')}}">Create a Thread</a>
+                            <a href="{{URL::to('/create')}}">Create a Blog</a>
                         </li>
                     </ul>
                 </li>
                 <li class="dropdown {{ set_active('tags*') }}">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                        <i class="fa fa-rss-square fa"></i>&nbsp;Tag <b class="caret"></b>
+                        <i class="fa fa-tags fa"></i>&nbsp;Category <b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu">
                         <li>
-                            <a href="{{URL::to('/tags') }}">View All Tag</a>
+                            <a href="{{URL::to('/tags') }}">View All Categories</a>
                         </li>
                         <li>
-                            <a href="{{URL::to('/createTag')}}">Create a Tag</a>
+                            <a href="{{URL::to('/createTag')}}">Create a Category</a>
                         </li>
                     </ul>
                 </li>
@@ -103,7 +116,6 @@
     </div>
     <!-- /.container-fluid -->
 </nav>
-
 
 <div class="container">
     @if(Session::has('message'))

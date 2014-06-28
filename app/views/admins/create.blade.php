@@ -27,5 +27,9 @@
 
         </div>
     </div>
-<a href="{{URL::to('/register') }}"><button type="button" class="btn btn-primary">Register</button></a>
+<div class="row">
+    <div class="col-md-6 col-md-offset-1">
+        <a href="{{URL::to('/register') }}"><button type="button" class="btn btn-primary">Register</button></a>
+    </div>
+</div>
 @stop

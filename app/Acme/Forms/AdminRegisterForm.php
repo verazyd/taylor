@@ -13,6 +13,7 @@ use Laracasts\Validation\FormValidator;
 
 class AdminRegisterForm extends FormValidator{
     protected  $rules = [
+        'name'      => 'required',
         'email'      => 'required|email|unique:users',
         'password' => 'required|confirmed'
     ];

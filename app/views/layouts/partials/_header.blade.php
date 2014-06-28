@@ -36,7 +36,7 @@
             <div class="col-md-3">
                 <a href="{{URL::to('/') }}"> {{HTML::image('/img/logo.jpeg', $alt = 'Taylor&Preston', $attributes = array('class' => 'img-responsive')) }}</a>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-2 col-md-offset-1">
 <!--                <p class="experienced">Experienced | Aggressive</p>-->
                 <p class="experienced">No Win, No Fee Representation</p>
 

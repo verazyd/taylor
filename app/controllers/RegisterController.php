@@ -12,6 +12,11 @@ class RegisterController extends \BaseController {
 	{
 		return View::make('users.create');
 	}
+    public  function index()
+    {
+        $names = User::all();
+        return View::make('users.index', compact('names'));
+    }
 
 	/**
 	 * Store a newly created resource in storage.
@@ -21,11 +26,19 @@ class RegisterController extends \BaseController {
 	 */
 	public function store()
 	{
-        $input = Input::only('email', 'password', 'password_confirmation');
+        $input = Input::only('name', 'email', 'password', 'password_confirmation');
         $this->adminregisterForm->validate($input);
 
         $user = User::create($input);
-        Auth::login($user);
+        $user->save();
+//        Auth::login($user);
         return Redirect::to('admin_login');
 	}
+    public function update($id)
+    {
+        $name = User::find($id);
+        $name->is_admin = Input::get('is_admin') ? Input::get('is_admin') : 0 ;
+        $name->save();
+        return Redirect::to('/users');
+    }
 }

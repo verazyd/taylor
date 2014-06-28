@@ -6,7 +6,7 @@
         <p style="text-align: center;font-size: 48px;color: #ffffff"><span class="glyphicon glyphicon-envelopeHow"></span>How Can We Help You?</p>
     </div>
     <div class="col-md-6">
-        <form class="form" style="padding-top: 15px;">
+        <form class="form" style="padding-top: 15px; margin-left: 10px;">
             <div class="com-md-6" style="float: left;">
                 <div class="name">
                     <label class="sr-only" >Name*:</label>
