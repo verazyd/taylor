@@ -12,6 +12,14 @@
     {{ HTML::style("css/font-awesome.min.css")}}
     {{ HTML::style('css/main.css') }}
 </head>
+<style>
+    .dropdown-submenu{position:relative;}
+    .dropdown-submenu>.dropdown-menu{top:0;left:100%;margin-top:-6px;margin-left:-1px;-webkit-border-radius:0 6px 6px 6px;-moz-border-radius:0 6px 6px 6px;border-radius:0 6px 6px 6px;}
+    .dropdown-submenu:hover>.dropdown-menu{display:block;}
+    .dropdown-submenu>a:after{display:block;content:" ";float:right;width:0;height:0;border-color:transparent;border-style:solid;border-width:5px 0 5px 5px;border-left-color:#cccccc;margin-top:5px;margin-right:-10px;}
+    .dropdown-submenu:hover>a:after{border-left-color:#ffffff;}
+    .dropdown-submenu.pull-left{float:none;}.dropdown-submenu.pull-left>.dropdown-menu{left:-100%;margin-left:10px;-webkit-border-radius:6px 0 6px 6px;-moz-border-radius:6px 0 6px 6px;border-radius:6px 0 6px 6px;}
+</style>
 <body>
 <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
     <div class="container-fluid">
@@ -55,16 +63,47 @@
                         </li>
                     </ul>
                 </li>
+
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                        <i class="fa fa-users"></i>&nbsp;Family Law Services <b class="caret"></b>
+                        <i class="fa fa-users"></i>&nbsp;PRACTICE AREAS<b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu">
-                        <li>
-                            <a href="">View All</a>
+                        <li class="dropdown-submenu">
+                            <a tabindex="-1" href="#">Personal Injury</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a tabindex="-1" href="{{ URL::to('addPersonalInjuryService') }}">Add Service Area</a>
+                                </li>
+                                <li>
+                                    <a tabindex="-1" href="{{ URL::to('allPersonalInjury') }}">View All</a>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a href="#">More..</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">3rd level</a></li>
+                                        <li><a href="#">3rd level</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
                         </li>
-                        <li>
-                            <a href="">Add New Service</a>
+                        <li class="dropdown-submenu">
+                            <a tabindex="-1" href="#">Family Law</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a tabindex="-1" href="">Add Service Area</a>
+                                </li>
+                                <li>
+                                    <a tabindex="-1" href="#">View All</a>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a href="#">More..</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">3rd level</a></li>
+                                        <li><a href="#">3rd level</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
                         </li>
                     </ul>
                 </li>

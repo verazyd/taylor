@@ -10,10 +10,18 @@ class PersonalinjuriesController extends \BaseController {
 	 */
 	public function index()
 	{
-		return View::make('personals.index');
+        $personals = Personal::all();
+		return View::make('personals.index', compact('personals'));
 	}
 
-	/**
+    public function admin_index()
+    {
+        $personals = Personal::all();
+        return View::make('personals.admin_index', compact('personals'));
+    }
+
+
+    /**
 	 * Show the form for creating a new resource.
 	 * GET /personalinjuries/create
 	 *
@@ -21,7 +29,7 @@ class PersonalinjuriesController extends \BaseController {
 	 */
 	public function create()
 	{
-		//
+		return View::make('personals.create');
 	}
 
 	/**
@@ -32,7 +40,20 @@ class PersonalinjuriesController extends \BaseController {
 	 */
 	public function store()
 	{
-		//
+        $validator = Tag::validate(Input::only('name', 'description'));
+
+        if($validator->fails())
+        {
+            return Redirect::to('/addPersonalInjuryService')->withErrors($validator)->withInput(Input::all());
+        }
+        else
+        {
+            $personal = new Personal();
+            $personal->name = Input::get('name');
+            $personal->description = Input::get('description');
+            $personal->save();
+            return Redirect::to('allPersonalInjury')->with('message', 'Personal Injury Practice Area was successfully created');
+        }
 	}
 
 	/**
@@ -44,7 +65,8 @@ class PersonalinjuriesController extends \BaseController {
 	 */
 	public function show($id)
 	{
-		//
+        $service = Personal::find($id);
+		return View::make('personals.show', compact('service'));
 	}
 
 	/**

@@ -46,6 +46,9 @@ Route::group(array('before' => 'admin'), function(){
     Route::get('tags', ['as' => 'tags', 'uses' => 'TagsController@index']);
     Route::get('users', ['as' => 'users', 'uses' => 'RegisterController@index']);
     Route::patch('user/{id}', ['as' => 'user.update', 'uses' => 'RegisterController@update']);
+    Route::get('addPersonalInjuryService', ['as' => 'addPersonalInjuryService', 'uses' => 'PersonalinjuriesController@create']);
+    Route::post('personalinjury.store', ['as' => 'personalinjury.store', 'uses' => 'PersonalinjuriesController@store']);
+    Route::get('allPersonalInjury', ['as' => 'allPersonalInjury', 'uses' => 'PersonalinjuriesController@admin_index']);
 });
 
 Route::get('tags/{id}', 'TagsController@show');
@@ -61,3 +64,4 @@ Route::get('/allblogs/{id}', 'BlogsController@show');
 
 #Personal Injuries
 Route::get('personalInjury', ['as' => 'personalInjury', 'uses' => 'PersonalinjuriesController@index']);
+Route::get('personalInjury/{id}', 'PersonalinjuriesController@show');
