@@ -77,7 +77,7 @@
                     <a href="{{URL::to('about') }}">FAMILY LAW</a>
                 </li>
                 <li class="{{set_active('personalInjury') }}">
-                    <a href="{{ ('/personalInjury') }}">PERSONAL INJURY</a>
+                    <a href="{{ URL::to('/personalInjury') }}">PERSONAL INJURY</a>
                 </li>
                 <li class="{{set_active('victories') }}">
                     <a href="{{URL::to('/victories') }}">OUR VICTORIES</a>
