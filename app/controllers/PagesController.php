@@ -10,7 +10,9 @@ class PagesController extends \BaseController {
 	 */
 	public function index()
 	{
-		return View::make('pages.index');
+        $images = Post::where('is_carasaul', '=', 1)->get();
+
+		return View::make('pages.index', compact('images'));
 	}
     public function about()
     {

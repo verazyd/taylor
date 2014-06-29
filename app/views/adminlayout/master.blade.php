@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap CSS -->
     <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" media="screen">
-    {{ HTML::style('css/normalize.css') }}
+<!--    {{ HTML::style('css/normalize.css') }}-->
     {{ HTML::style("css/font-awesome.min.css")}}
     {{ HTML::style('css/main.css') }}
 </head>
@@ -23,7 +23,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-             <a class="navbar-brand" href="#">Taylor & Preston</a>
+             <a class="navbar-brand" href="#"></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -52,6 +52,19 @@
                         </li>
                         <li>
                             <a href="{{URL::to('/register') }}">Add User</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <i class="fa fa-users"></i>&nbsp;Family Law Services <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="">View All</a>
+                        </li>
+                        <li>
+                            <a href="">Add New Service</a>
                         </li>
                     </ul>
                 </li>

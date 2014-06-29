@@ -16,7 +16,7 @@
 <body>
 <div class="container">
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-    <div class="row pull-right phone_contact" style="margin-right: 3%;">
+    <div class="row pull-right phone_contact" style="margin-right: 3%;margin-top: 10px;">
         <p >   <a target="_blank" href="{{ Share::load(Request::url(), 'check this'.'http:/google.com')->facebook() }}" >
                 <i class="fa fa-lg fa-facebook btn btn-sm btn-primary pulse-grow"></i>
             </a>
@@ -31,30 +31,24 @@
             </a>
         </p>
     </div>
-    <div class="header_back" style=" padding: 15px;">
+    <div class="header_back" style=" padding-left: 10px; padding-top: 10px;">
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <a href="{{URL::to('/') }}"> {{HTML::image('/img/logo.jpeg', $alt = 'Taylor&Preston', $attributes = array('class' => 'img-responsive')) }}</a>
-            </div>
-            <div class="col-md-2 col-md-offset-1">
-<!--                <p class="experienced">Experienced | Aggressive</p>-->
                 <p class="experienced">No Win, No Fee Representation</p>
-
             </div>
-            <div class="col-md-5 pull-right">
-                <div class="col-md-3 col-md-offset-3">
-                    <p>
-                        <button type="button" class="btn btn-default btn-lg pulse-grow">
-                            <span class="glyphicon glyphicon-earphone"></span>&nbsp;1 800 633 625
-                        </button>
+            <div class="col-md-2"></div>
+            <div class="col-md-6 pull-right">
+                <div class="col-md-2"></div>
+                <div class="col-md-6">
+                    <p class="pulse-grow phone_header pull-right">
+                        <span class="glyphicon glyphicon-earphone" style="padding-right: 5px"></span>
+                        <span style="font-weight: bold; font-size: ">1 800 833 625</span>
                     </p>
                 </div>
-                <div class="col-md-6">
-                    <p>
-                        <button type="button" class="btn btn-default btn-lg pull-right pulse-grow">
-                            <span class="glyphicon glyphicon-user"></span>
-                            Live Chat
-                        </button>
+                <div class="col-md-4">
+                    <p class="pulse-grow phone_header pull-right">
+                        <span class="glyphicon glyphicon-user" style="margin-right: 10px;"></span>Live Chat
                     </p>
                 </div>
             </div>
@@ -82,8 +76,8 @@
                 <li class="{{ set_active('/about') }}">
                     <a href="{{URL::to('about') }}">FAMILY LAW</a>
                 </li>
-                <li class="{{set_active('') }}">
-                    <a href="">PERSONAL INJURY</a>
+                <li class="{{set_active('personalInjury') }}">
+                    <a href="{{ ('/personalInjury') }}">PERSONAL INJURY</a>
                 </li>
                 <li class="{{set_active('victories') }}">
                     <a href="{{URL::to('/victories') }}">OUR VICTORIES</a>
@@ -123,7 +117,7 @@
                         </li>
                     </ul>
                 <li class="{{set_active('location') }}">
-                    <a href="{{URL::to('/location')}}">Our Locations</a>
+                    <a href="{{URL::to('/location')}}">OUR LOCATIONS</a>
                 </li>
                 <li class="{{ set_active('allblogs') }}">
                     <a href="{{URL::to('/allblogs') }}">BLOG</a>

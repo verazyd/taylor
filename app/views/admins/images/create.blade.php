@@ -4,12 +4,17 @@
 <div class="container">
     <div class="row">
         <div class="col-md-6">
-            <h4>All Image for Carousel:</h4>
+            <h4>Add Image and Text for Carousel:</h4>
             {{ Form::open(['method' => 'POST', 'route' => 'image.store', 'files' => true]) }}
 
             <div class="form-group">
                 {{ Form::label('title', 'Title:') }}
                 {{ Form::text('title', null, ['class' => 'form-control']) }}
+            </div>
+
+            <div class="form-group">
+                {{ Form::label('description', 'Description:') }}
+                {{ Form::textarea('description', null, ['class' => 'form-control']) }}
             </div>
 
             <div class="form-group">

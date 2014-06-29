@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('content')
-    <div class="container" style="margin-top: 17%;">
+    <div class="container" style="margin-top: 15%;">
         <div class="col-md-8">
         <script src="http://maps.google.com/maps/api/js?sensor=false"type="text/javascript"></script>
            <div id="map" style="width: 750px; height: 400px;"></div>

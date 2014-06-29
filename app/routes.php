@@ -57,3 +57,7 @@ Route::get('/admin_login', ['as' => 'admin_login', 'uses' => 'SessionsController
 #Blogs for Users
 Route::get('/allblogs', ['as' => 'allblogs', 'uses' => 'BlogsController@index_users' ]);
 Route::get('/allblogs/{id}', 'BlogsController@show');
+
+
+#Personal Injuries
+Route::get('personalInjury', ['as' => 'personalInjury', 'uses' => 'PersonalinjuriesController@index']);

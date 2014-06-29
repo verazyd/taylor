@@ -2,6 +2,7 @@
 
 class Tag extends \Eloquent {
 	protected $fillable = ['name'];
+
     public static function validate($input)
     {
         $rules = [

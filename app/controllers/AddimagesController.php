@@ -33,33 +33,33 @@ class AddimagesController extends \BaseController {
 	 */
 	public function store()
 	{
-        //validate
-        $post = new Post;
-        $post->title = Input::get('title');
-        If(Input::hasFile('photo'))
-        {
-            $photo = Input::file('photo');
-            $filename = time().'-'.$photo->getClientOriginalName();
-            $destination = public_path().'/img/'.$filename;
-            if(!File::exists($destination))
+            $post = new Post;
+            $post->title = Input::get('title');
+            $post->description = Input::get('description');
+            If(Input::hasFile('photo'))
             {
-                try
+                $photo = Input::file('photo');
+                $filename = time().'-'.$photo->getClientOriginalName();
+                $destination = public_path().'/img/'.$filename;
+                if(!File::exists($destination))
                 {
-                   $photo_path =  $photo->move(public_path().'/img/', $filename);
-                    $post->url =$filename;
-                }catch (Fileexception $e)
+                    try
+                    {
+                        $photo_path =  $photo->move(public_path().'/img/', $filename);
+                        $post->url =$filename;
+                    }catch (Fileexception $e)
+                    {
+                        return 'Sorry, Could not upload the file! Please, try again later!!';
+                    }
+                }
+                else
                 {
-                    return 'Sorry, Could not upload the file! Please, try again later!!';
+                    return 'This File already exist!! Please, upload another file!!!';
                 }
             }
-            else
-            {
-                return 'This File already exist!! Please, upload another file!!!';
-            }
+            $post->save();
+            return Redirect::to('admin_addImages')->with('message', 'Photo uploaded Successfully');
         }
-        $post->save();
-        return Redirect::to('admin_addImages')->with('message', 'Photo uploaded Successfully');
-	}
 
 	/**
 	 * Display the specified resource.

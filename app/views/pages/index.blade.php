@@ -20,43 +20,71 @@
 
     }
 </style>
+
 <div id="myCarousel" class="carousel slide">
+    <?php
+    $i = 0;
+    ?>
     <div class="carousel-inner">
-        <div class="item active">
-            <img src="./img/grozny3.jpg" alt="">
+        @foreach($images as $i => $image)
+
+        <div class="item  @if($i == 0) {{ 'active' }} @endif">
+
+            <img src="./img/{{$image->url }}" alt="">
             <div class="container">
                 <div class="carousel-caption">
-                    <h1>What our client's has to say?.</h1>
+                    <h1>{{ $image->title }}</h1>
                     <p class="lead">Lorem ipsum dolor sit amet, aliquid architecto corporis dolorem,m temporibusloremque, fugit mollitia tenetur.</p>
                     <a class="btn btn-large btn-primary" href="#">Lear more</a>
                 </div>
             </div>
-        </div>
-        <div class="item">
-            <img src="./img/grozny1.jpg" alt="">
 
-            <div class="container">
-                <div class="carousel-caption">
-                    <h1>NO WIN, NO REPRESENTATION</h1>
-                    <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                    <a class="btn btn-large btn-primary" href="#">Learn more</a>
-                </div>
-            </div>
         </div>
-        <div class="item">
-            <img src="./img/grozny2.jpg" alt="">
-            <div class="container">
-                <div class="carousel-caption">
-                    <h1>Why you should choose Taylor&Preston?</h1>
-                    <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                    <a class="btn btn-large btn-primary" href="#">Learn more</a>
-                </div>
-            </div>
-        </div>
+        @endforeach
     </div>
     <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
     <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
-</div><!-- /.carousel -->
+</div>
+
+<!---->
+<!---->
+<!--<div id="myCarousel" class="carousel slide">-->
+<!--    <div class="carousel-inner">-->
+<!--        <div class="item active">-->
+<!--            <img src="./img/grozny3.jpg" alt="">-->
+<!--            <div class="container">-->
+<!--                <div class="carousel-caption">-->
+<!--                    <h1>What our client's has to say?.</h1>-->
+<!--                    <p class="lead">Lorem ipsum dolor sit amet, aliquid architecto corporis dolorem,m temporibusloremque, fugit mollitia tenetur.</p>-->
+<!--                    <a class="btn btn-large btn-primary" href="#">Lear more</a>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="item">-->
+<!--            <img src="./img/grozny1.jpg" alt="">-->
+<!---->
+<!--            <div class="container">-->
+<!--                <div class="carousel-caption">-->
+<!--                    <h1>NO WIN, NO REPRESENTATION</h1>-->
+<!--                    <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>-->
+<!--                    <a class="btn btn-large btn-primary" href="#">Learn more</a>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="item">-->
+<!--            <img src="./img/grozny2.jpg" alt="">-->
+<!--            <div class="container">-->
+<!--                <div class="carousel-caption">-->
+<!--                    <h1>Why you should choose Taylor&Preston?</h1>-->
+<!--                    <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>-->
+<!--                    <a class="btn btn-large btn-primary" href="#">Learn more</a>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>-->
+<!--    <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>-->
+<!--</div><!-- /.carousel -->
 <div class="row" style="margin: 10px 5px;">
     {{HTML::style('css/image_animations.css') }}
     <div class="col-md-12">
@@ -92,9 +120,9 @@
     </div>
 </div>
 @include('layouts.partials._contact_form')
-<div class="container" style="margin: 10px 5px 95px 5px;">
+<div class="" style="margin: 10px 5px 95px 5px;">
     <div class="btn-group btn-group-justified">
-        <div class="col-md-2">
+        <div class="col-md-3">
             <div class="btn-group">
                 <button type="button" class="personal_injury">Personal Injury</button><br>
                 <button type="button" class="criminal_law">Criminal law</button><br>
@@ -103,7 +131,6 @@
                 <button type="button" class="international_law">International and Chinese Law law</button><br>
             </div>
         </div>
-        <div class="col-md-1"></div>
         <div class="col-md-6">
                 <p class="text_before">
                     At TP we’re nuts about technology and we use it to ensure that we offer competitive legal services through a team of high quality mobile lawyers that work around clients’ needs, lifestyles and locations.
@@ -124,8 +151,7 @@
                     this is corporate lawthis is corporate lawthis is corporate lawthis is corporate lawthis is corporate lawthis is corporate lawthis is corporate lawthis is corporate lawthis is corporate lawthis is corporate lawthis is corporate lawthis is corporate lawthis is corporate lawthis is corporate lawthis is corporate lawthis is corporate lawthis is corporate lawthis is corporate lawthis is corporate lawthis is corporate lawthis is corporate lawthis is corporate lawthis is corporate lawthis is corporate lawthis is corporate law
                 </p>
             </div>
-        <div class="col-md-1"></div>
-        <div class="col-md-2">
+        <div class="col-md-3">
             <button type="button" class="family_law">Family Law</button><br>
             <button type="button" class="family_law">Property law</button><br>
             <button type="button" class="family_law">Will&Estates</button><br>
