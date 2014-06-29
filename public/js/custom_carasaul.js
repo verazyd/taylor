@@ -127,5 +127,6 @@ $('.criminal_law').mouseenter(function(){
         //	update item width config
         slider.trigger( 'configuration', ['items.width', _width * 0.15] );
         });
-
+    $('.vic_section h4').equalHeight();
+    $('.vic_section p').equalHeight();
 });

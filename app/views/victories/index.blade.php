@@ -7,7 +7,7 @@
             $attributes = array('class' => 'center-block img-responsive',  'width' => '100%')) }}
             <h3 style="position: absolute; bottom:40%; left: 10%; color: #ffffff; font-size: 48px; background: #294058">OUR VICTORIES</h3>
         </div>
-        <div class="row" style="background: #294058; margin-top: 10px;color: #ffffff">
+        <div class="row" style="background: #217C9C; margin-top: 10px;color: #ffffff">
             <div class="col-md-12">
                 <h3>OUR RECENT VICTORIES</h3>
                 <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam aspernatur blanditiis eos excepturi facere
@@ -18,9 +18,9 @@
             </div>
         </div>
         @foreach($victories as $victory)
-        <div class="col-md-4" style="border-bottom: 2px solid #294058">
+        <div class="col-md-4 vic_section">
             <h4>{{$victory->topic }}</h4><br>
-             <p style="text-align: justify">{{$victory->description }}</p><br>
+             <p class="vic_description">{{$victory->description }}</p><br>
         </div>
         @endforeach
     </div>

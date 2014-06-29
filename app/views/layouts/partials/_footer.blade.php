@@ -46,6 +46,7 @@
 <!-- jQuery -->
 <script src="http://code.jquery.com/jquery.js"></script>
 <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+{{ HTML::script('/js/equal_heights_min.js') }}
 <!-- Bootstrap JavaScript -->
 <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
 {{HTML::script('/js/carasaul_homepage.js') }}

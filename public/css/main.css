@@ -377,6 +377,28 @@ textarea {
 }
 
 
+/*Personal Injury*/
+.personal_sidebar{
+    list-style-type: none;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+.personal_sidebar li{
+    margin-bottom: 25px;
+    text-align: left;
+}
+.personal_sidebar li a{
+    color: #217C9C;
+}
+
+/*Victory Page*/
+.vic_description{
+    background: #217C9C;
+    text-align: justify;
+    color: #ffffff;
+    padding: 10px;
+}
+}
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 

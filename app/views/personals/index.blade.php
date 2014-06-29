@@ -7,22 +7,22 @@
         <h3>Personal Injury Legal Services:</h3>
         <ul class="personal_sidebar">
             <li>
-                <a href="">WorkSafe/WorkCover injury claims</a>
+                <a href=""><i class="fa fa-arrow-right"></i>&nbsp;&nbsp;&nbsp;WorkSafe/WorkCover injury claims</a>
             </li>
             <li>
-                <a href="">Workplace accidents and farm accidents</a>
+                <a href=""><i class="fa fa-arrow-right"></i>&nbsp;&nbsp;&nbsp;Workplace accidents and farm accidents</a>
             </li>
             <li>
-                <a href="">TAC Claims</a>
+                <a href=""><i class="fa fa-arrow-right"></i>&nbsp;&nbsp;&nbsp;TAC Claims</a>
             </li>
             <li>
-                <a href="">ADF Military Compensation</a>
+                <a href=""><i class="fa fa-arrow-right"></i>&nbsp;&nbsp;&nbsp;ADF Military Compensation</a>
             </li>
             <li>
-                <a href="">Early Superannuation for injury compensation benefits</a>
+                <a href=""><i class="fa fa-arrow-right"></i>&nbsp;&nbsp;&nbsp;Early Superannuation for injury compensation benefits</a>
             </li>
             <li>
-                <a href="">Asbestos exposure and Industrial asthma</a>
+                <a href=""><i class="fa fa-arrow-right"></i>&nbsp;&nbsp;&nbsp;Asbestos exposure and Industrial asthma</a>
             </li>
         </ul>
     </div>
