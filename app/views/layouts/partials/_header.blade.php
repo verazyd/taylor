@@ -73,14 +73,11 @@
                 <li class="{{ set_active('/') }}">
                     <a href="{{URL::to('/')}}">HOME</a>
                 </li>
-                <li class="{{ set_active('/about') }}">
-                    <a href="{{URL::to('about') }}">FAMILY LAW</a>
+                <li class="{{ set_active('familyLaw') }}">
+                    <a href="{{URL::to('familyLaw') }}">FAMILY LAW</a>
                 </li>
                 <li class="{{set_active('personalInjury') }}">
                     <a href="{{ URL::to('/personalInjury') }}">PERSONAL INJURY</a>
-                </li>
-                <li class="{{set_active('victories') }}">
-                    <a href="{{URL::to('/victories') }}">OUR VICTORIES</a>
                 </li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -88,11 +85,11 @@
                     </a>
                     <ul class="dropdown-menu">
                         <li>
-                            <a href="#">Family Law</a>
+                            <a href="{{URL::to('familyLaw') }}"">Family Law</a>
                         </li>
                         <li class="divider"></li>
                         <li>
-                            <a href="#">Personal Injury</a>
+                            <a href="{{ URL::to('/personalInjury') }}">Personal Injury</a>
                         </li>
                         <li class="divider"></li>
                         <li>
@@ -116,6 +113,10 @@
                             <a href="#">Wills & Estates</a>
                         </li>
                     </ul>
+                </li>
+                <li class="{{set_active('victories') }}">
+                    <a href="{{URL::to('/victories') }}">OUR VICTORIES</a>
+                </li>
                 <li class="{{set_active('location') }}">
                     <a href="{{URL::to('/location')}}">OUR LOCATIONS</a>
                 </li>

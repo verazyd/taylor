@@ -1,7 +1,7 @@
 <?php
 
 Route::get('/', ['as' => 'home', 'uses' => 'PagesController@index']);
-Route::get('/about', ['as' => 'about', 'uses' => 'PagesController@about']);
+//Route::get('/about', ['as' => 'about', 'uses' => 'PagesController@about']);
 Route::get('/contactus', ['as' => 'contactus', 'uses' => 'ContactusController@create']);
 Route::post('contactus.store', ['as' => 'contactus.store', 'uses' => 'ContactusController@store']);
 Route::get('/commonquestions', ['as' => 'commonquestions', 'uses' => 'PagesController@commonQuestions']);
@@ -35,6 +35,8 @@ Route::group(array('before' => 'admin'), function(){
     Route::get('/blogs', ['as' => 'blogs', 'uses' => 'BlogsController@index']);
     Route::get('/create', ['as' => 'create', 'uses' => 'BlogsController@create']);
     Route::post('blog.store', ['as' => 'blogs.store', 'uses' => 'BlogsController@store']);
+    Route::get('blogs/{id}/publish_blog', ['as' => 'publish_blog', 'uses' => 'BlogsController@publish_blog']);
+    Route::get('blogs/{id}/hide_blog', ['as' => 'publish_blog', 'uses' => 'BlogsController@hide_blog']);
     Route::get('addVictory', ['as' => 'addVictory', 'uses' => 'VictoriesController@create']);
     Route::get('/admin_addImages', ['as' => 'admin_addImages' , 'uses' => 'AddimagesController@create']);
     Route::get('/images', ['as' => 'images' , 'uses' =>'AddimagesController@index']);
@@ -68,3 +70,5 @@ Route::get('/allblogs/{id}', 'BlogsController@show');
 Route::get('personalInjury', ['as' => 'personalInjury', 'uses' => 'PersonalinjuriesController@index']);
 Route::get('personalInjury/{id}', 'PersonalinjuriesController@show');
 
+#Family Law
+Route::get('familyLaw', ['as' => 'familyLawo', 'uses' => 'FamilylawsController@index']);

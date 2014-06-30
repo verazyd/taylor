@@ -17,7 +17,7 @@ class BlogsController extends \BaseController {
     public function index_users()
     {
         $tags = Tag::all();
-        $blogs = Blog::orderBy('created_at', 'desc')->paginate(10);
+        $blogs = Blog::orderBy('created_at', 'desc')->where('is_published', '=', 1)->paginate(10);
         return View::make('blogs.index_user', compact('blogs', 'tags'));
     }
 
@@ -116,5 +116,21 @@ class BlogsController extends \BaseController {
             return Redirect::to('/blogs');
         }
 	}
+
+    public function publish_blog($id)
+    {
+        $blog = Blog::find($id);
+        $blog->is_published = 1;
+        $blog->save();
+        return Redirect::to('/blogs')->with("success", "Successfully published $blog->name");
+    }
+
+    public function hide_blog($id)
+    {
+        $blog = Blog::find($id);
+        $blog->is_published = 0;
+        $blog->save();
+        return Redirect::to('/blogs')->with("success", "Successfully published $blog->name");
+    }
 
 }
