@@ -1,7 +1,5 @@
 @extends('adminlayout.master')
 @section('content')
-
-
     <h2>Availlable Tags:</h2>
 <table class="table table-stripped table-bordered">
     <thead>

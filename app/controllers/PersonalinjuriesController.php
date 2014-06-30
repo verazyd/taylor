@@ -78,7 +78,8 @@ class PersonalinjuriesController extends \BaseController {
 	 */
 	public function edit($id)
 	{
-		//
+        $injury_type = Personal::find($id);
+        return View::make('personals.edit', compact('injury_type'));
 	}
 
 	/**
@@ -90,7 +91,20 @@ class PersonalinjuriesController extends \BaseController {
 	 */
 	public function update($id)
 	{
-		//
+        $validator = Personal::validate(Input::only('name', 'description'));
+
+        if($validator->fails())
+        {
+            return Redirect::to('/allPersonalInjury')->withErrors($validator)->withInput(Input::all());
+        }
+        else
+        {
+            $service_type = Personal::find($id);
+            $service_type->name = Input::get('name');
+            $service_type->description = Input::get('description');
+            $service_type->save();
+            return Redirect::to('allPersonalInjury')->with('message', 'Service was successfully Updated!');
+        }
 	}
 
 	/**
@@ -102,7 +116,11 @@ class PersonalinjuriesController extends \BaseController {
 	 */
 	public function destroy($id)
 	{
-		//
+        $injury_type = Personal::find($id);
+        if($injury_type->delete())
+        {
+            return Redirect::to('/allPersonalInjury');
+        }
 	}
 
 }
