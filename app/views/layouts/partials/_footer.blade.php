@@ -1,3 +1,95 @@
+
+<footer id="Footer" style="margin: 10px 5px 45px 5px;">
+    <div class="icobalt ilayout cf BGScroll" id="FooterTop"><div icobalt="CobaltControls.Controls.StaticContent" id="FootIEBG" class="IEBG">
+            <img src="images/Footer_BG.jpg">
+        </div>
+
+        <div icobalt="CobaltControls.Controls.StaticContent" id="BottomInfo" class="main">
+            <div class="third">
+                <h3>Office Location</h3>
+                <div id="SiteSchema" icobalt="CobaltControls.Controls.Schema">
+                    <div itemscope="" itemtype="http://schema.org/Attorney">
+                        <span itemprop="legalName" style="font-size: 18px">Taylor&Preston</span> <br>
+                        <span itemprop="description"><strong>101 Hope Street, Brunswick VIC 3056</strong></span>
+					<div class="BPhone">
+                        <icon class="phone"></icon> Call Today For Free Consulation:<br>
+                        <span itemprop="telephone"><a href="tel:(888) 493-1629" class="phonelink">1800 633 625</a></span>
+                    </div>
+					<br>
+				</span>
+                    </div>
+                </div>
+                <nav class="social" icobalt="CobaltControls.Controls.DisplayList" id="SocialList" name="SocialList">
+                    <a target="_blank" href="{{ Share::load(Request::url(), 'check this'.'http:/google.com')->facebook() }}" >
+                        <i class="fa fa-lg fa-facebook btn btn-sm btn-primary social_logo"></i>
+                    </a>
+                    <a target="_blank" href="{{ Share::load(Request::url(), 'check this')->twitter() }}" >
+                        <i class="fa fa-lg fa-twitter btn btn-sm btn-primary social_logo"></i>
+                    </a>
+                    <a target="_blank" href="{{ Share::load(Request::url(), 'check this')->gplus() }}" >
+                        <i class="fa fa-lg fa-google-plus btn btn-sm btn-primary social_logo"></i>
+                    </a>
+                    <a target="_blank" href="{{ Share::load(Request::url(), 'check this ')->linkedin() }}" >
+                        <i class="fa fa-lg fa-linkedin btn btn-sm btn-primary social_logo"></i>
+                    </a>
+                </nav>
+            </div>
+            <nav class="third" icobalt="CobaltControls.Controls.AdvancedMenu" id="QuickLinks" name="QuickLinks">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li>
+                        <a href="" target="">Family Law</a>
+                    </li>
+                    <li>
+                        <a href="" target="">Personal Injury</a>
+                    </li>
+                    <li>
+                        <a href="" target="">Practice Areas</a>
+                    </li>
+                    <li>
+                        <a href="Common-Questions.html" target="">Our Locations</a>
+                    </li>
+                    <li>
+                        <a href="Case-Evaluation.html" target="">Our Victories</a>
+                    </li>
+                    <li>
+                        <a href="Practice-Areas/Personal-Injury.html" target="">Our Blog</a>
+                    </li>
+                    <li>
+                        <a href="Practice-Areas/Plant-Refinery-Accidents.html" target="">Common Questions</a>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="third" icobalt="CobaltControls.Controls.AdvancedMenu" id="LegalNetwork" name="LegalNetwork">
+                <h3>Legal Network</h3>
+                <ul>
+                    <li>
+                        <a href="" target="">Personal Injury</a>
+                    </li>
+                    <li>
+                        <a href="" target="">Family Law</a>
+                    </li>
+                    <li>
+                        <a href="" target="">Criminal Law</a>
+                    </li>
+                    <li>
+                        <a href="" target="">Sexual & Instituional Abuse</a>
+                    </li>
+                    <li>
+                        <a href="" target="">TAC Claims</a>
+                    </li>
+                    <li>
+                        <a href="" target="">Superannuation Claim</a>
+                    </li>
+                    <li>
+                        <a href="" target="">Work Injury</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</footer>
+
 <div class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
     <div class="container">
         <div class="navbar-header">

@@ -6,7 +6,7 @@
                 <header>
                     <icon class="close close-6"></icon>
                     <h2>How Can We Help?</h2>
-                    <h3>Get In Touch Today</h3>
+                    <h3>Confidential Consultation</h3>
                 </header>
                 <input name="SlideForm$ctl01$Name" type="text" value="Name:" maxlength="128" id="SlideForm_ctl01_Name" class="Name" />
                 <span id="SlideForm_ctl01_ctl00" class="validator" style="display:none;"></span>
@@ -24,7 +24,7 @@
                 <span id="SlideForm_ctl01_ctl08" class="validator" style="display:none;"></span>
                 <span id="SlideForm_ctl01_ctl09" class="validator" style="display:none;"></span>
                 <a class="Submit" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;SlideForm$ctl01$ctl10&quot;, &quot;&quot;, true, &quot;GroupSlideForm&quot;, &quot;&quot;, false, true))">
-                    Send Your Information
+                    Send
                     <icon class="email-3"></icon>
                 </a>
                 <div id="SlideForm_ctl01_ctl11" style="display:none;"></div>

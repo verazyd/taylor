@@ -332,6 +332,7 @@ html.no-backgroundsize .IEBG {
 
 #PAZone {
     padding: 30px 0 80px;
+    background: #ffffff;
 }
 
 #FeedZone {
@@ -2933,7 +2934,7 @@ html.no-lastchild #ContactSection input, {
     padding: 20px 2.5%;
     border: solid 5px rgba(0,102,177,.37);
     box-shadow: 0 1px 0 rgba(255,255,255,0.1);
-    color: #9CAFBD;
+    color: #ffffff;
     display: table;
     width: 100%;
 }
@@ -2956,7 +2957,7 @@ html.no-lastchild #ContactSection input, {
 
 #BottomInfo icon {
     font-size: 24px;
-    color: #005695; /* $primary */
+    color: #ffffff; /* $primary */
     position: relative;
     top: 5px;
     margin-right: 7px;
@@ -2980,7 +2981,8 @@ html.no-display-table .social ul li {
 #BottomInfo li a {
     display: block;
     padding: 6px 0;
-    border-bottom: solid 1px #295475;
+    border-bottom: solid 1px #217C9C;
+    color: #ffffff;
 }
 
 #BottomInfo .social ul li a {

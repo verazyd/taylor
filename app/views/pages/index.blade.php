@@ -110,7 +110,7 @@
 
     @include('layouts.partials._contact_form')
 
-<div class="" style="margin: 10px 5px 95px 5px;">
+<div class="" style="margin: 10px 5px 5px 5px;">
 <form id="ctl00" name="ctl00" method="post" action=""
       onsubmit="javascript:return WebForm_OnSubmit();" style="margin:0px;padding:0px;">
 
