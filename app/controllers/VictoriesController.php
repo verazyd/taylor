@@ -10,10 +10,15 @@ class VictoriesController extends \BaseController {
 	 */
 	public function index()
 	{
-        $victories = Victory::orderBy('created_at', 'desc')->paginate(10);
+        $victories = Victory::orderBy('created_at', 'desc')->where('is_published', '=', 1)->paginate(10);
 		return View::make('victories.index', compact('victories'));
 	}
 
+    public function index_admin()
+    {
+        $victories = Victory::all();
+        return View::make('victories.admin_index', compact('victories'));
+    }
 	/**
 	 * Show the form for creating a new resource.
 	 * GET /victories/create
@@ -76,7 +81,8 @@ class VictoriesController extends \BaseController {
 	 */
 	public function edit($id)
 	{
-		//
+		$victory = Victory::find($id);
+        return View::make('victories.edit', compact('victory'));
 	}
 
 	/**
@@ -102,5 +108,21 @@ class VictoriesController extends \BaseController {
 	{
 		//
 	}
+
+    public function publish_victory($id)
+    {
+        $victory = Victory::find($id);
+        $victory->is_published = 1;
+        $victory->save();
+        return Redirect::to('/allVictories')->with("success", "Successfully published $victory->name");
+    }
+
+    public function hide_victory($id)
+    {
+        $victory = Victory::find($id);
+        $victory->is_published = 0;
+        $victory->save();
+        return Redirect::to('/allVictories')->with("success", "Successfully published $victory->name");
+    }
 
 }

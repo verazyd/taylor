@@ -113,7 +113,7 @@
                     </a>
                     <ul class="dropdown-menu">
                         <li>
-                            <a href="">View All Victories</a>
+                            <a href="{{ URL::to('allVictories')  }}">View All Victories</a>
                         </li>
                         <li>
                             <a href="{{URL::to('addVictory') }}">Add Recent Victory</a>

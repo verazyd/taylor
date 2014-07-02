@@ -12,7 +12,7 @@
         </div>
     </div>
     <div class="col-md-6">
-        <form class="form" style="padding-top: 15px; margin-left: 10px;">
+        <form class="form" style="padding-top: 15px; padding-left: 25%;">
             <div class="com-md-6" style="float: left;">
                 <div class="name">
                     <label class="sr-only" >Name*:</label>

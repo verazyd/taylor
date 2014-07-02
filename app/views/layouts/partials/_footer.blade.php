@@ -44,31 +44,18 @@
     </div>
 </div>
 <!-- jQuery -->
-<script src="http://code.jquery.com/jquery.js"></script>
-<script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+<!--<script src="http://code.jquery.com/jquery.js"></script>-->
+<!--<script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>-->
 {{ HTML::script('/js/equal_heights_min.js') }}
 <!-- Bootstrap JavaScript -->
 <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
 {{HTML::script('/js/carasaul_homepage.js') }}
 {{HTML::script('/js/custom_carasaul.js') }}
+
 <script>
     $(function() {
         $( "#tabs" ).tabs();
     });
 </script>
-<!--<script>-->
-<!--    $(document).ready(function() {-->
-<!--        $('#myCarousel').carousel({-->
-<!--            interval: 1000-->
-<!--        })-->
-<!---->
-<!--        $('#myCarousel').on('slid.bs.carousel', function() {-->
-<!--            //alert("slid");-->
-<!--        });-->
-<!---->
-<!---->
-<!--    });-->
-<!---->
-<!--</script>-->
 </body>
 </html>

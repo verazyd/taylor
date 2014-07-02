@@ -1,0 +1,594 @@
+/* Animation Styles */
+.slide {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.slide:first-child {
+    display: block;
+}
+
+.slide > img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+html.no-backgroundsize .slide > img {
+    height: auto;
+}
+
+.slide .main {
+    position: relative;
+    height: 100%;
+    padding: 0;
+}
+
+.slide .info {
+    position: absolute;
+    top: 120px;
+    text-align: center;
+    width: 100%;
+}
+
+.slide .info h2 {
+    font-size: 80px;
+    font-family: Giovanni;
+    text-transform: uppercase;
+    display: inline-block;
+    background-color: rgba(0,86,149,0.7); /* alpha($primary,70%) */
+    text-shadow: 0px -1px 0px rgba(0,0,0,0.5);
+    color: #fff;
+    line-height: .9em;
+    padding: 15px;
+}
+
+html.no-rgba .slide .info h2 {
+    background-color: #005695; /* $primary */
+}
+
+html.no-boxsizing .slide .info h2 {
+    width: 380px;
+    margin: 0 auto;
+}
+
+.slide .info h2 span {
+    display: block;
+}
+
+.slide .info h3 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.2em;
+    text-shadow: 1px 1px 10px #000;
+}
+
+.slide .info h3 span {
+    display: block;
+}
+
+.slide .info p {
+    font-size: 20px;
+    line-height: 1.4em;
+    color: #fff;
+    margin: 10px auto;
+    width: 40%;
+}
+
+.slide .info a {
+    color: #fff;
+    display: table;
+    background-color: #005695; /* $primary */
+    padding: 20px 40px;
+    margin: 0px auto;
+    position: relative;
+    z-index: 20;
+}
+
+.slide-7 .info a {
+    margin-top: 260px;
+}
+
+.slide-1 .info a {
+    width: 25%;
+    margin-bottom: 10px;
+    padding: 10px 0;
+}
+
+.slide .info a:hover {
+    background-color: #00406E; /* $secondary */
+}
+
+.feature {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.slide ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+/* End Animation Styles */
+
+/* Slide Transitions */
+.slide-in {
+    z-index: 1;
+}
+
+.transition-in img {
+    -webkit-transition: 2s ease 1s;
+    -moz-transition: 2s ease 1s;
+    -o-transition: 2s ease 1s;
+    transition: 2s ease 1s;
+}
+
+.slide-start img {
+    margin-left: -20%;
+    opacity: 0;
+}
+
+.slide-in img {
+    margin-left: 0%;
+    opacity: 1;
+}
+
+.transition-out img {
+    -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    -o-transition: 1s ease;
+    transition: 1s ease;
+}
+
+.slide-end img {
+    margin-left: 100%;
+}
+
+slide-start .info, .slide-start .feature {
+    margin-left: -20%;
+    opacity: 0;
+}
+
+.slide-in .info, .slide-in .feature {
+    margin-left: 0%;
+    opacity: 1;
+}
+
+.slide-in .info {
+    z-index: 1;
+}
+
+.slide-end .info, .slide-end .feature {
+    margin-left: 10%;
+    opacity: 0;
+}
+
+.transition-in .info {
+    -webkit-transition: 1s ease 1.5s;
+    -moz-transition: 1s ease 1.5s;
+    -o-transition: 1s ease 1.5s;
+    transition: 1s ease 1.5s;
+}
+
+.transition-in .feature {
+    -webkit-transition: 1s ease 2s;
+    -moz-transition: 1s ease 2s;
+    -o-transition: 1s ease 2s;
+    transition: 1s ease 2s;
+}
+
+.transition-out .info, .transition-out .feature {
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    transition: 0.5s ease;
+}
+
+.slide-start .info * {
+    position: relative;
+}
+
+.slide-start .info * {
+    left: -10%;
+    opacity: 0;
+}
+
+.slide-in .info * {
+    left: 0%;
+    opacity: 1;
+}
+
+.transition-in .info h2 {
+    -webkit-transition: 1s ease 2.0s;
+    -moz-transition: 1s ease 2.0s;
+    -o-transition: 1s ease 2.0s;
+    transition: 1s ease 2.0s;
+}
+
+.transition-in .info h3, .transition-in .info span.mobilebg {
+    -webkit-transition: 1s ease 2.3s;
+    -moz-transition: 1s ease 2.3s;
+    -o-transition: 1s ease 2.3s;
+    transition: 1s ease 2.3s;
+}
+
+.transition-in .info p {
+    -webkit-transition: 1s ease 2.6s;
+    -moz-transition: 1s ease 2.6s;
+    -o-transition: 1s ease 2.6s;
+    transition: 1s ease 2.6s;
+}
+
+.transition-in .info a {
+    -webkit-transition: left 1s ease 2.9s, opacity 1s ease 2.9s, background-color .5s ease;
+    -moz-transition: left 1s ease 2.9s, opacity 1s ease 2.9s, background-color .5s ease;
+    -o-transition: left 1s ease 2.9s, opacity 1s ease 2.9s, background-color .5s ease;
+    transition: left 1s ease 2.9s, opacity 1s ease 2.9s, background-color .5s ease;
+}
+/* End Slide Transitions */
+
+/* Slide 1 Feature */
+.FOne {
+    bottom: 0px;
+}
+
+.FOne img {
+    position: absolute;
+    bottom: -50px;
+    max-height: 95%;
+}
+
+.FOne img.KA {
+    left: 0;
+}
+
+.FOne img.JI {
+    right: 0;
+}
+/* End Slide 1 Feature */
+
+/* Slide 4 Feature */
+.FFour {
+    display: block;
+}
+
+.FFour li > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.FFour p {
+    font-family: Giovanni;
+    color: #fff;
+    font-size: 15px;
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.5);
+    margin: 0;
+    text-align: center;
+    display: block;
+}
+
+.FFour li.Big {
+    display: block;
+    position: absolute;
+    width: 26.3%;
+    height: 355px;
+    top: 140px;
+}
+
+.FFour li.Big > a img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.FFour li.Big p {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-image: url(../images/Blue_Diamond.png);
+    -webkit-transition: .5s ease;
+    -moz-transition: .5s ease;
+    -o-transition: .5s ease;
+    transition: .5s ease;
+    height: 102px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+    padding: 27px 0px;
+}
+
+.slide-in .FFour li.Big p {
+    opacity: 1;
+}
+
+.slide-end .FFour li.Big p {
+    opacity: 0;
+}
+
+.FFour li.Big p span {
+    display: block;
+}
+
+.slide-in .FFour li.Big {
+    z-index: 10;
+}
+
+.slide-end .FFour li.Big {
+    display: none;
+    opacity: 0;
+}
+
+.FFour li.Kurt {
+    left: 0;
+}
+
+.FFour li.Jason {
+    right: 0;
+}
+
+.FFour li.Attorneys {
+    display: block;
+    width: 16.5%;
+    position: relative;
+    height: 100%;
+    float: left;
+}
+
+.FFour li.Attorneys > a {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    height: auto;
+    width: 100%;
+    z-index: 50;
+    background-color: rgba(255,255,255,0.00001);
+}
+
+.FFour li.Attorneys > a img {
+    display: block;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 129px;
+    margin: 0;
+    padding: 0;
+}
+
+.FFour li.Attorneys > a:hover img {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.FFour li>a img {
+    -webkit-transition: .5s ease;
+    -moz-transition: .5s ease;
+    -o-transition: .5s ease;
+    transition: .5s ease;
+}
+
+.FFour li.Big>a:hover img {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.FFour li.Big>a:hover p {
+    -webkit-transform: rotateX(360deg);
+    -moz-transform: rotateX(360deg);
+    -o-transform: rotateX(360deg);
+    transform: rotateX(360deg);
+}
+/* End Slide 4 Feature */
+
+/* Slide 5 Feature */
+.FFive {
+    top: 138px;
+}
+
+.FFive ul li {
+    width: 30%;
+}
+
+.FFive ul li:nth-child(odd) {
+    float: left;
+    clear: left;
+}
+
+.FFive ul li:nth-child(even) {
+    float: right;
+    clear: right;
+}
+
+.FFive ul li a {
+    display: block;
+    text-align: center;
+    background-color: #2F2F2F;
+    margin-bottom: 4px;
+    padding: 8px 0;
+    color: #fff;
+    text-transform: uppercase;
+    -webkit-transition: .5s ease;
+    -moz-transition: .5s ease;
+    -o-transition: .5s ease;
+    transition: .5s ease;
+    position: relative;
+    z-index: 5;
+}
+
+.FFive ul li a:hover {
+    background-color: #005695; /* $primary */
+}
+/* End Slide 5 Feature */
+
+/* Slide 6 Feature */
+.FSix {
+    top: 350px;
+}
+
+.FSix .ListContainer {
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    max-width: 1070px;
+    margin: 0 auto;
+}
+
+.FSix .ItemContainer {
+    width: 10000px;
+}
+
+.FSix .Item {
+    width: 346px;
+    margin: 0 5px;
+    float: left;
+    position: relative;
+}
+
+.FSix .Item .slide-video {
+    position: relative;
+    width: 100% !important;
+    height: 0px;
+    padding-bottom: 56.25%;
+}
+
+.FSix .Item .slide-video>* {
+    position: absolute !important;
+    left: 0px;
+    top: 0px;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.FSix .Item .Title {
+    position: absolute;
+    z-index: 1;
+    bottom: 0px;
+    width: 100%;
+    padding: 15px 0 15px 15px;
+    background-color: rgba(0,86,149,0.8); /* alpha($primary,80%) */
+    color: #fff;
+    font-weight: 500;
+    text-shadow: 1px 1px rgba(0,0,0,0.5);
+    pointer-events: none;
+}
+
+.FSix .arrow-left-25, .FSix .arrow-right-30 {
+    display: block;
+    position: absolute;
+    top: 77px;
+    z-index: 5;
+    font-size: 50px;
+    width: 50px;
+    color: rgba(255,255,255,0.9);
+    -webkit-transition: .25s ease;
+    -moz-transition: .25s ease;
+    -o-transition: .25s ease;
+    transition: .25s ease;
+    text-shadow: 0 0 15px rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+
+.FSix .arrow-left-25 {
+    left: 0;
+}
+
+.FSix .arrow-right-30 {
+    right: 0px;
+}
+
+.FSix .arrow-left-25:hover, .FSix .arrow-right-30:hover {
+    color: rgba(0,86,149,0.9);
+}
+/* End Slide 6 Feature */
+
+/* Slide 7 Feature */
+.FSeven {
+    top: 270px;
+    text-align: center;
+    display: table;
+    color: #fff;
+}
+
+.FSeven ul {
+    position: relative;
+}
+
+.FSeven li {
+    display: block;
+    text-align: center;
+    position: absolute;
+}
+
+.FSeven li .VText {
+    position: relative;
+    opacity: 0;
+    text-shadow: 1px 1px rgba(0,0,0,0.5), 0 0 25px #000;
+    -webkit-transition: .5s ease;
+    -moz-transition: .5s ease;
+    -o-transition: .5s ease;
+    transition: .5s ease;
+}
+
+.FSeven li.active .VText {
+    opacity: 1;
+    z-index: 1;
+}
+
+.FSeven li .VText h2 {
+    color: #fff;
+    font-family: Giovanni;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 44px;
+    line-height: 1em;
+}
+
+.FSeven li .VText h2 span {
+    display: block;
+}
+
+.FSeven li .VText p {
+    font-size: 24px;
+    line-height: 1.4em;
+    margin: 0 2%;
+}
+
+.FSeven .ThumbContainer {
+    position: relative;
+    z-index: 5;
+    top: 250px;
+    display: none;
+}
+
+.FSeven .ThumbContainer icon {
+    font-size: 24px;
+    color: #005695; /* $primary */
+    margin: 0 5px;
+    -webkit-transition: .25s ease;
+    -moz-transition: .25s ease;
+    -o-transition: .25s ease;
+    transition: .25s ease;
+    cursor: pointer;
+}
+
+.FSeven .ThumbContainer icon:hover, .FSeven .ThumbContainer icon.active {
+    color: #fff;
+}
+/* End Slide 7 Feature */
