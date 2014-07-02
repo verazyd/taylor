@@ -239,7 +239,6 @@
 </div>
 <div class="icobalt ilayout cf LBlue" id="PAZone"><div icobalt="CobaltControls.Controls.DisplayList" id="HomePracticeAreas" class="PracticeList main" name="HomePracticeAreas">
         <h1>Our Practice Areas</h1>
-        <h2>Featured Personal Injury Services We Offer</h2>
         <ul class="cf">
             <li class="active left">
                 <a href=""">Personal Injury</a>
