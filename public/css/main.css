@@ -99,6 +99,7 @@ textarea {
 /*}*/
 .experienced{
     color: #ffffff;
+    font-size: 12px;
 }
 .phone_contact{
     border-radius: 5px 72px 30px;
@@ -417,7 +418,6 @@ textarea {
     .navbar-inner {
         margin: -20px;
     }
-
     .carousel {
         margin-left: -20px;
         margin-right: -20px;
@@ -444,7 +444,23 @@ textarea {
         font-size: 18px;
     }
 
-/*about carousel*/
+
+    /*responsive for header*/
+
+
+    .experienced{
+        font-size: 8px;
+    }
+    .top_logo_image{
+        width: 200px;
+    }
+    .phone_header{
+        font-size: 14px;
+    }
+
+
+
+    /*about carousel*/
 
 
 /*#wrapper {*/
@@ -540,8 +556,6 @@ textarea {
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
 }
-
-
 /* ==========================================================================
    Print styles.
    Inlined to avoid required HTTP connection: h5bp.com/r

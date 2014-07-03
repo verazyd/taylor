@@ -40,7 +40,7 @@ class PersonalinjuriesController extends \BaseController {
 	 */
 	public function store()
 	{
-        $validator = Tag::validate(Input::only('name', 'description'));
+        $validator = Personal::validate(Input::only('name', 'description'));
 
         if($validator->fails())
         {

@@ -91,10 +91,10 @@
                             <a tabindex="-1" href="#">Family Law</a>
                             <ul class="dropdown-menu">
                                 <li>
-                                    <a tabindex="-1" href="">Add Service Area</a>
+                                    <a tabindex="-1" href="{{ URL::to('addallfamilyLaw') }}">Add Service Area</a>
                                 </li>
                                 <li>
-                                    <a tabindex="-1" href="#">View All</a>
+                                    <a tabindex="-1" href="{{ URL::to('allfamilyLaws') }}">View All</a>
                                 </li>
                                 <li class="dropdown-submenu">
                                     <a href="#">More..</a>

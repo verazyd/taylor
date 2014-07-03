@@ -65,6 +65,12 @@ Route::group(array('before' => 'admin'), function(){
     Route::get('allPersonalInjury', ['as' => 'allPersonalInjury', 'uses' => 'PersonalinjuriesController@admin_index']);
     Route::get('allPersonalInjury/{id}/edit', 'PersonalinjuriesController@edit');
     Route::resource('personal', 'PersonalinjuriesController');
+
+    Route::get('allfamilyLaws', ['as' => 'allPersonalInjury', 'uses' => 'FamilylawsController@admin_index']);
+    Route::get('addallfamilyLaw', ['as' => 'addallfamilyLaw', 'uses' => 'FamilylawsController@create']);
+    Route::post('allfamilyLaw.store', ['as' => 'allfamilyLaw.store', 'uses' => 'FamilylawsController@store']);
+    Route::get('addallfamilyLaw/{id}/edit', 'FamilylawsController@edit');
+    Route::resource('family', 'FamilylawsController');
 });
 
 Route::get('tags/{id}', 'TagsController@show');
@@ -84,3 +90,4 @@ Route::get('personalInjury/{id}', 'PersonalinjuriesController@show');
 
 #Family Law
 Route::get('familyLaw', ['as' => 'familyLawo', 'uses' => 'FamilylawsController@index']);
+Route::get('familyLaw/{id}', 'FamilylawsController@show');

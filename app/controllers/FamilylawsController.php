@@ -10,8 +10,13 @@ class FamilylawsController extends \BaseController {
 	 */
 	public function index()
 	{
-		return View::make('families.index');
+        $family_laws = Family::all();
+		return View::make('families.index', compact('family_laws'));
 	}
+    public function admin_index(){
+        $family_laws = Family::all();
+        return View::make('families.admin_index', compact('family_laws'));
+    }
 
 	/**
 	 * Show the form for creating a new resource.
@@ -21,7 +26,7 @@ class FamilylawsController extends \BaseController {
 	 */
 	public function create()
 	{
-		//
+		return View::make('families.create');
 	}
 
 	/**
@@ -32,7 +37,20 @@ class FamilylawsController extends \BaseController {
 	 */
 	public function store()
 	{
-		//
+        $validator = Family::validate(Input::only('name', 'description'));
+
+        if($validator->fails())
+        {
+            return Redirect::to('/allfamilyLaws')->withErrors($validator)->withInput(Input::all());
+        }
+        else
+        {
+            $family = new Family();
+            $family->name = Input::get('name');
+            $family->description = Input::get('description');
+            $family->save();
+            return Redirect::to('allfamilyLaws')->with('message', 'Family Law Practice Area was successfully created');
+        }
 	}
 
 	/**
@@ -56,7 +74,8 @@ class FamilylawsController extends \BaseController {
 	 */
 	public function edit($id)
 	{
-		//
+		$family_law = Family::find($id);
+        return View::make('families.edit', compact('family_law'));
 	}
 
 	/**
@@ -68,7 +87,20 @@ class FamilylawsController extends \BaseController {
 	 */
 	public function update($id)
 	{
-		//
+        $validator = Family::validate(Input::only('name', 'description'));
+
+        if($validator->fails())
+        {
+            return Redirect::to('/allfamilyLaws')->withErrors($validator)->withInput(Input::all());
+        }
+        else
+        {
+            $family = Family::find($id);
+            $family->name = Input::get('name');
+            $family->description = Input::get('description');
+            $family->save();
+            return Redirect::to('allfamilyLaws')->with('message', 'Family Law Practice Area was successfully updated!');
+        }
 	}
 
 	/**
@@ -80,7 +112,9 @@ class FamilylawsController extends \BaseController {
 	 */
 	public function destroy($id)
 	{
-		//
+		$family = Family::find($id);
+        $family->delete();
+        return Redirect::to('allfamilyLaws')->with('message', 'Family Law Practice Area was successfully Deleted!');
 	}
 
 }

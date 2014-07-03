@@ -21,6 +21,7 @@
 <div class="container">
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="row pull-right phone_contact" style="margin-right: 3%;margin-top: 10px;">
+        <div class="col-md-12">
         <p >   <a target="_blank" href="{{ Share::load(Request::url(), 'check this'.'http:/google.com')->facebook() }}" >
                 <i class="fa fa-lg fa-facebook btn btn-sm btn-primary pulse-grow"></i>
             </a>
@@ -34,11 +35,13 @@
                 <i class="fa fa-lg fa-linkedin btn btn-sm btn-primary pulse-grow"></i>
             </a>
         </p>
+        </div>
     </div>
     <div class="header_back" style=" padding-left: 10px; padding-top: 10px;">
         <div class="row">
-            <div class="col-md-4">
-                <a href="{{URL::to('/') }}"> {{HTML::image('/img/logo.jpeg', $alt = 'Taylor&Preston', $attributes = array('class' => 'img-responsive')) }}</a>
+            <div class="col-md-4 top_logo_image">
+                <a href="{{URL::to('/') }}">
+                    {{HTML::image('/img/logo.jpeg', $alt = 'Taylor&Preston', $attributes = array('class' => 'img-responsive')) }}</a>
                 <p class="experienced">No Win, No Fee Representation</p>
             </div>
             <div class="col-md-2"></div>
