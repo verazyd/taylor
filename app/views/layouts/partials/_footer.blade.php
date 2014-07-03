@@ -7,12 +7,12 @@
             <div class="third">
                 <h3>Office Location</h3>
                 <div id="SiteSchema" icobalt="CobaltControls.Controls.Schema">
-                    <div itemscope="" itemtype="http://schema.org/Attorney">
+                    <div itemscope="" itemtype="">
                         <span itemprop="legalName" style="font-size: 18px">Taylor&Preston</span> <br>
                         <span itemprop="description"><strong>101 Hope Street, Brunswick VIC 3056</strong></span>
 					<div class="BPhone">
                         <icon class="phone"></icon> Call Today For Free Consulation:<br>
-                        <span itemprop="telephone"><a href="tel:(888) 493-1629" class="phonelink">1800 633 625</a></span>
+                        <span itemprop="telephone"><a href="" class="phonelink">1800 633 625</a></span>
                     </div>
 					<br>
 				</span>
@@ -40,22 +40,22 @@
                         <a href="" target="">Family Law</a>
                     </li>
                     <li>
-                        <a href="" target="">Personal Injury</a>
+                        <a href="" >Personal Injury</a>
                     </li>
                     <li>
-                        <a href="" target="">Practice Areas</a>
+                        <a href="">Practice Areas</a>
                     </li>
                     <li>
-                        <a href="Common-Questions.html" target="">Our Locations</a>
+                        <a href="">Our Locations</a>
                     </li>
                     <li>
-                        <a href="Case-Evaluation.html" target="">Our Victories</a>
+                        <a href="">Our Victories</a>
                     </li>
                     <li>
-                        <a href="Practice-Areas/Personal-Injury.html" target="">Our Blog</a>
+                        <a href="">Our Blog</a>
                     </li>
                     <li>
-                        <a href="Practice-Areas/Plant-Refinery-Accidents.html" target="">Common Questions</a>
+                        <a href="">Common Questions</a>
                     </li>
                 </ul>
             </nav>
@@ -63,25 +63,25 @@
                 <h3>Legal Network</h3>
                 <ul>
                     <li>
-                        <a href="" target="">Personal Injury</a>
+                        <a href="">Personal Injury</a>
                     </li>
                     <li>
-                        <a href="" target="">Family Law</a>
+                        <a href="" >Family Law</a>
                     </li>
                     <li>
-                        <a href="" target="">Criminal Law</a>
+                        <a href="" >Criminal Law</a>
                     </li>
                     <li>
-                        <a href="" target="">Sexual & Instituional Abuse</a>
+                        <a href="" >Sexual & Instituional Abuse</a>
                     </li>
                     <li>
-                        <a href="" target="">TAC Claims</a>
+                        <a href="" >TAC Claims</a>
                     </li>
                     <li>
-                        <a href="" target="">Superannuation Claim</a>
+                        <a href="" >Superannuation Claim</a>
                     </li>
                     <li>
-                        <a href="" target="">Work Injury</a>
+                        <a href="">Work Injury</a>
                     </li>
                 </ul>
             </nav>

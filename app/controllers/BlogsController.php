@@ -86,7 +86,8 @@ class BlogsController extends \BaseController {
 	 */
 	public function edit($id)
 	{
-		//
+        $blog = Blog::find($id);
+        return View::make('blogs.edit', compact('blog'));
 	}
 
 	/**
@@ -98,7 +99,26 @@ class BlogsController extends \BaseController {
 	 */
 	public function update($id)
 	{
-		//
+        $validator = Blog::validate(Input::only('topic', 'description'));
+
+        if($validator->fails())
+        {
+            return Redirect::to('/create')->withErrors($validator)->withInput(Input::all());
+        }
+        else
+        {
+            $blog = Blog::find($id);
+            $blog->topic = Input::get('topic');
+            $blog->tag_id = Input::get('tag_id');
+            $blog->description = Input::get('description');
+
+            if($blog->save())
+            {
+                return Redirect::to('/blogs')->with('message', 'Blog with id of '. $blog->id. 'has been updated');
+            }
+
+
+        }
 	}
 
 	/**
@@ -113,7 +133,7 @@ class BlogsController extends \BaseController {
 		$blog = Blog::find($id);
         if($blog->delete())
         {
-            return Redirect::to('/blogs');
+            return Redirect::to('/blogs')->with('message', $blog->topic. ' is successfully deleted');
         }
 	}
 
@@ -122,7 +142,7 @@ class BlogsController extends \BaseController {
         $blog = Blog::find($id);
         $blog->is_published = 1;
         $blog->save();
-        return Redirect::to('/blogs')->with("success", "Successfully published $blog->name");
+        return Redirect::to('/blogs')->with('message', $blog->topic.' is successfully published');
     }
 
     public function hide_blog($id)
@@ -130,7 +150,7 @@ class BlogsController extends \BaseController {
         $blog = Blog::find($id);
         $blog->is_published = 0;
         $blog->save();
-        return Redirect::to('/blogs')->with("success", "Successfully published $blog->name");
+        return Redirect::to('/blogs')->with('message', $blog->topic. 'is successfully hidden');
     }
 
 }

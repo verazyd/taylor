@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
     <div class="col-md-6 col-md-offset-3" >
-        <h4 style="color: #ffffff">Admin Login Panal: </h4>
+        <h4>Add Personal Injury Service:: </h4>
         {{ Form::open(['method' => 'POST', 'route' => 'personalinjury.store']) }}
         <div class="form-group">
             {{ Form::label('name', 'Name*') }}

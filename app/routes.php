@@ -1,5 +1,4 @@
 <?php
-
 Route::get('/', ['as' => 'home', 'uses' => 'PagesController@index']);
 //Route::get('/about', ['as' => 'about', 'uses' => 'PagesController@about']);
 Route::get('/contactus', ['as' => 'contactus', 'uses' => 'ContactusController@create']);
@@ -23,7 +22,6 @@ Route::filter('admin', function(){
     }
 });
 
-
 Route::get('/login', ['as' =>'admin', 'uses' => 'SessionsController@create']);
 Route::get('logout', ['as' => 'logout', 'uses' => 'SessionsController@destroy']);
 
@@ -36,15 +34,18 @@ Route::group(array('before' => 'admin'), function(){
     Route::get('/blogs', ['as' => 'blogs', 'uses' => 'BlogsController@index']);
     Route::get('/create', ['as' => 'create', 'uses' => 'BlogsController@create']);
     Route::post('blog.store', ['as' => 'blogs.store', 'uses' => 'BlogsController@store']);
+    Route::get('blogs/{id}/edit', 'BlogsController@edit');
     Route::get('blogs/{id}/publish_blog', ['as' => 'publish_blog', 'uses' => 'BlogsController@publish_blog']);
     Route::get('blogs/{id}/hide_blog', ['as' => 'publish_blog', 'uses' => 'BlogsController@hide_blog']);
+    Route::resource('blogs', 'BlogsController');
 
     Route::get('addVictory', ['as' => 'addVictory', 'uses' => 'VictoriesController@create']);
     Route::get('allVictories', ['as' => 'allVictories', 'uses' => 'VictoriesController@index_admin']);
     Route::get('allVictories/{id}/publish_victory', ['as' => 'publish_victory', 'uses' => 'VictoriesController@publish_victory']);
     Route::get('allVictories/{id}/hide_victory', ['as' => 'hide_victory', 'uses' => 'VictoriesController@hide_victory']);
     Route::get('allVictories/{id}/edit', 'VictoriesController@edit');
-    Route::get('allVictories/{id}', ['as' => 'victories.update' , 'uses' => 'VictoriesController@edit']);
+//    Route::post('allVictories/{id}', ['as' => 'victories.update' , 'uses' => 'VictoriesController@update']);
+    Route::resource('victory', 'VictoriesController');
 
     Route::get('/admin_addImages', ['as' => 'admin_addImages' , 'uses' => 'AddimagesController@create']);
     Route::get('/images', ['as' => 'images' , 'uses' =>'AddimagesController@index']);

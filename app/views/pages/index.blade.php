@@ -1,7 +1,5 @@
 @extends('layouts.master')
 @section('content')
-
-
 <!--<script type="text/javascript" src="http://cms.scorpioncms.com/Shared/js3/cms.1.js"></script>-->
 <!--{{ HTML::script('/js/meet_lawyer_plugin.js') }}-->
 
@@ -140,7 +138,7 @@
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt velit eaque, pariatur saepe voluptatem aut magnam minima ab sequi facilis! Reiciendis labore, pariatur numquam blanditiis praesentium autem molestias. Aliquam, reprehenderit. ...
                     </p>
-                    <a href="Meet-Our-Attorneys/Kyle-Findley.html">Learn More [+]</a>
+                    <a href=""">Learn More [+]</a>
                 </div>
             </li>
             <li class="Info2">
@@ -159,7 +157,7 @@
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus tempore officiis tenetur, harum commodi eaque quibusdam voluptas ea maiores porro repudiandae voluptatum minima corporis, reiciendis ipsam at ab, ipsum impedit. ...
                     </p>
-                    <a href="Meet-Our-Attorneys/Noah-Wexler.html">Learn More [+]</a>
+                    <a href="">Learn More [+]</a>
                 </div>
             </li>
             <li class="Info3">
@@ -176,7 +174,7 @@
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quod pariatur fugiat blanditiis, earum nisi neque quidem voluptas accusantium libero voluptatem vero praesentium unde ad ducimus illo hic quas modi....
                     </p>
-                    <a href="Meet-Our-Attorneys/Cory-Itkin.html">Learn More [+]</a>
+                    <a href="">Learn More [+]</a>
                 </div>
             </li>
             <li class="Info4">
@@ -193,7 +191,7 @@
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, quo, minima! Veritatis voluptate, tempore, reiciendis maiores quibusdam numquam tempora harum minima dolor nobis libero commodi odit facilis, recusandae voluptates. Dicta! ...
                     </p>
-                    <a href="Meet-Our-Attorneys/Caj-Boatright.html">Learn More [+]</a>
+                    <a href="">Learn More [+]</a>
                 </div>
             </li>
             <li class="Info5">
@@ -210,7 +208,7 @@
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum aliquid illo ipsam laudantium modi hic incidunt sequi inventore. Voluptatum deserunt dolores libero, est molestiae iusto pariatur aperiam voluptates sapiente eius....
                     </p>
-                    <a href="Meet-Our-Attorneys/Santana-McMurrey.html">Learn More [+]</a>
+                    <a href="">Learn More [+]</a>
                 </div>
             </li>s
             <li class="Info6">
@@ -394,12 +392,12 @@
                     </div>
                     <h2>Frequently Asked Questions</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, aliquid, aut blanditiis illum ipsa iste magni minus neque odio officiis optio quae repellendus ut vitae voluptas? Error laudantium, unde. Facilis.</p>
-                    <a href="">Learn More</a>
+                    <a href="" style="padding-bottom: 5px;">Learn More</a>
                 </div>
             </li>
         </ul>
-    </div></div>
-
+    </div>
+</div>
 
 <div class="icobalt ilayout cf BGScroll" id="TestZone">
     <div icobalt="CobaltControls.Controls.StaticContent" id="TestIEBG" class="IEBG">
@@ -409,14 +407,6 @@
         <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad animi beatae corporis" <span>- Client From Melbourne</span></p>
     </div>
 </div>
-
-
-<!---->
-<!--    <div class="icobalt ilayout cf paper" id="ContactZone"><div icobalt="CobaltControls.Controls.StaticContent" class="main" id="ContactSection">-->
-<!--        <div id="ContactHome" icobalt="CobaltControls.Controls.DataForm" name="ContactHome">-->
-<!--    </div>-->
-<!--    </div>-->
-
 </main>
 </form>
 
@@ -699,56 +689,5 @@
         }
     } );
 </script>
-
-
 </div>
-
-
-
-
-
-
-
-<!--<div class="" style="margin: 10px 5px 95px 5px;">-->
-<!--    <div class="btn-group btn-group-justified">-->
-<!--        <div class="col-md-3">-->
-<!--            <div class="btn-group">-->
-<!--                <button type="button" class="personal_injury">Personal Injury</button><br>-->
-<!--                <button type="button" class="criminal_law">Criminal law</button><br>-->
-<!--                <button type="button" class="corporate_law">Corporate Law law</button><br>-->
-<!--                <button type="button" class="employment_law">Employement law</button><br>-->
-<!--                <button type="button" class="international_law">International and Chinese Law law</button><br>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <div class="col-md-6">-->
-<!--                <p class="text_before">-->
-<!--                    At TP we’re nuts about technology and we use it to ensure that we offer competitive legal services through a team of high quality mobile lawyers that work around clients’ needs, lifestyles and locations.-->
-<!--                </p>-->
-<!--                <p class=" personal_p">-->
-<!--                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ipsam id eligendi ipsa necessitatibus. Pariatur maiores, asperiores nobis excepturi maxime velit, magni consequatur reprehenderit similique nesciunt quaerat natus voluptate fugit?-->
-<!--                </p>-->
-<!--                <p class="family_law_p">-->
-<!--                    OUR APPROACH-->
-<!--                    TP’ Family Law clients trust us with their future because they know we will always provide a cool, clear head when issues are running red hot-->
-<!---->
-<!---->
-<!--                    Our family law lawyers are smart, tough, highly ethical and empathetic.-->
-<!--                    Together they have century and a half of experience in this highly-complex legal area that traverses many fields like estate planning, property, commercial, tax and company law.-->
-<!--                    Each lawyer is a senior practitioner so clients have the benefit of them conferring with, and backing up, each other at no additional cost.-->
-<!---->
-<!--                <p class="criminal_law_p">-->
-<!--                    this is corporate lawthis is corporate lawthis is corporate lawthis is corporate lawthis is corporate lawthis is corporate lawthis is corporate lawthis is corporate lawthis is corporate lawthis is corporate lawthis is corporate lawthis is corporate lawthis is corporate lawthis is corporate lawthis is corporate lawthis is corporate lawthis is corporate lawthis is corporate lawthis is corporate lawthis is corporate lawthis is corporate lawthis is corporate lawthis is corporate lawthis is corporate lawthis is corporate law-->
-<!--                </p>-->
-<!--            </div>-->
-<!--        <div class="col-md-1"></div>-->
-<!--        <div class="col-md-3" style="padding-left: 45px;">-->
-<!--            <button type="button" class="family_law">Family Law</button><br>-->
-<!--            <button type="button" class="family_law">Property law</button><br>-->
-<!--            <button type="button" class="family_law">Will&Estates</button><br>-->
-<!--            <button type="button" class="family_law">Personal law</button><br>-->
-<!--            <button type="button" class="family_law">Family law</button><br>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</div>-->
-
 @stop

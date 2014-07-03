@@ -2,7 +2,7 @@
 
 @section('content')
 <h2>Edit Tag:</h2>
-{{ Form::model($victory, array('route' => array('victories.update', $victory->id), 'method' => 'PUT')) }}
+{{ Form::model($victory, array('route' => array('victory.update', $victory->id), 'method' => 'PUT')) }}
 
 <div class="form-group">
     {{ Form::label('topic', 'Topic*:') }}

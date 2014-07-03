@@ -95,23 +95,19 @@ html.no-boxsizing .slide .info h2 {
 .slide-7 .info a {
     margin-top: 260px;
 }
-
 .slide-1 .info a {
     width: 25%;
     margin-bottom: 10px;
     padding: 10px 0;
 }
-
 .slide .info a:hover {
     background-color: #00406E; /* $secondary */
 }
-
 .feature {
     position: absolute;
     height: 100%;
     width: 100%;
 }
-
 .slide ul {
     list-style: none;
     margin: 0px;

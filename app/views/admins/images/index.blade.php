@@ -21,7 +21,7 @@
                  {{ Form::submit('Assign', array('class' => 'btn btn-primary pull-right')) }}
                  {{ Form::close() }}
         </td>
-        <td>{{ Form::open() }}
+        <td>{{ Form::open(array('url' => 'image/' . $image->id, 'class' => 'pull-right')) }}
             {{ Form::hidden('_method', 'DELETE') }}
             {{ Form::submit('Delete', array('class' => 'btn btn-danger')) }}
             {{ Form::close() }}</td>

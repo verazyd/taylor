@@ -109,7 +109,9 @@ class AddimagesController extends \BaseController {
 	 */
 	public function destroy($id)
 	{
-		//
+		$image = Post::find($id);
+        $image->delete();
+        return Redirect::to('images')->with('message', $image->url.' has been deleted successfully');
 	}
 
 }

@@ -94,7 +94,25 @@ class VictoriesController extends \BaseController {
 	 */
 	public function update($id)
 	{
-		//
+        $validator = Victory::validate(Input::only('topic', 'description'));
+
+        if($validator->fails())
+        {
+            return Redirect::to('/victories/create')->withErrors($validator)->withInput(Input::all());
+        }
+        else
+        {
+            $victory = Victory::find($id);
+            $victory->topic = Input::get('topic');
+            $victory->description = Input::get('description');
+
+            if($victory->save())
+            {
+                return Redirect::to('/allVictories')->with('message', 'Victory with id '.$victory->id.' has been updated successfully');
+            }
+
+
+        }
 	}
 
 	/**
