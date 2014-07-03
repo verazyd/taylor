@@ -32,7 +32,7 @@ class RegisterController extends \BaseController {
         $user = User::create($input);
         $user->save();
 //        Auth::login($user);
-        return Redirect::to('admin_login');
+        return Redirect::to('users');
 	}
     public function update($id)
     {
