@@ -1,7 +1,6 @@
 
 <footer id="Footer" style="margin: 10px 5px 45px 5px;">
     <div class="icobalt ilayout cf BGScroll" id="FooterTop"><div icobalt="CobaltControls.Controls.StaticContent" id="FootIEBG" class="IEBG">
-            <img src="images/Footer_BG.jpg">
         </div>
 
         <div icobalt="CobaltControls.Controls.StaticContent" id="BottomInfo" class="main">

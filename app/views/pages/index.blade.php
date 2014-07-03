@@ -2,7 +2,8 @@
 @section('content')
 
 
-<script type="text/javascript" src="http://cms.scorpioncms.com/Shared/js3/cms.1.js"></script>
+<!--<script type="text/javascript" src="http://cms.scorpioncms.com/Shared/js3/cms.1.js"></script>-->
+<!--{{ HTML::script('/js/meet_lawyer_plugin.js') }}-->
 
 <style type="text/css">#SideStickyZone {
         position: fixed;
@@ -402,7 +403,6 @@
 
 <div class="icobalt ilayout cf BGScroll" id="TestZone">
     <div icobalt="CobaltControls.Controls.StaticContent" id="TestIEBG" class="IEBG">
-        <img src="images/Testimonial_BG.jpg">
     </div>
     <div icobalt="CobaltControls.Controls.StaticContent" class="main" id="HomeTestimonial">
         <h2>What Our Clients Are Saying About Us</h2>
