@@ -1,8 +1,7 @@
 @extends('layouts.master')
 @section('content')
 
-{{ HTML::style('/css/meet_our_att.css') }}
-{{ HTML::style('/css/meet_our_att_responsive.css') }}
+
 <script type="text/javascript" src="http://cms.scorpioncms.com/Shared/js3/cms.1.js"></script>
 
 <style type="text/css">#SideStickyZone {
@@ -212,9 +211,7 @@
                     </p>
                     <a href="Meet-Our-Attorneys/Santana-McMurrey.html">Learn More [+]</a>
                 </div>
-            </li>
-
-
+            </li>s
             <li class="Info6">
                 <a class="nav left" href="javascript:void('Left');">
                     <img src="img/left2.png" style="width:21px;height:44px"></a>
@@ -232,8 +229,6 @@
                     <a href="">Learn More [+]</a>
                 </div>
             </li>
-
-
         </ul>
     </div>
 </div>

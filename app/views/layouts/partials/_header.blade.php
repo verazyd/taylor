@@ -14,6 +14,8 @@
     {{ HTML::style('css/main.css') }}
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    {{ HTML::style('/css/meet_our_att.css') }}
+    {{ HTML::style('/css/meet_our_att_responsive.css') }}
 </head>
 <body>
 <div class="container">
