@@ -55,7 +55,7 @@
       <file leaf-file-name="ContactusController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/ContactusController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="13" selection-start="812" selection-end="817" vertical-scroll-proportion="0.0" vertical-offset="825" max-vertical-offset="2925">
+            <state line="44" column="35" selection-start="839" selection-end="839" vertical-scroll-proportion="0.0" vertical-offset="825" max-vertical-offset="2925">
               <folding />
             </state>
           </provider>
@@ -64,7 +64,7 @@
       <file leaf-file-name="contact.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/emails/contact.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="22" selection-start="136" selection-end="136" vertical-scroll-proportion="0.2417127" vertical-offset="0" max-vertical-offset="724">
+            <state line="6" column="38" selection-start="113" selection-end="113" vertical-scroll-proportion="0.20718232" vertical-offset="0" max-vertical-offset="724">
               <folding />
             </state>
           </provider>
@@ -1573,14 +1573,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/ContactusController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="13" selection-start="812" selection-end="817" vertical-scroll-proportion="0.0" vertical-offset="825" max-vertical-offset="2925">
+        <state line="44" column="35" selection-start="839" selection-end="839" vertical-scroll-proportion="0.0" vertical-offset="825" max-vertical-offset="2925">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/emails/contact.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="22" selection-start="136" selection-end="136" vertical-scroll-proportion="0.2417127" vertical-offset="0" max-vertical-offset="724">
+        <state line="6" column="38" selection-start="113" selection-end="113" vertical-scroll-proportion="0.20718232" vertical-offset="0" max-vertical-offset="724">
           <folding />
         </state>
       </provider>
