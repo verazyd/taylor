@@ -44,20 +44,13 @@ class ContactusController extends \BaseController {
         $subject = Input::get('subject');
         $data = array('description' =>Input::get('description'));
 
-        Mail::send('emails.contact', $data, function($message) use ($fromEmail, $fromName, $subject)
+        Mail::send('emails.contact',  $data , function($message) use ($fromEmail, $fromName, $subject)
         {
-            $message->from($fromEmail, $fromName);
+            $message->to('shankargiri.p@gmail.com', 'Shankar');
+            $message->from($fromEmail,  $fromName);
 
             $message->subject($subject);
         });
-
-
-//        Mail::send('emails.contact',$data,
-//            function($message) use ($toEmail, $toName, $fromEmail, $fromName, $subject){
-//                $message->to($toEmail, $toName);
-//                $message->from($fromEmail, $fromName);
-//                $message->subject($subject);
-//            });
         return Redirect::to('/contactus')->with('message', 'Your message has been successfully send');
 	}
 

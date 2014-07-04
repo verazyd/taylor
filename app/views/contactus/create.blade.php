@@ -8,7 +8,7 @@
             <!--Email Form Input -->
             <div class="form-group">
                 {{ Form::label('email', 'Email* ') }}
-                {{ Form::email('email', null, ['class' => 'form-control email', 'placeholder' => 'Your Email Address',  'required' => 'required']) }}
+                {{ Form::email('email', null, ['class' => 'form-control', 'placeholder' => 'Your Email Address',  'required' => 'required']) }}
                 {{ errors_for('email', $errors) }}
             </div>
             <!--From Form Input -->
@@ -31,10 +31,6 @@
                 <i class="fa fa-envelope"></i>&nbsp;
                 Submit
             </button>
-    <!--        <div class="form-group">-->
-    <!--            <i class="fa fa-envelope"></i>-->
-    <!--            {{ Form::submit('Submit', ['class' => 'btn btn-primary']) }}-->
-    <!--        </div>-->
             {{ Form::close() }}
         </div>
         <div class="col-md-6">
