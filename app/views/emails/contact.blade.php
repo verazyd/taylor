@@ -4,7 +4,7 @@
     <title></title>
 </head>
 <body>
-<h5>You have been contacted via Contact Us form of Taylor & Preston!</h5>
+    <h4>Hello from taylor&Preston</h4>
 <div></div>
 <div>}</div>
 </body>

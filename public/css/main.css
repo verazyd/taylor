@@ -91,15 +91,17 @@ textarea {
 .header_back{
     background: #217C9C;
 }
-/*.top_logo{*/
-    /*border-radius: 55px/10px;*/
-    /*background: #005695;*/
-    /*height: 85px;*/
-    /*margin-top: 5px;*/
-/*}*/
+.top_logo{
+    height: 110px;
+    margin-left: 15%;
+}
 .experienced{
     color: #ffffff;
     font-size: 12px;
+    position: absolute;
+    top: 0px;
+    left: 26%;
+    font-weight: bold;
 }
 .phone_contact{
     border-radius: 5px 72px 30px;

@@ -47,12 +47,23 @@ class ContactusController extends \BaseController {
         $toEmail = 'rayx.dev@gmail.com';
         $toName = 'Shankar Giri';
 
-        Mail::send('emails.contact',$data,
-            function($message) use ($toEmail, $toName, $fromEmail, $fromName, $subject){
-                $message->to($toEmail, $toName);
-                $message->from($fromEmail, $fromName);
-                $message->subject($subject);
-            });
+
+        Mail::send('emails.contact', $data, function($message) use ($toEmail, $toName, $fromEmail, $fromName, $subject)
+        {
+            $message->to($toEmail, $toName);
+
+            $message->from($fromEmail, $fromName);
+
+            $message->subject($subject);
+        });
+
+
+//        Mail::send('emails.contact',$data,
+//            function($message) use ($toEmail, $toName, $fromEmail, $fromName, $subject){
+//                $message->to($toEmail, $toName);
+//                $message->from($fromEmail, $fromName);
+//                $message->subject($subject);
+//            });
         return Redirect::to('/contactus')->with('message', 'Your message has been successfully send');
 	}
 

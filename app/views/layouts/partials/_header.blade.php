@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="">
 <head>
-    <title>Title Page</title>
     <meta charset="UTF-8">
     <meta name=description content="">
     <meta name=viewport content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="7y-QO6s2ptMu42r0jREIFab8z3bDRnI6qCCZNAMr1NM" />
+    <title>Family Lawyers Melbourne - 1800 633 625 - Open 7 Days To 11PM - Taylor & Preston family lawyers melbourne | Melbourne divorce lawyers</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <meta name="keywords" content="Family Lawyers Melbourne,Divorce Lawyers Melbourne                                                                                                                        ">
+    <meta name="description" content="Taylor & Preston Family Lawyers Melbourne can be contacted to 11PM 7 days a week on 1800 633 625. They are a successful family law and divorce law firm in Melbourne which offers best family lawyers and divorce lawyers in Melbourne and provides the highest quality, personal legal services in all areas of family law matters, including divorce and child custody. We understand that the outcome of your or your loved ones personal legal matters is of the utmost importance, and it is vital that you have on your side Melbourne family lawyers that will provide you with committed and exceptional service.                                                                                                                        ">
+
     <!-- Bootstrap CSS -->
     <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
@@ -28,7 +33,7 @@
             <a target="_blank" href="{{ Share::load(Request::url(), 'check this')->twitter() }}" >
                 <i class="fa fa-lg fa-twitter btn btn-sm btn-primary pulse-grow"></i>
             </a>
-            <a target="_blank" href="{{ Share::load(Request::url(), 'check this')->gplus() }}" >
+            <a target="_blank" ref="{{ Share::load(Request::url(), 'check this')->gplus() }}" >
                 <i class="fa fa-lg fa-google-plus btn btn-sm btn-primary pulse-grow"></i>
             </a>
             <a target="_blank" href="{{ Share::load(Request::url(), 'check this ')->linkedin() }}" >
@@ -39,12 +44,11 @@
     </div>
     <div class="header_back" style=" padding-left: 10px; padding-top: 10px;">
         <div class="row">
-            <div class="col-md-4 top_logo_image">
+            <div class="col-md-5">
                 <a href="{{URL::to('/') }}">
-                    {{HTML::image('/img/logo.jpeg', $alt = 'Taylor&Preston', $attributes = array('class' => 'img-responsive')) }}</a>
+                    {{HTML::image('/img/FLMlogo.png', $alt = 'Taylor&Preston', $attributes = array('class' => 'img-responsive top_logo', 'height' => 100)) }}</a>
                 <p class="experienced">No Win, No Fee Representation</p>
             </div>
-            <div class="col-md-2"></div>
             <div class="col-md-6 pull-right">
                 <div class="col-md-2"></div>
                 <div class="col-md-6">
