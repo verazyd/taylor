@@ -116,7 +116,7 @@
                 <li><a href="#contact">TESTIMONIALS</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <p style="margin-top: 5%;">
+                <p style="margin-top: 9%;">
                     <a target="_blank" href="{{ Share::load(Request::url(), 'check this'.'http:/google.com')->facebook() }}" >
                         <i class="fa fa-lg fa-facebook btn btn-sm btn-primary social_logo"></i>
                     </a>

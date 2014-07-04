@@ -32,10 +32,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.blade.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/pages/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="90" column="8" selection-start="3901" selection-end="4069" vertical-scroll-proportion="0.42194092" vertical-offset="1950" max-vertical-offset="17475">
+            <state line="90" column="8" selection-start="3901" selection-end="4069" vertical-scroll-proportion="0.0" vertical-offset="2575" max-vertical-offset="17475">
               <folding>
                 <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
               </folding>
@@ -43,14 +43,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_header.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_header.blade.php">
+      <file leaf-file-name="mail.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/mail.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="44" selection-start="2307" selection-end="2320" vertical-scroll-proportion="0.0" vertical-offset="500" max-vertical-offset="3900">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="95" column="26" selection-start="3166" selection-end="3166" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3250">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContactusController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/ContactusController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="13" selection-start="812" selection-end="817" vertical-scroll-proportion="0.0" vertical-offset="825" max-vertical-offset="2925">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.blade.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/emails/contact.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="22" selection-start="136" selection-end="136" vertical-scroll-proportion="0.2417127" vertical-offset="0" max-vertical-offset="724">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -99,7 +114,6 @@
         <option value="$PROJECT_DIR$/public/css/meet_our_att_responsive.css" />
         <option value="$PROJECT_DIR$/public/css/meet_our_att_animation.css" />
         <option value="$PROJECT_DIR$/public/css/meet_our_att.css" />
-        <option value="$PROJECT_DIR$/app/views/layouts/partials/_footer.blade.php" />
         <option value="$PROJECT_DIR$/app/views/admins/images/index.blade.php" />
         <option value="$PROJECT_DIR$/app/controllers/AddimagesController.php" />
         <option value="$PROJECT_DIR$/app/views/personals/create.blade.php" />
@@ -117,13 +131,14 @@
         <option value="$PROJECT_DIR$/app/routes.php" />
         <option value="$PROJECT_DIR$/app/views/families/index.blade.php" />
         <option value="$PROJECT_DIR$/app/controllers/RegisterController.php" />
-        <option value="$PROJECT_DIR$/app/controllers/ContactusController.php" />
-        <option value="$PROJECT_DIR$/app/views/emails/contact.blade.php" />
-        <option value="$PROJECT_DIR$/app/config/mail.php" />
         <option value="$PROJECT_DIR$/app/views/layouts/master.blade.php" />
         <option value="$PROJECT_DIR$/public/css/main.css" />
         <option value="$PROJECT_DIR$/app/views/layouts/partials/_header.blade.php" />
         <option value="$PROJECT_DIR$/app/views/pages/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/layouts/partials/_footer.blade.php" />
+        <option value="$PROJECT_DIR$/app/config/mail.php" />
+        <option value="$PROJECT_DIR$/app/controllers/ContactusController.php" />
+        <option value="$PROJECT_DIR$/app/views/emails/contact.blade.php" />
       </list>
     </option>
   </component>
@@ -902,6 +917,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="emails" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Taylor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Taylor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="contactus" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1246,13 +1283,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/contactus/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="75" selection-start="295" selection-end="295" vertical-scroll-proportion="0.21097046" vertical-offset="0" max-vertical-offset="2525">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/meet_our_att.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="28" selection-start="0" selection-end="5436" vertical-scroll-proportion="-10.576923" vertical-offset="0" max-vertical-offset="5025">
@@ -1284,13 +1314,6 @@
     <entry file="file://$PROJECT_DIR$/public/css/meet_our_att_animation.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="430" column="37" selection-start="7715" selection-end="7717" vertical-scroll-proportion="6.385387" vertical-offset="6293" max-vertical-offset="14900">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_footer.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="34" selection-start="3964" selection-end="3964" vertical-scroll-proportion="2.9184248" vertical-offset="0" max-vertical-offset="3925">
           <folding />
         </state>
       </provider>
@@ -1480,13 +1503,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/emails/contact.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="33" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="400">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/adminlayout/master.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="3989" max-vertical-offset="4700">
@@ -1518,20 +1534,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/mail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="21" selection-start="515" selection-end="515" vertical-scroll-proportion="0.20718232" vertical-offset="275" max-vertical-offset="3250">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/ContactusController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="44" selection-start="1122" selection-end="1122" vertical-scroll-proportion="0.37983426" vertical-offset="1025" max-vertical-offset="3075">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="92" column="21" selection-start="5204" selection-end="5213" vertical-scroll-proportion="0.0" vertical-offset="1701" max-vertical-offset="2450">
@@ -1539,12 +1541,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_footer.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="118" column="39" selection-start="5478" selection-end="5478" vertical-scroll-proportion="0.5077356" vertical-offset="2589" max-vertical-offset="3925">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pages/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="8" selection-start="3901" selection-end="4069" vertical-scroll-proportion="0.42194092" vertical-offset="1950" max-vertical-offset="17475">
+        <state line="90" column="8" selection-start="3901" selection-end="4069" vertical-scroll-proportion="0.0" vertical-offset="2575" max-vertical-offset="17475">
           <folding>
             <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="95" column="26" selection-start="3166" selection-end="3166" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3250">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/contactus/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="75" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/ContactusController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="13" selection-start="812" selection-end="817" vertical-scroll-proportion="0.0" vertical-offset="825" max-vertical-offset="2925">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/emails/contact.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="22" selection-start="136" selection-end="136" vertical-scroll-proportion="0.2417127" vertical-offset="0" max-vertical-offset="724">
+          <folding />
         </state>
       </provider>
     </entry>

@@ -44,14 +44,8 @@ class ContactusController extends \BaseController {
         $subject = Input::get('subject');
         $data = array('description' =>Input::get('description'));
 
-        $toEmail = 'rayx.dev@gmail.com';
-        $toName = 'Shankar Giri';
-
-
-        Mail::send('emails.contact', $data, function($message) use ($toEmail, $toName, $fromEmail, $fromName, $subject)
+        Mail::send('emails.contact', $data, function($message) use ($fromEmail, $fromName, $subject)
         {
-            $message->to($toEmail, $toName);
-
             $message->from($fromEmail, $fromName);
 
             $message->subject($subject);

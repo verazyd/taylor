@@ -5,7 +5,6 @@
 </head>
 <body>
     <h4>Hello from taylor&Preston</h4>
-<div></div>
-<div>}</div>
+    {{ $message->$data }}
 </body>
 </html>
