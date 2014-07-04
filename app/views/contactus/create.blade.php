@@ -2,6 +2,11 @@
 @section('content')
 <div class="container" style="margin-top: 15%;margin-bottom: 10%;">
     <div class="row">
+        <?php
+        print("<pre>");
+        $xportlist = stream_get_transports();
+        print_r($xportlist);
+        ?>
         <div class="col-md-6">
             <h4>Receive a free case evaluation</h4>
             {{ Form::open(['method' => 'POST', 'route' => 'contactus.store']) }}
