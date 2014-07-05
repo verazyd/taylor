@@ -97,18 +97,14 @@ Route::get('search', ['as' => 'search', 'uses' => 'SearchController@index']);
 
 //Route::get('search', function(){
 //    $query = Request::get('query');
+////    DB::statement('CREATE VIEW victories_view_name AS SELECT id, topic, description, created_at, updated_at FROM victories');
 //    if($query)
 //    {
+//        $victories = DB::table('victories_view_name')->where('topic', 'LIKE', "%$query%");
+//        $blogs = DB::table('blogs_view')->where('topic', 'LIKE', "%$query%");
 //        $personal = DB::table('personals')->where('name', 'LIKE', "%$query%");
+//        $family = DB::table('families')->where('name', 'LIKE', "%$query%")->union($blogs)->union($victories)->union($personal)->first();
 //
-//        $family = DB::table('families')->where('name', 'LIKE', "%$query%")->union($personal)->get();
-//
-//        return $family->name;
-//
+//        dd($family);
 //    }
-//    else
-//    {
-//        return 'Sorry no data!';
-//    }
-//
 //});
