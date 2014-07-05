@@ -44,7 +44,7 @@
       <file leaf-file-name="SearchController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/SearchController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="136" selection-start="1036" selection-end="1036" vertical-scroll-proportion="0.59634316" vertical-offset="151" max-vertical-offset="875">
+            <state line="18" column="112" selection-start="721" selection-end="721" vertical-scroll-proportion="0.42053446" vertical-offset="151" max-vertical-offset="900">
               <folding />
             </state>
           </provider>
@@ -128,8 +128,8 @@
         <option value="$PROJECT_DIR$/app/views/families/index.blade.php" />
         <option value="$PROJECT_DIR$/app/views/layouts/partials/_header.blade.php" />
         <option value="$PROJECT_DIR$/app/routes.php" />
-        <option value="$PROJECT_DIR$/app/controllers/SearchController.php" />
         <option value="$PROJECT_DIR$/app/views/search/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/controllers/SearchController.php" />
       </list>
     </option>
   </component>
@@ -1386,7 +1386,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/SearchController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="136" selection-start="1036" selection-end="1036" vertical-scroll-proportion="0.59634316" vertical-offset="151" max-vertical-offset="875">
+        <state line="18" column="112" selection-start="721" selection-end="721" vertical-scroll-proportion="0.42053446" vertical-offset="151" max-vertical-offset="900">
           <folding />
         </state>
       </provider>
