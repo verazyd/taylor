@@ -3,7 +3,6 @@ Route::get('/', ['as' => 'home', 'uses' => 'PagesController@index']);
 //Route::get('/about', ['as' => 'about', 'uses' => 'PagesController@about']);
 Route::get('/contactus', ['as' => 'contactus', 'uses' => 'ContactusController@create']);
 Route::post('contactus.store', ['as' => 'contactus.store', 'uses' => 'ContactusController@store']);
-Route::get('/commonquestions', ['as' => 'commonquestions', 'uses' => 'PagesController@commonQuestions']);
 
 #Locations
 Route::resource('location', 'LocationsController');
@@ -71,6 +70,12 @@ Route::group(array('before' => 'admin'), function(){
     Route::post('allfamilyLaw.store', ['as' => 'allfamilyLaw.store', 'uses' => 'FamilylawsController@store']);
     Route::get('addallfamilyLaw/{id}/edit', 'FamilylawsController@edit');
     Route::resource('family', 'FamilylawsController');
+
+    Route::get('/common', ['as' => 'common', 'uses' => 'CommonquestionsController@index_admin']);
+    Route::get('/commonCreate', ['as' => 'commonCreate', 'uses' => 'CommonquestionsController@create']);
+    Route::post('commons.store', ['as' => 'commons.store', 'uses' => 'CommonquestionsController@store']);
+    Route::get('common/{id}/edit', 'CommonquestionsController@edit');
+    Route::resource('commons', 'CommonquestionsController');
 });
 
 Route::get('tags/{id}', 'TagsController@show');
@@ -94,6 +99,10 @@ Route::get('familyLaw/{id}', 'FamilylawsController@show');
 
 #Search
 Route::get('search', ['as' => 'search', 'uses' => 'SearchController@index']);
+
+#COMMONQUETIONS
+Route::get('/commonquestions', ['as' => 'commonquestions', 'uses' => 'CommonquestionsController@index']);
+
 
 //Route::get('search', function(){
 //    $query = Request::get('query');

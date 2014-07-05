@@ -1,9 +1,10 @@
 @extends('layouts.master')
 
 @section('content')
-<div class="container" style="margin-top: 175px; margin-bottom: 100px;">
+<div class="container" style="margin-top: 185px; margin-bottom: 100px;">
     @foreach($results as $result )
-    <a href="">{{ $result->name }}</a><br>
+    <strong>{{ $result->name }}</strong><br>
+    <p>{{ $result->description }}</p><br>
     @endforeach
 </div>
 @stop

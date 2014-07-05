@@ -55,7 +55,7 @@
                         <a href="">Our Blog</a>
                     </li>
                     <li>
-                        <a href="">Common Questions</a>
+                        <a href="{{ URL::to('commonquestions') }}">Common Questions</a>
                     </li>
                 </ul>
             </nav>
@@ -111,9 +111,9 @@
                 <li class="{{ set_active('commonquestions') }}">
                     <a href="{{URL::to('/commonquestions') }}">COMMON QUESTIONS</a>
                 </li>
-                <li><a href="#contact">KEYWORDS</a></li>
-                <li><a href="#contact">VIDEO CENTER</a></li>
-                <li><a href="#contact">TESTIMONIALS</a></li>
+                <li><a href="">KEYWORDS</a></li>
+                <li><a href="">VIDEO CENTER</a></li>
+                <li><a href="">TESTIMONIALS</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <p style="margin-top: 9%;">

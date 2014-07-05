@@ -128,7 +128,7 @@
 
                     <img src="./img/right2.png" style="width:21px;height:44px"></a>
 
-                <img src="./img/spacer-2.gif" style="border-width:0px;background-image:url('./img/process/s5k30s_i1xx.svg');" />
+                <img src="./img/spacer-2.gif" style="border-width:0px;background-image:url('../img/process/s5k30s_i1xx.svg');" />
 
                 <img data-bg-image="./img/process/uuwtdmzwk9t.png" src="./img/spacer-2.gif" style="border-width:0px;display:none;" />
 
@@ -148,7 +148,7 @@
                 <a class="nav right" href="javascript:void('Right');">
                     <img src="./img/right2.png" style="width:21px;height:44px"></a>
 
-                <img src="./img/shared/spacer-2.gif" style="border-width:0px;background-image:url('./img/process/73mloujkgzw.svg');" />
+                <img src="./img/shared/spacer-2.gif" style="border-width:0px;background-image:url('../img/process/73mloujkgzw.svg');" />
                 <img data-bg-image="img/process/0p_uzoez0yu.png" src="img/spacer-2.gif" style="border-width:0px;display:none;" />
 
                 <div class="AttyInfo">
@@ -165,7 +165,7 @@
                     <img src="img/left2.png" style="width:21px;height:44px"></a>
                 <a class="nav right" href="javascript:void('Right');">
                     <img src="img/right2.png" style="width:21px;height:44px"></a>
-                <img src="./img/spacer-2.gif" style="border-width:0px;background-image:url('./img/process/nxd63i37rjs.svg');"
+                <img src="./img/spacer-2.gif" style="border-width:0px;background-image:url('../img/process/nxd63i37rjs.svg');"
                 <img data-bg-image="./img/process/tbwy8d5odzn.png" src="./img//spacer-2.gif" style="border-width:0px;display:none;" />
 
                 <div class="AttyInfo">
@@ -182,7 +182,7 @@
                     <img src="img/left2.png" style="width:21px;height:44px"></a>
                 <a class="nav right" href="javascript:void('Right');">
                     <img src="img/right2.png" style="width:21px;height:44px"></a>
-                <img src="img/spacer-2.gif" style="border-width:0px;background-image:url('./img/process/6g5q27g6jjm.svg');" />
+                <img src="img/spacer-2.gif" style="border-width:0px;background-image:url('../img/process/6g5q27g6jjm.svg');" />
                 <img data-bg-image="./img/process/16csjzk079q.png" src="img/spacer-2.gif" style="border-width:0px;display:none;" />
 
                 <div class="AttyInfo">
@@ -199,7 +199,7 @@
                     <img src="img/left2.png" style="width:21px;height:44px"></a>
                 <a class="nav right" href="javascript:void('Right');">
                     <img src="img/right2.png" style="width:21px;height:44px"></a>
-                <img src="img/spacer-2.gif" style="border-width:0px;background-image:url('./img/process/ac6c5v0np2s.svg');" />
+                <img src="img/spacer-2.gif" style="border-width:0px;background-image:url('../img/process/ac6c5v0np2s.svg');" />
                 <img data-bg-image="./img/process/jrg5w8tvjsx.png" src="img/spacer-2.gif" style="border-width:0px;display:none;" />
 
                 <div class="AttyInfo">
@@ -216,7 +216,7 @@
                     <img src="img/left2.png" style="width:21px;height:44px"></a>
                 <a class="nav right" href="javascript:void('Right');">
                     <img src="img/right2.png" style="width:21px;height:44px"></a>
-                <img src="img/spacer-2.gif" style="border-width:0px;background-image:url('./img/process/byxj03k58z0.svg');" />
+                <img src="img/spacer-2.gif" style="border-width:0px;background-image:url('../img/process/byxj03k58z0.svg');" />
                 <img data-bg-image="./img/process/6n5lfxlmhyp.png" src="img/spacer-2.gif" style="border-width:0px;display:none;" />
 
                 <div class="AttyInfo">
@@ -236,7 +236,7 @@
         <ul class="cf">
             <li class="active left">
                 <a href=""">Personal Injury</a>
-                <div class="details" style="background-image:url(./img/Practice-Areas/personal_injury.jpg)">
+                <div class="details" style="background-image:url(../img/Practice-Areas/personal_injury.jpg)">
                     <div class="Icon">
                         <img src="./img/Practice-Areas/crutches-icon.png">
                     </div>
@@ -246,7 +246,7 @@
                 </div>
             </li><li class="right">
                 <a href="">Family Law</a>
-                <div class="details" style="background-image:url(./img/Practice-Areas/maritime_offshore.jpg)">
+                <div class="details" style="background-image:url(../img/Practice-Areas/maritime_offshore.jpg)">
                     <div class="Icon">
                         <img src="./img/Practice-Areas/maritime-icon.png">
                     </div>
@@ -256,7 +256,7 @@
                 </div>
             </li><li class=" left">
                 <a href="Practice-Areas/Trucking-Accidents.html">Crime Compensation</a>
-                <div class="details" style="background-image:url(./img/Practice-Areas/trucking.jpg)">
+                <div class="details" style="background-image:url(../img/Practice-Areas/trucking.jpg)">
                     <div class="Icon">
                         <img src="./img/Practice-Areas/truck-icon.png">
                     </div>
@@ -266,7 +266,7 @@
                 </div>
             </li><li class="right">
                 <a href="Practice-Areas/Oil-Rig-Explosions.html">Work Injury</a>
-                <div class="details" style="background-image:url(./img/Practice-Areas/oil_rig.jpg)">
+                <div class="details" style="background-image:url(../img/Practice-Areas/oil_rig.jpg)">
                     <div class="Icon">
                         <img src="images/Practice-Areas/oil-rig-icon.png">
                     </div>
@@ -276,7 +276,7 @@
                 </div>
             </li><li class=" left">
                 <a href="Practice-Areas/Industrial-Injury.html">Superanuation Cover</a>
-                <div class="details" style="background-image:url(./img/Practice-Areas/industrial.jpg)">
+                <div class="details" style="background-image:url(../img/Practice-Areas/industrial.jpg)">
                     <div class="Icon">
                         <img src="./img/Practice-Areas/industrial-icon.png">
                     </div>
@@ -286,7 +286,7 @@
                 </div>
             </li><li class="right">
                 <a href="Practice-Areas/Plant-Refinery-Accidents.html">Sexual & Instutional Abuse</a>
-                <div class="details" style="background-image:url(./img/Practice-Areas/plant_refinery.jpg)">
+                <div class="details" style="background-image:url(../img/Practice-Areas/plant_refinery.jpg)">
                     <div class="Icon">
                         <img src="./img/Practice-Areas/plant-icon.png">
                     </div>
@@ -296,7 +296,7 @@
                 </div>
             </li><li class=" left">
                 <a href="">Injury in public</a>
-                <div class="details" style="background-image:url(./img/Practice-Areas/pharmaceutical.jpg)">
+                <div class="details" style="background-image:url(../img/Practice-Areas/pharmaceutical.jpg)">
                     <div class="Icon">
                         <img src="./img/Practice-Areas/pills-icon.png">
                     </div>
@@ -306,7 +306,7 @@
                 </div>
             </li><li class="right">
                 <a href="">Crime and compensation</a>
-                <div class="details" style="background-image:url(./img/Practice-Areas/product_liability.jpg)">
+                <div class="details" style="background-image:url(../img/Practice-Areas/product_liability.jpg)">
                     <div class="Icon">
                         <img src="./img/Practice-Areas/product-icon.png">
                     </div>
@@ -316,7 +316,7 @@
                 </div>
             </li><li class=" left">
                 <a href="">Road Injury</a>
-                <div class="details" style="background-image:url(./img/Practice-Areas/railroad.jpg)">
+                <div class="details" style="background-image:url(../img/Practice-Areas/railroad.jpg)">
                     <div class="Icon">
                         <img src="./img/Practice-Areas/railroad-icon.png">
                     </div>
@@ -326,7 +326,7 @@
                 </div>
             </li><li class="right">
                 <a href="">Employment Law</a>
-                <div class="details" style="background-image:url(./img/Practice-Areas/catastrophic.jpg)">
+                <div class="details" style="background-image:url(../img/Practice-Areas/catastrophic.jpg)">
                     <div class="Icon">
                         <img src="./img/Practice-Areas/catastrophic-icon.png">
                     </div>
@@ -336,7 +336,7 @@
                 </div>
             </li><li class=" left">
                 <a href="">Motor Vehicle Accidents</a>
-                <div class="details" style="background-image:url(./img/Practice-Areas/motor_vehicle.jpg)">
+                <div class="details" style="background-image:url(../img/Practice-Areas/motor_vehicle.jpg)">
                     <div class="Icon">
                         <img src="./img/Practice-Areas/motor-vehicle-icon.png">
                     </div>
@@ -346,7 +346,7 @@
                 </div>
             </li><li class="right">
                 <a href="">TAC Claims</a>
-                <div class="details" style="background-image:url(./img/Practice-Areas/aviation.jpg)">
+                <div class="details" style="background-image:url(../img/Practice-Areas/aviation.jpg)">
                     <div class="Icon">
                         <img src="./img/Practice-Areas/aviation-icon.png">
                     </div>
@@ -356,7 +356,7 @@
                 </div>
             </li><li class=" left">
                 <a href="">Commercial Litigation</a>
-                <div class="details" style="background-image:url(./img/Practice-Areas/commercial.jpg)">
+                <div class="details" style="background-image:url(../img/Practice-Areas/commercial.jpg)">
                     <div class="Icon">
                         <img src="./img/Practice-Areas/commercial-icon.png">
                     </div>
@@ -366,7 +366,7 @@
                 </div>
             </li><li class="right">
                 <a href="">Insurance Claims</a>
-                <div class="details" style="background-image:url(./img/Practice-Areas/insurance_claims.jpg)">
+                <div class="details" style="background-image:url(../img/Practice-Areas/insurance_claims.jpg)">
                     <div class="Icon">
                         <img src="./img/Practice-Areas/insurance-claims-icon.png">
                     </div>
@@ -376,7 +376,7 @@
                 </div>
             </li><li class=" left">
                 <a href="">Property Contamination</a>
-                <div class="details" style="background-image:url(./img/Practice-Areas/property_contamination.jpg)">
+                <div class="details" style="background-image:url(../img/Practice-Areas/property_contamination.jpg)">
                     <div class="Icon">
                         <img src="./img/Practice-Areas/property-contamination-icon.png">
                     </div>
@@ -386,7 +386,7 @@
                 </div>
             </li><li class="right">
                 <a href="">Frequently Asked Questions</a>
-                <div class="details" style="background-image:url(./img/Practice-Areas/faq.jpg)">
+                <div class="details" style="background-image:url(../img/Practice-Areas/faq.jpg)">
                     <div class="Icon">
                         <img src="./img/Practice-Areas/faq-icon.png">
                     </div>
@@ -398,6 +398,7 @@
         </ul>
     </div>
 </div>
+
 
 <div class="icobalt ilayout cf BGScroll" id="TestZone">
     <div icobalt="CobaltControls.Controls.StaticContent" id="TestIEBG" class="IEBG">

@@ -122,7 +122,7 @@
                 </li>
                 <li class="dropdown {{ set_active('location*') }}">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                        <i class="fa fa-location-arrow fa"></i>&nbsp;OUR LOCATIONS <b class="caret"></b>
+                        <i class="fa fa-location-arrow fa"></i>&nbsp;MENU OPTIONS <b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu">
                         <li>
@@ -130,6 +130,12 @@
                         </li>
                         <li>
                             <a href="{{ URL::to('/add_location') }}">Add Location</a>
+                        </li>
+                        <li>
+                            <a href="{{ URL::to('/common') }}">View CommonQuetsions</a>
+                        </li>
+                        <li>
+                            <a href="{{ URL::to('/commonCreate') }}">Add CommonQuetsions</a>
                         </li>
                     </ul>
                 </li>
