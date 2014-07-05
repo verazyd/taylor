@@ -31,6 +31,10 @@
                 <i class="fa fa-envelope"></i>&nbsp;
                 Submit
             </button>
+    <!--        <div class="form-group">-->
+    <!--            <i class="fa fa-envelope"></i>-->
+    <!--            {{ Form::submit('Submit', ['class' => 'btn btn-primary']) }}-->
+    <!--        </div>-->
             {{ Form::close() }}
         </div>
         <div class="col-md-6">

@@ -15,7 +15,6 @@
         </div>
         <div class="col-md-8">
             <h3>Text Here</h3>
-
         </div>
     </div>
 </div>

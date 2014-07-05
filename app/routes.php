@@ -91,3 +91,24 @@ Route::get('personalInjury/{id}', 'PersonalinjuriesController@show');
 #Family Law
 Route::get('familyLaw', ['as' => 'familyLawo', 'uses' => 'FamilylawsController@index']);
 Route::get('familyLaw/{id}', 'FamilylawsController@show');
+
+#Search
+Route::get('search', ['as' => 'search', 'uses' => 'SearchController@index']);
+
+//Route::get('search', function(){
+//    $query = Request::get('query');
+//    if($query)
+//    {
+//        $personal = DB::table('personals')->where('name', 'LIKE', "%$query%");
+//
+//        $family = DB::table('families')->where('name', 'LIKE', "%$query%")->union($personal)->get();
+//
+//        return $family->name;
+//
+//    }
+//    else
+//    {
+//        return 'Sorry no data!';
+//    }
+//
+//});

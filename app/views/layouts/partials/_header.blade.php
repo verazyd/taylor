@@ -138,10 +138,9 @@
                     <a href="{{URL::to('/contactus') }}">CONTACT US</a>
                 </li>
             </ul>
-            <form class="navbar-form navbar-right" role="search">
-                <div class="form-group">
-                    <input type="text" class="form-control" placeholder="I'm looking for ...."></div>
-            </form>
+            {{ Form::open(['method' => 'GET', 'class' => 'navbar-form navbar-right', 'route' => 'search']) }}
+                {{ Form::input('search', 'query', null, ['class' => 'form-control', 'placeholder' => 'search...']) }}
+            {{ Form::close() }}
         </div>
         <!-- /.navbar-collapse -->
     </div>
