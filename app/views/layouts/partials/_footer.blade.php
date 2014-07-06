@@ -37,22 +37,22 @@
                 <h3>Quick Links</h3>
                 <ul>
                     <li>
-                        <a href="" target="">Family Law</a>
+                        <a href="{{URL::to('familyLaw') }}" target="">Family Law</a>
                     </li>
                     <li>
-                        <a href="" >Personal Injury</a>
+                        <a href="{{ URL::to('/personalInjury') }}" >Personal Injury</a>
                     </li>
                     <li>
                         <a href="">Practice Areas</a>
                     </li>
                     <li>
-                        <a href="">Our Locations</a>
+                        <a href="{{URL::to('/location')}}">Our Locations</a>
                     </li>
                     <li>
-                        <a href="">Our Victories</a>
+                        <a href="{{URL::to('/victories') }}">Our Victories</a>
                     </li>
                     <li>
-                        <a href="">Our Blog</a>
+                        <a href="{{URL::to('/allblogs') }}">Our Blog</a>
                     </li>
                     <li>
                         <a href="{{ URL::to('commonquestions') }}">Common Questions</a>
@@ -63,10 +63,10 @@
                 <h3>Legal Network</h3>
                 <ul>
                     <li>
-                        <a href="">Personal Injury</a>
+                        <a href="{{ URL::to('/personalInjury') }}">Personal Injury</a>
                     </li>
                     <li>
-                        <a href="" >Family Law</a>
+                        <a href="{{URL::to('familyLaw') }}" >Family Law</a>
                     </li>
                     <li>
                         <a href="" >Criminal Law</a>
