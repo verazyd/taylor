@@ -90,7 +90,7 @@
         <div class="col-md-4">
             {{HTML::image('/img/hexagonal_image.png', $alt = 'Taylor&Preston',
             $attributes = array('class' => 'center-block img-responsive',  'width' => '100%')) }}
-            <p style="position: absolute;top: 30%;text-align: center; width: 80%; left: 10%;">
+            <p style="position: absolute;top: 27%;text-align: center; width: 80%; left: 10%;">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aperiam, dolore dolores ex illum itaque minima minus nobis odit pariatur quaerat quibusdam recusandae repellat repudiandae saepe? Ducimus excepturi expedita quos?
             </p>
         </div>
@@ -232,7 +232,7 @@
     </div>
 </div>
 <div class="icobalt ilayout cf LBlue" id="PAZone"><div icobalt="CobaltControls.Controls.DisplayList" id="HomePracticeAreas" class="PracticeList main" name="HomePracticeAreas">
-        <h1>Our Practice Areas</h1>
+        <h1><a href="practice_areas">Our Practice Areas</a></h1>
         <ul class="cf">
             <li class="active left">
                 <a href=""">Personal Injury</a>
@@ -294,17 +294,19 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, aliquid, aut blanditiis illum ipsa iste magni minus neque odio officiis optio quae repellendus ut vitae voluptas? Error laudantium, unde. Facilis.</p>
                     <a href=""">Learn More</a>
                 </div>
-            </li><li class=" left">
-                <a href="">Injury in public</a>
+            </li>
+            <li class=" left">
+                <a href="">Same Sex Relationship</a>
                 <div class="details" style="background-image:url(./img/Practice-Areas/pharmaceutical.jpg)">
                     <div class="Icon">
                         <img src="./img/Practice-Areas/pills-icon.png">
                     </div>
-                    <h2>Injury in public</h2>
+                    <h2>Same Sex Relationship</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, aliquid, aut blanditiis illum ipsa iste magni minus neque odio officiis optio quae repellendus ut vitae voluptas? Error laudantium, unde. Facilis.</p>
                     <a href="">Learn More</a>
                 </div>
-            </li><li class="right">
+            </li>
+            <li class="right">
                 <a href="">Crime and compensation</a>
                 <div class="details" style="background-image:url(./img/Practice-Areas/product_liability.jpg)">
                     <div class="Icon">
@@ -315,12 +317,12 @@
                     <a href="">Learn More</a>
                 </div>
             </li><li class=" left">
-                <a href="">Road Injury</a>
+                <a href="">Hague Convention</a>
                 <div class="details" style="background-image:url(./img/Practice-Areas/railroad.jpg)">
                     <div class="Icon">
                         <img src="./img/Practice-Areas/railroad-icon.png">
                     </div>
-                    <h2>Road Injury</h2>
+                    <h2>Hague Convention</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, aliquid, aut blanditiis illum ipsa iste magni minus neque odio officiis optio quae repellendus ut vitae voluptas? Error laudantium, unde. Facilis.</p>
                     <a href="">Learn More</a>
                 </div>
@@ -335,12 +337,12 @@
                     <a href="">Learn More</a>
                 </div>
             </li><li class=" left">
-                <a href="">Motor Vehicle Accidents</a>
+                <a href="">Divorce</a>
                 <div class="details" style="background-image:url(./img/Practice-Areas/motor_vehicle.jpg)">
                     <div class="Icon">
                         <img src="./img/Practice-Areas/motor-vehicle-icon.png">
                     </div>
-                    <h2>Motor Vehicle Accidents</h2>
+                    <h2>Divorce</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, aliquid, aut blanditiis illum ipsa iste magni minus neque odio officiis optio quae repellendus ut vitae voluptas? Error laudantium, unde. Facilis.</p>
                     <a href="">Learn More</a>
                 </div>

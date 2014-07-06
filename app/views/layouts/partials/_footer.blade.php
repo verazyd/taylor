@@ -42,9 +42,9 @@
                     <li>
                         <a href="{{ URL::to('/personalInjury') }}" >Personal Injury</a>
                     </li>
-                    <li>
-                        <a href="">Practice Areas</a>
-                    </li>
+<!--                    <li>-->
+<!--                        <a href="#practice_areas">Practice Areas</a>-->
+<!--                    </li>-->
                     <li>
                         <a href="{{URL::to('/location')}}">Our Locations</a>
                     </li>
@@ -77,9 +77,9 @@
                     <li>
                         <a href="" >TAC Claims</a>
                     </li>
-                    <li>
-                        <a href="" >Superannuation Claim</a>
-                    </li>
+<!--                    <li>-->
+<!--                        <a href="" >Superannuation Claim</a>-->
+<!--                    </li>-->
                     <li>
                         <a href="">Work Injury</a>
                     </li>
