@@ -11,8 +11,8 @@ class PagesController extends \BaseController {
 	public function index()
 	{
         $images = Post::where('is_carasaul', '=', 1)->get();
-
-		return View::make('pages.index', compact('images'));
+        $testimonials = Testimonial::orderBy('created_at', 'DESC')->limit(1)->get();
+		return View::make('pages.index', compact('images', 'testimonials'));
 	}
     public function about()
     {

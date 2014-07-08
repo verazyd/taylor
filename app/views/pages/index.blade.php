@@ -7,7 +7,6 @@
         position: fixed;
     }
 </style>
-
 <script type="text/javascript">
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -60,7 +59,7 @@
                 <div class="carousel-caption">
                     <h1>{{ $image->title }}</h1>
                     <p class="lead">Lorem ipsum dolor sit amet, aliquid architecto corporis dolorem,m temporibusloremque, fugit mollitia tenetur.</p>
-                    <a class="btn btn-large btn-primary" href="#">Lear more</a>
+                    <a class="btn btn-large btn-primary" href="#">Learn More [+]</a>
                 </div>
             </div>
 
@@ -407,7 +406,15 @@
     </div>
     <div icobalt="CobaltControls.Controls.StaticContent" class="main" id="HomeTestimonial">
         <h2>What Our Clients Are Saying About Us</h2>
-        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad animi beatae corporis" <span>- Client From Melbourne</span></p>
+        @foreach($testimonials as $testimonial)
+        <p>"{{ $testimonial->description }}"
+            <span>--
+                 {{ $testimonial->name }} From {{$testimonial->location }}
+            </span>
+            &nbsp{{$testimonial->created_at->format('l jS F Y') }}
+           </p>
+        <a class="btn btn-large btn-success" href="{{ URL::to('testimonials') }}">Learn more</a>
+        @endforeach
     </div>
 </div>
 </main>

@@ -4,10 +4,10 @@
 <table class="table table-stripped table-bordered">
     <thead>
     <tr>
-        <td>Name:</td>
-        <td>Location:</td>
-        <td>Description:</td>
-        <td style="width: 13%;">Actions</td>
+        <td>CLIENT:</td>
+        <td>LOCATION:</td>
+        <td>TESTIMONIAL:</td>
+        <td style="width: 13%;">ACTIONS</td>
     </tr>
     </thead>
     <tbody>

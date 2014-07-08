@@ -106,7 +106,7 @@
                     <a href="{{URL::to('/')}}">HOME</a>
                 </li>
                 <li class="">
-                    <a href="">ABOUT</a>
+                    <a href="">LEGAL TEAM</a>
                 </li>
                 <li class="{{ set_active('commonquestions') }}">
                     <a href="{{URL::to('/commonquestions') }}">COMMON QUESTIONS</a>
