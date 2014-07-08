@@ -1,4 +1,3 @@
-
 <div class="icobalt ilayout" id="SideStickyZone">
     <div icobalt="CobaltControls.Controls.StaticContent" id="StickyBtns">
         <div class="CContainer">
@@ -9,7 +8,7 @@
                     <h2>How Can We Help?</h2>
                     <h3>Confidential Consultation</h3>
                 </header>
-                <input name="SlideForm$ctl01$Name" type="text" value="Name:" maxlength="128" id="SlideForm_ctl01_Name" class="Name" />
+                <input name="SlideForm$ctl01$Name" type="text" value="Name:" maxlength="128" id="SlideForm_ctl01_Name" class="Name" required="required"/>
                 <span id="SlideForm_ctl01_ctl00" class="validator" style="display:none;"></span>
                 <span id="SlideForm_ctl01_ctl01" class="validator" style="display:none;"></span>
                 <input name="SlideForm$ctl01$EmailAddress" type="text" value="Email:" maxlength="128" id="SlideForm_ctl01_EmailAddress" class="Email" />
@@ -34,4 +33,3 @@
 
     </div>
 </div>
-

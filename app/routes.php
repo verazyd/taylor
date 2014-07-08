@@ -1,6 +1,6 @@
 <?php
 Route::get('/', ['as' => 'home', 'uses' => 'PagesController@index']);
-//Route::get('/about', ['as' => 'about', 'uses' => 'PagesController@about']);
+Route::get('/ourStaff', ['as' => 'about', 'uses' => 'PagesController@our_staff']);
 Route::get('/contactus', ['as' => 'contactus', 'uses' => 'ContactusController@create']);
 Route::post('contactus.store', ['as' => 'contactus.store', 'uses' => 'ContactusController@store']);
 

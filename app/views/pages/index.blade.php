@@ -137,7 +137,7 @@
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt velit eaque, pariatur saepe voluptatem aut magnam minima ab sequi facilis! Reiciendis labore, pariatur numquam blanditiis praesentium autem molestias. Aliquam, reprehenderit. ...
                     </p>
-                    <a href=""">Learn More [+]</a>
+                    <a href="{{ URL::to('ourStaff') }}">Learn More [+]</a>
                 </div>
             </li>
             <li class="Info2">
@@ -156,7 +156,7 @@
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus tempore officiis tenetur, harum commodi eaque quibusdam voluptas ea maiores porro repudiandae voluptatum minima corporis, reiciendis ipsam at ab, ipsum impedit. ...
                     </p>
-                    <a href="">Learn More [+]</a>
+                    <a href="{{ URL::to('ourStaff') }}">Learn More [+]</a>
                 </div>
             </li>
             <li class="Info3">
@@ -173,7 +173,7 @@
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quod pariatur fugiat blanditiis, earum nisi neque quidem voluptas accusantium libero voluptatem vero praesentium unde ad ducimus illo hic quas modi....
                     </p>
-                    <a href="">Learn More [+]</a>
+                    <a href="{{ URL::to('ourStaff') }}">Learn More [+]</a>
                 </div>
             </li>
             <li class="Info4">
@@ -190,7 +190,7 @@
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, quo, minima! Veritatis voluptate, tempore, reiciendis maiores quibusdam numquam tempora harum minima dolor nobis libero commodi odit facilis, recusandae voluptates. Dicta! ...
                     </p>
-                    <a href="">Learn More [+]</a>
+                    <a href="{{ URL::to('ourStaff') }}">Learn More [+]</a>
                 </div>
             </li>
             <li class="Info5">
@@ -207,7 +207,7 @@
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum aliquid illo ipsam laudantium modi hic incidunt sequi inventore. Voluptatum deserunt dolores libero, est molestiae iusto pariatur aperiam voluptates sapiente eius....
                     </p>
-                    <a href="">Learn More [+]</a>
+                    <a href="{{ URL::to('ourStaff') }}">Learn More [+]</a>
                 </div>
             </li>s
             <li class="Info6">
@@ -224,7 +224,7 @@
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione ipsum sunt dolorem aliquid id quo quis, architecto praesentium maxime, ipsa aliquam voluptatibus, natus nostrum magni corporis possimus earum fuga dignissimos. ...
                     </p>
-                    <a href="">Learn More [+]</a>
+                    <a href="{{ URL::to('ourStaff') }}">Learn More [+]</a>
                 </div>
             </li>
         </ul>
@@ -234,7 +234,7 @@
         <h1><a href="practice_areas">Our Practice Areas</a></h1>
         <ul class="cf">
             <li class="active left">
-                <a href=""">Personal Injury</a>
+                <a href="{{ URL::to('personalInjury') }}">Personal Injury</a>
                 <div class="details" style="background-image:url(./img/Practice-Areas/personal_injury.jpg)">
                     <div class="Icon">
                         <img src="./img/Practice-Areas/crutches-icon.png">
@@ -244,7 +244,7 @@
                     <a href="">Learn More</a>
                 </div>
             </li><li class="right">
-                <a href="">Family Law</a>
+                <a href="{{ URL::to('familyLaw') }}">Family Law</a>
                 <div class="details" style="background-image:url(./img/Practice-Areas/maritime_offshore.jpg)">
                     <div class="Icon">
                         <img src="./img/Practice-Areas/maritime-icon.png">
@@ -417,6 +417,7 @@
         @endforeach
     </div>
 </div>
+
 </main>
 </form>
 

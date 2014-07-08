@@ -13,7 +13,7 @@ class SearchController extends \BaseController {
         if($query)
         {
             $victories = DB::table('victories_view_name')->where('topic', 'LIKE', "%$query%");
-            $testimonials = DB::table('testimonials_view')->where('name', 'LIKE', "%$query");
+            $testimonials = DB::table('testimonials_view')->where('name', 'LIKE', "%$query%");
             $blogs = DB::table('blogs_view')->where('topic', 'LIKE', "%$query%");
             $personal = DB::table('personals')->where('name', 'LIKE', "%$query%");
             $results = DB::table('families')->where('name', 'LIKE', "%$query%")->union($blogs)->union($testimonials)->union($victories)->union($personal)->get();

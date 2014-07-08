@@ -14,9 +14,9 @@ class PagesController extends \BaseController {
         $testimonials = Testimonial::orderBy('created_at', 'DESC')->limit(1)->get();
 		return View::make('pages.index', compact('images', 'testimonials'));
 	}
-    public function about()
+    public function our_staff()
     {
-        return View::make('pages.about');
+        return View::make('pages.ourstaff');
     }
     public function commonQuestions()
     {
