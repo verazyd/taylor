@@ -445,6 +445,9 @@ textarea {
     .carousel-caption .btn {
         font-size: 18px;
     }
+    .container{
+        margin-top: 32%;
+    }
 
 
     /*responsive for header*/

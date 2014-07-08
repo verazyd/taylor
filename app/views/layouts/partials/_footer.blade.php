@@ -105,15 +105,17 @@
                 <li class="{{ set_active('/') }}">
                     <a href="{{URL::to('/')}}">HOME</a>
                 </li>
-                <li class="{{ set_active('/about') }}">
-                    <a href="{{URL::to('/about') }}">ABOUT</a>
+                <li class="">
+                    <a href="">ABOUT</a>
                 </li>
                 <li class="{{ set_active('commonquestions') }}">
                     <a href="{{URL::to('/commonquestions') }}">COMMON QUESTIONS</a>
                 </li>
                 <li><a href="">KEYWORDS</a></li>
                 <li><a href="">VIDEO CENTER</a></li>
-                <li><a href="">TESTIMONIALS</a></li>
+                <li class="{{ set_active('testimonials') }}">
+                    <a href="{{ URL::to('testimonials') }}">TESTIMONIALS</a>
+                </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <p style="margin-top: 9%;">

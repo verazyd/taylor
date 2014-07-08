@@ -7,7 +7,7 @@
     <tr>
         <td>Topic</td>
         <td>Description</td>
-        <td>Actions</td>
+        <td style="width: 13%;">Actions</td>
     </tr>
     </thead>
     <tbody>

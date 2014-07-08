@@ -16,7 +16,7 @@ class VictoriesController extends \BaseController {
 
     public function index_admin()
     {
-        $victories = Victory::all();
+        $victories = Victory::orderBy('is_published', 'DESC')->get();
         return View::make('victories.admin_index', compact('victories'));
     }
 	/**

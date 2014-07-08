@@ -109,6 +109,46 @@
                 </li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <i class="fa fa-users"></i>&nbsp;Menu Options<b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-submenu">
+                            <a tabindex="-1" href="#">Locations</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a tabindex="-1" href="{{ URL::to('/add_location') }}">Add Location</a>
+                                </li>
+                                <li>
+                                    <a tabindex="-1" href="{{ URL::to('/alllocations') }}">View Locations</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a tabindex="-1" href="#">Common Quetsions</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a tabindex="-1" href="{{ URL::to('/commonCreate') }}">Add Common Quetion</a>
+                                </li>
+                                <li>
+                                    <a tabindex="-1" href="{{ URL::to('/common') }}">View All Common Quetions</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a tabindex="-1" href="#">Testimonials</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a tabindex="-1" href="{{ URL::to('createTestimonial') }}">Add Testimonial</a>
+                                </li>
+                                <li>
+                                    <a tabindex="-1" href="{{ URL::to('allTestimonials') }}">View All Testimonials</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                         <i class="fa fa-gavel"></i>&nbsp;OUR VICTORIES <b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu">
@@ -117,25 +157,6 @@
                         </li>
                         <li>
                             <a href="{{URL::to('addVictory') }}">Add Recent Victory</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="dropdown {{ set_active('location*') }}">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                        <i class="fa fa-location-arrow fa"></i>&nbsp;MENU OPTIONS <b class="caret"></b>
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li>
-                            <a href="{{ URL::to('/alllocations') }}">View Locations</a>
-                        </li>
-                        <li>
-                            <a href="{{ URL::to('/add_location') }}">Add Location</a>
-                        </li>
-                        <li>
-                            <a href="{{ URL::to('/common') }}">View CommonQuetsions</a>
-                        </li>
-                        <li>
-                            <a href="{{ URL::to('/commonCreate') }}">Add CommonQuetsions</a>
                         </li>
                     </ul>
                 </li>

@@ -9,7 +9,7 @@
             <td>Topic</td>
             <td>Description</td>
             <td>Publish</td>
-            <td>Actions</td>
+            <td style="width: 13%;">Actions</td>
         </tr>
         </thead>
     <tbody>
@@ -27,7 +27,7 @@
                 <?php endif ?>
             </td>
             <td>
-                <a class="btn btn-small btn-info pull-right" href="{{ ('blogs/'.$blog->id.'/edit') }}"> Edit </a>
+                <a class="btn btn-small btn-info" href="{{ ('blogs/'.$blog->id.'/edit') }}"> Edit </a>
                 {{ Form::open(array('url' => 'blog/' . $blog->id, 'class' => 'pull-right')) }}
                 {{ Form::hidden('_method', 'DELETE') }}
                 {{ Form::submit('Delete', array('class' => 'btn btn-danger')) }}

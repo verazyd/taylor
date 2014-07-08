@@ -246,7 +246,7 @@
                 </div>
             </li><li class="right">
                 <a href="">Family Law</a>
-                <div class="details" style="background-image:url(../img/Practice-Areas/maritime_offshore.jpg)">
+                <div class="details" style="background-image:url(./img/Practice-Areas/maritime_offshore.jpg)">
                     <div class="Icon">
                         <img src="./img/Practice-Areas/maritime-icon.png">
                     </div>

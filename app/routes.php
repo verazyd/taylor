@@ -76,6 +76,12 @@ Route::group(array('before' => 'admin'), function(){
     Route::post('commons.store', ['as' => 'commons.store', 'uses' => 'CommonquestionsController@store']);
     Route::get('common/{id}/edit', 'CommonquestionsController@edit');
     Route::resource('commons', 'CommonquestionsController');
+
+    Route::get('allTestimonials', ['as' => 'assTestimonials', 'uses' => 'TestimonialsController@admin_index']);
+    Route::get('/createTestimonial', ['as' => 'createTestimonial', 'uses' => 'TestimonialsController@create']);
+    Route::post('testimonials.store', ['as' => 'testimonials.store', 'uses' => 'TestimonialsController@store']);
+    Route::get('testimonial/{id}/edit', 'TestimonialsController@edit');
+    Route::resource('testimonials', 'TestimonialsController');
 });
 
 Route::get('tags/{id}', 'TagsController@show');
@@ -103,6 +109,8 @@ Route::get('search', ['as' => 'search', 'uses' => 'SearchController@index']);
 #COMMONQUETIONS
 Route::get('/commonquestions', ['as' => 'commonquestions', 'uses' => 'CommonquestionsController@index']);
 
+#Testimonials
+Route::get('testimonials', ['as' => 'testimonials', 'uses' => 'TestimonialsController@index']);
 
 //Route::get('search', function(){
 //    $query = Request::get('query');

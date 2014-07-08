@@ -2,6 +2,7 @@
 
 @section('content')
 <div class="container">
+    <h3>All the victories with recent on the top! Select "Publish" to publish them to users:</h3>
     <table class="table table-stripped table-bordered">
         <thead>
         <tr>
