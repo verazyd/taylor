@@ -16,7 +16,7 @@ class SearchController extends \BaseController {
             $personal = DB::table('personals')->where('name', 'LIKE', "%$query%");
             $results = DB::table('families')->where('name', 'LIKE', "%$query%")->union($blogs)->union($victories)->union($personal)->get();
 
-            return View::make('search.index', compact('results'));
+            return View::make('search.index', compact('results', 'query'));
         }
     }
 
