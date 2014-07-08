@@ -62,7 +62,8 @@ class FamilylawsController extends \BaseController {
 	 */
 	public function show($id)
 	{
-		//
+        $service = Family::find($id);
+        return View::make('personals.show', compact('service'));
 	}
 
 	/**
