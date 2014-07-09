@@ -21,6 +21,9 @@
         font-size: 20px;
         background: #000000;
     }
+    #TestZone{
+        padding: 15px 0px;
+    }
 
 </style>
     <div class="container" style="margin-top: 15%;margin-bottom: 10%;">
@@ -32,13 +35,11 @@
         <div class="row">
             <div class="col-md-12 recent_victory">
                 <div class="icobalt ilayout cf BGScroll" id="TestZone">
-                    <div icobalt="CobaltControls.Controls.StaticContent" id="TestIEBG" class="IEBG">
-                    </div>
                     <div icobalt="CobaltControls.Controls.StaticContent" class="main" id="HomeTestimonial">
                         <h2>Our Victories</h2>
                         <p>"Lorem ipsum dolor sit amet, consect expedita impedit ipsa libero non obcaecati officiis perspiciatis quae ratione?"
-                             <span>If you would like to learn more about how we can help with your case,
-                                 please give us a call at &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong style="font-size: 48px; text-align: center">800-633-625</strong></span>
+                             <span style="text-transform: lowercase">If you would like to learn more about how we can help with your case,<br>
+                                 please give us a call at &nbsp;<strong style="font-size: 28px; text-align: center">800-633-625</strong></span>
                         </p>
                     </div>
                 </div>
