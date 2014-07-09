@@ -230,7 +230,8 @@
         </ul>
     </div>
 </div>
-<div class="icobalt ilayout cf LBlue" id="PAZone"><div icobalt="CobaltControls.Controls.DisplayList" id="HomePracticeAreas" class="PracticeList main" name="HomePracticeAreas">
+<div class="icobalt ilayout cf LBlue" id="PAZone">
+    <div icobalt="CobaltControls.Controls.DisplayList" id="HomePracticeAreas" class="PracticeList main" name="HomePracticeAreas">
         <h1><a href="practice_areas">Our Practice Areas</a></h1>
         <ul class="cf">
             <li class="active left">
@@ -243,7 +244,8 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, aliquid, aut blanditiis illum ipsa iste magni minus neque odio officiis optio quae repellendus ut vitae voluptas? Error laudantium, unde. Facilis.</p>
                     <a href="">Learn More</a>
                 </div>
-            </li><li class="right">
+            </li>
+            <li class="right">
                 <a href="{{ URL::to('familyLaw') }}">Family Law</a>
                 <div class="details" style="background-image:url(./img/Practice-Areas/maritime_offshore.jpg)">
                     <div class="Icon">

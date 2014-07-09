@@ -16,7 +16,9 @@ class PagesController extends \BaseController {
 	}
     public function our_staff()
     {
-        return View::make('pages.ourstaff');
+        $personals = Personal::all();
+        $victories = Victory::orderBy('created_at', 'DESC')->limit(7)->get();
+        return View::make('pages.ourstaff', compact('personals', 'victories'));
     }
     public function commonQuestions()
     {
