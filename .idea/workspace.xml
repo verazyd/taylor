@@ -35,7 +35,7 @@
       <file leaf-file-name="ourstaff.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/pages/ourstaff.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="40" selection-start="3040" selection-end="3040" vertical-scroll-proportion="0.5077356" vertical-offset="1864" max-vertical-offset="4025">
+            <state line="60" column="17" selection-start="1579" selection-end="1579" vertical-scroll-proportion="0.43741208" vertical-offset="1189" max-vertical-offset="3975">
               <folding>
                 <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -1654,7 +1654,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pages/ourstaff.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="40" selection-start="3040" selection-end="3040" vertical-scroll-proportion="0.5077356" vertical-offset="1864" max-vertical-offset="4025">
+        <state line="60" column="17" selection-start="1579" selection-end="1579" vertical-scroll-proportion="0.43741208" vertical-offset="1189" max-vertical-offset="3975">
           <folding>
             <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
