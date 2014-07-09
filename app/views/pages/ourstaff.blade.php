@@ -88,7 +88,28 @@
                 <li>
                     <div class="col-md-4 lawyers_img">
                         <a href="">
-                            <img src="./img/customer.jpeg" alt="" width="176" height="176"/></a>
+                            <img src="../img/customer.jpeg" alt="" width="176" height="176"/></a>
+                        <span>Lawyer 1</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="col-md-4 lawyers_img">
+                        <a href="">
+                            <img src="../img/customer.jpeg" alt="" width="176" height="176"/></a>
+                        <span>Lawyer 1</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="col-md-4 lawyers_img">
+                        <a href="">
+                            <img src="../img/customer.jpeg" alt="" width="176" height="176"/></a>
+                        <span>Lawyer 1</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="col-md-4 lawyers_img">
+                        <a href="">
+                            <img src="../img/customer.jpeg" alt="" width="176" height="176"/></a>
                         <span>Lawyer 1</span>
                     </div>
                 </li>
@@ -102,28 +123,7 @@
                 <li>
                     <div class="col-md-4 lawyers_img">
                         <a href="">
-                            <img src="./img/customer.jpeg" alt="" width="176" height="176"/></a>
-                        <span>Lawyer 1</span>
-                    </div>
-                </li>
-                <li>
-                    <div class="col-md-4 lawyers_img">
-                        <a href="">
-                            <img src="./img/customer.jpeg" alt="" width="176" height="176"/></a>
-                        <span>Lawyer 1</span>
-                    </div>
-                </li>
-                <li>
-                    <div class="col-md-4 lawyers_img">
-                        <a href="">
-                            <img src="./img/customer.jpeg" alt="" width="176" height="176"/></a>
-                        <span>Lawyer 1</span>
-                    </div>
-                </li>
-                <li>
-                    <div class="col-md-4 lawyers_img">
-                        <a href="">
-                            <img src="./img/customer.jpeg" alt="" width="176" height="176"/></a>
+                            <img src="../img/customer.jpeg" alt="" width="176" height="176"/></a>
                         <span>Lawyer 1</span>
                     </div>
                 </li>
