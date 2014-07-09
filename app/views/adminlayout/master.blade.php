@@ -161,8 +161,21 @@
                                 </li>
                             </ul>
                         </li>
+                        <li class="divider"></li>
+                        <li class="dropdown-submenu">
+                            <a tabindex="-1" href="#">Videos</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a tabindex="-1" href="{{ URL::to('createVideo') }}">Add Video</a>
+                                </li>
+                                <li>
+                                    <a tabindex="-1" href="{{ URL::to('videos') }}">View All Videos</a>
+                                </li>
+                            </ul>
+                        </li>
                     </ul>
                 </li>
+
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                         <i class="fa fa-gavel"></i>&nbsp;OUR VICTORIES <b class="caret"></b>

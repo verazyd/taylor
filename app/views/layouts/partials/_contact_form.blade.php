@@ -11,7 +11,7 @@
         </div>
     </div>
     <div class="col-md-6">
-        <form class="form" style="padding-top: 15px; padding-left: 25%;" >
+        <form class="form" style="padding-top: 15px; padding-left: 25%;">
             <div class="com-md-6" style="float: left;">
                 <div class="name">
                     <label class="sr-only" >Name*:</label>
@@ -23,7 +23,7 @@
                 </div>
                 <div class="phone">
                     <label class="sr-only" >Phone*</label>
-                    <input type="text" class="input_phone"  placeholder="Phone" required="required">
+                    <input type="tel" class="input_phone"  placeholder="Phone" required="required">
                 </div>
             </div>
             <div class="col-md-6 pull-left"  style="float: right; padding-bottom: 15px;">

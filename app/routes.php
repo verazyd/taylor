@@ -82,6 +82,11 @@ Route::group(array('before' => 'admin'), function(){
     Route::post('testimonials.store', ['as' => 'testimonials.store', 'uses' => 'TestimonialsController@store']);
     Route::get('testimonial/{id}/edit', 'TestimonialsController@edit');
     Route::resource('testimonials', 'TestimonialsController');
+
+    Route::get('createVideo', ['as' => 'createVideo', 'uses' => 'VideosController@create']);
+    Route::get('videos', ['as' => 'videos', 'uses' => 'VideosController@index']);
+    Route::post('video.store', ['as' => 'video.store', 'uses' => 'VideosController@store']);
+    Route::resource('videos', 'VideosController');
 });
 
 Route::get('tags/{id}', 'TagsController@show');
@@ -111,6 +116,9 @@ Route::get('/commonquestions', ['as' => 'commonquestions', 'uses' => 'Commonques
 
 #Testimonials
 Route::get('testimonials', ['as' => 'testimonials', 'uses' => 'TestimonialsController@index']);
+
+#Videos
+Route::get('allVideos', ['as' => 'allVideos', 'uses' => 'VideosController@index_users']);
 
 //Route::get('search', function(){
 //    $query = Request::get('query');

@@ -112,7 +112,9 @@
                     <a href="{{URL::to('/commonquestions') }}">COMMON QUESTIONS</a>
                 </li>
                 <li><a href="">KEYWORDS</a></li>
-                <li><a href="">VIDEO CENTER</a></li>
+                <li class="{{ set_active('allVideos') }}">
+                    <a href="{{URL::to('allVideos') }}">VIDEO CENTER</a>
+                </li>
                 <li class="{{ set_active('testimonials') }}">
                     <a href="{{ URL::to('testimonials') }}">TESTIMONIALS</a>
                 </li>
