@@ -1,8 +1,7 @@
 
-<footer id="Footer" style="margin: 10px 5px 45px 5px;">
+<footer id="Footer" style="margin-bottom: 2%">
     <div class="icobalt ilayout cf BGScroll" id="FooterTop"><div icobalt="CobaltControls.Controls.StaticContent" id="FootIEBG" class="IEBG">
         </div>
-
         <div icobalt="CobaltControls.Controls.StaticContent" id="BottomInfo" class="main">
             <div class="third">
                 <h3>Office Location</h3>

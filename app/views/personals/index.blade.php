@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('content')
-<div class="container" style="margin-top: 175px;">
+<div class="container">
     <div class="row clearfix">
     <div class="col-md-4">
         <h3>Services:</h3>

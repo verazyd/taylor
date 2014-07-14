@@ -66,7 +66,7 @@
     }
 
 </style>
-<div class="container" style="margin-top: 15%;margin-bottom: 10%;">
+<div class="container" style="margin-bottom: 10%;">
     <div class="row">
         {{HTML::image('/img/our_vic.jpeg', $alt = 'Taylor&Preston',
         $attributes = array('class' => 'center-block img-responsive',  'width' => '100%')) }}
@@ -75,7 +75,7 @@
     <div class="row">
         <div class="col-md-8 meet_out_attorneys_page">
             <div class="col-md-12 meet_attorney_section">
-                <h1>Attorneys at Taylor&Preston</h1>
+                <h3>Attorneys at Taylor&Preston</h3>
                     <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto blanditiis, cum deleniti deserunt eligendi ipsam itaque, omnis possimus praesentium quam, quia quidem rerum saepe sit vitae voluptate voluptatum. Consequatur, itaque.
                                      <span>If you would like to learn more about how we can help with your case,
                                          please give us a call at<strong>&nbsp;&nbsp;800-633-625</strong></span>"
@@ -129,7 +129,7 @@
             </ul>
         </div>
         <div class="col-md-4 personal_injury">
-           <h2>Personal Injury Services</h2>
+           <h3>Personal Injury Services</h3>
             <h5>Information Center</h5>
             <div class="btn-group btn-group-justified">
                 <div class="btn-group">
@@ -138,7 +138,7 @@
                     @endforeach
                 </div>
             </div>
-            <h2>Our Recent Victories</h2>
+            <h3>Our Recent Victories</h3>
             <h5>Information Center</h5>
             <div class="btn-group btn-group-justified">
                 <div class="btn-group">

@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('content')
-<div class="container" style="margin-top: 175px; margin-bottom: 10%;">
+<div class="container" style="margin-bottom: 10%;">
     <h2>COMMON QUESTIONS IN LAW</h2>
     <h5>MELBOURNE CRIMINAL LAWYER</h5>
     <div class="panel panel-default">

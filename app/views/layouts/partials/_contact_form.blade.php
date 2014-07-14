@@ -1,17 +1,15 @@
 {{ HTML::script('/js/jquery_validate.js') }}
 
-<div class="row" style="margin: 10px 9px; background: #217C9C;">
+<div class="row" style="background: #1C8FE0;">
     <div class="col-md-6">
-        <div class="col-md-6">
+        <div class="col-md-2"></div>
+        <div class="col-md-4">
             <p style="text-align: center;font-size: 28px;color: #ffffff"><span class="glyphicon glyphicon-envelopeHow"></span>Any Questions?</p>
             <p style="text-align: center;font-size: 20px;color: #ffffff"><span class="glyphicon glyphicon-envelopeHow"></span>No Win, No Fee Representation!</p>
         </div>
-        <div class="col-md-6">
-           {{ HTML::image('/img/question.jpg', $alt = 'Questions' , $attributes = array('class' => 'center-block img-responsive question_img',  'width' => '100px'))}}
-        </div>
     </div>
     <div class="col-md-6">
-        <form class="form" style="padding-top: 15px; padding-left: 25%;">
+        <form class="form" style="margin-top: 4%">
             <div class="com-md-6" style="float: left;">
                 <div class="name">
                     <label class="sr-only" >Name*:</label>

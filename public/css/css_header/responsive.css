@@ -1,0 +1,1646 @@
+img {
+    -ms-interpolation-mode: bicubic;
+}
+
+html.no-canvas .main {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    min-width: 1350px;
+}
+
+html.no-canvas #ImageZone {
+    min-width: 1350px;
+}
+
+html.no-canvas #CTAZone {
+    min-width: 1350px;
+    top: 0;
+    margin-bottom: 0;
+}
+
+html.no-canvas header {
+    min-width: 1350px;
+}
+
+html.no-canvas main {
+    min-width: 1350px;
+}
+
+html.no-canvas footer {
+    min-width: 1350px;
+}
+
+html.no-canvas .our-work .spreview img {
+    width: 1100px;
+    height: 622px;
+}
+
+html.no-canvas .our-work .mpreview img {
+    width: 272px;
+    height: 370px;
+}
+
+@media (max-width:1800px) {
+    #Masthead .Phone {
+        width: auto;
+    }
+}
+
+@media (max-width:1640px) {
+    .featuredsite {
+        -webkit-transform: scale(0.9);
+        -moz-transform: scale(0.9);
+        -o-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+
+    .toptestimonial {
+        -webkit-transform: scale(0.9);
+        -moz-transform: scale(0.9);
+        -o-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+}
+
+@media (max-width:1500px) {
+    .featuredsite {
+        -webkit-transform: scale(0.8);
+        -moz-transform: scale(0.8);
+        -o-transform: scale(0.8);
+        transform: scale(0.8);
+    }
+
+    .toptestimonial {
+        -webkit-transform: scale(0.8);
+        -moz-transform: scale(0.8);
+        -o-transform: scale(0.8);
+        transform: scale(0.8);
+    }
+
+    .flycontent {
+        width: 70%;
+        float: left;
+        padding-left: 18%;
+        padding-right: 0;
+    }
+
+    .fly-nav nav {
+        position: absolute;
+        right: 5%;
+    }
+
+    .fly-nav .main:after {
+        display: none;
+    }
+}
+
+@media (max-width:1475px) {
+    #Masthead .getstarted {
+        display: none;
+    }
+
+    .panel-slide h3 {
+        font-size: 22px;
+    }
+
+    .panel-slide p {
+        font-size: 14px;
+    }
+
+    #LeftContent h1 {
+        font-size: 45px;
+    }
+
+    #LeftContent h2 {
+        font-size: 23px;
+    }
+
+    #LeftContent {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:1350px) {
+    .featuredsite {
+        -webkit-transform: scale(0.7);
+        -moz-transform: scale(0.7);
+        -o-transform: scale(0.7);
+        transform: scale(0.7);
+    }
+
+    .toptestimonial {
+        -webkit-transform: scale(0.7);
+        -moz-transform: scale(0.7);
+        -o-transform: scale(0.7);
+        transform: scale(0.7);
+    }
+
+    .CTAText {
+        margin-top: -100px;
+        padding-top: 0px;
+        width: 25%;
+    }
+}
+
+@media (max-width:1255px) {
+    .flycontent {
+        padding-left: 22%;
+    }
+
+    .flycontent h2 {
+        font-size: 48px;
+    }
+
+    .AccAnimation div.slide div.info2 {
+        padding: 90px 5% 0px 60px;
+    }
+}
+
+@media (max-width:1200px) {
+    .featuredsite {
+        -webkit-transform: scale(0.6);
+        -moz-transform: scale(0.6);
+        -o-transform: scale(0.6);
+        transform: scale(0.6);
+    }
+
+    .toptestimonial {
+        -webkit-transform: scale(0.6);
+        -moz-transform: scale(0.6);
+        -o-transform: scale(0.6);
+        transform: scale(0.6);
+    }
+}
+
+@media (max-width:1200px) {
+    #Masthead .getstarted {
+        display: none;
+    }
+}
+
+@media (max-width:1150px) {
+    .TopLogo {
+        width: 48.15%;
+        left: -14.38%;
+    }
+
+    #Masthead .mastsocial {
+        display: none;
+    }
+
+    #Masthead div.navsection {
+        margin-left: 36%;
+        width: 41%;
+    }
+
+    .panel-slide h3 {
+        font-size: 16px;
+    }
+
+    .panel-slide p {
+        font-size: 12px;
+        clear: both;
+        float: left;
+        margin-top: 0px;
+    }
+
+    .panel-slide .panel-square blockquote {
+        font-size: 10px;
+        line-height: 16px;
+    }
+
+    html.generatedcontent .panel-slide .panel-square blockquote {
+        text-indent: -7px;
+    }
+
+    .panel-slide .panel-square blockquote:before {
+        font-size: 16px;
+        line-height: 12px;
+    }
+
+    .panel-slide .panel-square blockquote:after {
+        font-size: 16px;
+        line-height: 12px;
+    }
+
+    .our-work h3 {
+        font-size: 20px;
+    }
+
+    .our-work h4 {
+        font-size: 16px;
+    }
+
+    .our-work h5 {
+        font-size: 13px;
+    }
+
+    .our-work .triangle .info {
+        width: 44%;
+        left: 70px;
+    }
+
+    ul.nav-ourwork li.nav {
+        -webkit-transform: scale(0.99);
+        -moz-transform: scale(0.99);
+        -o-transform: scale(0.99);
+        transform: scale(0.99);
+    }
+
+    #FooterMapArea {
+        display: none;
+    }
+}
+
+@media (max-width: 1130px) {
+    .moreexposure .divider {
+        left: 1%;
+    }
+
+    .moreexposure div div h3 span {
+        display: block;
+    }
+
+    .DeliversAnimation {
+        padding-top: 32.5%;
+    }
+
+    .moreexposure li div {
+        bottom: 0;
+        min-height: 100%;
+        max-height: none;
+        left: 0px;
+    }
+
+    .moreexposure li div:after {
+        display: none;
+    }
+
+    .moreexposure ul li.active:first-child div, .moreexposure ul li.active:nth-child(4) div, .moreexposure ul li.active:nth-child(7) div {
+        left: 106%;
+        bottom: 0;
+    }
+
+    .moreexposure ul li.active:nth-child(9) div, .moreexposure ul li.active:nth-child(3) div, .moreexposure ul li.active:nth-child(6) div {
+        left: -106%;
+        bottom: 0;
+    }
+
+    .moreexposure ul li.active:nth-child(2) div, .moreexposure ul li.active:nth-child(5) div, .moreexposure ul li.active:nth-child(8) div {
+        bottom: 106%;
+    }
+}
+
+@media (max-width:1120px) {
+    .wwd-svg-icons {
+        display: none;
+    }
+
+    .wwd-png-icons {
+        display: block;
+    }
+}
+
+@media (max-width:1075px) {
+    .featuredsite {
+        -webkit-transform: none;
+        -moz-transform: none;
+        -o-transform: none;
+        transform: none;
+        right: auto;
+        left: 50%;
+        margin-left: 100px;
+    }
+
+    .featuredsite * {
+        display: none;
+    }
+
+    .toptestimonial {
+        -webkit-transform: none;
+        -moz-transform: none;
+        -o-transform: none;
+        transform: none;
+        left: auto;
+        right: 50%;
+        margin-right: 100px;
+    }
+
+    .toptestimonial * {
+        display: none;
+    }
+
+    .CTAText {
+        margin-top: 0px;
+        width: 50%;
+    }
+
+    .OurServicesSection h2 {
+        font-size: 40px;
+    }
+
+    .side-nav li a {
+        font-size: 14px;
+    }
+
+    .AccAnimation h2 {
+        font-size: 40px;
+    }
+
+    .AccAnimation div.slide div.info2 {
+        font-size: 16px;
+    }
+
+    .SchemaSection h2 {
+        font-size: 40px;
+    }
+
+    .SchemaSection h3 {
+        font-size: 20px;
+    }
+
+    .SchemaSection #SiteSchema>div {
+        -webkit-transform: scale(0.9);
+        -moz-transform: scale(0.9);
+        -o-transform: scale(0.9);
+        transform: scale(0.9);
+        line-height: 1.5em;
+    }
+
+    #MeansForYou .lowercontentctas li {
+        font-size: 22px;
+    }
+
+    #MoreVideoContent .rightcontent {
+        float: none;
+        width: 100%;
+        margin: 0px auto;
+    }
+
+    #MoreVideoContent .leftcontent {
+        float: none;
+        width: 100%;
+    }
+
+    .Accbutton:before {
+        right: 1%;
+        background-size: 90%;
+    }
+}
+
+@media (max-width:1025px) {
+    .Accbutton:before {
+        background-size: 80%;
+    }
+
+    #AccordionContent .Accbutton h2, #AccordionContent .Accbutton h3 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .DeliversAnimation {
+        padding-top: 36%;
+    }
+
+    .ScorpDelivers p span {
+        display: inline;
+    }
+
+    .moreexposure li div {
+        font-size: 12px;
+    }
+
+    #Flyout {
+        display: none;
+    }
+
+    .TopLogo .logo-image {
+        background-size: 100%;
+    }
+}
+
+@media (max-width:920px) {
+    #AccordionContent .Accbutton h2, #AccordionContent .Accbutton h3, .Accbutton h2:before {
+        font-size: 30px;
+    }
+
+    .Accbutton:before {
+        background-size: 82%;
+        right: 2%;
+    }
+}
+
+@media (max-width:900px) {
+    #Masthead div.navsection {
+        display: none;
+    }
+
+    .hidefordesktop {
+        display: block;
+    }
+
+    #Masthead .Phone {
+        float: left;
+        margin-left: 10%;
+    }
+
+    #MobileArea {
+        display: block;
+    }
+
+    #Masthead .mastsocial {
+        margin-right: 0px;
+    }
+
+    .panel-slide {
+        position: static;
+        height: 295px !important;
+        width: 49%;
+        margin: 0px !important;
+        background-image: url(../images/Testimonial-Left.png);
+        background-repeat: no-repeat;
+        background-position: right top;
+        float: left;
+    }
+
+    .panel-slide.right {
+        float: right;
+        background-image: url(../images/Testimonial-Right.png);
+        background-position: left top;
+    }
+
+    .panel-slide .panel-square {
+        display: none;
+    }
+
+    .panel-slide .panel-triangle {
+        width: 100% !important;
+        float: none;
+        text-align: center !important;
+        padding: 20px 5px;
+    }
+
+    .panel-slide .panel-btn.link {
+        display: block;
+        float: none;
+        width: 50%;
+        margin: 20px auto;
+        background-position: 50% 50%;
+    }
+
+    .panel-slide .panel-btn.button {
+        display: none;
+    }
+
+    .panel-slide p {
+        float: none !important;
+        margin-top: 20px;
+    }
+
+    .topctas {
+        clear: both;
+    }
+
+    .OurServicesSection .leftservices {
+        margin-top: -150px;
+    }
+
+    .OurServicesSection .rightservices {
+        margin-top: -150px;
+    }
+
+    .side-nav li a {
+        height: 65px;
+    }
+
+    .SchemaSection #SiteSchema>div {
+        -webkit-transform: scale(0.8);
+        -moz-transform: scale(0.8);
+        -o-transform: scale(0.8);
+        transform: scale(0.8);
+        line-height: 1.4em;
+    }
+
+    .SchemaSection .rightcontent {
+        margin-top: 50px;
+    }
+
+    .SchemaSection .leftcontent {
+        margin-top: 50px;
+    }
+
+    .DeliversAnimation {
+        padding-top: 39%;
+    }
+
+    .ScorpDelivers h2 {
+        font-size: 50px;
+    }
+
+    #ScorpionCares h1 {
+        font-size: 40px;
+    }
+
+    .whitetext h3 {
+        font-size: 20px;
+    }
+
+    #ScorpionCares {
+        font-size: 14px;
+    }
+
+    #AccordionContent .Accbutton h2, #AccordionContent .Accbutton h3 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width:850px) {
+    .cbp-so-side {
+        max-width: 300px !important;
+        height: 285px;
+        background-position: 50% 100%;
+    }
+
+    .cbp-so-side:hover {
+        background-position: 50% 100%;
+    }
+
+    .cbp-so-side h3 {
+        font-size: 17px;
+    }
+
+    .cbp-so-side object {
+        width: 170px;
+        height: 108px;
+        bottom: 0px !important;
+    }
+
+    .TopLogo .logo-image {
+        top: -10%;
+    }
+
+    .flip-counter {
+        -webkit-transform: scale(0.6);
+        -moz-transform: scale(0.6);
+        -o-transform: scale(0.6);
+        transform: scale(0.6);
+    }
+
+    .FooterLinks ul.main {
+        padding: 20px 0px;
+    }
+
+    .FooterLinks ul.main li.fourth, .FooterLinks ul.main li.fourth.row3 {
+        width: 50%;
+        text-align: center;
+    }
+
+    .FooterLinks ul.main li.fourth.row2,  .FooterLinks ul.main li.fourth.row4 {
+        float: right;
+        clear: right;
+    }
+
+    .FooterLinks ul.main li.fourth.row1,  .FooterLinks ul.main li.fourth.row3 {
+        float: left;
+        clear: left;
+    }
+
+    .FooterLinks ul.main li.fourth ul {
+        padding: 10px 0px;
+    }
+
+    .FooterLogoArea {
+        text-align: center;
+    }
+
+    .FooterLogoArea .footerlogo {
+    }
+
+    .FooterLogoArea .leftcontent, .FooterLogoArea .rightcontent {
+        font-size: 12px;
+        line-height: 1.5em;
+    }
+
+    body.sub-2C .MainBG #MainZone {
+        width: 100%;
+    }
+
+    body.sub-2C #SideZone {
+        width: 96%;
+        margin: 0px 2%;
+    }
+
+    .SchemaSection {
+        padding: 30px 0;
+    }
+
+    .SchemaSection h2 {
+        font-size: 30px;
+    }
+
+    .SchemaSection h3 {
+        font-size: 15px;
+    }
+
+    .SchemaSection .btn {
+        font-size: 12px;
+        padding: 7px 0px;
+    }
+
+    .moreexposure .divider {
+        height: 480px;
+    }
+
+    .DeliversAnimation {
+        padding-top: 42.5%;
+    }
+
+    #MoreVideoContent .morebuttons ul li a {
+        padding: 3px 6px;
+        font-size: 10px;
+    }
+
+    #AccordionContent .Accbutton h2, #AccordionContent .Accbutton h3 {
+        font-size: 25px;
+        padding-right: 10%;
+    }
+
+    .Accbutton:before {
+        right: 0;
+        background-size: 65%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    ul.resp-tabs-list {
+        display: none;
+    }
+
+    h2.resp-accordion {
+        display: block;
+    }
+
+    .resp-vtabs .resp-tab-content {
+        border: 1px solid #C1C1C1;
+    }
+
+    .resp-tab-content {
+        border: none;
+        background-color: #fff;
+    }
+
+    .resp-vtabs .resp-tabs-container {
+        border: none;
+        float: none;
+        width: 100%;
+        min-height: initial;
+        clear: none;
+    }
+
+    .resp-accordion-closed {
+        display: none !important;
+    }
+
+    .resp-vtabs .resp-tab-content:last-child {
+        border-bottom: 1px solid #c1c1c1 !important;
+    }
+
+    .VideoHeaderText {
+        font-size: 14px;
+    }
+
+    .VideoHeaderText h1 {
+        font-size: 40px;
+    }
+
+    .VideoHeaderText h2 {
+        font-size: 23px;
+    }
+
+    #RightContent {
+        width: 100%;
+        float: none;
+        margin-top: 20px;
+    }
+
+    #LeftContent {
+        width: 100%;
+        float: none;
+        padding: 10px;
+    }
+
+    .OurServicesSection .leftservices {
+        margin-top: -100px;
+        width: 36%;
+    }
+
+    .OurServicesSection .rightservices {
+        margin-top: -100px;
+        width: 36%;
+    }
+
+    .SchemaSection #SiteSchema>div {
+        -webkit-transform: scale(0.7);
+        -moz-transform: scale(0.7);
+        -o-transform: scale(0.7);
+        transform: scale(0.7);
+    }
+
+    .ImageAreaText h2 {
+        font-size: 40px;
+    }
+
+    .ImageAreaText h3 {
+        font-size: 40px;
+    }
+
+    .greybgtext {
+        font-size: 14px;
+    }
+
+    .greybgtext h1 {
+        font-size: 35px;
+    }
+
+    #WhoWeServeContent h3 {
+        font-size: 24px;
+    }
+
+    #AccordionContent .Accbutton h2, #AccordionContent .Accbutton h3, .Accbutton h2:before {
+        font-size: 22px;
+    }
+
+    .Accbutton:before {
+        background-size: 72%;
+        right: 0;
+    }
+
+    #AccordionContent .innercontent {
+        font-size: 14px;
+    }
+
+    #AccordionContent .innercontent .half, .half.left, .half {
+        width: 100%;
+        float: none;
+        padding: 0px 10px;
+    }
+
+    #AccordionContent .innercontent .third {
+        width: 100%;
+        display: block;
+        border-right: none;
+        padding: 0px 10px;
+    }
+
+    #AccordionContent .innercontent h2, #AccordionContent .innercontent h3 {
+        font-size: 20px;
+    }
+
+    #MeansForYou .SCtext {
+        padding: 0px 10px;
+    }
+
+    .screenshots .info .SCtext {
+        padding: 0px 10px;
+        line-height: 1.5em;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 750px) {
+    .moreexposure .divider {
+        display: none;
+    }
+
+    .Awards.right {
+        clear: both;
+    }
+
+    .moreexposure > div > div {
+        float: none !important;
+        width: 100%;
+        clear: both;
+        margin-top: 15px;
+    }
+
+    .moreexposure ul {
+        max-width: 550px;
+        margin: 20px auto 0px auto;
+    }
+
+    .ReasonsToChoose.moreexposure ul {
+        max-width: 80%;
+        margin: 0px auto;
+    }
+
+    .ReasonsToChoose.moreexposure li {
+        width: 30%;
+        margin: 9px 0px;
+        padding-right: 1%;
+    }
+
+    .ReasonsToChoose.moreexposure li:first-child {
+        margin-left: 0;
+    }
+
+    .moreexposure .Awards h3 {
+        padding-top: 20px;
+    }
+
+    .DeliversAnimation {
+        padding-top: 44.16%;
+    }
+
+    .ScorpDelivers h2 {
+        font-size: 45px;
+    }
+
+    .ScorpDelivers h3 {
+        font-size: 24px;
+    }
+
+    .contactformarea h2 {
+        font-size: 55px;
+    }
+
+    .contactformarea h3 {
+        font-size: 24px;
+    }
+
+    .contactformarea p span {
+        display: inline;
+    }
+
+    #ImagePanel {
+        display: none;
+    }
+
+    #MakesUsDifferent:after {
+        display: none;
+    }
+
+    #MakesUsDifferent .SCtext {
+        width: auto;
+        padding: 0px 10px;
+    }
+
+    #ImagePanel2 {
+        display: none;
+    }
+
+    #MeansForYou:after {
+        display: none;
+    }
+
+    #MeansForYou .SCtext {
+        width: auto;
+    }
+
+    #MeansForYou .lowercontentctas {
+        width: 100%;
+    }
+}
+
+@media (max-width:728px) {
+    body.animateleft {
+        padding-right: 0px;
+    }
+
+    body.animateleft #NavZone {
+        padding-right: 0px;
+    }
+
+    .cbp-so-side {
+        background-position: 50% 50%;
+    }
+
+    .cbp-so-side:hover {
+        background-position: 50% 50%;
+    }
+
+    .cbp-so-side {
+        float: none !important;
+        margin: 0px auto !important;
+    }
+
+    .CTAText {
+        margin-top: 0px;
+        width: auto;
+        padding: 100px 20px 20px 20px;
+    }
+
+    .ctas h1 {
+        font-size: 40px;
+    }
+
+    .FooterLinks ul.main li.fourth, .FooterLinks ul.main li.fourth.row3 {
+        width: 100%;
+    }
+
+    .FooterLinks ul.main li.fourth.row3 ul li {
+        float: none;
+        width: 100%;
+    }
+
+    #SamplesZone {
+        padding-bottom: 30%;
+        overflow: hidden;
+    }
+
+    #OurWorkContent {
+        overflow: visible;
+        padding-top: 1px;
+    }
+
+    .our-work ul.nav-ourwork {
+        width: 98%;
+        height: 42.85%;
+        left: 2%;
+        bottom: auto;
+        top: 102%;
+    }
+
+    ul.nav-ourwork li.nav {
+        width: 18.9032%;
+        height: 55.9464%;
+        margin-right: 11.79%;
+    }
+
+    ul.nav-ourwork li.nav.alt {
+        top: 0;
+        left: 0;
+    }
+
+    ul.nav-ourwork li.nav:nth-child(3n) {
+        margin-right: 0;
+    }
+
+    ul.nav-ourwork li.nav:nth-child(1n+4) {
+        left: 15.4%;
+        top: auto;
+        bottom: 44%;
+    }
+
+    .our-work .spreview {
+        right: 23%;
+    }
+
+    .our-work .mpreview {
+        right: 18%;
+    }
+
+    .our-work h2 {
+        margin: 20px 0;
+        font-size: 40px;
+    }
+
+    .our-work .triangle .info {
+        left: 10px;
+        bottom: 10px;
+        height: auto;
+        width: 75%;
+    }
+
+    .our-work .triangle img {
+        display: none;
+    }
+
+    .our-work h3 {
+        font-size: 15px;
+    }
+
+    .our-work h4 {
+        font-size: 12px;
+    }
+
+    .our-work h5 {
+        font-size: 10px;
+    }
+
+    .OurServicesSection h2 {
+        font-size: 30px;
+        padding: 6.89% 0 26.89%;
+    }
+
+    .side-nav ul {
+    }
+
+    .side-nav li {
+        width: 49.5%;
+    }
+
+    .side-nav li:nth-child(3n) {
+        margin-right: 1%;
+    }
+
+    .side-nav li:nth-child(2n) {
+        margin-right: 0;
+    }
+
+    .ReasonsToChoose {
+        padding: 20px 0;
+    }
+
+    .ReasonsToChoose h2 {
+        font-size: 30px;
+    }
+
+    .ReasonsToChoose ul {
+        margin: 20px 0 0;
+        padding-left: 7%;
+    }
+
+    .SchemaSection #SiteSchema>div {
+        -webkit-transform: scale(0.6);
+        -moz-transform: scale(0.6);
+        -o-transform: scale(0.6);
+        transform: scale(0.6);
+    }
+
+    .footerCTA h2 {
+        font-size: 35px;
+    }
+
+    .footerCTA h3 {
+        font-size: 20px;
+    }
+
+    .footerCTA ul li {
+        display: block;
+        margin-bottom: 2px;
+    }
+
+    .footerCTA ul {
+        display: block;
+        width: auto;
+    }
+
+    .footerCTA ul.items1 .btn {
+        width: auto;
+        margin: 0;
+        display: block;
+    }
+
+    #MoreContactArea .rightform {
+        float: none;
+        width: auto;
+        margin: 0 1%;
+    }
+
+    #MoreContactArea .leftgraph {
+        display: none;
+    }
+
+    #MoreContactArea .main:before {
+        display: none;
+    }
+}
+
+@media (max-width:700px) {
+    #AwardsContent .section .content, #AwardsContent .section .images {
+        width: 100%;
+        float: none;
+    }
+
+    #AwardsContent .section .images a {
+        display: block;
+    }
+}
+
+@media (max-width:660px) {
+    .Accbutton:before {
+        display: none;
+    }
+
+    #AccordionContent .Accbutton h2, #AccordionContent .Accbutton h3, .Accbutton h2:before {
+        padding-right: 0;
+    }
+}
+
+@media (max-width:600px) {
+    #AccordionContent .Accbutton h2, #AccordionContent .Accbutton h3, .Accbutton h2:before {
+        font-size: 16px;
+    }
+
+    .Accbutton:before {
+        background-size: 58%;
+        right: -2%;
+    }
+}
+
+@media (max-width:550px) {
+    .TopLogo {
+        top: auto;
+        bottom: -95px;
+        height: 95px;
+        width: 222px;
+        left: 50%;
+        margin-left: -111px;
+    }
+
+    .TopLogo .logo-image {
+        background-size: 100%;
+        top: 0;
+    }
+
+    #NavZone {
+        height: 46px;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+
+    #Masthead {
+        margin-top: 46px;
+        background-color: #ababab;
+        height: 38px;
+    }
+
+    #Masthead .mastsocial {
+        display: none;
+    }
+
+    #Masthead .Contact a.panelbtn {
+        width: 50px;
+        height: 38px !important;
+        left: -50px;
+        top: 46px;
+    }
+
+    #Masthead .Contact icon {
+        font-size: 30px;
+        margin-top: 5px !important;
+    }
+
+    #Masthead .Number {
+        position: absolute;
+        right: 5px;
+        top: 5px;
+        margin: 0px;
+        padding: 5px !important;
+    }
+
+    #Masthead .getstarted {
+        display: block;
+        position: absolute;
+        left: 5px;
+        top: 5px;
+        margin: 0px !important;
+    }
+
+    #MobileArea {
+        float: left;
+        height: 38px;
+    }
+
+    #MobileMenu {
+        margin: 0px;
+        padding: 5px 5px 1px 5px;
+        height: 38px;
+    }
+
+    #Animation div.container {
+        bottom: 125px;
+    }
+
+    #Animation div.slide div.info h2 {
+        font-size: 30px;
+        line-height: 1.2em;
+    }
+
+    #Animation div.slide div.info h2 span {
+        font-size: 35px;
+        line-height: 1.1em;
+    }
+
+    #Animation div.slide div.info p {
+        font-size: 15px;
+        margin: 20px;
+    }
+
+    #Animation div.slide div.info a {
+        font-size: 12px;
+    }
+
+    #Animation div.slide div.v {
+        display: none;
+    }
+
+    html.boxsizing .panel-slide .panel-triangle {
+        padding: 20px 10px;
+    }
+
+    #Animation a.next {
+        right: 55%;
+        bottom: 0;
+    }
+
+    #Animation a.prev {
+        left: 55%;
+        bottom: 0;
+    }
+
+    .panel-slide h3 {
+        height: 40px;
+    }
+
+    .panel-slide p {
+        line-height: 18px;
+        margin-top: 20px;
+    }
+
+    .feature .accolades .web-1 {
+        left: 110px;
+    }
+
+    .feature .accolades {
+        -webkit-transform: scale(0.7);
+        -moz-transform: scale(0.7);
+        -o-transform: scale(0.7);
+        transform: scale(0.7);
+        -webkit-transform-origin: 50% 50%;
+        -moz-transform-origin: 50% 50%;
+        -o-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+    }
+
+    .feature .accolades .web-2 {
+        left: 240px;
+    }
+
+    .feature .accolades .web-3 {
+        left: 371px;
+    }
+
+    .feature .accolades .iac {
+        left: 78px;
+    }
+
+    .feature .accolades .m-web {
+        left: 243px;
+    }
+
+    .feature .accolades .comm {
+        left: 356px;
+    }
+
+    .feature .accolades .divider-1 {
+        display: none;
+    }
+
+    .feature .accolades .divider-2 {
+        display: none;
+    }
+
+    .feature .technology .computers {
+        -webkit-transform: scale(0.7);
+        -moz-transform: scale(0.7);
+        -o-transform: scale(0.7);
+        transform: scale(0.7);
+        -webkit-transform-origin: 50% 50%;
+        -moz-transform-origin: 50% 50%;
+        -o-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+    }
+
+    .feature .technology .rays {
+        -webkit-transform: scale(0.7);
+        -moz-transform: scale(0.7);
+        -o-transform: scale(0.7);
+        transform: scale(0.7);
+        -webkit-transform-origin: 50% 50%;
+        -moz-transform-origin: 50% 50%;
+        -o-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+    }
+
+    .feature .phone-call {
+        -webkit-transform: scale(0.9);
+        -moz-transform: scale(0.9);
+        -o-transform: scale(0.9);
+        transform: scale(0.9);
+        -webkit-transform-origin: 50% 100%;
+        -moz-transform-origin: 50% 100%;
+        -o-transform-origin: 50% 100%;
+        transform-origin: 50% 100%;
+    }
+
+    .our-work h3 {
+        display: none;
+    }
+
+    .our-work h4 {
+        display: none;
+    }
+
+    .our-work h5 a {
+        text-shadow: 0px 1px rgba(0,0,0,0.6),0px -1px rgba(0,0,0,0.6);
+    }
+
+    .our-work .triangle.left {
+        width: 57%;
+    }
+
+    ul.why-items h2 {
+        font-size: 15px;
+    }
+
+    #MainZone {
+        padding-top: 20px;
+    }
+
+    #LeftContent h1 {
+        font-size: 30px;
+        padding: 10px 0px;
+    }
+
+    #LeftContent h2 {
+        font-size: 18px;
+        line-height: 1.5em;
+    }
+
+    #LeftContent {
+        font-size: 13px;
+    }
+
+    .OurServicesSection h2 {
+        font-size: 23px;
+    }
+
+    .OurServicesSection .leftservices {
+        width: 100%;
+        margin-top: 0;
+        float: none;
+    }
+
+    .OurServicesSection .rightservices {
+        width: 100%;
+        margin-top: 0;
+        float: none;
+        text-align: left;
+    }
+
+    .side-nav ul {
+    }
+
+    .side-nav li {
+        margin-right: 0 !important;
+        width: auto;
+        float: none;
+    }
+
+    .side-nav li a {
+        height: auto;
+    }
+
+    .ReasonsToChoose ul {
+        display: block;
+        padding: 0 0 0 7%;
+    }
+
+    .ReasonsToChoose li {
+        display: block;
+        float: left;
+        width: 33.33%;
+        margin: 0;
+        padding: 0 1% 1% 0;
+    }
+
+    .ReasonsToChoose li a {
+        display: block;
+    }
+
+    .ReasonsToChoose li img {
+        width: 100%;
+        display: block;
+    }
+
+    .AccAnimation div.slide img {
+        width: 100%;
+        height: 50%;
+        position: static;
+        right: auto;
+        top: auto;
+    }
+
+    .AccAnimation div.slide div.info2 {
+        font-size: 11px;
+        float: none;
+        width: 100%;
+        padding: 0px 50px 40px 50px;
+    }
+
+    .AccAnimation h2 {
+        font-size: 30px;
+    }
+
+    .AccAnimation a.prev {
+        -webkit-transform: scale(0.5);
+        -moz-transform: scale(0.5);
+        -o-transform: scale(0.5);
+        transform: scale(0.5);
+        -webkit-transform-origin: 0% 50%;
+        -moz-transform-origin: 0% 50%;
+        -o-transform-origin: 0% 50%;
+        transform-origin: 0% 50%;
+    }
+
+    .AccAnimation a.next {
+        -webkit-transform: scale(0.5);
+        -moz-transform: scale(0.5);
+        -o-transform: scale(0.5);
+        transform: scale(0.5);
+        -webkit-transform-origin: 100% 50%;
+        -moz-transform-origin: 100% 50%;
+        -o-transform-origin: 100% 50%;
+        transform-origin: 100% 50%;
+    }
+
+    .SchemaSection h2 {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+    .SchemaSection .leftcontent {
+        float: none;
+        width: auto;
+        margin: 0;
+    }
+
+    .SchemaSection .rightcontent {
+        float: none;
+        width: auto;
+        margin: 0;
+    }
+
+    .SchemaSection .site-schema {
+        width: 100%;
+        margin: 0;
+        padding-bottom: 84.09%;
+    }
+
+    .SchemaSection object {
+        display: none;
+    }
+
+    .SchemaSection #SiteSchema>div {
+        -webkit-transform: scale(0.75);
+        -moz-transform: scale(0.75);
+        -o-transform: scale(0.75);
+        transform: scale(0.75);
+    }
+
+    .ImageAreaText h2 {
+        font-size: 30px;
+    }
+
+    .ImageAreaText h3 {
+        font-size: 30px;
+    }
+
+    #ImageAreaContent {
+        font-size: 14px;
+    }
+
+    #SubImageAreaBG .data {
+        padding-top: 65px;
+    }
+
+    .greybgtext h1 {
+        font-size: 28px;
+    }
+
+    #WhoWeServeContent h3 {
+        font-size: 20px;
+    }
+
+    .greybgtext {
+        font-size: 13px;
+    }
+
+    #ScorpionCares h1 {
+        font-size: 30px;
+    }
+
+    .whitetext h3 {
+        font-size: 16px;
+    }
+
+    #ScorpionCares {
+        font-size: 12px;
+    }
+
+    #MeansForYou .lowercontentctas li {
+        font-size: 18px;
+    }
+
+    .flip-counter {
+        -webkit-transform: scale(0.5);
+        -moz-transform: scale(0.5);
+        -o-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+
+    .leadgeneration h2 {
+        font-size: 35px;
+    }
+
+    #MoreVideoContent .leftcontent h3 {
+        font-size: 18px;
+    }
+
+    #MoreContactArea h2 {
+        font-size: 35px;
+    }
+
+    .FooterLogoArea .leftcontent, .FooterLogoArea .rightcontent {
+        margin: 20px 0px;
+        width: 35%;
+    }
+}
+
+@media (max-width: 500px) {
+    .contactformarea h2 {
+        font-size: 45px;
+    }
+
+    .contactformarea p {
+        line-height: 1.4em;
+    }
+
+    .contactformarea input, .contactformarea select, .contactformarea textarea {
+        width: 100%;
+        float: none;
+        margin: 5px 0 5px;
+    }
+
+    .moreexposure h2 {
+        font-size: 45px;
+    }
+
+    .FooterLogoArea .footerlogo img {
+        width: 50%;
+    }
+
+    .FooterLogoArea .leftcontent, .FooterLogoArea .rightcontent {
+        margin: 10px 0px;
+        font-size: 10px;
+        line-height: 1.2em;
+    }
+}
+
+@media (max-width: 450px) {
+    .moreexposure li div {
+        width: 200%;
+    }
+
+    .moreexposure ul li.active:nth-child(9) div, .moreexposure ul li.active:nth-child(3) div, .moreexposure ul li.active:nth-child(6) div {
+        left: -206%;
+    }
+
+    .moreexposure ul li:nth-child(2) div, .moreexposure ul li:nth-child(5) div, .moreexposure ul li:nth-child(8) div {
+        left: -50%;
+    }
+
+    #AccordionContent .Accbutton h2, #AccordionContent .Accbutton h3, .Accbutton h2:before {
+        font-size: 13px;
+    }
+}
+
+@media (max-width:396px) {
+    body.animateleft #Masthead .Contact a.panelbtn {
+        left: 0px;
+        width: 50px;
+        height: 46px;
+        top: 16px;
+    }
+
+    body.animateleft #NavZone.Scrolled #Masthead .Contact a.panelbtn {
+        left: 0px;
+    }
+
+    #Masthead .Contact icon {
+        font-size: 30px;
+    }
+
+    .our-work h2 {
+        margin: 10px 0;
+        font-size: 30px;
+    }
+
+    .SchemaSection #SiteSchema>div {
+        -webkit-transform: scale(0.6);
+        -moz-transform: scale(0.6);
+        -o-transform: scale(0.6);
+        transform: scale(0.6);
+    }
+
+    .flip-counter {
+        -webkit-transform: scale(0.35);
+        -moz-transform: scale(0.35);
+        -o-transform: scale(0.35);
+        transform: scale(0.35);
+    }
+}

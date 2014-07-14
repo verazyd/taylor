@@ -73,7 +73,7 @@
 <div class="row" style="margin: 10px 5px;">
     {{HTML::style('css/image_animations.css') }}
     <div class="col-md-12">
-        <h2 style="color:#273E55; text-align: center; font-weight: bold; font-size: 34px;">Why Choose Taylor & Preston ?</h2>
+        <h2 style="color:#3685BE; text-align: center; font-weight: bold; font-size: 34px;">Why Choose Taylor & Preston ?</h2>
         <p style="padding:20px; font-weight: bold;">
             Our firm was established with the principle that the best lawyers will for their clients achieve the best results. We take the time to fully evaluate every detail of your family law matter and then move forward confidentially and confidently, with the goal of achieving excellent results for our clients.
         </p>
@@ -108,11 +108,11 @@
     @include('layouts.partials._contact_form')
 
 <div class="" style="margin: 10px 5px 5px 5px;">
-<form id="ctl00" name="ctl00" method="post" action=""
-      onsubmit="javascript:return WebForm_OnSubmit();" style="margin:0px;padding:0px;">
+<!--<form id="ctl00" name="ctl00" method="post" action=""-->
+<!--      onsubmit="javascript:return WebForm_OnSubmit();" style="margin:0px;padding:0px;">-->
 
 
-    @include('layouts.partials._feedback')
+<!--    @include('layouts.partials._feedback')-->
 
 <main>
 <div class="icobalt ilayout cf paper" id="AttorneyZone">
@@ -232,7 +232,7 @@
 </div>
 <div class="icobalt ilayout cf LBlue" id="PAZone">
     <div icobalt="CobaltControls.Controls.DisplayList" id="HomePracticeAreas" class="PracticeList main" name="HomePracticeAreas">
-        <h1><a href="practice_areas">Our Practice Areas</a></h1>
+        <h2><a href="practice_areas">Our Practice Areas</a></h2>
         <ul class="cf">
             <li class="active left">
                 <a href="{{ URL::to('personalInjury') }}">Personal Injury</a>
@@ -240,7 +240,7 @@
                     <div class="Icon">
                         <img src="./img/Practice-Areas/crutches-icon.png">
                     </div>
-                    <h2>Personal Injury</h2>
+                    <h4>Personal Injury</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, aliquid, aut blanditiis illum ipsa iste magni minus neque odio officiis optio quae repellendus ut vitae voluptas? Error laudantium, unde. Facilis.</p>
                     <a href="">Learn More</a>
                 </div>
@@ -251,7 +251,7 @@
                     <div class="Icon">
                         <img src="./img/Practice-Areas/maritime-icon.png">
                     </div>
-                    <h2>Family Law</h2>
+                    <h4>Family Law</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, aliquid, aut blanditiis illum ipsa iste magni minus neque odio officiis optio quae repellendus ut vitae voluptas? Error laudantium, unde. Facilis.</p>
                     <a href="">Learn More</a>
                 </div>
@@ -261,7 +261,7 @@
                     <div class="Icon">
                         <img src="./img/Practice-Areas/truck-icon.png">
                     </div>
-                    <h2>Crime Compensation</h2>
+                    <h4>Crime Compensation</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, aliquid, aut blanditiis illum ipsa iste magni minus neque odio officiis optio quae repellendus ut vitae voluptas? Error laudantium, unde. Facilis.</p>
                     <a href="">Learn More</a>
                 </div>
@@ -271,7 +271,7 @@
                     <div class="Icon">
                         <img src="images/Practice-Areas/oil-rig-icon.png">
                     </div>
-                    <h2>Work Injury</h2>
+                    <h4>Work Injury</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, aliquid, aut blanditiis illum ipsa iste magni minus neque odio officiis optio quae repellendus ut vitae voluptas? Error laudantium, unde. Facilis.</p>
                     <a href="">Learn More</a>
                 </div>
@@ -281,7 +281,7 @@
                     <div class="Icon">
                         <img src="./img/Practice-Areas/industrial-icon.png">
                     </div>
-                    <h2>Superanuation Cover</h2>
+                    <h4>Superanuation Cover</h4>
                     <p>Due to the nature of their work, individuals employed on industrial work-sites face extreme dangers every day. This could come in the form of fires and explosions, electrocutions, chemical exposure, or even accidents involving heavy machinery. In the wake of such incidents, it is crucial that the victims turn to our firm for help.</p>
                     <a href="">Learn More</a>
                 </div>
@@ -291,7 +291,7 @@
                     <div class="Icon">
                         <img src="./img/Practice-Areas/plant-icon.png">
                     </div>
-                    <h2>Sexual & Instutional Abuse</h2>
+                    <h4>Sexual & Instutional Abuse</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, aliquid, aut blanditiis illum ipsa iste magni minus neque odio officiis optio quae repellendus ut vitae voluptas? Error laudantium, unde. Facilis.</p>
                     <a href=""">Learn More</a>
                 </div>
@@ -302,7 +302,7 @@
                     <div class="Icon">
                         <img src="./img/Practice-Areas/pills-icon.png">
                     </div>
-                    <h2>Same Sex Relationship</h2>
+                    <h4>Same Sex Relationship</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, aliquid, aut blanditiis illum ipsa iste magni minus neque odio officiis optio quae repellendus ut vitae voluptas? Error laudantium, unde. Facilis.</p>
                     <a href="">Learn More</a>
                 </div>
@@ -313,7 +313,7 @@
                     <div class="Icon">
                         <img src="./img/Practice-Areas/product-icon.png">
                     </div>
-                    <h2>Crime and compensation</h2>
+                    <h4>Crime and compensation</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, aliquid, aut blanditiis illum ipsa iste magni minus neque odio officiis optio quae repellendus ut vitae voluptas? Error laudantium, unde. Facilis.</p>
                     <a href="">Learn More</a>
                 </div>
@@ -333,7 +333,7 @@
                     <div class="Icon">
                         <img src="./img/Practice-Areas/catastrophic-icon.png">
                     </div>
-                    <h2>Employment Law</h2>
+                    <h4>Employment Law</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, aliquid, aut blanditiis illum ipsa iste magni minus neque odio officiis optio quae repellendus ut vitae voluptas? Error laudantium, unde. Facilis.</p>
                     <a href="">Learn More</a>
                 </div>
@@ -353,7 +353,7 @@
                     <div class="Icon">
                         <img src="./img/Practice-Areas/aviation-icon.png">
                     </div>
-                    <h2>TAC Claims</h2>
+                    <h4>TAC Claims</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, aliquid, aut blanditiis illum ipsa iste magni minus neque odio officiis optio quae repellendus ut vitae voluptas? Error laudantium, unde. Facilis.</p>
                     <a href="">Learn More</a>
                 </div>
@@ -373,7 +373,7 @@
                     <div class="Icon">
                         <img src="./img/Practice-Areas/insurance-claims-icon.png">
                     </div>
-                    <h2>Insurance Claims</h2>
+                    <h4>Insurance Claims</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, aliquid, aut blanditiis illum ipsa iste magni minus neque odio officiis optio quae repellendus ut vitae voluptas? Error laudantium, unde. Facilis.</p>
                     <a href="">Learn More</a>
                 </div>
@@ -393,7 +393,7 @@
                     <div class="Icon">
                         <img src="./img/Practice-Areas/faq-icon.png">
                     </div>
-                    <h2>Frequently Asked Questions</h2>
+                    <h4>Frequently Asked Questions</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, aliquid, aut blanditiis illum ipsa iste magni minus neque odio officiis optio quae repellendus ut vitae voluptas? Error laudantium, unde. Facilis.</p>
                     <a href="" style="padding-bottom: 5px;">Learn More</a>
                 </div>

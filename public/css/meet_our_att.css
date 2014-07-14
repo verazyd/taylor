@@ -75,7 +75,7 @@ body.Template33649 #WideZone {
     -moz-transition: 1s ease;
     -o-transition: 1s ease;
     transition: 1s ease;
-    background-color: #217C9C;
+    background-color: #3685BE;
     position: relative;
     overflow: hidden;
 }
@@ -296,7 +296,7 @@ body.Sub #StickyBtns img.ScrollBtn {
 #AttyCarousel {
     position: relative;
     overflow: hidden;
-    height: 500px;
+    height: 360px;
     padding: 0px;
     width: 100%;
     -webkit-transition: translateZ(0);

@@ -8,7 +8,7 @@
         overflow-y: scroll;
     }
     .recent_victory{
-        background: #217C9C;
+        background: #3685BE;
         margin-top: 10px;
         color: #ffffff;
     }
@@ -26,7 +26,7 @@
     }
 
 </style>
-    <div class="container" style="margin-top: 15%;margin-bottom: 10%;">
+    <div class="container" style="margin-bottom: 10%;">
         <div class="row">
              {{HTML::image('/img/our_vic.jpeg', $alt = 'Taylor&Preston',
             $attributes = array('class' => 'center-block img-responsive',  'width' => '100%')) }}

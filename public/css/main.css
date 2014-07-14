@@ -331,7 +331,7 @@ textarea {
     color: blue;
 }
 .carousel {
-    margin: 177px 5px 3px 5px;
+    /*margin: 177px 5px 3px 5px;*/
 }
 
 .carousel .container {
@@ -395,7 +395,7 @@ textarea {
 
 /*Victory Page*/
 .vic_description{
-    background: #217C9C;
+    background: #3685BE;
     text-align: justify;
     color: #ffffff;
     padding: 10px;
