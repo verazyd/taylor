@@ -30,9 +30,11 @@
 
 
 
-    <style type="text/css">#NavZone {
+    <style type="text/css">
+        #NavZone {
             position:fixed
-        }</style>
+        }
+    </style>
 
     {{ HTML::script('js/js_header/script.js')  }}
 
