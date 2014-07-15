@@ -1,9 +1,9 @@
 @extends('layouts.master')
 @section('content')
-<div class="container" style="margin-top: 15%;margin-bottom: 10%;">
+<div class="container" style="margin-bottom: 1%;">
     <div class="row">
         <div class="col-md-6">
-            <h4>Receive a free case evaluation</h4>
+            <h3>Receive a free case evaluation</h3>
             {{ Form::open(['method' => 'POST', 'route' => 'contactus.store']) }}
             <!--Email Form Input -->
             <div class="form-group">
@@ -40,7 +40,7 @@
         <div class="col-md-6">
             <h3>Locations:</h3>
             <script src="http://maps.google.com/maps/api/js?sensor=false"type="text/javascript"></script>
-            <div id="map" style="width: 610px; height: 445px;"></div>
+            <div id="map" style="width: 610px; height: 515px;"></div>
             <script type="text/javascript">
 
                 var locations = [

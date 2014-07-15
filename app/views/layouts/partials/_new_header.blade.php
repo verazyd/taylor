@@ -66,10 +66,10 @@
                     <nav class="top-nav" id="TopNavigation" icobalt="CobaltControls.Controls.StaticContent">
                         <ul class="t-nav" icobalt="CobaltControls.Controls.AdvancedMenu" _flyout="false" id="ctl03" name="ctl03">
                             <li data-index="1">
-                                <a href="About-Scorpion.html" target="">Family Law</a>
+                                <a href="{{URL::to('familyLaw') }}" target="">Family Law</a>
                             </li>
                             <li data-index="2">
-                                <a href="Who-We-Serve.html" target="">Personal Injury</a>
+                                <a href="{{ URL::to('/personalInjury') }}" target="">Personal Injury</a>
                             </li>
                             <li data-index="3">
                                 <a href="What-We-Do.html" target="">Legal Services</a>
@@ -78,7 +78,7 @@
                                 <a href="Why-Scorpion-.html" target="">Our Victories</a>
                             </li>
                             <li data-index="5">
-                            <a href="Contact-Us.html" target="">Contact Us</a>
+                            <a  target="">Contact Us</a>
                             </li>
                         </ul>
                     </nav>
@@ -94,8 +94,8 @@
                 <div class="fly-nav  1">
                     <div class="main">
                         <div id="FlyoutContent1" class="flycontent">
-                            <h2>About Taylor&Preston</h2>
-                            <p>Taylor & Preston Family Lawyers Melbourne provides the highest quality, personal legal services in all areas of family law matters including divorce and child custody. We know that the outcome of your or your loved ones family law matter is of the utmost importance, and it is vital that you have on your side a Melbourne family lawyer that will provide you with committed and exceptional service.</p>
+                            <h3>Family Law</h3>
+                            <p>Our team can assist in the drafting of pre-nuptial agreements, and provides committed legal counsel in issues involving property settlement, financial agreements, mediation, and child support, both binding child support agreements, limited child support agreements, and cases of objecting child support. We are well-versed in Australian law with regard to child custody, child abduction, and can assist in family dispute resolution. Cases of neglect, domestic violence, or child abduction are of great concern, and should be acted upon by a qualified lawyer from our firm immediately for protection and legal intervention. We also provide legal services for those in same sex relationships that have family law matters to address.</p>
                         </div>
                         <nav class="droplist" icobalt="CobaltControls.Controls.AdvancedMenu" id="FlyMenu1" name="FlyMenu1">
                             <ul>
@@ -111,8 +111,9 @@
                 <div class="fly-nav  2">
                     <div class="main">
                         <div id="FlyoutContent2" class="flycontent">
-                            <h2>Family Law</h2>
-                            <p>Our team can assist in the drafting of pre-nuptial agreements, and provides committed legal counsel in issues involving property settlement, financial agreements, mediation, and child support, both binding child support agreements, limited child support agreements, and cases of objecting child support. We are well-versed in Australian law with regard to child custody, child abduction, and can assist in family dispute resolution. Cases of neglect, domestic violence, or child abduction are of great concern, and should be acted upon by a qualified lawyer from our firm immediately for protection and legal intervention. We also provide legal services for those in same sex relationships that have family law matters to address.</p>
+                            <h3>Personal Injury</h3>
+                            <p>Taylor&Preston Personal Injury provides expert Personal Injury law services to clients in throughout Australia. Speak to a
+                            Personal Injury Lawyer now by calling 1.800.633.625</p>
                         </div>
                         <nav class="droplist" icobalt="CobaltControls.Controls.AdvancedMenu" id="FlyMenu2" name="FlyMenu2">
                             <ul>
@@ -136,7 +137,7 @@
                 <div class="fly-nav  3 cf">
                     <div class="main">
                         <div id="FlyoutContent3" class="flycontent">
-                            <h2>Personal Injury</h2>
+                            <h3>Our Practice Areas</h3>
                             <p>We at Taylor & Preston understand how important the outcome of any family law matter is to you and your future, as well as the urgency of your case when children are involved. Our professional lawyers have impressive credentials and a full understanding of the laws involved in all areas of family law. When we represent you, you can be confident that your interests will be protected, and that you are represented by a quality family lawyer that will do all possible to pursue a favorable outcome for you. We urge you to contact our firm to discuss your personal legal matter. We take all the time necessary to answer your questions about what to expect and how we will proceed to pursue your objectives.</p>
                             <p><strong>That leaves just one question: Are you ready to get more?</strong></p>
                         </div>
@@ -155,7 +156,7 @@
                                 </li><li class="level1 ">
                                     <a href="" target="">Content Writing</a>
                                 </li><li class="level1 ">
-                                    <a href="" target="">Blogging & Company Updates</a>
+                                    <a href="{{URL::to('/allblogs') }}" target="">Blogging & Company Updates</a>
                                 </li><li class="level1 ">
                                     <a href="" target="">Social Media</a>
                                 </li><li class="level1 ">
@@ -179,22 +180,20 @@
                 <div class="fly-nav  4">
                     <div class="main">
                         <div id="FlyoutContent4" class="flycontent">
-                            <h2>Our Practice Areas</h2>
+                            <h3>Our Victories</h3>
                             <p>
                                 There are a lot of reasons why we think you should choose to work with
                                 our team of marketing experts, but we believe the biggest reason is simple:
                                 <strong>we get results.</strong> This is something we have proven through actions, not just words, throughout
                                 the years, and can be easily seen from the millions of qualified leads
-                                that we have driven to our customers. When you work with us, you can be
-                                confident knowing that we will get you a great return on your investment
-                                at an unbelievable cost per lead.
+                                that we have driven to our customers.
                                 <strong>We will get you more for less</strong>.
                             </p>
                         </div>
                         <nav class="droplist" icobalt="CobaltControls.Controls.AdvancedMenu" id="FlyMenu4" name="FlyMenu4">
                             <ul>
                                 <li class="level1 ">
-                                    <a href="" target="">Testimonials</a>
+                                    <a href="{{ URL::to('testimonials') }}" target="">Testimonials</a>
                                 </li><li class="level1 ">
                                     <a href="" target="">Our Awards</a>
                                 </li><li class="level1 ">
@@ -213,16 +212,16 @@
                 <div class="fly-nav  5">
                     <div class="main">
                         <div id="FlyoutContent2" class="flycontent">
-                            <h2>Family Law</h2>
+                            <h3>Contact Us Now</h3>
                             <p>Our team can assist in the drafting of pre-nuptial agreements, and provides committed legal counsel in issues involving property settlement, financial agreements, mediation, and child support, both binding child support agreements, limited child support agreements, and cases of objecting child support. We are well-versed in Australian law with regard to child custody, child abduction, and can assist in family dispute resolution. Cases of neglect, domestic violence, or child abduction are of great concern, and should be acted upon by a qualified lawyer from our firm immediately for protection and legal intervention. We also provide legal services for those in same sex relationships that have family law matters to address.</p>
                         </div>
                         <nav class="droplist" icobalt="CobaltControls.Controls.AdvancedMenu" id="FlyMenu2" name="FlyMenu2">
                             <ul>
                                 <li class="level1 ">
-                                    <a href="" target="">Our Locations</a>
+                                    <a href="{{URL::to('/location')}}" target="">Our Locations</a>
                                 </li>
                                 <li class="level1 ">
-                                    <a href="" target="">Contact Us</a>
+                                    <a href="{{URL::to('/contactus') }}" target="">Contact Us</a>
                                 </li>
                             </ul>
                         </nav>
@@ -235,8 +234,6 @@
             <div icobalt="CobaltControls.Controls.DisplayList" id="Animation" data-delay="8000" name="Animation">
 
     </header>
-
-
 <script type="text/javascript">
 var Page_ValidationActive = false;
 if (typeof(ValidatorOnLoad) == "function") {

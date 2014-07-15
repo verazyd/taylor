@@ -71,37 +71,17 @@
 </div>
 
 <div class="row" style="margin: 10px 5px;">
-    {{HTML::style('css/image_animations.css') }}
-    <div class="col-md-12">
-        <h2 style="color:#3685BE; text-align: center; font-weight: bold; font-size: 34px;">Why Choose Taylor & Preston ?</h2>
-        <p style="padding:20px; font-weight: bold;">
-            Our firm was established with the principle that the best lawyers will for their clients achieve the best results. We take the time to fully evaluate every detail of your family law matter and then move forward confidentially and confidently, with the goal of achieving excellent results for our clients.
-        </p>
-        <div class="col-md-4 view view-fourth">
-            {{HTML::image('/img/our_vic.jpeg', $alt = 'Taylor&Preston',
-            $attributes = array('class' => 'center-block img-responsive',  'width' => '350px')) }}
-            <div class="mask">
-                <h2>Taylor&Preston</h2>
-                <p>Lorem ipsum dolor sit amet, consectetu Aut reiciendis repellat sit vel? Dolores earum et</p>
-                <a href="#" class="info">Read More</a>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <p style="position: absolute;top: 27%;text-align: justify; width: 80%; left: 10%;font-style: italic; color: #217C9C; font-weight: bold">
-                Taylor & Preston Family Lawyers Melbourne provides the highest quality, personal legal services in all areas of family law matters
-                including divorce and child custody. We know that the outcome of your or your loved ones family law matter is of the utmost importance,
-                and it is vital that you have on your side a Melbourne family lawyer that will provide you with committed and exceptional service
-            </p>
-        </div>
-        <div class="col-md-4 view view-fourth">
-            {{HTML::image('/img/our_vic.jpeg', $alt = 'Taylor&Preston',
-            $attributes = array('class' => 'center-block img-responsive',  'width' => '350px')) }}
-            <div class="mask">
-                <h2>Taylor&Preston</h2>
-                <p>Lorem ipsum dolor sit amet, consectetu Aut reiciendis repellat sit vel? Dolores earum et</p>
-                <a href="#" class="info">Read More</a>
-            </div>
-        </div>
+    <div class="col-md-5">
+        <iframe width="100%" height="300px" src="//www.youtube.com/embed/3U3K4CVldkk" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="col-md-2">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores atque, aut commodi consequuntur cumque, dicta magnam officia,
+        quis quo saepe similique sint suscipit vitae? Facere libero magni officia provident similique!Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Ad aliquam aliquid,
+        aperiam beatae corporis dolore excepturi explicabo ipsum iure iusto laboriosam nihil
+    </div>
+    <div class="col-md-5">
+        <iframe width="100%" height="300" src="//www.youtube.com/embed/tmllhGQe_bM" frameborder="0" allowfullscreen></iframe>
     </div>
 </div>
 
@@ -114,7 +94,7 @@
 
 <!--    @include('layouts.partials._feedback')-->
 
-<main>
+
 <div class="icobalt ilayout cf paper" id="AttorneyZone">
     <div icobalt="CobaltControls.Controls.DisplayList" id="AttyCarousel" class="main" name="AttyCarousel">
         <ul>
@@ -323,7 +303,7 @@
                     <div class="Icon">
                         <img src="./img/Practice-Areas/railroad-icon.png">
                     </div>
-                    <h2>Hague Convention</h2>
+                    <h4>Hague Convention</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, aliquid, aut blanditiis illum ipsa iste magni minus neque odio officiis optio quae repellendus ut vitae voluptas? Error laudantium, unde. Facilis.</p>
                     <a href="">Learn More</a>
                 </div>
@@ -343,7 +323,7 @@
                     <div class="Icon">
                         <img src="./img/Practice-Areas/motor-vehicle-icon.png">
                     </div>
-                    <h2>Divorce</h2>
+                    <h4>Divorce</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, aliquid, aut blanditiis illum ipsa iste magni minus neque odio officiis optio quae repellendus ut vitae voluptas? Error laudantium, unde. Facilis.</p>
                     <a href="">Learn More</a>
                 </div>
@@ -363,7 +343,7 @@
                     <div class="Icon">
                         <img src="./img/Practice-Areas/commercial-icon.png">
                     </div>
-                    <h2>Commercial Litigation</h2>
+                    <h4>Commercial Litigation</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, aliquid, aut blanditiis illum ipsa iste magni minus neque odio officiis optio quae repellendus ut vitae voluptas? Error laudantium, unde. Facilis.</p>
                     <a href="">Learn More</a>
                 </div>
@@ -383,7 +363,7 @@
                     <div class="Icon">
                         <img src="./img/Practice-Areas/property-contamination-icon.png">
                     </div>
-                    <h2>Property Contamination</h2>
+                    <h4>Property Contamination</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, aliquid, aut blanditiis illum ipsa iste magni minus neque odio officiis optio quae repellendus ut vitae voluptas? Error laudantium, unde. Facilis.</p>
                     <a href="">Learn More</a>
                 </div>
@@ -403,9 +383,8 @@
 </div>
 
 
-<div class="icobalt ilayout cf BGScroll" id="TestZone">
-    <div icobalt="CobaltControls.Controls.StaticContent" id="TestIEBG" class="IEBG">
-    </div>
+<div class="BGScroll" id="TestZone">
+
     <div icobalt="CobaltControls.Controls.StaticContent" class="main" id="HomeTestimonial">
         <h2>What Our Clients Are Saying About Us</h2>
         @foreach($testimonials as $testimonial)
@@ -420,8 +399,8 @@
     </div>
 </div>
 
-</main>
-</form>
+
+
 
 <script type="text/javascript">
     $(document).ready(function() {

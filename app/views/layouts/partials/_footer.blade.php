@@ -11,7 +11,7 @@
                         <span itemprop="description"><strong>101 Hope Street, Brunswick VIC 3056</strong></span>
 					<div class="BPhone">
                         <icon class="phone"></icon> Call Today For Free Consulation:<br>
-                        <span itemprop="telephone"><a href="" class="phonelink">1800 633 625</a></span>
+                        <span itemprop="telephone"><a href="" class="phonelink">1 800 633 625</a></span>
                     </div>
 					<br>
 				</span>
@@ -41,9 +41,6 @@
                     <li>
                         <a href="{{ URL::to('/personalInjury') }}" >Personal Injury</a>
                     </li>
-<!--                    <li>-->
-<!--                        <a href="#practice_areas">Practice Areas</a>-->
-<!--                    </li>-->
                     <li>
                         <a href="{{URL::to('/location')}}">Our Locations</a>
                     </li>
@@ -76,9 +73,6 @@
                     <li>
                         <a href="" >TAC Claims</a>
                     </li>
-<!--                    <li>-->
-<!--                        <a href="" >Superannuation Claim</a>-->
-<!--                    </li>-->
                     <li>
                         <a href="">Work Injury</a>
                     </li>
