@@ -7,6 +7,11 @@
         position: fixed;
     }
 </style>
+<style>
+    #PAZone{
+        border-top: 5px solid gray;
+    }
+</style>
 <script type="text/javascript">
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -76,10 +81,10 @@
         <iframe width="100%" height="300px" src="//www.youtube.com/embed/3U3K4CVldkk" frameborder="0" allowfullscreen></iframe>
     </div>
     <div class="col-md-2">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores atque, aut commodi consequuntur cumque, dicta magnam officia,
-        quis quo saepe similique sint suscipit vitae? Facere libero magni officia provident similique!Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Ad aliquam aliquid,
-        aperiam beatae corporis dolore excepturi explicabo ipsum iure iusto laboriosam nihil
+        <p style="font-size: 16px; font-family: Montserrat">
+            At TP we’re nuts about technology and we use it to ensure that we offer competitive legal services through a team of high quality mobile lawyers that work around clients’ needs, lifestyles and locations.<br>
+            Proudly results-focused, we avoid the trappings of hierarchy and status and instead work as a true team to deliver results for the clients we serve.
+        </p>
     </div>
     <div class="col-md-5">
         <iframe width="100%" height="300" src="//www.youtube.com/embed/tmllhGQe_bM" frameborder="0" allowfullscreen></iframe>
@@ -113,7 +118,7 @@
                 <img data-bg-image="./img/process/uuwtdmzwk9t.png" src="./img/spacer-2.gif" style="border-width:0px;display:none;" />
 
                 <div class="AttyInfo">
-                    <h1> Lawyer 1</h1>
+                    <h1> Jeremy Williams</h1>
                     <h2>Attorney</h2>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt velit eaque, pariatur saepe voluptatem aut magnam minima ab sequi facilis! Reiciendis labore, pariatur numquam blanditiis praesentium autem molestias. Aliquam, reprehenderit. ...
@@ -132,10 +137,10 @@
                 <img data-bg-image="img/process/0p_uzoez0yu.png" src="img/spacer-2.gif" style="border-width:0px;display:none;" />
 
                 <div class="AttyInfo">
-                    <h1> Lawyer 2</h1>
+                    <h1>Paul Boers</h1>
                     <h2>Attorney</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus tempore officiis tenetur, harum commodi eaque quibusdam voluptas ea maiores porro repudiandae voluptatum minima corporis, reiciendis ipsam at ab, ipsum impedit. ...
+                        Paul Boers is a Senior Family Lawyer.  He was originally admitted as a solicitor in 1990 and has over 20 years experience in Family Law.
                     </p>
                     <a href="{{ URL::to('ourStaff') }}">Learn More [+]</a>
                 </div>
@@ -383,7 +388,7 @@
     </div>
 </div>
 
-<div class="row" style="background:rgb(27, 143, 224);;">
+<div class="row" style="background:rgb(27, 143, 224);border-top: 5px solid gray;">
     <div class="col-md-12" style="padding: 20px;">
         <div id="HomeTestimonial">
         <h2 style="text-align: center; color: #ffffff; padding-bottom: 10px;">What Our Clients Are Saying About Us</h2>

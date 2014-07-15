@@ -472,7 +472,6 @@ html.no-boxsizing #AttyCarousel ul li.selected {
     -o-transition: .5s ease;
     transition: .5s ease;
 }
-
 #AttyCarousel .AttyInfo a:hover {
     background-color: #3685BE; /* $secondary */
 }

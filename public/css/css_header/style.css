@@ -772,7 +772,8 @@ html.no-display-table .top-nav ul li a {
     font-size: 52px;
 }
 .flycontent p{
-    font-size: 18px;
+    font-size: 15px;
+    font-family: Montserrat;
 }
 #GradientText text {
     text-transform: uppercase;
