@@ -45,19 +45,16 @@
 
 </head>
 
-<style>
-    #NavZone{
-        background-image: url("./img/img_header/BG-topnav.jpg");
-    }
-    #NavZone{
-        background-image: url("../img/img_header/BG-topnav_header.jpg");
-    }
-</style>
+<!--<style>-->
+<!--    #NavZone{-->
+<!--        background-image: url("../../img/img_header/BG-topnav.jpg");-->
+<!--    }-->
+<!--</style>-->
 
 <body>
 
     <header>
-        <div  id="NavZone" class="topNabVar">
+        <div  id="NavZone" class="topNabVar" style="background-image: url('./img/img_header/BG-topnav.jpg')">
             <div class="cf masthead" id="Masthead" icobalt="CobaltControls.Controls.StaticContent">
                 <div class="TopLogo">
                     <div class="logobg"></div>
