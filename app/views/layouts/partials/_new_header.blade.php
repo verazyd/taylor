@@ -45,15 +45,20 @@
 
 </head>
 <style>
+
     #NavZone{
         background-image: url("../img/img_header/BG-topnav.jpg");
-        background-image: url("./img/img_header/BG-topnav.jpg");
     }
+    .topNabVar{
+        background-image: url("./img/img_header/BG-topnav.jpg") !important;
+    }
+
 </style>
+
 <body>
 
     <header>
-        <div class="icobalt ilayout" id="NavZone">
+        <div  id="NavZone" class="topNabVar">
             <div class="cf masthead" id="Masthead" icobalt="CobaltControls.Controls.StaticContent">
                 <div class="TopLogo">
                     <div class="logobg"></div>
