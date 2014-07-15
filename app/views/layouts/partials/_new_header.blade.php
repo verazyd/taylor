@@ -47,10 +47,10 @@
 
 <style>
     #NavZone{
-        background-image: url("../img/img_header/BG-topnav.jpg");
-    }
-    .topNabVar{
         background-image: url("./img/img_header/BG-topnav.jpg");
+    }
+    #NavZone{
+        background-image: url("../img/img_header/BG-topnav_header.jpg");
     }
 </style>
 
