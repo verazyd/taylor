@@ -71,7 +71,7 @@
 </div>
 
 <div class="row" style="">
-    <h2 style="text-align: center; color: #3685BE; margin: 0px 0px 15px 0px">Why Choose Taylor & Preston ?</h2>
+    <h2 style="margin: 0px 0px 15px 0px">Why Choose Taylor & Preston ?</h2>
     <div class="col-md-5">
         <iframe width="100%" height="300px" src="//www.youtube.com/embed/3U3K4CVldkk" frameborder="0" allowfullscreen></iframe>
     </div>

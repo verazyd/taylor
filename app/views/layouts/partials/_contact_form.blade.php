@@ -1,4 +1,4 @@
-<div class="row" style="background: #1C8FE0; border-bottom: 5px solid gray;">
+<div class="row" style="background: #1C8FE0; border-bottom: 5px solid gray;border-top: 5px solid gray;">
     <div class="col-md-6">
         <div class="col-md-1"></div>
         <div class="col-md-5">
