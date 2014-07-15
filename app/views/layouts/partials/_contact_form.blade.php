@@ -1,15 +1,13 @@
-{{ HTML::script('/js/jquery_validate.js') }}
-
-<div class="row" style="background: #1C8FE0;">
+<div class="row" style="background: #1C8FE0; border-bottom: 5px solid gray;">
     <div class="col-md-6">
-        <div class="col-md-2"></div>
-        <div class="col-md-4">
-            <p style="text-align: center;font-size: 28px;color: #ffffff"><span class="glyphicon glyphicon-envelopeHow"></span>Any Questions?</p>
-            <p style="text-align: center;font-size: 20px;color: #ffffff"><span class="glyphicon glyphicon-envelopeHow"></span>No Win, No Fee Representation!</p>
+        <div class="col-md-1"></div>
+        <div class="col-md-5">
+            <p style="text-align: center;font-size: 28px;color: #ffffff">Any Questions?</p>
+            <p style="text-align: center;font-size: 20px;color: #ffffff">For Confidential consultation, Contact Us!! !!</p>
         </div>
     </div>
     <div class="col-md-6">
-        <form class="form" style="margin-top: 4%">
+        <form class="form" style="padding: 4%">
             <div class="com-md-6" style="float: left;">
                 <div class="name">
                     <label class="sr-only" >Name*:</label>

@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('content')
-    <div class="container" style="margin-top: 1%;">
+    <div class="row" style="margin: 1%;">
         <div class="col-md-8">
         <script src="http://maps.google.com/maps/api/js?sensor=false"type="text/javascript"></script>
            <div id="map" style="width: 750px; height: 400px;"></div>
@@ -40,7 +40,6 @@
             </script>
         </div>
         <div class="col-md-4">
-
             <p style="font-weight: bold; font-size: 25px;">Taylor&Preston Branches:</p>
             <div id="tabs">
                 <ul>
@@ -65,10 +64,11 @@
 
             </div>
         </div>
-        <div class="row" style="margin-bottom: 80px;">
+    </div>
+        <div class="row">
             <div class="col-md-12">
                 @include('layouts.partials._contact_form')
             </div>
         </div>
-    </div>
+
 @stop
