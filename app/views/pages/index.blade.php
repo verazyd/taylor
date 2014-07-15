@@ -71,7 +71,7 @@
 </div>
 
 <div class="row" style="">
-    <h2 style="margin: 0px 0px 15px 0px">Why Choose Taylor & Preston ?</h2>
+    <h2 style="margin: 0px 0px 15px 0px;border-top: 5px solid gray">Why Choose Taylor & Preston ?</h2>
     <div class="col-md-5">
         <iframe width="100%" height="300px" src="//www.youtube.com/embed/3U3K4CVldkk" frameborder="0" allowfullscreen></iframe>
     </div>
@@ -386,7 +386,7 @@
 <div class="row" style="background:rgb(27, 143, 224);;">
     <div class="col-md-12" style="padding: 20px;">
         <div id="HomeTestimonial">
-        <h2 style="text-align: center; color: #ffffff;">What Our Clients Are Saying About Us</h2>
+        <h2 style="text-align: center; color: #ffffff; padding-bottom: 10px;">What Our Clients Are Saying About Us</h2>
         @foreach($testimonials as $testimonial)
         <p style="width: 96%; margin: 0 auto;">"{{ $testimonial->description }}"
             <span>--

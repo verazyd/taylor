@@ -36,10 +36,10 @@ h1 {
 }
 
 h2 {
-    /*color: #777777;*/
+    color: #1C8FE0;
     font-size: 38px;
     text-align: center;
-    color: #3685BE;
+
 }
 
 h3 {
@@ -771,7 +771,9 @@ html.no-display-table .top-nav ul li a {
     text-transform: uppercase;
     font-size: 52px;
 }
-
+.flycontent p{
+    font-size: 18px;
+}
 #GradientText text {
     text-transform: uppercase;
     font-weight: 600;
