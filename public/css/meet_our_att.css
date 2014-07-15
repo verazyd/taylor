@@ -75,7 +75,7 @@ body.Template33649 #WideZone {
     -moz-transition: 1s ease;
     -o-transition: 1s ease;
     transition: 1s ease;
-    background-color: #3685BE;
+    background-color:  rgb(27, 143, 224);;
     position: relative;
     overflow: hidden;
 }
@@ -575,7 +575,6 @@ html.no-boxsizing .PracticeList .details h2 {
     font-weight: 500;
     margin: 10px 0;
 }
-
 html.no-boxsizing .PracticeList .details p {
     margin: 10px 10%;
 }

@@ -70,7 +70,8 @@
     <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
 </div>
 
-<div class="row" style="margin: 10px 5px;">
+<div class="row" style="">
+    <h2 style="text-align: center; color: #3685BE; margin: 0px 0px 15px 0px">Why Choose Taylor & Preston ?</h2>
     <div class="col-md-5">
         <iframe width="100%" height="300px" src="//www.youtube.com/embed/3U3K4CVldkk" frameborder="0" allowfullscreen></iframe>
     </div>
@@ -87,7 +88,7 @@
 
     @include('layouts.partials._contact_form')
 
-<div class="" style="margin: 10px 5px 5px 5px;">
+<!--<div class="" style="margin: 10px 5px 5px 5px;">-->
 <!--<form id="ctl00" name="ctl00" method="post" action=""-->
 <!--      onsubmit="javascript:return WebForm_OnSubmit();" style="margin:0px;padding:0px;">-->
 
@@ -210,7 +211,7 @@
         </ul>
     </div>
 </div>
-<div class="icobalt ilayout cf LBlue" id="PAZone">
+<div class="LBlue" id="PAZone">
     <div icobalt="CobaltControls.Controls.DisplayList" id="HomePracticeAreas" class="PracticeList main" name="HomePracticeAreas">
         <h2><a href="practice_areas">Our Practice Areas</a></h2>
         <ul class="cf">
@@ -382,24 +383,22 @@
     </div>
 </div>
 
-
-<div class="BGScroll" id="TestZone">
-
-    <div icobalt="CobaltControls.Controls.StaticContent" class="main" id="HomeTestimonial">
-        <h2>What Our Clients Are Saying About Us</h2>
+<div class="row" style="background:rgb(27, 143, 224);;">
+    <div class="col-md-12" style="padding: 20px;">
+        <div id="HomeTestimonial">
+        <h2 style="text-align: center; color: #ffffff;">What Our Clients Are Saying About Us</h2>
         @foreach($testimonials as $testimonial)
-        <p>"{{ $testimonial->description }}"
+        <p style="width: 96%; margin: 0 auto;">"{{ $testimonial->description }}"
             <span>--
                  {{ $testimonial->name }} From {{$testimonial->location }}
             </span>
             &nbsp{{$testimonial->created_at->format('l jS F Y') }}
-           </p>
+        </p>
         <a class="btn btn-large btn-success" href="{{ URL::to('testimonials') }}">Learn more</a>
         @endforeach
+        </div>
     </div>
 </div>
-
-
 
 
 <script type="text/javascript">
