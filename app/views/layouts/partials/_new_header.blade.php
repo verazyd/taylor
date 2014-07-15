@@ -44,15 +44,14 @@
     {{ HTML::style('/css/meet_our_att_responsive.css') }}
 
 </head>
-<style>
 
+<style>
     #NavZone{
         background-image: url("../img/img_header/BG-topnav.jpg");
     }
     .topNabVar{
-        background-image: url("./img/img_header/BG-topnav.jpg") !important;
+        background-image: url("./img/img_header/BG-topnav.jpg");
     }
-
 </style>
 
 <body>

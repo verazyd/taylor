@@ -100,7 +100,7 @@
       <file leaf-file-name="_new_header.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_new_header.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="74" selection-start="2824" selection-end="2824" vertical-scroll-proportion="0.3164557" vertical-offset="1075" max-vertical-offset="9475">
+            <state line="53" column="5" selection-start="2820" selection-end="2820" vertical-scroll-proportion="0.42194092" vertical-offset="1025" max-vertical-offset="9450">
               <folding />
             </state>
           </provider>
@@ -1650,7 +1650,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_new_header.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="74" selection-start="2824" selection-end="2824" vertical-scroll-proportion="0.3164557" vertical-offset="1075" max-vertical-offset="9475">
+        <state line="53" column="5" selection-start="2820" selection-end="2820" vertical-scroll-proportion="0.42194092" vertical-offset="1025" max-vertical-offset="9450">
           <folding />
         </state>
       </provider>
