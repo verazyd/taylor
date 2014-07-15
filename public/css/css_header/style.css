@@ -3611,7 +3611,7 @@ form a,form a:before,form a:after {
 }
 #NavZone {
     width: 100%;
-    background: url('./img/img_header/BG-topnav.jpg');
+    /*background-image: url('../img/img_header/BG-topnav.jpg');*/
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;

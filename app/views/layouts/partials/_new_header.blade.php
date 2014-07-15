@@ -38,17 +38,22 @@
 
     {{ HTML::script('js/js_header/script.js')  }}
 
-
-
     <script type="text/javascript">window._mobilemenu=true;</script>
 
     {{ HTML::style('/css/meet_our_att.css') }}
     {{ HTML::style('/css/meet_our_att_responsive.css') }}
+
 </head>
+<style>
+    #NavZone{
+        background-image: url("./img/img_header/BG-topnav.jpg");
+    }
+</style>
 <body>
 
     <header>
-        <div class="icobalt ilayout" id="NavZone"><div class="cf masthead" id="Masthead" icobalt="CobaltControls.Controls.StaticContent">
+        <div class="icobalt ilayout" id="NavZone">
+            <div class="cf masthead" id="Masthead" icobalt="CobaltControls.Controls.StaticContent">
                 <div class="TopLogo">
                     <div class="logobg"></div>
                     <a href="{{ URL::to('/') }}">
@@ -84,7 +89,8 @@
                 <div class="Number">
                     <a class="phone_link" href="tel:8663323230">1.800.833.625</a>
                 </div>
-            </div><div icobalt="CobaltControls.Controls.StaticContent" id="Flyout">
+            </div>
+            <div icobalt="CobaltControls.Controls.StaticContent" id="Flyout">
                 <div class="fly-nav  1">
                     <div class="main">
                         <div id="FlyoutContent1" class="flycontent">
