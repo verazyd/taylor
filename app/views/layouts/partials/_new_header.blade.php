@@ -47,7 +47,8 @@
 
 <style>
     #NavZone{
-        background-image: url("../../img/img_header/BG-topnav.jpg");
+        background-image: url("./img/img_header/BG-topnav.jpg");
+        background: url("../img/img_header/BG-topnav_header.jpg");
     }
 </style>
 
