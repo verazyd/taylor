@@ -1,32 +1,26 @@
-<div class="row" style="background: #1C8FE0; border-bottom: 5px solid gray;border-top: 5px solid gray;">
-    <div class="col-md-6">
-        <div class="col-md-1"></div>
-        <div class="col-md-5">
-            <p style="text-align: center;font-size: 28px;color: #ffffff">Any Questions?</p>
-            <p style="text-align: center;font-size: 20px;color: #ffffff">For Confidential consultation, Contact Us!! !!</p>
-        </div>
+<style>
+    .contact_input_form{
+        width: 65%;
+    }
+</style>
+<div class="row contact_form_details">
+    <div class="col-md-2"></div>
+    <div class="col-md-4 any_questions">
+       <p>Any Questions?</p>
+       <p>For <span>Confidential</span> consultation-Contact Us!!</p>
+       <p>We will call get in touch with you ASAP!!</p>
     </div>
     <div class="col-md-6">
-        <form class="form" style="padding: 4%">
-            <div class="com-md-6" style="float: left;">
-                <div class="name">
-                    <label class="sr-only" >Name*:</label>
-                    <input type="text" class="input_name"  minlength="2" placeholder="Name" required="required">
-                </div>
-                <div class="email">
-                    <label class="sr-only" >Email*</label>
-                    <input type="email" class="input_email" placeholder="Email" required="required">
-                </div>
-                <div class="phone">
-                    <label class="sr-only" >Phone*</label>
-                    <input type="tel" class="input_phone"  placeholder="Phone" required="required">
-                </div>
+        <form role="form-inline">
+            <div class="form-group">
+                <label for="exampleInputName">Name</label>
+                <input type="text" class="form-control contact_input_form" id="exampleInputEmail1" placeholder="Enter Name">
             </div>
-            <div class="col-md-6 pull-left"  style="float: right; padding-bottom: 15px;">
-                <label class="sr-only" >Details*</label>
-                <textarea class="form-control" class="input_details"  placeholder="Details" required="required" style="background: #001321; margin-bottom: 4px; height: 68px; color: #ffffff"></textarea>
-                <button type="submit" class="btn btn-info form_submit"><i class="fa fa-envelope"></i>&nbsp;SUBMIT</button>
+            <div class="form-group">
+                <label for="exampleInputPhone1">Phone Number</label>
+                <input type="text" class="form-control contact_input_form" id="exampleInputPassword1" placeholder="Enter Phone Number">
             </div>
+            <button type="submit" class="btn btn-default form_submit"><i class="fa fa-envelope"></i>&nbsp;&nbsp;&nbsp;SUBMIT</button>
         </form>
     </div>
 </div>
