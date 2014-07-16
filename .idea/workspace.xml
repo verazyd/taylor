@@ -23,19 +23,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/css/css_header/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1227" column="0" selection-start="24133" selection-end="26835" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="109325">
+            <state line="3654" column="27" selection-start="75665" selection-end="75665" vertical-scroll-proportion="0.22965117" vertical-offset="91192" max-vertical-offset="109300">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="responsive.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="responsive.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/css/css_header/responsive.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1197" column="15" selection-start="21407" selection-end="21417" vertical-scroll-proportion="0.21903323" vertical-offset="29780" max-vertical-offset="41300">
+            <state line="1197" column="15" selection-start="21407" selection-end="21417" vertical-scroll-proportion="-5.576923" vertical-offset="29780" max-vertical-offset="41300">
               <folding />
             </state>
           </provider>
@@ -150,7 +150,6 @@
         <option value="$PROJECT_DIR$/public/css/meet_our_att.css" />
         <option value="$PROJECT_DIR$/app/controllers/CommonquestionsController.php" />
         <option value="$PROJECT_DIR$/app/views/pages/index.blade.php" />
-        <option value="$PROJECT_DIR$/public/css/css_header/style.css" />
         <option value="$PROJECT_DIR$/app/views/blogs/index_user.blade.php" />
         <option value="$PROJECT_DIR$/app/views/blogs/show.blade.php" />
         <option value="$PROJECT_DIR$/app/views/commonquestions/index.blade.php" />
@@ -168,6 +167,7 @@
         <option value="$PROJECT_DIR$/app/views/layouts/partials/_contact_form.blade.php" />
         <option value="$PROJECT_DIR$/public/css/main.css" />
         <option value="$PROJECT_DIR$/app/views/layouts/partials/_new_header.blade.php" />
+        <option value="$PROJECT_DIR$/public/css/css_header/style.css" />
       </list>
     </option>
   </component>
@@ -1593,16 +1593,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/css_header/style.css">
+    <entry file="file://$PROJECT_DIR$/public/css/css_header/responsive.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1227" column="0" selection-start="24133" selection-end="26835" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="109325">
+        <state line="1197" column="15" selection-start="21407" selection-end="21417" vertical-scroll-proportion="-5.576923" vertical-offset="29780" max-vertical-offset="41300">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/css_header/responsive.css">
+    <entry file="file://$PROJECT_DIR$/public/css/css_header/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1197" column="15" selection-start="21407" selection-end="21417" vertical-scroll-proportion="0.21903323" vertical-offset="29780" max-vertical-offset="41300">
+        <state line="3654" column="27" selection-start="75665" selection-end="75665" vertical-scroll-proportion="0.22965117" vertical-offset="91192" max-vertical-offset="109300">
           <folding />
         </state>
       </provider>
