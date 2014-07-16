@@ -1,7 +1,11 @@
 @extends('layouts.master')
 
+@section('title')
+    Family Injury Blog
+@stop
+
 @section('content')
-<div class="container" style="margin-top: 1%;">
+<div class="container container_section">
     <div class="col-md-8">
         <h4>Recent Post:</h4>
         @foreach($blogs as $blog)

@@ -1,6 +1,10 @@
 @extends('layouts.master')
+
+@section('title')
+    Contact Family and Personal Lawyers in Melbourne
+@stop
 @section('content')
-<div class="container" style="margin-bottom: 1%;">
+<div class="container container_section">
     <div class="row">
         <div class="col-md-6">
             <h3>Receive a free case evaluation</h3>

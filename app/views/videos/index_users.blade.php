@@ -1,7 +1,10 @@
 @extends('layouts.master')
 
+@section('title')
+    Lawyers in Melbourne
+@stop
 @section('content')
-<div style="margin: 1px;">
+<div class="video_center">
     <h2>Video Center</h2>
        <div class="row">
            <div class="col-md-6">

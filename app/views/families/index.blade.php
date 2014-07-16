@@ -1,7 +1,9 @@
 @extends('layouts.master')
-
+@section('title')
+    Family Lawyers in Melbourne
+@stop
 @section('content')
-<div class="container">
+<div class="container container_section">
     <div class="row">
         <div class="col-md-4">
             <h3>Services:</h3>

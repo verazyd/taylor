@@ -1,5 +1,9 @@
 @extends('layouts.master')
 
+@section('title')
+    Law Victroies in Melbourne
+@stop
+
 @section('content')
 <style>
     .vic_description{
@@ -8,7 +12,7 @@
         overflow-y: scroll;
     }
 </style>
-    <div class="row" style="margin: 1%;">
+    <div class="row container_section" style="margin: 1%;">
         <div class="row">
              {{HTML::image('/img/our_vic.jpeg', $alt = 'Taylor&Preston',
             $attributes = array('class' => 'center-block img-responsive',  'width' => '100%')) }}

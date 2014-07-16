@@ -1,7 +1,10 @@
 @extends('layouts.master')
+@section('title')
+    Personal Injury Blog
+@stop
 
 @section('content')
-<div class="container" style="margin-top: 175px;">
+<div class="container container_section">
 
    <h2>{{$blog->topic}}</h2>
     <a target="_blank" href={{$blog->url }}>{{$blog->url}}</a>

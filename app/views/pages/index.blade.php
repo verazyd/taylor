@@ -1,7 +1,10 @@
 @extends('layouts.master')
+
+@section('title')
+    Best Lawyers In Melbourne
+@stop
+
 @section('content')
-<!--<script type="text/javascript" src="http://cms.scorpioncms.com/Shared/js3/cms.1.js"></script>-->
-<!--{{ HTML::script('/js/meet_lawyer_plugin.js') }}-->
 
 <style type="text/css">#SideStickyZone {
         position: fixed;
@@ -56,9 +59,7 @@
     ?>
     <div class="carousel-inner">
         @foreach($images as $i => $image)
-
         <div class="item  @if($i == 0) {{ 'active' }} @endif">
-
             <img src="./img/{{$image->url }}" alt="">
             <div class="container">
                 <div class="carousel-caption">
@@ -67,7 +68,6 @@
                     <a class="btn btn-large btn-primary" href="#">Learn More [+]</a>
                 </div>
             </div>
-
         </div>
         @endforeach
     </div>
@@ -75,15 +75,17 @@
     <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
 </div>
 
-<div class="row" style="">
-    <h2 style="margin: 0px 0px 15px 0px;border-top: 5px solid gray">Why Choose Taylor & Preston ?</h2>
+<div class="row why_taylor_first">
+    <h2>Why Choose Taylor & Preston ?</h2>
     <div class="col-md-5">
         <iframe width="100%" height="300px" src="//www.youtube.com/embed/3U3K4CVldkk" frameborder="0" allowfullscreen></iframe>
     </div>
-    <div class="col-md-2">
-        <p style="font-size: 16px; font-family: Montserrat">
-            At TP we’re nuts about technology and we use it to ensure that we offer competitive legal services through a team of high quality mobile lawyers that work around clients’ needs, lifestyles and locations.<br>
-            Proudly results-focused, we avoid the trappings of hierarchy and status and instead work as a true team to deliver results for the clients we serve.
+    <div class="col-md-2 why_taylor">
+        <p>
+            At TP we’re nuts about technology and we use it to ensure that we offer competitive legal services through a team of high quality mobile lawyers that work around clients’ needs, lifestyles and locations.
+        </p>
+        <p>
+            Proudly results-focused, we avoid the trappings of hierarchy and status and instead work as a true team.
         </p>
     </div>
     <div class="col-md-5">
@@ -218,7 +220,7 @@
 </div>
 <div class="LBlue" id="PAZone">
     <div icobalt="CobaltControls.Controls.DisplayList" id="HomePracticeAreas" class="PracticeList main" name="HomePracticeAreas">
-        <h2><a href="practice_areas">Our Practice Areas</a></h2>
+        <h2 style="font-family: arial, sans-serif;color: rgb(28, 143, 224);"><a href="practice_areas">Our Practice Areas</a></h2>
         <ul class="cf">
             <li class="active left">
                 <a href="{{ URL::to('personalInjury') }}">Personal Injury</a>

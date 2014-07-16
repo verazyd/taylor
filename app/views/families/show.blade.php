@@ -1,10 +1,13 @@
 @extends('layouts.master')
 
+@section('title')
+    Best Family Lawyers in Melbourne
+@stop
+
 @section('content')
-<div class="container" style="margin-top: 175px; margin-bottom: 10%;">
+<div class="container container_section">
     <div class="row">
         <div class="col-md-8">
-
             <h3>  {{ $service->name }}</h3>
             <a target="_blank" href={{$service->url }}>{{$service->url}}</a>
             <div class="fb-like" data-href={{Request::url()}} data-layout="standard" data-action="like" data-show-faces="true" ></div>

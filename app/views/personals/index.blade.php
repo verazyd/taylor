@@ -1,7 +1,11 @@
 @extends('layouts.master')
 
+@section('title')
+    Best Personal Injry Lawyers in Melbourne
+@stop
+
 @section('content')
-<div class="container">
+<div class="container container_section">
     <div class="row clearfix">
     <div class="col-md-4">
         <h3>Services:</h3>

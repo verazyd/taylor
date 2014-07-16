@@ -5,8 +5,7 @@
     <meta name=description content="">
     <meta name=viewport content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google-site-verification" content="7y-QO6s2ptMu42r0jREIFab8z3bDRnI6qCCZNAMr1NM" />
-    <title>Family Lawyers Melbourne - 1800 633 625 - Open 7 Days To 11PM - Taylor & Preston family lawyers melbourne | Melbourne divorce lawyers</title>
+    <title>@yield('title')</title>
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
     <meta name="keywords" content="Family Lawyers Melbourne,Divorce Lawyers Melbourne                                                                                                                        ">
     <meta name="description" content="Taylor & Preston Family Lawyers Melbourne can be contacted to 11PM 7 days a week on 1800 633 625. They are a successful family law and divorce law firm in Melbourne which offers best family lawyers and divorce lawyers in Melbourne and provides the highest quality, personal legal services in all areas of family law matters, including divorce and child custody. We understand that the outcome of your or your loved ones personal legal matters is of the utmost importance, and it is vital that you have on your side Melbourne family lawyers that will provide you with committed and exceptional service.                                                                                                                        ">
@@ -50,7 +49,13 @@
         background-image: url("./img/img_header/BG-topnav.jpg");
     }
 </style>
+<script>
+    $(document).ready(function(){
+       $('.TopLogo').click(function(){
 
+       });
+    });
+</script>
 <body>
 
     <header>
@@ -59,7 +64,9 @@
                 <div class="TopLogo">
                     <div class="logobg"></div>
                     <a href="{{ URL::to('/') }}">
-<!--                        <img class="logo-image" style="background-image:url(/img/img_header/main_logo.png)" src="img/img_header/spacer.gif"></a>-->
+                        <img class="logo-image" style="background-image:url('../img/img_header/main_logo_cropped.png')"
+                             src="img/img_header/spacer.gif">
+                    </a>
                     <a class="logo-button" href="{{ URL::to('/') }}">
                         <img src="./img/img_header/spacer.gif">
                     </a>
@@ -74,10 +81,10 @@
                                 <a href="{{ URL::to('/personalInjury') }}" target="">Personal Injury</a>
                             </li>
                             <li data-index="3">
-                                <a href="What-We-Do.html" target="">Legal Services</a>
+                                <a href="" target="">Legal Services</a>
                             </li>
                             <li data-index="4">
-                                <a href="Why-Scorpion-.html" target="">Our Victories</a>
+                                <a href="{{URL::to('/victories') }}" target="">Our Victories</a>
                             </li>
                             <li data-index="5">
                             <a  target="">Contact Us</a>
@@ -86,7 +93,7 @@
                     </nav>
                 </div>
                 <div id="MobileArea">
-                    <a class="menu" id="MobileMenu" href="javascript:void('Start');" icobalt="CobaltControls.Controls.MobileMenu"><icon class="menu-6"></icon></a><div class='imenupanel' style='display:none;'><div class='imenu'><div class='imenuitem' _pageid='5400249' _childpages='0'><a href="index.html">Home</a></div><div class='imenuitem iright' _pageid='5400354' _childpages='2'><a href="About-Scorpion.html">About Scorpion</a></div><div class='imenuitem iright' _pageid='5427349' _childpages='6'><a href="Who-We-Serve.html">Who We Serve</a></div><div class='imenuitem iright' _pageid='5400357' _childpages='14'><a href="What-We-Do.html">What We Do</a></div><div class='imenuitem iright' _pageid='5400358' _childpages='6'><a href="Why-Scorpion-.html">Why Scorpion?</a></div><div class='imenuitem' _pageid='5468457' _childpages='0'><a href="Latest-News.html">Latest News</a></div><div class='imenuitem' _pageid='5400359' _childpages='0'><a href="Contact-Us.html">Contact Us</a></div><div class='imenuitem' _pageid='5471654' _childpages='0'><a href="What-We-Do/Get-More-Business.html">Get Started</a></div><div class='imenuitem' _pageid='5520105' _childpages='0'><a href="What-We-Do/Get-More-Business.html">GetMore</a></div><div class='imenuitem' _pageid='5400254' _childpages='0'><a href="Site-Map.html">Site Map</a></div></div></div>
+                    <a class="menu" id="MobileMenu" href="javascript:void('Start');" icobalt="CobaltControls.Controls.MobileMenu"><icon class="menu-6"></icon></a><div class='imenupanel' style='display:none;'><div class='imenu'><div class='imenuitem' _pageid='5400249' _childpages='0'><a href="{{ URL::to('/') }}">Home</a></div><div class='imenuitem iright' _pageid='5400354' _childpages='2'><a href="{{URL::to('familyLaw')  }}">Family Law</a></div><div class='imenuitem iright' _pageid='5427349' _childpages='6'><a href="{{ URL::to('personalInjury') }}">Personal Injury</a></div><div class='imenuitem iright' _pageid='5400357' _childpages='14'><a href="{{ URL::to('victories') }}">Our Victories</a></div><div class='imenuitem iright' _pageid='5400358' _childpages='6'><a href="{{ URL::to('allblogs') }}">Our Blog</a></div><div class='imenuitem' _pageid='5468457' _childpages='0'><a href="">Legal Services</a></div><div class='imenuitem' _pageid='5400359' _childpages='0'><a href="{{ URL::to('contactus') }}">Contact Us</a></div><div class='imenuitem' _pageid='5471654' _childpages='0'><a href="">Locations</a></div><div class='imenuitem' _pageid='5520105' _childpages='0'><a href="">Locations</a></div><div class='imenuitem' _pageid='5400254' _childpages='0'><a href="">Site Map</a></div></div></div>
                 </div>
                 <div class="Number">
                     <a class="phone_link" href="tel:8663323230">1.800.833.625</a>
@@ -121,18 +128,18 @@
                             <ul>
                                 <li class="level1 ">
                                     <a href="" target="">Divorce</a>
-                                </li><li class="level1 ">
+                                </li>
+                                <li class="level1 ">
                                     <a href="" target="">Custody</a>
-                                </li><li class="level1 ">
+                                </li>
+                                <li class="level1 ">
                                     <a href="" target="">Maintainence</a>
-                                </li><li class="level1 ">
+                                </li>
+                                <li class="level1 ">
                                     <a href="" target="">Child Support</a>
-                                </li><li class="level1 ">
-                                    <a href="" target="">Child Custody</a>
-                                </li><li class="level1 ">
-                                    <a href="" target="">Child Abduction</a>
                                 </li>
                             </ul>
+                            <div class="scrollbar"></div>
                         </nav>
                     </div>
                 </div>
@@ -232,8 +239,8 @@
             </div>
         </div>
 
-        <div class="icobalt ilayout" id="ImageZone">
-            <div icobalt="CobaltControls.Controls.DisplayList" id="Animation" data-delay="8000" name="Animation">
+        <div class="icobalt ilayout" id="Imagezone">
+            <div icobalt="CobaltControls.Controls.DisplayList" id="Animation" data-delay="8000" name="animation">
 
     </header>
 <script type="text/javascript">

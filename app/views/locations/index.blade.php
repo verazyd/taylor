@@ -1,10 +1,14 @@
 @extends('layouts.master')
 
+@section('title')
+    Locations of Family and Personal Law Firm
+@stop
+
 @section('content')
-    <div class="row" style="margin: 1%;">
+    <div class="row container_section">
         <div class="col-md-8">
         <script src="http://maps.google.com/maps/api/js?sensor=false"type="text/javascript"></script>
-           <div id="map" style="width: 750px; height: 400px;"></div>
+           <div id="map"></div>
                <script type="text/javascript">
 
                    var locations = [
@@ -70,5 +74,4 @@
                 @include('layouts.partials._contact_form')
             </div>
         </div>
-
 @stop

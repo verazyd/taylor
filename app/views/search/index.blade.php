@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('content')
-<div class="container" style="margin-bottom: 100px;">
+<div class="container container_section" style="margin-bottom: 100px;">
     <h2>Based upon you search, we found the following:</h2><br>
     @if(count($results) > 0)
         @foreach($results as $result )

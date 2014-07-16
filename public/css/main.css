@@ -81,6 +81,9 @@ fieldset {
 textarea {
     resize: vertical;
 }
+.container_section{
+    margin-top: 120px;
+}
 
 /* ==========================================================================
    Author's custom styles
@@ -297,6 +300,9 @@ textarea {
     border-bottom: 5px solid gray;
     border-top: 5px solid gray;
 }
+.form_label label{
+   color: #ffffff;
+}
 
 /*feedback form*/
 .feedback{
@@ -341,16 +347,19 @@ textarea {
 .question_img{
     margin-top: 10px;
 }
+
 /*homepage carasaul bootstrap*/
+
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 /* Carousel base class */
+
 .is_carasaul{
-      background: gray;
+    background: gray;
     color: blue;
 }
 .carousel {
-    /*margin: 177px 5px 3px 5px;*/
+    margin: 80px 0px 0px 0px;
 }
 
 .carousel .container {
@@ -398,6 +407,18 @@ textarea {
 }
 
 
+/*why choose taylor section*/
+.why_taylor_first h2{
+    margin: 0px 0px 15px 0px;
+    border-top: 5px solid gray;
+}
+.why_taylor p{
+    font-size: 16px;
+    font-family: Montserrat;
+}
+/*why choose taylor section ends*/
+
+
 /*Personal Injury*/
 .personal_sidebar{
     list-style-type: none;
@@ -411,6 +432,8 @@ textarea {
 .personal_sidebar li a{
     color: #217C9C;
 }
+/*Personal Injury Ends*/
+
 
 /*Victory Page*/
 .vic_description{
@@ -419,6 +442,24 @@ textarea {
     color: #ffffff;
     padding: 10px;
 }
+
+/*locations page*/
+#map{
+    width: 832px;
+    height: 400px;
+    left: 20px;
+    margin-bottom: 10px;
+}
+/*location page ends*/
+
+/*video center page*/
+.video_center{
+    margin-top: 100px;
+}
+.video_center h2{
+    margin-bottom: 10px;
+}
+/*video center page ends*/
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
@@ -443,8 +484,8 @@ textarea {
         margin-left: -20px;
         margin-right: -20px;
     }
-    .carousel .container {
-
+    .carousel {
+        margin: -15px 0px 0px 0px;
     }
     .carousel .item {
         height: 300px;
@@ -458,7 +499,7 @@ textarea {
         margin-top: 100px;
     }
     .carousel-caption h1 {
-        font-size: 30px;
+        font-size: 10px;
     }
     .carousel-caption .lead,
     .carousel-caption .btn {
@@ -468,108 +509,16 @@ textarea {
         margin-top: 32%;
     }
 
-
+    /*form inline on homepage*/
+    .form_inline_contact{ width: 147%;}
+    /*footer navbar*/
+    .navbar-inverse{
+        height: 20px;
+        }
     /*responsive for header*/
 
 
-    .experienced{
-        font-size: 8px;
-    }
-    .top_logo_image{
-        width: 200px;
-    }
-    .phone_header{
-        font-size: 14px;
-    }
 
-
-
-    /*about carousel*/
-
-
-/*#wrapper {*/
-    /*width: 100%;*/
-    /*margin: 0 auto;*/
-    /*overflow: hidden;*/
-    /*position: absolute;*/
-    /*left: 10%;*/
-    /*top:30%;*/
-/*}*/
-/*#overlay {*/
-    /*background: #def;*/
-    /*width: 300px;*/
-    /*height: 560px;*/
-    /*overflow: hidden;*/
-    /*position: absolute;*/
-    /*left: -300px;*/
-    /*top: 0;*/
-    /*z-index: 1;*/
-    /*-webkit-transition: left .5s ease;*/
-    /*-moz-transition: left .5s ease;*/
-    /*transition: left .5s ease;*/
-/*}*/
-/*#wrapper:hover #overlay {*/
-    /*left: 0px;*/
-/*}*/
-/*#carasaul_description {*/
-    /*padding-top: 40px;*/
-    /*width: 250px;*/
-    /*margin-left: 450px;*/
-
-    /*-webkit-transition: margin .5s ease;*/
-    /*-moz-transition: margin .5s ease;*/
-    /*transition: margin .5s ease;*/
-/*}*/
-/*#wrapper:hover #carasaul_description {*/
-    /*margin-left: 0px;*/
-/*}*/
-/*#carasaul_description h3 {*/
-    /*color: #69c;*/
-    /*font-size: 35px;*/
-    /*font-weight: normal;*/
-    /*text-align: right;*/
-    /*line-height: 30px;*/
-    /*margin: 30px 0;*/
-/*}*/
-/*#carasaul_description p {*/
-    /*font-size: 13px;*/
-    /*text-align: justify;*/
-/*}*/
-
-/*#wrapper .caroufredsel_wrapper {*/
-    /*margin-left: 0px !important;*/
-
-    /*-webkit-transition: margin .5s ease;*/
-    /*-moz-transition: margin .5s ease;*/
-    /*transition: margin .5s ease;*/
-/*}*/
-/*#wrapper:hover .caroufredsel_wrapper {*/
-    /*margin-left: 150px !important;*/
-/*}*/
-/*#carousel img {*/
-    /*display: block;*/
-    /*float: left;*/
-/*}*/
-
-/*#pager {*/
-    /*text-align: center;*/
-    /*padding: 40px 20px 0 0;*/
-/*}*/
-/*#pager a {*/
-    /*border-radius: 5px;*/
-    /*background: #69c;*/
-    /*display: block;*/
-    /*width: 10px;*/
-    /*height: 10px;*/
-    /*margin: 0 5px;*/
-    /*float: right;*/
-/*}*/
-/*#pager a.selected {*/
-    /*background: #333;*/
-/*}*/
-/*#pager span {*/
-    /*display: none;*/
-/*}*/
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
