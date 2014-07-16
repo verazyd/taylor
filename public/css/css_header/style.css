@@ -75,6 +75,7 @@ a:hover {
 
 .phone_link {
     cursor: default;
+    font-size: 18px;
 }
 
 .main {
@@ -441,10 +442,10 @@ a.named-anchor {
 .masthead .Number {
     float: right;
     color: #FFFFFF;
-    padding: 30px 0px;
-    font-size: 23px;
+    padding: 22px 0px;
+    font-size: 31px;
     text-align: right;
-    margin-right: 1%;
+    margin-right: -4%;
     display: block;
     position: relative;
     -webkit-transition: all ease .5s;
@@ -454,12 +455,23 @@ a.named-anchor {
 }
 
 #NavZone.Scrolled .masthead .Number {
-    padding: 14px 0px;
+    padding: 1px 0px;
 }
 
 .masthead .Number a {
-    color: #FFFFFF;
+
     text-shadow: 0px -1px 0px rgba(0,0,0,0.7);
+    font-size: 30px;
+    background: rgb(246,248,249); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(246,248,249,1) 0%, rgba(229,235,238,1) 50%, rgba(215,222,227,1) 51%, rgba(245,247,249,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(246,248,249,1)), color-stop(50%,rgba(229,235,238,1)), color-stop(51%,rgba(215,222,227,1)), color-stop(100%,rgba(245,247,249,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(246,248,249,1) 0%,rgba(229,235,238,1) 50%,rgba(215,222,227,1) 51%,rgba(245,247,249,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(246,248,249,1) 0%,rgba(229,235,238,1) 50%,rgba(215,222,227,1) 51%,rgba(245,247,249,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(246,248,249,1) 0%,rgba(229,235,238,1) 50%,rgba(215,222,227,1) 51%,rgba(245,247,249,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(246,248,249,1) 0%,rgba(229,235,238,1) 50%,rgba(215,222,227,1) 51%,rgba(245,247,249,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', endColorstr='#f5f7f9',GradientType=0 ); /* IE6-9 */
+
+
 }
 
 .masthead .getstarted {
@@ -641,13 +653,13 @@ body.animateleft .masthead .Contact {
 }
 
 .masthead div.navsection {
-    width: 48%;
+    width: 73%;
     float: left;
     -webkit-transition: 0.2s ease;
     -moz-transition: 0.2s ease;
     -o-transition: 0.2s ease;
     transition: 0.2s ease;
-    margin-left: 385px;
+    margin-left: 175px;
     height: 100%;
 }
 
@@ -700,7 +712,7 @@ html.no-display-table .top-nav ul li a {
 
 .top-nav li a {
     color: #FFFFFF;
-    font-size: 13px;
+    font-size: 17px;
     padding: 1%;
     text-transform: uppercase;
     -webkit-transition: 0.5s;
@@ -725,7 +737,7 @@ html.no-display-table .top-nav ul li a {
 
 .top-nav li a:hover {
     color: #59C8FF;
-    font-size: 15px;
+    font-size: 20px;
 }
 /* End Top Nav Styles */
 

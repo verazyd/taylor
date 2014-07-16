@@ -268,16 +268,16 @@ textarea {
 }
 
 /*contact-us form*/
-.contact_input_form{
-    width: 65%;
-}
-.form_submit{
-    width: 65%;
-    margin: 2px 0px;
-    background: #1C8FE0;
-    font-size: 20px;
-    color: #ffffff;
-}
+/*.contact_input_form{*/
+    /*width: 65%;*/
+/*}*/
+/*.form_submit{*/
+    /*width: 65%;*/
+    /*margin: 2px 0px;*/
+    /*background: #1C8FE0;*/
+    /*font-size: 20px;*/
+    /*color: #ffffff;*/
+/*}*/
 .any_questions p{
     text-align: center;
     font-size: 2.5em;
@@ -297,11 +297,10 @@ textarea {
 }
 .contact_form_details{
     background: #1C8FE0;
-    border-bottom: 5px solid gray;
     border-top: 5px solid gray;
 }
 .form_label label{
-   color: #ffffff;
+   color: #000;
 }
 
 /*feedback form*/
@@ -415,6 +414,8 @@ textarea {
 .why_taylor p{
     font-size: 16px;
     font-family: Montserrat;
+    overflow: scroll;
+    max-height: 300px;
 }
 /*why choose taylor section ends*/
 
@@ -465,7 +466,9 @@ textarea {
 
 @media (max-width: 979px) {
 
-
+    h2{
+        font-size: ;
+    }
     .carousel .item {
         height: 500px;
     }
@@ -503,10 +506,16 @@ textarea {
     }
     .carousel-caption .lead,
     .carousel-caption .btn {
-        font-size: 18px;
+        font-size: 12px;
     }
     .container{
         margin-top: 32%;
+    }
+    .why_taylor p{
+        font-size: 13px;
+        font-family: Montserrat;
+        overflow: scroll;
+        max-height: 100px;
     }
 
     /*form inline on homepage*/

@@ -62,7 +62,7 @@
                 <div class="TopLogo">
                     <div class="logobg"></div>
                     <a href="{{ URL::to('/') }}">
-                        <img class="logo-image" style="background-image:url('../img/img_header/main_logo_cropped.png')"
+                        <img class="logo-image" style="background-image:url("./img/img_header/main_logo_cropped.png")"
                              src="img/img_header/spacer.gif">
                     </a>
                     <a class="logo-button" href="{{ URL::to('/') }}">
@@ -94,7 +94,7 @@
                     <a class="menu" id="MobileMenu" href="javascript:void('Start');" icobalt="CobaltControls.Controls.MobileMenu"><icon class="menu-6"></icon></a><div class='imenupanel' style='display:none;'><div class='imenu'><div class='imenuitem' _pageid='5400249' _childpages='0'><a href="{{ URL::to('/') }}">Home</a></div><div class='imenuitem iright' _pageid='5400354' _childpages='2'><a href="{{URL::to('familyLaw')  }}">Family Law</a></div><div class='imenuitem iright' _pageid='5427349' _childpages='6'><a href="{{ URL::to('personalInjury') }}">Personal Injury</a></div><div class='imenuitem iright' _pageid='5400357' _childpages='14'><a href="{{ URL::to('victories') }}">Our Victories</a></div><div class='imenuitem iright' _pageid='5400358' _childpages='6'><a href="{{ URL::to('allblogs') }}">Our Blog</a></div><div class='imenuitem' _pageid='5468457' _childpages='0'><a href="">Legal Services</a></div><div class='imenuitem' _pageid='5400359' _childpages='0'><a href="{{ URL::to('contactus') }}">Contact Us</a></div><div class='imenuitem' _pageid='5471654' _childpages='0'><a href="">Locations</a></div><div class='imenuitem' _pageid='5520105' _childpages='0'><a href="">Locations</a></div><div class='imenuitem' _pageid='5400254' _childpages='0'><a href="">Site Map</a></div></div></div>
                 </div>
                 <div class="Number">
-                    <a class="phone_link" href="tel:8663323230">1.800.833.625</a>
+                    <a class="phone_link" href="tel:1800833625">1 800 833 625</a>
                 </div>
             </div>
             <div icobalt="CobaltControls.Controls.StaticContent" id="Flyout">

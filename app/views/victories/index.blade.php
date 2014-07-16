@@ -12,7 +12,7 @@
         overflow-y: scroll;
     }
 </style>
-    <div class="row container_section" style="margin: 1%;">
+    <div class="container_section" style="margin: 1%;">
         <div class="row">
              {{HTML::image('/img/our_vic.jpeg', $alt = 'Taylor&Preston',
             $attributes = array('class' => 'center-block img-responsive',  'width' => '100%')) }}

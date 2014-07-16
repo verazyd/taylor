@@ -77,147 +77,27 @@
 
 <div class="row why_taylor_first">
     <h2>Why Choose Taylor & Preston ?</h2>
-    <div class="col-md-5">
+    <div class="col-md-3 why_taylor">
+        <p>
+            At TP we’re nuts about technology and we use it to ensure that we offer competitive legal services through a team of high quality mobile lawyers that work around clients’ needs, lifestyles and locations.<br>
+            Proudly results-focused, we avoid the trappings of hierarchy and status and instead work as a true team. Proudly results-focused, we avoid the trappings of hierarchy and status and instead work as a true team.Proudly results-focused, we avoid the trappings of hierarchy and status and instead work as a true team.
+        </p>
+    </div>
+    <div class="col-md-6">
         <iframe width="100%" height="300px" src="//www.youtube.com/embed/3U3K4CVldkk" frameborder="0" allowfullscreen></iframe>
     </div>
-    <div class="col-md-2 why_taylor">
+    <div class="col-md-3 why_taylor">
         <p>
-            At TP we’re nuts about technology and we use it to ensure that we offer competitive legal services through a team of high quality mobile lawyers that work around clients’ needs, lifestyles and locations.
+            At TP we’re nuts about technology and we use it to ensure that we offer competitive legal services through a team of high quality mobile lawyers that work around clients’ needs, lifestyles and locations.<br>
+            Proudly results-focused, we avoid the trappings of hierarchy and status and instead work as a true team. Proudly results-focused, we avoid the trappings of hierarchy and status and instead work as a true team.Proudly results-focused, we avoid the trappings of hierarchy and status and instead work as a true team.
         </p>
-        <p>
-            Proudly results-focused, we avoid the trappings of hierarchy and status and instead work as a true team.
-        </p>
-    </div>
-    <div class="col-md-5">
-        <iframe width="100%" height="300" src="//www.youtube.com/embed/tmllhGQe_bM" frameborder="0" allowfullscreen></iframe>
     </div>
 </div>
 
     @include('layouts.partials._contact_form')
 
-<!--<div class="" style="margin: 10px 5px 5px 5px;">-->
-<!--<form id="ctl00" name="ctl00" method="post" action=""-->
-<!--      onsubmit="javascript:return WebForm_OnSubmit();" style="margin:0px;padding:0px;">-->
+    @include('layouts.partials._feedback')
 
-
-<!--    @include('layouts.partials._feedback')-->
-
-
-<div class="icobalt ilayout cf paper" id="AttorneyZone">
-    <div icobalt="CobaltControls.Controls.DisplayList" id="AttyCarousel" class="main" name="AttyCarousel">
-        <ul>
-            <li class="Info1">
-                <a class="nav left" href="javascript:void('Left');">
-
-                    <img src="./img/left2.png" style="width:21px;height:44px"></a>
-
-                <a class="nav right" href="javascript:void('Right');">
-
-                    <img src="./img/right2.png" style="width:21px;height:44px"></a>
-
-                <img src="./img/spacer-2.gif" style="border-width:0px;background-image:url('./img/process/s5k30s_i1xx.svg');" />
-
-                <img data-bg-image="./img/process/uuwtdmzwk9t.png" src="./img/spacer-2.gif" style="border-width:0px;display:none;" />
-
-                <div class="AttyInfo">
-                    <h1> Jeremy Williams</h1>
-                    <h2>Attorney</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt velit eaque, pariatur saepe voluptatem aut magnam minima ab sequi facilis! Reiciendis labore, pariatur numquam blanditiis praesentium autem molestias. Aliquam, reprehenderit. ...
-                    </p>
-                    <a href="{{ URL::to('ourStaff') }}">Learn More [+]</a>
-                </div>
-            </li>
-            <li class="Info2">
-                <a class="nav left" href="javascript:void('Left');">
-                    <img src="./img/left2.png" style="width:21px;height:44px"></a>
-
-                <a class="nav right" href="javascript:void('Right');">
-                    <img src="./img/right2.png" style="width:21px;height:44px"></a>
-
-                <img src="./img/shared/spacer-2.gif" style="border-width:0px;background-image:url('./img/process/73mloujkgzw.svg');" />
-                <img data-bg-image="img/process/0p_uzoez0yu.png" src="img/spacer-2.gif" style="border-width:0px;display:none;" />
-
-                <div class="AttyInfo">
-                    <h1>Paul Boers</h1>
-                    <h2>Attorney</h2>
-                    <p>
-                        Paul Boers is a Senior Family Lawyer.  He was originally admitted as a solicitor in 1990 and has over 20 years experience in Family Law.
-                    </p>
-                    <a href="{{ URL::to('ourStaff') }}">Learn More [+]</a>
-                </div>
-            </li>
-            <li class="Info3">
-                <a class="nav left" href="javascript:void('Left');">
-                    <img src="img/left2.png" style="width:21px;height:44px"></a>
-                <a class="nav right" href="javascript:void('Right');">
-                    <img src="img/right2.png" style="width:21px;height:44px"></a>
-                <img src="./img/spacer-2.gif" style="border-width:0px;background-image:url('./img/process/nxd63i37rjs.svg');"
-                <img data-bg-image="./img/process/tbwy8d5odzn.png" src="./img//spacer-2.gif" style="border-width:0px;display:none;" />
-
-                <div class="AttyInfo">
-                    <h1> Lawyer 3</h1>
-                    <h2>Attorney</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quod pariatur fugiat blanditiis, earum nisi neque quidem voluptas accusantium libero voluptatem vero praesentium unde ad ducimus illo hic quas modi....
-                    </p>
-                    <a href="{{ URL::to('ourStaff') }}">Learn More [+]</a>
-                </div>
-            </li>
-            <li class="Info4">
-                <a class="nav left" href="javascript:void('Left');">
-                    <img src="img/left2.png" style="width:21px;height:44px"></a>
-                <a class="nav right" href="javascript:void('Right');">
-                    <img src="img/right2.png" style="width:21px;height:44px"></a>
-                <img src="img/spacer-2.gif" style="border-width:0px;background-image:url('./img/process/6g5q27g6jjm.svg');" />
-                <img data-bg-image="./img/process/16csjzk079q.png" src="img/spacer-2.gif" style="border-width:0px;display:none;" />
-
-                <div class="AttyInfo">
-                    <h1> Lawyer 4</h1>
-                    <h2>Attorney</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, quo, minima! Veritatis voluptate, tempore, reiciendis maiores quibusdam numquam tempora harum minima dolor nobis libero commodi odit facilis, recusandae voluptates. Dicta! ...
-                    </p>
-                    <a href="{{ URL::to('ourStaff') }}">Learn More [+]</a>
-                </div>
-            </li>
-            <li class="Info5">
-                <a class="nav left" href="javascript:void('Left');">
-                    <img src="img/left2.png" style="width:21px;height:44px"></a>
-                <a class="nav right" href="javascript:void('Right');">
-                    <img src="img/right2.png" style="width:21px;height:44px"></a>
-                <img src="img/spacer-2.gif" style="border-width:0px;background-image:url('./img/process/ac6c5v0np2s.svg');" />
-                <img data-bg-image="./img/process/jrg5w8tvjsx.png" src="img/spacer-2.gif" style="border-width:0px;display:none;" />
-
-                <div class="AttyInfo">
-                    <h1> Lawyer 5</h1>
-                    <h2>Attorney</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum aliquid illo ipsam laudantium modi hic incidunt sequi inventore. Voluptatum deserunt dolores libero, est molestiae iusto pariatur aperiam voluptates sapiente eius....
-                    </p>
-                    <a href="{{ URL::to('ourStaff') }}">Learn More [+]</a>
-                </div>
-            </li>s
-            <li class="Info6">
-                <a class="nav left" href="javascript:void('Left');">
-                    <img src="img/left2.png" style="width:21px;height:44px"></a>
-                <a class="nav right" href="javascript:void('Right');">
-                    <img src="img/right2.png" style="width:21px;height:44px"></a>
-                <img src="img/spacer-2.gif" style="border-width:0px;background-image:url('./img/process/byxj03k58z0.svg');" />
-                <img data-bg-image="./img/process/6n5lfxlmhyp.png" src="img/spacer-2.gif" style="border-width:0px;display:none;" />
-
-                <div class="AttyInfo">
-                    <h1> Lawyer 6</h1>
-                    <h2>Attorney</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione ipsum sunt dolorem aliquid id quo quis, architecto praesentium maxime, ipsa aliquam voluptatibus, natus nostrum magni corporis possimus earum fuga dignissimos. ...
-                    </p>
-                    <a href="{{ URL::to('ourStaff') }}">Learn More [+]</a>
-                </div>
-            </li>
-        </ul>
-    </div>
-</div>
 <div class="LBlue" id="PAZone">
     <div icobalt="CobaltControls.Controls.DisplayList" id="HomePracticeAreas" class="PracticeList main" name="HomePracticeAreas">
         <h2 style="font-family: arial, sans-serif;color: rgb(28, 143, 224);"><a href="practice_areas">Our Practice Areas</a></h2>
@@ -390,7 +270,7 @@
     </div>
 </div>
 
-<div class="row" style="background:rgb(27, 143, 224);border-top: 5px solid gray;">
+<div class="row" style="background:rgb(27, 143, 224);border-top: 5px solid gray; border-bottom: 5px solid gray">
     <div class="col-md-12" style="padding: 20px;">
         <div id="HomeTestimonial">
         <h2 style="text-align: center; color: #ffffff; padding-bottom: 10px;">What Our Clients Are Saying About Us</h2>
@@ -407,7 +287,121 @@
     </div>
 </div>
 
+<div class="icobalt ilayout cf paper" id="AttorneyZone">
+    <div icobalt="CobaltControls.Controls.DisplayList" id="AttyCarousel" class="main" name="AttyCarousel">
+        <ul>
+            <li class="Info1">
+                <a class="nav left" href="javascript:void('Left');">
 
+                    <img src="./img/left2.png" style="width:21px;height:44px"></a>
+
+                <a class="nav right" href="javascript:void('Right');">
+
+                    <img src="./img/right2.png" style="width:21px;height:44px"></a>
+
+                <img src="./img/spacer-2.gif" style="border-width:0px;background-image:url('./img/process/s5k30s_i1xx.svg');" />
+
+                <img data-bg-image="./img/process/uuwtdmzwk9t.png" src="./img/spacer-2.gif" style="border-width:0px;display:none;" />
+
+                <div class="AttyInfo">
+                    <h1> Jeremy Williams</h1>
+                    <h2>Attorney</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt velit eaque, pariatur saepe voluptatem aut magnam minima ab sequi facilis! Reiciendis labore, pariatur numquam blanditiis praesentium autem molestias. Aliquam, reprehenderit. ...
+                    </p>
+                    <a href="{{ URL::to('ourStaff') }}">Learn More [+]</a>
+                </div>
+            </li>
+            <li class="Info2">
+                <a class="nav left" href="javascript:void('Left');">
+                    <img src="./img/left2.png" style="width:21px;height:44px"></a>
+
+                <a class="nav right" href="javascript:void('Right');">
+                    <img src="./img/right2.png" style="width:21px;height:44px"></a>
+
+                <img src="./img/shared/spacer-2.gif" style="border-width:0px;background-image:url('./img/process/73mloujkgzw.svg');" />
+                <img data-bg-image="img/process/0p_uzoez0yu.png" src="img/spacer-2.gif" style="border-width:0px;display:none;" />
+
+                <div class="AttyInfo">
+                    <h1>Paul Boers</h1>
+                    <h2>Attorney</h2>
+                    <p>
+                        Paul Boers is a Senior Family Lawyer.  He was originally admitted as a solicitor in 1990 and has over 20 years experience in Family Law.
+                    </p>
+                    <a href="{{ URL::to('ourStaff') }}">Learn More [+]</a>
+                </div>
+            </li>
+            <li class="Info3">
+                <a class="nav left" href="javascript:void('Left');">
+                    <img src="img/left2.png" style="width:21px;height:44px"></a>
+                <a class="nav right" href="javascript:void('Right');">
+                    <img src="img/right2.png" style="width:21px;height:44px"></a>
+                <img src="./img/spacer-2.gif" style="border-width:0px;background-image:url('./img/process/nxd63i37rjs.svg');"
+                <img data-bg-image="./img/process/tbwy8d5odzn.png" src="./img//spacer-2.gif" style="border-width:0px;display:none;" />
+
+                <div class="AttyInfo">
+                    <h1> Lawyer 3</h1>
+                    <h2>Attorney</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quod pariatur fugiat blanditiis, earum nisi neque quidem voluptas accusantium libero voluptatem vero praesentium unde ad ducimus illo hic quas modi....
+                    </p>
+                    <a href="{{ URL::to('ourStaff') }}">Learn More [+]</a>
+                </div>
+            </li>
+            <li class="Info4">
+                <a class="nav left" href="javascript:void('Left');">
+                    <img src="img/left2.png" style="width:21px;height:44px"></a>
+                <a class="nav right" href="javascript:void('Right');">
+                    <img src="img/right2.png" style="width:21px;height:44px"></a>
+                <img src="img/spacer-2.gif" style="border-width:0px;background-image:url('./img/process/6g5q27g6jjm.svg');" />
+                <img data-bg-image="./img/process/16csjzk079q.png" src="img/spacer-2.gif" style="border-width:0px;display:none;" />
+
+                <div class="AttyInfo">
+                    <h1> Lawyer 4</h1>
+                    <h2>Attorney</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, quo, minima! Veritatis voluptate, tempore, reiciendis maiores quibusdam numquam tempora harum minima dolor nobis libero commodi odit facilis, recusandae voluptates. Dicta! ...
+                    </p>
+                    <a href="{{ URL::to('ourStaff') }}">Learn More [+]</a>
+                </div>
+            </li>
+            <li class="Info5">
+                <a class="nav left" href="javascript:void('Left');">
+                    <img src="img/left2.png" style="width:21px;height:44px"></a>
+                <a class="nav right" href="javascript:void('Right');">
+                    <img src="img/right2.png" style="width:21px;height:44px"></a>
+                <img src="img/spacer-2.gif" style="border-width:0px;background-image:url('./img/process/ac6c5v0np2s.svg');" />
+                <img data-bg-image="./img/process/jrg5w8tvjsx.png" src="img/spacer-2.gif" style="border-width:0px;display:none;" />
+
+                <div class="AttyInfo">
+                    <h1> Lawyer 5</h1>
+                    <h2>Attorney</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum aliquid illo ipsam laudantium modi hic incidunt sequi inventore. Voluptatum deserunt dolores libero, est molestiae iusto pariatur aperiam voluptates sapiente eius....
+                    </p>
+                    <a href="{{ URL::to('ourStaff') }}">Learn More [+]</a>
+                </div>
+            </li>s
+            <li class="Info6">
+                <a class="nav left" href="javascript:void('Left');">
+                    <img src="img/left2.png" style="width:21px;height:44px"></a>
+                <a class="nav right" href="javascript:void('Right');">
+                    <img src="img/right2.png" style="width:21px;height:44px"></a>
+                <img src="img/spacer-2.gif" style="border-width:0px;background-image:url('./img/process/byxj03k58z0.svg');" />
+                <img data-bg-image="./img/process/6n5lfxlmhyp.png" src="img/spacer-2.gif" style="border-width:0px;display:none;" />
+
+                <div class="AttyInfo">
+                    <h1> Lawyer 6</h1>
+                    <h2>Attorney</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione ipsum sunt dolorem aliquid id quo quis, architecto praesentium maxime, ipsa aliquam voluptatibus, natus nostrum magni corporis possimus earum fuga dignissimos. ...
+                    </p>
+                    <a href="{{ URL::to('ourStaff') }}">Learn More [+]</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
 <script type="text/javascript">
     $(document).ready(function() {
 
