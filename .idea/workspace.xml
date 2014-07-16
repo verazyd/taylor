@@ -23,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/css/css_header/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3654" column="27" selection-start="75665" selection-end="75665" vertical-scroll-proportion="0.22965117" vertical-offset="91192" max-vertical-offset="109300">
+            <state line="3666" column="1" selection-start="75924" selection-end="75924" vertical-scroll-proportion="0.0" vertical-offset="91654" max-vertical-offset="109300">
               <folding />
             </state>
           </provider>
@@ -41,10 +41,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_new_header.blade.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_new_header.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_new_header.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="47" selection-start="4171" selection-end="4171" vertical-scroll-proportion="0.0" vertical-offset="1789" max-vertical-offset="9550">
+            <state line="56" column="6" selection-start="2691" selection-end="2691" vertical-scroll-proportion="0.4723837" vertical-offset="1075" max-vertical-offset="9500">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -166,8 +166,8 @@
         <option value="$PROJECT_DIR$/app/views/videos/index_users.blade.php" />
         <option value="$PROJECT_DIR$/app/views/layouts/partials/_contact_form.blade.php" />
         <option value="$PROJECT_DIR$/public/css/main.css" />
-        <option value="$PROJECT_DIR$/app/views/layouts/partials/_new_header.blade.php" />
         <option value="$PROJECT_DIR$/public/css/css_header/style.css" />
+        <option value="$PROJECT_DIR$/app/views/layouts/partials/_new_header.blade.php" />
       </list>
     </option>
   </component>
@@ -1577,15 +1577,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_new_header.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="47" selection-start="4171" selection-end="4171" vertical-scroll-proportion="0.0" vertical-offset="1789" max-vertical-offset="9550">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="504" column="28" selection-start="9325" selection-end="9325" vertical-scroll-proportion="0.0" vertical-offset="11392" max-vertical-offset="14100">
@@ -1602,8 +1593,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/css_header/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3654" column="27" selection-start="75665" selection-end="75665" vertical-scroll-proportion="0.22965117" vertical-offset="91192" max-vertical-offset="109300">
+        <state line="3666" column="1" selection-start="75924" selection-end="75924" vertical-scroll-proportion="0.0" vertical-offset="91654" max-vertical-offset="109300">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_new_header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="6" selection-start="2691" selection-end="2691" vertical-scroll-proportion="0.4723837" vertical-offset="1075" max-vertical-offset="9500">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
