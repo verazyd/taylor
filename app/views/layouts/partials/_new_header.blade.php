@@ -44,14 +44,14 @@
 
 </head>
 
-<style>
-    #NavZone{
-        background-image: url("./img/img_header/BG-topnav.jpg");
-    }
-</style>
+<!--<style>-->
+<!--    #NavZone{-->
+<!--        background-image: url("./img/img_header/BG-topnav.jpg");-->
+<!--    }-->
+<!--</style>-->
 <script>
     $(document).ready(function(){
-       $('#NavZone').css('background-image', "url(../img/img_header/BG-topnav.jpg)");
+       $('#NavZone').css('background-image', "url(./img/img_header/BG-topnav.jpg)");
     });
 </script>
 <body>

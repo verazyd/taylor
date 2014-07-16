@@ -44,7 +44,7 @@
       <file leaf-file-name="_new_header.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_new_header.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="31" selection-start="2476" selection-end="2476" vertical-scroll-proportion="0.29069766" vertical-offset="1000" max-vertical-offset="9500">
+            <state line="59" column="43" selection-start="2761" selection-end="2770" vertical-scroll-proportion="0.5813953" vertical-offset="1075" max-vertical-offset="9500">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -1600,7 +1600,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_new_header.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="31" selection-start="2476" selection-end="2476" vertical-scroll-proportion="0.29069766" vertical-offset="1000" max-vertical-offset="9500">
+        <state line="59" column="43" selection-start="2761" selection-end="2770" vertical-scroll-proportion="0.5813953" vertical-offset="1075" max-vertical-offset="9500">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
