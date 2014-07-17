@@ -10,9 +10,11 @@ class PagesController extends \BaseController {
 	 */
 	public function index()
 	{
+        $victories = Victory::orderBy('created_at', 'DESC')->limit(4)->get();
+        $blogs = Blog::orderBy('created_at', 'DESC')->limit(4)->get();
         $images = Post::where('is_carasaul', '=', 1)->get();
         $testimonials = Testimonial::orderBy('created_at', 'DESC')->limit(1)->get();
-		return View::make('pages.index', compact('images', 'testimonials'));
+		return View::make('pages.index', compact('images', 'testimonials', 'victories', 'blogs'));
 	}
     public function our_staff()
     {

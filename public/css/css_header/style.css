@@ -1,6 +1,6 @@
 /* General Styles */
 body {
-    font-family: Montserrat;
+    font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
     margin: 0px;
     background: #fff;
     color: #646464;
@@ -604,7 +604,7 @@ body.animateleft .masthead .Contact {
 .Contact input, .Contact textarea {
     width: 80%;
     background-color: #888B8B;
-    font-family: Montserrat;
+    font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
     text-transform: uppercase;
     padding: 10px 3%;
     border: none;
@@ -776,7 +776,7 @@ html.no-display-table .top-nav ul li a {
 }
 .flycontent p{
     font-size: 15px;
-    font-family: Montserrat;
+    font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 #GradientText text {
     text-transform: uppercase;
@@ -1770,7 +1770,7 @@ html.no-cssanimations .AccAnimation a.next {
 
 #TestimonialFeedSection .ReviewText {
     background-color: rgba(255,255,255,0.1);
-    font-family: Georgia, serif;
+    font-family: Georgia, Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 26px;
     border-radius: 20px;
     padding: 30px;
@@ -4257,7 +4257,7 @@ html.boxsizing body {
     background-color: #C0BFBF;
     text-align: center;
     text-transform: uppercase;
-    font-family: Montserrat, sans-serif;
+    font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
     margin: 0px;
     position: absolute;
     left: 0px;

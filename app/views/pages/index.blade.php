@@ -94,7 +94,7 @@
     @include('layouts.partials._feedback')
 
 <div class="LBlue" id="PAZone">
-    <div icobalt="CobaltControls.Controls.DisplayList" id="HomePracticeAreas" class="PracticeList main" name="HomePracticeAreas">
+    <div id="HomePracticeAreas" class="PracticeList main" name="HomePracticeAreas">
         <h2 style="color: #3685BE !important; font-size: 38px"><a href="practice_areas">Our Practice Areas</a></h2>
         <ul class="cf">
             <li class="active left">
@@ -282,8 +282,8 @@
     </div>
 </div>
 
-<div class="icobalt ilayout cf paper" id="AttorneyZone">
-    <div icobalt="CobaltControls.Controls.DisplayList" id="AttyCarousel" class="main" name="AttyCarousel">
+<div class="paper" id="AttorneyZone">
+    <div id="AttyCarousel" class="main" name="AttyCarousel">
         <ul>
             <li class="Info1">
                 <a class="nav left" href="javascript:void('Left');">
@@ -397,6 +397,29 @@
         </ul>
     </div>
 </div>
+
+<div class="row why_taylor_first">
+    <div class="col-md-6">
+        <h2>Verdicts & Settlements</h2>
+        <h4>Recent Successful Cases</h4>
+
+        <div class="col-md-12 verdict_recent">
+            @foreach($victories as $victory)
+                <p>{{ $victory->topic }}</p>
+            @endforeach
+        </div>
+    </div>
+    <div class="col-md-6">
+        <h2>Firms News & Updates</h2>
+        <h4>Latest Information</h4>
+        <div class="col-md-12 news_recent">
+        @foreach($blogs as $blog)
+            <p>{{ $blog->topic }}</p>
+            @endforeach
+        </div>
+    </div>
+</div>
+
 <script type="text/javascript">
     $(document).ready(function() {
 

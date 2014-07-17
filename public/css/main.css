@@ -415,14 +415,33 @@ textarea {
 .why_taylor_first h3{text-align: center; color: #000000; font-family: Montserrat}
 
 .why_taylor p{
-    font-size: 16px;
+    font-size: 19px;
     font-family: Montserrat;
     padding: 10px;
     text-align: justify;
 }
 /*why choose taylor section ends*/
 
+/*verdicts and settlements section in homepage*/
+   .why_taylor_first h4{
+       text-align: center;
+       color: #000000;
+       margin-bottom: 5px;
+       font-size: 25px;
+   }
 
+    .verdict_recent p, .news_recent p{
+        text-align: justify;
+        font-size: 20px;
+        width: 100%;
+        max-height: 80px;
+        overflow: scroll;
+        background: #1F90E0;
+        color:#ffffff;
+        padding: 10px;
+        border: 3px solid gray;
+        font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    }
 /*Personal Injury*/
 .personal_sidebar{
     list-style-type: none;
@@ -544,7 +563,7 @@ textarea {
     }
     .why_taylor p{
         font-size: 13px;
-        font-family: Montserrat;
+        font-family: font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
         overflow: scroll;
         max-height: 100px;
     }
@@ -572,14 +591,6 @@ textarea {
         margin-top: 90px;
     }
     .container_section_second h2{ color: black;}
-    /*.container_section h3{*/
-        /*position: absolute;*/
-        /*bottom: 161%;*/
-        /*left: 0%;*/
-        /*color: #000;*/
-        /*font-size: 18px;*/
-        /*background: #294058;*/
-    /*}*/
 
     #HomeTestimonial h2{
 

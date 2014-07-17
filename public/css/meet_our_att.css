@@ -200,7 +200,7 @@ body.cms-admin #StickyFooter {
 }
 
 #SlideForm h2 {
-    font-family: Giovanni;
+    font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 32px;
     color: #005695; /* $primary */
     margin: 5px 0 0;
@@ -218,7 +218,7 @@ body.cms-admin #StickyFooter {
     border: none;
     background-color: #B6BBC2;
     border-radius: 4px;
-    font-family: Cabin Condensed;
+    font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 16px;
     color: #005695; /* $primary */
     outline: none;
@@ -475,7 +475,7 @@ html.no-boxsizing #AttyCarousel ul li.selected {
     transition: .5s ease;
 }
 #AttyCarousel .AttyInfo a:hover {
-    background-color: #3685BE; /* $secondary */
+    background-color: #30AEEB; /* $secondary */
 }
 /* End Attorney Carousel */
 
@@ -556,7 +556,7 @@ html.no-boxsizing .PracticeList li div.details {
 }
 
 .Home .PracticeList .details h2 {
-    font-family: Giovanni;
+    font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
     color: #fff;
     font-size: 1.7em;
     margin: 10px 0 0;
@@ -617,7 +617,7 @@ html.no-boxsizing .PracticeList .details a {
     text-align: center;
 }
 #HomeTestimonial h2 {
-    font-family: Giovanni;
+    font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 38px;
     color: #fff;
     margin: 0;
@@ -627,7 +627,7 @@ html.no-boxsizing .PracticeList .details a {
     display: block;
     background-color: #000; /* darken($secondary,70%) */
     padding: 15px 1%;
-    font-family: Giovanni;
+    font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
     color: #fff;
     font-size: 23px;
     font-style: italic;
