@@ -70,8 +70,8 @@
                     </a>
                 </div>
                 <div class="navsection">
-                    <nav class="top-nav" id="TopNavigation" icobalt="CobaltControls.Controls.StaticContent">
-                        <ul class="t-nav" icobalt="CobaltControls.Controls.AdvancedMenu" _flyout="false" id="ctl03" name="ctl03">
+                    <nav class="top-nav" id="TopNavigation">
+                        <ul class="t-nav"  _flyout="false" id="ctl03" name="ctl03">
                             <li data-index="1">
                                 <a href="{{URL::to('familyLaw') }}" target="">Family Law</a>
                             </li>
@@ -91,25 +91,25 @@
                     </nav>
                 </div>
                 <div id="MobileArea">
-                    <a class="menu" id="MobileMenu" href="javascript:void('Start');" icobalt="CobaltControls.Controls.MobileMenu"><icon class="menu-6"></icon></a><div class='imenupanel' style='display:none;'><div class='imenu'><div class='imenuitem' _pageid='5400249' _childpages='0'><a href="{{ URL::to('/') }}">Home</a></div><div class='imenuitem iright' _pageid='5400354' _childpages='2'><a href="{{URL::to('familyLaw')  }}">Family Law</a></div><div class='imenuitem iright' _pageid='5427349' _childpages='6'><a href="{{ URL::to('personalInjury') }}">Personal Injury</a></div><div class='imenuitem iright' _pageid='5400357' _childpages='14'><a href="{{ URL::to('victories') }}">Our Victories</a></div><div class='imenuitem iright' _pageid='5400358' _childpages='6'><a href="{{ URL::to('allblogs') }}">Our Blog</a></div><div class='imenuitem' _pageid='5468457' _childpages='0'><a href="">Legal Services</a></div><div class='imenuitem' _pageid='5400359' _childpages='0'><a href="{{ URL::to('contactus') }}">Contact Us</a></div><div class='imenuitem' _pageid='5471654' _childpages='0'><a href="">Locations</a></div><div class='imenuitem' _pageid='5520105' _childpages='0'><a href="">Locations</a></div><div class='imenuitem' _pageid='5400254' _childpages='0'><a href="">Site Map</a></div></div></div>
+                    <a class="menu" id="MobileMenu" href="javascript:void('Start');" ><icon class="menu-6"></icon></a><div class='imenupanel' style='display:none;'><div class='imenu'><div class='imenuitem' _pageid='5400249' _childpages='0'><a href="{{ URL::to('/') }}">Home</a></div><div class='imenuitem iright' _pageid='5400354' _childpages='2'><a href="{{URL::to('familyLaw')  }}">Family Law</a></div><div class='imenuitem iright' _pageid='5427349' _childpages='6'><a href="{{ URL::to('personalInjury') }}">Personal Injury</a></div><div class='imenuitem iright' _pageid='5400357' _childpages='14'><a href="{{ URL::to('victories') }}">Our Victories</a></div><div class='imenuitem iright' _pageid='5400358' _childpages='6'><a href="{{ URL::to('allblogs') }}">Our Blog</a></div><div class='imenuitem' _pageid='5468457' _childpages='0'><a href="">Legal Services</a></div><div class='imenuitem' _pageid='5400359' _childpages='0'><a href="{{ URL::to('contactus') }}">Contact Us</a></div><div class='imenuitem' _pageid='5471654' _childpages='0'><a href="">Locations</a></div><div class='imenuitem' _pageid='5520105' _childpages='0'><a href="">Locations</a></div><div class='imenuitem' _pageid='5400254' _childpages='0'><a href="">Site Map</a></div></div></div>
                 </div>
                 <div class="Number">
                     <a class="phone_link" href="tel:1800833625">1 800 833 625</a>
                 </div>
             </div>
-            <div icobalt="CobaltControls.Controls.StaticContent" id="Flyout">
+            <div id="Flyout">
                 <div class="fly-nav  1">
                     <div class="main">
                         <div id="FlyoutContent1" class="flycontent">
                             <h3>Family Law</h3>
                             <p>Our team can assist in the drafting of pre-nuptial agreements, and provides committed legal counsel in issues involving property settlement, financial agreements, mediation, and child support, both binding child support agreements, limited child support agreements, and cases of objecting child support. We are well-versed in Australian law with regard to child custody, child abduction, and can assist in family dispute resolution. Cases of neglect, domestic violence, or child abduction are of great concern, and should be acted upon by a qualified lawyer from our firm immediately for protection and legal intervention. We also provide legal services for those in same sex relationships that have family law matters to address.</p>
                         </div>
-                        <nav class="droplist" icobalt="CobaltControls.Controls.AdvancedMenu" id="FlyMenu1" name="FlyMenu1">
+                        <nav class="droplist" id="FlyMenu1" name="FlyMenu1">
                             <ul>
                                 <li class="level1 ">
-                                    <a href="About-Scorpion/Employment.html" target="">Employment</a>
+                                    <a href="" target="">Employment</a>
                                 </li><li class="level1 ">
-                                    <a href="About-Scorpion/Management-Team.html" target="">Management Team</a>
+                                    <a href="" target="">Management Team</a>
                                 </li>
                             </ul>
                         </nav>
@@ -122,7 +122,7 @@
                             <p>Taylor&Preston Personal Injury provides expert Personal Injury law services to clients in throughout Australia. Speak to a
                             Personal Injury Lawyer now by calling 1.800.633.625</p>
                         </div>
-                        <nav class="droplist" icobalt="CobaltControls.Controls.AdvancedMenu" id="FlyMenu2" name="FlyMenu2">
+                        <nav class="droplist" id="FlyMenu2" name="FlyMenu2">
                             <ul>
                                 <li class="level1 ">
                                     <a href="" target="">Divorce</a>
@@ -148,36 +148,25 @@
                             <p>We at Taylor & Preston understand how important the outcome of any family law matter is to you and your future, as well as the urgency of your case when children are involved. Our professional lawyers have impressive credentials and a full understanding of the laws involved in all areas of family law. When we represent you, you can be confident that your interests will be protected, and that you are represented by a quality family lawyer that will do all possible to pursue a favorable outcome for you. We urge you to contact our firm to discuss your personal legal matter. We take all the time necessary to answer your questions about what to expect and how we will proceed to pursue your objectives.</p>
                             <p><strong>That leaves just one question: Are you ready to get more?</strong></p>
                         </div>
-                        <nav class="droplist" icobalt="CobaltControls.Controls.AdvancedMenu" id="FlyMenu3" name="FlyMenu3">
+                        <nav class="droplist" id="FlyMenu3" name="FlyMenu3">
                             <ul>
                                 <li class="level1 ">
                                     <a href="" target="">TAC</a>
-                                </li><li class="level1 ">
+                                </li>
+                                <li class="level1 ">
                                     <a href="" target="">Work Injury</a>
-                                </li><li class="level1 ">
+                                </li>
+                                <li class="level1 ">
                                     <a href="" target="">Sexual Harrasment</a>
-                                </li><li class="level1 ">
+                                </li>
+                                <li class="level1 ">
                                     <a href="" target="">Public Place Injury</a>
-                                </li><li class="level1 ">
-                                    <a href="" target="">Content Management</a>
-                                </li><li class="level1 ">
-                                    <a href="" target="">Content Writing</a>
-                                </li><li class="level1 ">
-                                    <a href="{{URL::to('/allblogs') }}" target="">Blogging & Company Updates</a>
-                                </li><li class="level1 ">
+                                </li>
+                                <li class="level1 ">
+                                    <a href="{{URL::to('/allblogs') }}" target="">Blogging</a>
+                                </li>
+                                <li class="level1 ">
                                     <a href="" target="">Social Media</a>
-                                </li><li class="level1 ">
-                                    <a href="" target="">Video Production</a>
-                                </li><li class="level1 ">
-                                    <a href="" target="">Responsive  Design</a>
-                                </li><li class="level1 ">
-                                    <a href="" target="">Website Hosting</a>
-                                </li><li class="level1 ">
-                                    <a href="" target="">Call Tracking</a>
-                                </li><li class="level1 ">
-                                    <a href="l" target="">Click To Call</a>
-                                </li><li class="level1 ">
-                                    <a href="" target="">E-Newsletters</a>
                                 </li>
                             </ul>
                             <div class="scrollbar"></div>
@@ -204,7 +193,7 @@
                                 </li><li class="level1 ">
                                     <a href="" target="">Our Awards</a>
                                 </li><li class="level1 ">
-                                    <a href="" target="">Effective & Aggressive Marketing</a>
+                                    <a href="" target="">Effective & Aggressive</a>
                                 </li><li class="level1 ">
                                     <a href="" target="">Our Dedication</a>
                                 </li><li class="level1 ">
@@ -237,8 +226,8 @@
             </div>
         </div>
 
-        <div class="icobalt ilayout" id="Imagezone">
-            <div icobalt="CobaltControls.Controls.DisplayList" id="Animation" data-delay="8000" name="animation">
+        <div class="ilayout" id="Imagezone">
+            <div id="Animation" data-delay="8000" name="animation">
 
     </header>
 <script type="text/javascript">

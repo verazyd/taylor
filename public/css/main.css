@@ -432,7 +432,7 @@ textarea {
 
     .verdict_recent p, .news_recent p{
         text-align: justify;
-        font-size: 20px;
+        font-size: 18px;
         width: 100%;
         max-height: 80px;
         overflow: scroll;
