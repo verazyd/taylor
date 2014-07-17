@@ -77,19 +77,14 @@
 
 <div class="row why_taylor_first">
     <h2>Why Choose Taylor & Preston ?</h2>
-    <div class="col-md-3 why_taylor">
+    <h3>Choosing the right law firm makes all the difference. Don’t settle for second best </h3>
+    <hr/>
+    <div class="col-md-12 why_taylor">
         <p>
-            At TP we’re nuts about technology and we use it to ensure that we offer competitive legal services through a team of high quality mobile lawyers that work around clients’ needs, lifestyles and locations.<br>
-            Proudly results-focused, we avoid the trappings of hierarchy and status and instead work as a true team. Proudly results-focused, we avoid the trappings of hierarchy and status and instead work as a true team.Proudly results-focused, we avoid the trappings of hierarchy and status and instead work as a true team.
-        </p>
-    </div>
-    <div class="col-md-6">
-        <iframe width="100%" height="300px" src="//www.youtube.com/embed/3U3K4CVldkk" frameborder="0" allowfullscreen></iframe>
-    </div>
-    <div class="col-md-3 why_taylor">
-        <p>
-            At TP we’re nuts about technology and we use it to ensure that we offer competitive legal services through a team of high quality mobile lawyers that work around clients’ needs, lifestyles and locations.<br>
-            Proudly results-focused, we avoid the trappings of hierarchy and status and instead work as a true team. Proudly results-focused, we avoid the trappings of hierarchy and status and instead work as a true team.Proudly results-focused, we avoid the trappings of hierarchy and status and instead work as a true team.
+            Taylor & Preston Lawyers have years of experience handling family law matters. Our lawyers include David Denby, who has been practicing law for
+            over 40 years and is an ex-president of the Law Institute of Victoria. Jeffrey Stone is another senior lawyer at the firm who has also been practising family law for over 40 years.
+            We have earned this trust by practicing law with the highest ethical standards in the legal profession. The excellence of our family lawyers,
+            and our commitment to our clients has earned the firm its elite standing in the legal community.
         </p>
     </div>
 </div>
@@ -340,7 +335,7 @@
                 <img data-bg-image="./img/process/tbwy8d5odzn.png" src="./img//spacer-2.gif" style="border-width:0px;display:none;" />
 
                 <div class="AttyInfo">
-                    <h1> Lawyer 3</h1>
+                    <h1>Madeline Smith</h1>
                     <h2>Attorney</h2>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quod pariatur fugiat blanditiis, earum nisi neque quidem voluptas accusantium libero voluptatem vero praesentium unde ad ducimus illo hic quas modi....
@@ -357,7 +352,7 @@
                 <img data-bg-image="./img/process/16csjzk079q.png" src="img/spacer-2.gif" style="border-width:0px;display:none;" />
 
                 <div class="AttyInfo">
-                    <h1> Lawyer 4</h1>
+                    <h1>Peter Ansell</h1>
                     <h2>Attorney</h2>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, quo, minima! Veritatis voluptate, tempore, reiciendis maiores quibusdam numquam tempora harum minima dolor nobis libero commodi odit facilis, recusandae voluptates. Dicta! ...
@@ -374,7 +369,7 @@
                 <img data-bg-image="./img/process/jrg5w8tvjsx.png" src="img/spacer-2.gif" style="border-width:0px;display:none;" />
 
                 <div class="AttyInfo">
-                    <h1> Lawyer 5</h1>
+                    <h1>Payne Wu</h1>
                     <h2>Attorney</h2>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum aliquid illo ipsam laudantium modi hic incidunt sequi inventore. Voluptatum deserunt dolores libero, est molestiae iusto pariatur aperiam voluptates sapiente eius....
@@ -391,7 +386,7 @@
                 <img data-bg-image="./img/process/6n5lfxlmhyp.png" src="img/spacer-2.gif" style="border-width:0px;display:none;" />
 
                 <div class="AttyInfo">
-                    <h1> Lawyer 6</h1>
+                    <h1>Holly Renwick</h1>
                     <h2>Attorney</h2>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione ipsum sunt dolorem aliquid id quo quis, architecto praesentium maxime, ipsa aliquam voluptatibus, natus nostrum magni corporis possimus earum fuga dignissimos. ...

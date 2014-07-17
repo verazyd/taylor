@@ -47,9 +47,10 @@ hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
+    border-top: 1px solid gray;
+    margin: 0 auto;
     padding: 0;
+    width: 960px;
 }
 
 /*
@@ -407,14 +408,17 @@ textarea {
 
 /*why choose taylor section*/
 .why_taylor_first h2{
-    margin: 0px 0px 15px 0px;
+    margin: 5px 0px 15px 0px;
     border-top: 5px solid gray;
+    padding-top: 5px;
 }
+.why_taylor_first h3{text-align: center; color: #000000; font-family: Montserrat}
+
 .why_taylor p{
     font-size: 16px;
     font-family: Montserrat;
-    overflow: scroll;
-    max-height: 300px;
+    padding: 10px;
+    text-align: justify;
 }
 /*why choose taylor section ends*/
 
@@ -544,6 +548,7 @@ textarea {
         overflow: scroll;
         max-height: 100px;
     }
+
 
     /*form inline on homepage*/
     .form_inline_contact{ width: 147%;}
