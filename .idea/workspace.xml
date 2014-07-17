@@ -32,10 +32,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.blade.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/pages/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="403" column="35" selection-start="23808" selection-end="23808" vertical-scroll-proportion="0.22644164" vertical-offset="9914" max-vertical-offset="17725">
+            <state line="403" column="35" selection-start="23808" selection-end="23808" vertical-scroll-proportion="0.0" vertical-offset="9914" max-vertical-offset="17725">
               <folding>
                 <element signature="n#style#0;n#h2#0;n#div#0;n#div#2;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#2;n#!!top" expanded="true" />
@@ -67,6 +67,15 @@
                 <element signature="n#style#0;n#img#0;n#li#5;n#ul#0;n#div#0;n#div#4;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#1;n#li#5;n#ul#0;n#div#0;n#div#4;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/css/css_header/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="0" selection-start="732" selection-end="758" vertical-scroll-proportion="0.42194092" vertical-offset="800" max-vertical-offset="109350">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -138,8 +147,8 @@
         <option value="$PROJECT_DIR$/app/controllers/PagesController.php" />
         <option value="$PROJECT_DIR$/app/views/pages/index.blade.php" />
         <option value="$PROJECT_DIR$/public/css/main.css" />
-        <option value="$PROJECT_DIR$/public/css/css_header/style.css" />
         <option value="$PROJECT_DIR$/public/css/meet_our_att.css" />
+        <option value="$PROJECT_DIR$/public/css/css_header/style.css" />
       </list>
     </option>
   </component>
@@ -1552,13 +1561,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/css_header/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="778" column="15" selection-start="14941" selection-end="14947" vertical-scroll-proportion="0.3328467" vertical-offset="19222" max-vertical-offset="109350">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="605" column="42" selection-start="11414" selection-end="11418" vertical-scroll-proportion="-8.923077" vertical-offset="14893" max-vertical-offset="16425">
@@ -1575,7 +1577,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pages/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="403" column="35" selection-start="23808" selection-end="23808" vertical-scroll-proportion="0.22644164" vertical-offset="9914" max-vertical-offset="17725">
+        <state line="403" column="35" selection-start="23808" selection-end="23808" vertical-scroll-proportion="0.0" vertical-offset="9914" max-vertical-offset="17725">
           <folding>
             <element signature="n#style#0;n#h2#0;n#div#0;n#div#2;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#2;n#!!top" expanded="true" />
@@ -1607,6 +1609,13 @@
             <element signature="n#style#0;n#img#0;n#li#5;n#ul#0;n#div#0;n#div#4;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#1;n#li#5;n#ul#0;n#div#0;n#div#4;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/css_header/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="0" selection-start="732" selection-end="758" vertical-scroll-proportion="0.42194092" vertical-offset="800" max-vertical-offset="109350">
+          <folding />
         </state>
       </provider>
     </entry>
