@@ -23,10 +23,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="434" column="21" selection-start="8348" selection-end="8348" vertical-scroll-proportion="0.5114613" vertical-offset="10493" max-vertical-offset="16425">
+            <state line="434" column="21" selection-start="8348" selection-end="8348" vertical-scroll-proportion="-13.730769" vertical-offset="10493" max-vertical-offset="16425">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/locations/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="69" column="13" selection-start="2853" selection-end="2853" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2000">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_footer.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_footer.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="9" selection-start="57" selection-end="92" vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="3900">
+              <folding>
+                <element signature="n#style#0;n#footer#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/css/css_header/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="728" column="19" selection-start="14115" selection-end="14115" vertical-scroll-proportion="0.62025315" vertical-offset="17759" max-vertical-offset="109325">
               <folding />
             </state>
           </provider>
@@ -124,7 +153,6 @@
         <option value="$PROJECT_DIR$/public/css/css_header/responsive.css" />
         <option value="$PROJECT_DIR$/public/js/script.js" />
         <option value="$PROJECT_DIR$/public/css/css_header/style2.css" />
-        <option value="$PROJECT_DIR$/app/views/layouts/partials/_footer.blade.php" />
         <option value="$PROJECT_DIR$/app/views/layouts/partials/image_flip_backup.blade.php" />
         <option value="$PROJECT_DIR$/app/views/victories/admin_index.blade.php" />
         <option value="$PROJECT_DIR$/app/controllers/CommonquestionsController.php" />
@@ -136,7 +164,6 @@
         <option value="$PROJECT_DIR$/app/views/personals/index.blade.php" />
         <option value="$PROJECT_DIR$/app/views/personals/show.blade.php" />
         <option value="$PROJECT_DIR$/app/views/search/index.blade.php" />
-        <option value="$PROJECT_DIR$/app/views/locations/index.blade.php" />
         <option value="$PROJECT_DIR$/app/views/videos/index_users.blade.php" />
         <option value="$PROJECT_DIR$/app/views/layouts/partials/_contact_form.blade.php" />
         <option value="$PROJECT_DIR$/app/views/pages/ourstaff.blade.php" />
@@ -148,9 +175,11 @@
         <option value="$PROJECT_DIR$/app/controllers/PagesController.php" />
         <option value="$PROJECT_DIR$/app/views/pages/index.blade.php" />
         <option value="$PROJECT_DIR$/public/css/meet_our_att.css" />
-        <option value="$PROJECT_DIR$/public/css/css_header/style.css" />
         <option value="$PROJECT_DIR$/app/views/layouts/partials/_new_header.blade.php" />
         <option value="$PROJECT_DIR$/public/css/main.css" />
+        <option value="$PROJECT_DIR$/app/views/locations/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/layouts/partials/_footer.blade.php" />
+        <option value="$PROJECT_DIR$/public/css/css_header/style.css" />
       </list>
     </option>
   </component>
@@ -1191,7 +1220,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14797136" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19252187" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -1326,13 +1355,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_footer.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-4.268895" vertical-offset="2937" max-vertical-offset="3825">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="51" selection-start="411" selection-end="411" vertical-scroll-proportion="0.25547445" vertical-offset="0" max-vertical-offset="3500">
@@ -1460,13 +1482,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/locations/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="24" selection-start="316" selection-end="316" vertical-scroll-proportion="-0.14064698" vertical-offset="350" max-vertical-offset="2050">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/nikic/php-parser/test/code/parser/scalar/magicConst.test">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
@@ -1477,13 +1492,6 @@
     <entry file="file://$PROJECT_DIR$/app/views/layouts/master.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="724">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_contact_form.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="800">
           <folding />
         </state>
       </provider>
@@ -1561,13 +1569,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/css_header/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="0" selection-start="732" selection-end="758" vertical-scroll-proportion="0.8790436" vertical-offset="475" max-vertical-offset="109350">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pages/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="403" column="35" selection-start="23808" selection-end="23808" vertical-scroll-proportion="0.0" vertical-offset="9914" max-vertical-offset="17725">
@@ -1616,7 +1617,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="434" column="21" selection-start="8348" selection-end="8348" vertical-scroll-proportion="0.5114613" vertical-offset="10493" max-vertical-offset="16425">
+        <state line="434" column="21" selection-start="8348" selection-end="8348" vertical-scroll-proportion="-13.730769" vertical-offset="10493" max-vertical-offset="16425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_contact_form.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="77" selection-start="503" selection-end="503" vertical-scroll-proportion="0.35161743" vertical-offset="0" max-vertical-offset="800">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/locations/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="13" selection-start="2853" selection-end="2853" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2000">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_footer.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="9" selection-start="57" selection-end="92" vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="3900">
+          <folding>
+            <element signature="n#style#0;n#footer#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/css_header/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="728" column="19" selection-start="14115" selection-end="14115" vertical-scroll-proportion="0.62025315" vertical-offset="17759" max-vertical-offset="109325">
           <folding />
         </state>
       </provider>

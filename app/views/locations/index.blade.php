@@ -69,9 +69,7 @@
             </div>
         </div>
     </div>
-        <div class="row">
-            <div class="col-md-12">
-                @include('layouts.partials._contact_form')
-            </div>
-        </div>
+
+      @include('layouts.partials._contact_form')
+
 @stop
