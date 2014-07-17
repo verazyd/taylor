@@ -10,10 +10,10 @@
         background: #ffffff;
     }
 </style>
-<div class="row container_section">
+<div class="row">
     <div class="BGScroll" id="TestZone">
         <div icobalt="CobaltControls.Controls.StaticContent" class="main" id="HomeTestimonial">
-            <h2 style="margin-top: -23px; color: #1C8FE0;">What Our Clients Are Saying About Us</h2>
+            <h2 style="color:#1B8FE0;margin-top: 6%;">What Our Clients Are Saying About Us</h2>
             @foreach($testimonials as $testimonial)
                  <p>"{{ $testimonial->description }}" <span>--{{ $testimonial->name }}
                      {{ $testimonial->location }}</span></p>

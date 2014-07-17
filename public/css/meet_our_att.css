@@ -1,11 +1,11 @@
 /* General Styles */
 a {
     text-decoration: none;
-    color: #005695; /* $primary */
+    color: rgb(28, 143, 224); /* $primary */
 }
 a:hover {
     text-decoration: none;
-    color: #5D5D5D;
+    color: gray;
 }
 a.phonelink {
     cursor: default;
@@ -292,6 +292,7 @@ img.ScrollBtn:hover {
 body.Sub #StickyBtns img.ScrollBtn {
     display: none;
 }
+
 /* Attorney Carousel */
 #AttyCarousel {
     position: relative;
@@ -304,6 +305,7 @@ body.Sub #StickyBtns img.ScrollBtn {
     -o-transition: translateZ(0);
     transition: translateZ(0);
     max-width: 880px;
+    margin-top: 2%;
 }
 
 #AttyCarousel ul {

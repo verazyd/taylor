@@ -100,11 +100,11 @@
 
 <div class="LBlue" id="PAZone">
     <div icobalt="CobaltControls.Controls.DisplayList" id="HomePracticeAreas" class="PracticeList main" name="HomePracticeAreas">
-        <h2 style="font-family: arial, sans-serif;color: rgb(28, 143, 224);"><a href="practice_areas">Our Practice Areas</a></h2>
+        <h2 style="color: #3685BE !important; font-size: 38px"><a href="practice_areas">Our Practice Areas</a></h2>
         <ul class="cf">
             <li class="active left">
                 <a href="{{ URL::to('personalInjury') }}">Personal Injury</a>
-                <div class="details" style="background-image:url(./img/Practice-Areas/personal_injury.jpg)">
+                <div class="details" style="background-image:url(./img/Practice-Areas/personal_injury.jpg);height: 365px;top: 28px;">
                     <div class="Icon">
                         <img src="./img/Practice-Areas/crutches-icon.png">
                     </div>
@@ -115,7 +115,7 @@
             </li>
             <li class="right">
                 <a href="{{ URL::to('familyLaw') }}">Family Law</a>
-                <div class="details" style="background-image:url(./img/Practice-Areas/maritime_offshore.jpg)">
+                <div class="details" style="background-image:url(./img/Practice-Areas/maritime_offshore.jpg);height: 365px;top: 28px;">
                     <div class="Icon">
                         <img src="./img/Practice-Areas/maritime-icon.png">
                     </div>
@@ -125,7 +125,7 @@
                 </div>
             </li><li class=" left">
                 <a href="Practice-Areas/Trucking-Accidents.html">Crime Compensation</a>
-                <div class="details" style="background-image:url(./img/Practice-Areas/trucking.jpg)">
+                <div class="details" style="background-image:url(./img/Practice-Areas/trucking.jpg);height: 365px;top: 28px;">
                     <div class="Icon">
                         <img src="./img/Practice-Areas/truck-icon.png">
                     </div>
@@ -135,7 +135,7 @@
                 </div>
             </li><li class="right">
                 <a href="Practice-Areas/Oil-Rig-Explosions.html">Work Injury</a>
-                <div class="details" style="background-image:url(./img/Practice-Areas/oil_rig.jpg)">
+                <div class="details" style="background-image:url(./img/Practice-Areas/oil_rig.jpg);height: 365px;top: 28px;">
                     <div class="Icon">
                         <img src="images/Practice-Areas/oil-rig-icon.png">
                     </div>
@@ -145,7 +145,7 @@
                 </div>
             </li><li class=" left">
                 <a href="Practice-Areas/Industrial-Injury.html">Superanuation Cover</a>
-                <div class="details" style="background-image:url(./img/Practice-Areas/industrial.jpg)">
+                <div class="details" style="background-image:url(./img/Practice-Areas/industrial.jpg);height: 365px;top: 28px;">
                     <div class="Icon">
                         <img src="./img/Practice-Areas/industrial-icon.png">
                     </div>
@@ -155,7 +155,7 @@
                 </div>
             </li><li class="right">
                 <a href="Practice-Areas/Plant-Refinery-Accidents.html">Sexual & Instutional Abuse</a>
-                <div class="details" style="background-image:url(./img/Practice-Areas/plant_refinery.jpg)">
+                <div class="details" style="background-image:url(./img/Practice-Areas/plant_refinery.jpg);height: 365px;top: 28px;">
                     <div class="Icon">
                         <img src="./img/Practice-Areas/plant-icon.png">
                     </div>
@@ -166,7 +166,7 @@
             </li>
             <li class=" left">
                 <a href="">Same Sex Relationship</a>
-                <div class="details" style="background-image:url(./img/Practice-Areas/pharmaceutical.jpg)">
+                <div class="details" style="background-image:url(./img/Practice-Areas/pharmaceutical.jpg);height: 365px;top: 28px;">
                     <div class="Icon">
                         <img src="./img/Practice-Areas/pills-icon.png">
                     </div>
@@ -177,7 +177,7 @@
             </li>
             <li class="right">
                 <a href="">Crime and compensation</a>
-                <div class="details" style="background-image:url(./img/Practice-Areas/product_liability.jpg)">
+                <div class="details" style="background-image:url(./img/Practice-Areas/product_liability.jpg);height: 365px;top: 28px;">
                     <div class="Icon">
                         <img src="./img/Practice-Areas/product-icon.png">
                     </div>
@@ -187,7 +187,7 @@
                 </div>
             </li><li class=" left">
                 <a href="">Hague Convention</a>
-                <div class="details" style="background-image:url(./img/Practice-Areas/railroad.jpg)">
+                <div class="details" style="background-image:url(./img/Practice-Areas/railroad.jpg);height: 365px;top: 28px;">
                     <div class="Icon">
                         <img src="./img/Practice-Areas/railroad-icon.png">
                     </div>
@@ -197,7 +197,7 @@
                 </div>
             </li><li class="right">
                 <a href="">Employment Law</a>
-                <div class="details" style="background-image:url(./img/Practice-Areas/catastrophic.jpg)">
+                <div class="details" style="background-image:url(./img/Practice-Areas/catastrophic.jpg);height: 365px;top: 28px;">
                     <div class="Icon">
                         <img src="./img/Practice-Areas/catastrophic-icon.png">
                     </div>
@@ -207,7 +207,7 @@
                 </div>
             </li><li class=" left">
                 <a href="">Divorce</a>
-                <div class="details" style="background-image:url(./img/Practice-Areas/motor_vehicle.jpg)">
+                <div class="details" style="background-image:url(./img/Practice-Areas/motor_vehicle.jpg);height: 365px;top: 28px;">
                     <div class="Icon">
                         <img src="./img/Practice-Areas/motor-vehicle-icon.png">
                     </div>
@@ -217,7 +217,7 @@
                 </div>
             </li><li class="right">
                 <a href="">TAC Claims</a>
-                <div class="details" style="background-image:url(./img/Practice-Areas/aviation.jpg)">
+                <div class="details" style="background-image:url(./img/Practice-Areas/aviation.jpg);height: 365px;top: 28px;">
                     <div class="Icon">
                         <img src="./img/Practice-Areas/aviation-icon.png">
                     </div>
@@ -227,7 +227,7 @@
                 </div>
             </li><li class=" left">
                 <a href="">Commercial Litigation</a>
-                <div class="details" style="background-image:url(./img/Practice-Areas/commercial.jpg)">
+                <div class="details" style="background-image:url(./img/Practice-Areas/commercial.jpg);height: 365px;top: 28px;">
                     <div class="Icon">
                         <img src="./img/Practice-Areas/commercial-icon.png">
                     </div>
@@ -237,7 +237,7 @@
                 </div>
             </li><li class="right">
                 <a href="">Insurance Claims</a>
-                <div class="details" style="background-image:url(./img/Practice-Areas/insurance_claims.jpg)">
+                <div class="details" style="background-image:url(./img/Practice-Areas/insurance_claims.jpg);height: 365px;top: 28px;">
                     <div class="Icon">
                         <img src="./img/Practice-Areas/insurance-claims-icon.png">
                     </div>
@@ -247,7 +247,7 @@
                 </div>
             </li><li class=" left">
                 <a href="">Property Contamination</a>
-                <div class="details" style="background-image:url(./img/Practice-Areas/property_contamination.jpg)">
+                <div class="details" style="background-image:url(./img/Practice-Areas/property_contamination.jpg);height: 365px;top: 28px;">
                     <div class="Icon">
                         <img src="./img/Practice-Areas/property-contamination-icon.png">
                     </div>
@@ -257,7 +257,7 @@
                 </div>
             </li><li class="right">
                 <a href="">Frequently Asked Questions</a>
-                <div class="details" style="background-image:url(./img/Practice-Areas/faq.jpg)">
+                <div class="details" style="background-image:url(./img/Practice-Areas/faq.jpg);height: 365px;top: 28px;">
                     <div class="Icon">
                         <img src="./img/Practice-Areas/faq-icon.png">
                     </div>
@@ -270,7 +270,7 @@
     </div>
 </div>
 
-<div class="row" style="background:rgb(27, 143, 224);border-top: 5px solid gray; border-bottom: 5px solid gray">
+<div class="row" style="background:rgb(27, 143, 224);border-top: 5px solid gray; border-bottom: 5px solid gray; margin-top: -5%">
     <div class="col-md-12" style="padding: 20px;">
         <div id="HomeTestimonial">
         <h2 style="text-align: center; color: #ffffff; padding-bottom: 10px;">What Our Clients Are Saying About Us</h2>

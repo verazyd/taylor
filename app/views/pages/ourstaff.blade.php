@@ -9,7 +9,7 @@
     .meet_out_attorneys_page{
         background-color: rgb(216, 227, 246);
         margin-top: 10px;
-        color: rgb(0, 86, 149);
+        color: #1D85DC;
     }
     .meet_out_attorneys_page h1{
         padding: 0px 10px;
@@ -70,23 +70,21 @@
     }
 
 </style>
-<div class="container container_section">
+<div class="container_section">
     <div class="row">
         {{HTML::image('/img/our_vic.jpeg', $alt = 'Taylor&Preston',
         $attributes = array('class' => 'center-block img-responsive',  'width' => '100%')) }}
-        <h3 style="position: absolute; bottom:40%; left: 10%; color: #ffffff; font-size: 48px; background: #294058">MEET OUR ATTORNEYS</h3>
+        <h2>MEET OUR ATTORNEYS</h2>
     </div>
     <div class="row">
         <div class="col-md-8 meet_out_attorneys_page">
             <div class="col-md-12 meet_attorney_section">
                 <h3>Attorneys at Taylor&Preston</h3>
                     <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto blanditiis, cum deleniti deserunt eligendi ipsam itaque, omnis possimus praesentium quam, quia quidem rerum saepe sit vitae voluptate voluptatum. Consequatur, itaque.
-                                     <span>If you would like to learn more about how we can help with your case,
-                                         please give us a call at<strong>&nbsp;&nbsp;800-633-625</strong></span>"
+                    <span>If you would like to learn more about how we can help with your case,
+                    please give us a call at<strong>&nbsp;&nbsp;800-633-625</strong></span>"
                     </p>
-<!--                    <p2>Please click on the images below to learn more about our individual lawyers.</p2>-->
             </div>
-
             <ul>
                 <li>
                     <div class="col-md-4 lawyers_img">
@@ -153,6 +151,5 @@
             </div>
         </div>
     </div>
-
 </div>
 @stop

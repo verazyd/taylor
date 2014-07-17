@@ -12,16 +12,16 @@
         overflow-y: scroll;
     }
 </style>
-    <div class="container_section" style="margin: 1%;">
+    <div class="container_section">
         <div class="row">
              {{HTML::image('/img/our_vic.jpeg', $alt = 'Taylor&Preston',
             $attributes = array('class' => 'center-block img-responsive',  'width' => '100%')) }}
-            <h3 style="position: absolute; bottom:40%; left: 10%; color: #ffffff; font-size: 48px; background: #294058">OUR VICTORIES</h3>
+            <h2>OUR VICTORIES</h2>
         </div>
         <div class="row" style="background:rgb(27, 143, 224);;">
             <div class="col-md-12" style="padding: 20px;">
                 <div id="HomeTestimonial">
-                    <h2 style="text-align: center; color: #ffffff;">Our Victories</h2>
+                    <h3 style="text-align: center; color: #ffffff; font-size: 30px">Our Victories</h3>
                     <p style="width: 96%; margin: 0 auto;">
                         Lorem ipsum dolor sit amet, consect expedita impedit ipsa libero non obcaecati officiis perspiciatis quae ratione?"
                              <span style="text-transform: lowercase">If you would like to learn more about how we can help with your case,<br>

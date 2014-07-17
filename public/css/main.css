@@ -82,7 +82,7 @@ textarea {
     resize: vertical;
 }
 .container_section{
-    margin-top: 120px;
+    margin-top: 85px;
 }
 
 /* ==========================================================================
@@ -405,7 +405,6 @@ textarea {
     margin-top: 10px;
 }
 
-
 /*why choose taylor section*/
 .why_taylor_first h2{
     margin: 0px 0px 15px 0px;
@@ -454,20 +453,42 @@ textarea {
 /*location page ends*/
 
 /*video center page*/
+
 .video_center{
     margin-top: 100px;
 }
 .video_center h2{
     margin-bottom: 10px;
 }
+
+
+/*our staff*/
+.container_section h2{
+    position: absolute;
+    bottom:81%;
+    left: 2%;
+    font-size: 48px;
+    background: #ffffff;
+}
 /*video center page ends*/
+
+
+/*common questions*/
+.common_questions{margin-top: 8%;}
+
+
+
+
+
+
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
-
+/*for tablet version*/
 @media (max-width: 979px) {
 
     h2{
-        font-size: ;
+        font-size: 13px;
     }
     .carousel .item {
         height: 500px;
@@ -478,6 +499,12 @@ textarea {
     }
 }
 
+/*tablet version ends here*/
+
+
+
+
+/*for mobile version*/
 @media (max-width: 767px) {
 
     .navbar-inner {
@@ -524,9 +551,50 @@ textarea {
     .navbar-inverse{
         height: 20px;
         }
+
+    /*our staff page*/
+    .container_section h2{
+        position: absolute;
+        bottom:95%;
+        left: 2%;
+        font-size: 18px;
+        background: #ffffff;
+    }
+    /*our staff page ends*/
+
+    /*our victories page*/
+    .container_section{
+        margin-top: 90px;
+    }
+    .container_section_second h2{ color: black;}
+    /*.container_section h3{*/
+        /*position: absolute;*/
+        /*bottom: 161%;*/
+        /*left: 0%;*/
+        /*color: #000;*/
+        /*font-size: 18px;*/
+        /*background: #294058;*/
+    /*}*/
+
+    #HomeTestimonial h2{
+
+    }
+    /*our victories page ends here*/
+
+    /*commons questions*/
+    .common_questions{ margin-top: 22%;}
+    .common_questions h2{color:#1B8FE0; font-size: 25px;}
+    /*common questions ends here*/
+
+    /*testimonail page*/
+    #HomeTestimonial{margin-top: 12%; font-size: 20px;}
+    /*testimonial page ends*/
+
     /*responsive for header*/
 
 
+
+/*mobile version ends here*/
 
 
 /* ==========================================================================
