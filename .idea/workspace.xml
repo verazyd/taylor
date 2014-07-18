@@ -47,7 +47,7 @@
       <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/css/css_header/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="450" column="21" selection-start="8753" selection-end="8753" vertical-scroll-proportion="0.24613221" vertical-offset="11075" max-vertical-offset="109450">
+            <state line="450" column="20" selection-start="8752" selection-end="8752" vertical-scroll-proportion="0.28129396" vertical-offset="11050" max-vertical-offset="109450">
               <folding />
             </state>
           </provider>
@@ -1533,7 +1533,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/css_header/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="450" column="21" selection-start="8753" selection-end="8753" vertical-scroll-proportion="0.24613221" vertical-offset="11075" max-vertical-offset="109450">
+        <state line="450" column="20" selection-start="8752" selection-end="8752" vertical-scroll-proportion="0.28129396" vertical-offset="11050" max-vertical-offset="109450">
           <folding />
         </state>
       </provider>
