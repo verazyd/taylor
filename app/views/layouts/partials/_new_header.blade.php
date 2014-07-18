@@ -20,13 +20,11 @@
     <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
 
 
-
 <!--    header style sheet-->
     {{ HTML::style('css/css_header/style2.css') }}
     {{ HTML::style('css/css_header/style3.css') }}
     {{ HTML::style('css/css_header/style.css') }}
     {{ HTML::style('css/css_header/responsive.css') }}
-
 
 
     <style type="text/css">
@@ -49,11 +47,13 @@
 <!--        background-image: url("./img/img_header/BG-topnav.jpg");-->
 <!--    }-->
 <!--</style>-->
+
 <script>
     $(document).ready(function(){
        $('#NavZone').css('background-image', "url(./img/img_header/BG-topnav.jpg)");
     });
 </script>
+
 <body>
 
     <header>
@@ -63,7 +63,6 @@
                     <div class="logobg"></div>
                     <a href="{{ URL::to('/') }}">
                         <img class="logo-image" style="background-image:url(./img/img_header/main_logo_cropped.png)"
-
                              src="./img/img_header/spacer.gif"></a>
 
                     <a class="logo-button" href="{{ URL::to('/') }}">

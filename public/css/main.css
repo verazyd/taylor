@@ -267,7 +267,8 @@ textarea {
 .carousel-inner > .item > img {
     margin: 0 auto;
 }
-
+.carousel_text h1{font-size: 27px; width:350px;font-weight: bold; color: #000 !important;}
+.carousel_text p{font-size: 18px; width:550px; color: #ffffff !important;}
 /*contact-us form*/
 /*.contact_input_form{*/
     /*width: 65%;*/
@@ -501,6 +502,10 @@ textarea {
 
 
 
+/*legal team*/
+
+
+/*legal team ends here*/
 
 
 

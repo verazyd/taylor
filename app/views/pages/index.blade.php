@@ -104,7 +104,8 @@
                         <img src="./img/Practice-Areas/crutches-icon.png">
                     </div>
                     <h4>Personal Injury</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, aliquid, aut blanditiis illum ipsa iste magni minus neque odio officiis optio quae repellendus ut vitae voluptas? Error laudantium, unde. Facilis.</p>
+                    <p>Taylor & Preston Lawyers practice in Personal Injury Law and accept matters from Victoria and New South Wales</p>
+                    <p>If you would like to speak to someone in relation to a personal injury matter, please call on 1800 633 625. between 7A.M.and 11P.M. Monday to Sunday.</p>
                     <a href="">Learn More</a>
                 </div>
             </li>
@@ -115,7 +116,8 @@
                         <img src="./img/Practice-Areas/maritime-icon.png">
                     </div>
                     <h4>Family Law</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, aliquid, aut blanditiis illum ipsa iste magni minus neque odio officiis optio quae repellendus ut vitae voluptas? Error laudantium, unde. Facilis.</p>
+                    <p>Our family law lawyers are smart, tough, highly ethical and empathetic.</p>
+                    <p>Together they have century and a half of experience in this highly-complex legal area that traverses many fields like estate planning, property, commercial, tax and company law.</p>
                     <a href="">Learn More</a>
                 </div>
             </li><li class=" left">
@@ -125,7 +127,8 @@
                         <img src="./img/Practice-Areas/truck-icon.png">
                     </div>
                     <h4>Crime Compensation</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, aliquid, aut blanditiis illum ipsa iste magni minus neque odio officiis optio quae repellendus ut vitae voluptas? Error laudantium, unde. Facilis.</p>
+                    <p>At Taylor & Preston we understand that going to court can be a daunting experience. We are committed to defending your rights with compassion and understanding.</p>
+                    <p>We guarantee that the lawyer you first meet will manage your case until its completion.</p>
                     <a href="">Learn More</a>
                 </div>
             </li><li class="right">
@@ -135,7 +138,8 @@
                         <img src="images/Practice-Areas/oil-rig-icon.png">
                     </div>
                     <h4>Work Injury</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, aliquid, aut blanditiis illum ipsa iste magni minus neque odio officiis optio quae repellendus ut vitae voluptas? Error laudantium, unde. Facilis.</p>
+                    <p>Taylor & Preston Lawyers practice in Employment Law  and accept matters from Victoria</p>
+                    <p>If you would like to speak to someone in relation to an employment law matter, please call on 1800 633 625. between 7A.M.and 11P.M. Monday to Sunday.</p>
                     <a href="">Learn More</a>
                 </div>
             </li><li class=" left">
@@ -154,8 +158,11 @@
                     <div class="Icon">
                         <img src="./img/Practice-Areas/plant-icon.png">
                     </div>
-                    <h4>Sexual & Instutional Abuse</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, aliquid, aut blanditiis illum ipsa iste magni minus neque odio officiis optio quae repellendus ut vitae voluptas? Error laudantium, unde. Facilis.</p>
+                    <h4>Sexual & Institutional Abuse</h4>
+                    <p>First steps – if you or someone you know was abused</p>
+                    <p>Redress Schemes</p>
+                    <p>Damages claims</p>
+                    <p>Knowing all these is very crucial in filing a case. We can help you the best!!</p>
                     <a href=""">Learn More</a>
                 </div>
             </li>
@@ -166,7 +173,7 @@
                         <img src="./img/Practice-Areas/pills-icon.png">
                     </div>
                     <h4>Same Sex Relationship</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, aliquid, aut blanditiis illum ipsa iste magni minus neque odio officiis optio quae repellendus ut vitae voluptas? Error laudantium, unde. Facilis.</p>
+                    <p>Australia may not extend marriage and adoption rights to same-sex couples, however, under the numerous State and Federal laws,  a couple who is in a same-sex relationship for all intents and purposes have the same rights as those who are in a legally recognised marriage.</p>
                     <a href="">Learn More</a>
                 </div>
             </li>
@@ -174,10 +181,11 @@
                 <a href="">Crime and compensation</a>
                 <div class="details" style="background-image:url(./img/Practice-Areas/product_liability.jpg);height: 365px;top: 28px;">
                     <div class="Icon">
-                        <img src="./img/Practice-Areas/product-icon.png">
+<!--                        <img src="./img/Practice-Areas/product-icon.png">-->
                     </div>
                     <h4>Crime and compensation</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, aliquid, aut blanditiis illum ipsa iste magni minus neque odio officiis optio quae repellendus ut vitae voluptas? Error laudantium, unde. Facilis.</p>
+                    <p>Taylor&Preston Lawyers have significant expertise in all victims of crime compensation matters.</p>
+                    <p>If you are uncertain as to whether you are eligible to make a Victims of Crime Assistance Tribunal application, please do not hesitate to contact our office </p>
                     <a href="">Learn More</a>
                 </div>
             </li><li class=" left">
@@ -187,7 +195,8 @@
                         <img src="./img/Practice-Areas/railroad-icon.png">
                     </div>
                     <h4>Hague Convention</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, aliquid, aut blanditiis illum ipsa iste magni minus neque odio officiis optio quae repellendus ut vitae voluptas? Error laudantium, unde. Facilis.</p>
+                    <p>Australia is a party to the Hague Convention on The Civil Aspects of International Child Abduction (“Convention“).</p>
+                    <p>If you are uncertain as to whether your matter is a part of Hague Convection, do not hesitate to contact us.</p>
                     <a href="">Learn More</a>
                 </div>
             </li><li class="right">
@@ -197,7 +206,8 @@
                         <img src="./img/Practice-Areas/catastrophic-icon.png">
                     </div>
                     <h4>Employment Law</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, aliquid, aut blanditiis illum ipsa iste magni minus neque odio officiis optio quae repellendus ut vitae voluptas? Error laudantium, unde. Facilis.</p>
+                    <p>Taylor & Preston Lawyers practice in Employment Law  and accept matters from Victoria</p>
+                    <p>If you would like to speak to someone in relation to an employment law matter, please call on 1800 633 625. between 7A.M.and 11P.M. Monday to Sunday.</p>
                     <a href="">Learn More</a>
                 </div>
             </li><li class=" left">
@@ -207,7 +217,7 @@
                         <img src="./img/Practice-Areas/motor-vehicle-icon.png">
                     </div>
                     <h4>Divorce</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, aliquid, aut blanditiis illum ipsa iste magni minus neque odio officiis optio quae repellendus ut vitae voluptas? Error laudantium, unde. Facilis.</p>
+                    <p>Obtaining a Divorce is the legal end to a marriage. Proceedings for Divorce are usually commenced after all parenting and/or financial matters have been resolved. You can apply for a property settlement at any time after separation and prior to Divorce. </p>
                     <a href="">Learn More</a>
                 </div>
             </li><li class="right">
@@ -217,7 +227,9 @@
                         <img src="./img/Practice-Areas/aviation-icon.png">
                     </div>
                     <h4>TAC Claims</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, aliquid, aut blanditiis illum ipsa iste magni minus neque odio officiis optio quae repellendus ut vitae voluptas? Error laudantium, unde. Facilis.</p>
+                    <p>If you're injured in a car accident, motorcycle crash, or as a cyclist or pedestrian, a TAC lawyer fights for your rightful compensation</p>
+                    <p>The TAC may not always be on your side</p>
+                    <p>Call us to have a confidential consultation for you rights.</p>
                     <a href="">Learn More</a>
                 </div>
             </li><li class=" left">
@@ -227,7 +239,7 @@
                         <img src="./img/Practice-Areas/commercial-icon.png">
                     </div>
                     <h4>Commercial Litigation</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, aliquid, aut blanditiis illum ipsa iste magni minus neque odio officiis optio quae repellendus ut vitae voluptas? Error laudantium, unde. Facilis.</p>
+                    <p>Whether you are part of a company dealing with a contract or trade practices dispute, or feuding with your joint venture partner, or part of a family business where disputes are literally closer to home (or both), the key in any potentially litigious matter is to recognise what will get you the result you want</p>
                     <a href="">Learn More</a>
                 </div>
             </li><li class="right">
@@ -237,7 +249,8 @@
                         <img src="./img/Practice-Areas/insurance-claims-icon.png">
                     </div>
                     <h4>Insurance Claims</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, aliquid, aut blanditiis illum ipsa iste magni minus neque odio officiis optio quae repellendus ut vitae voluptas? Error laudantium, unde. Facilis.</p>
+                    <p>One of our sole focus is insurance law and we act for a diverse range of risk carriers, underwriting agents, brokers and corporate insureds relevant to litigious and general advisory services.</p>
+                    <p>Call us for confidential consultation.</p>
                     <a href="">Learn More</a>
                 </div>
             </li><li class=" left">
@@ -247,7 +260,8 @@
                         <img src="./img/Practice-Areas/property-contamination-icon.png">
                     </div>
                     <h4>Property Contamination</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, aliquid, aut blanditiis illum ipsa iste magni minus neque odio officiis optio quae repellendus ut vitae voluptas? Error laudantium, unde. Facilis.</p>
+                    <p>Contamination is a problem for vendors and purchasers alike. For vendors it may worry potential purchasers resulting in a lower sale price. Most estate agents don’t bother to fully investigate contamination issues.</p>
+                    <p>Are you uncertain if you could further you case, call us.</p>
                     <a href="">Learn More</a>
                 </div>
             </li><li class="right">
@@ -257,7 +271,7 @@
                         <img src="./img/Practice-Areas/faq-icon.png">
                     </div>
                     <h4>Frequently Asked Questions</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, aliquid, aut blanditiis illum ipsa iste magni minus neque odio officiis optio quae repellendus ut vitae voluptas? Error laudantium, unde. Facilis.</p>
+                    <p>Following a serious injury-causing accident, it is not uncommon for the victims to have many questions. If you are in such a situation, our firm is here for you. For this reason, we have compiled a list of some of the most common questions that we hear. Call us for more details.</p>
                     <a href="" style="padding-bottom: 5px;">Learn More</a>
                 </div>
             </li>
@@ -302,7 +316,7 @@
                     <h1> Jeremy Williams</h1>
                     <h2>Attorney</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt velit eaque, pariatur saepe voluptatem aut magnam minima ab sequi facilis! Reiciendis labore, pariatur numquam blanditiis praesentium autem molestias. Aliquam, reprehenderit. ...
+                        Jeremy Williams has Bachelor of Laws (LLB) Victoria University and is a member Law Institute of Victoria.
                     </p>
                     <a href="{{ URL::to('ourStaff') }}">Learn More [+]</a>
                 </div>
@@ -338,7 +352,8 @@
                     <h1>Madeline Smith</h1>
                     <h2>Attorney</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quod pariatur fugiat blanditiis, earum nisi neque quidem voluptas accusantium libero voluptatem vero praesentium unde ad ducimus illo hic quas modi....
+                        Madeline Smith has PhD Criminal Law (candidate), Monash University and is a member of Law Institute of Victoria
+
                     </p>
                     <a href="{{ URL::to('ourStaff') }}">Learn More [+]</a>
                 </div>
@@ -355,7 +370,7 @@
                     <h1>Peter Ansell</h1>
                     <h2>Attorney</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, quo, minima! Veritatis voluptate, tempore, reiciendis maiores quibusdam numquam tempora harum minima dolor nobis libero commodi odit facilis, recusandae voluptates. Dicta! ...
+                        Peter Ansell is Barrister and Solicitor and is a member of Law Institute of Victoria
                     </p>
                     <a href="{{ URL::to('ourStaff') }}">Learn More [+]</a>
                 </div>
@@ -372,7 +387,8 @@
                     <h1>Payne Wu</h1>
                     <h2>Attorney</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum aliquid illo ipsam laudantium modi hic incidunt sequi inventore. Voluptatum deserunt dolores libero, est molestiae iusto pariatur aperiam voluptates sapiente eius....
+                        Payne Wu has Master of Laws (Juris Doctor), Monash University,Collaborative Practice Certificate (Family Law), University of Sydney
+                        Master of Laws, Shanghai Normal University,Bachelor of Law / Undergraduate Diploma of English and is a member of Law Institute of Victoria
                     </p>
                     <a href="{{ URL::to('ourStaff') }}">Learn More [+]</a>
                 </div>
@@ -389,7 +405,8 @@
                     <h1>Holly Renwick</h1>
                     <h2>Attorney</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione ipsum sunt dolorem aliquid id quo quis, architecto praesentium maxime, ipsa aliquam voluptatibus, natus nostrum magni corporis possimus earum fuga dignissimos. ...
+                        Holly Renwick has Bachelor of Law (LLB)/Bachelor of Psychology University of Auckland and is a member of Law Institute of Victoria
+
                     </p>
                     <a href="{{ URL::to('ourStaff') }}">Learn More [+]</a>
                 </div>

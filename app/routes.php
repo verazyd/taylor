@@ -120,16 +120,10 @@ Route::get('testimonials', ['as' => 'testimonials', 'uses' => 'TestimonialsContr
 #Videos
 Route::get('allVideos', ['as' => 'allVideos', 'uses' => 'VideosController@index_users']);
 
-//Route::get('search', function(){
-//    $query = Request::get('query');
-////    DB::statement('CREATE VIEW victories_view_name AS SELECT id, topic, description, created_at, updated_at FROM victories');
-//    if($query)
-//    {
-//        $victories = DB::table('victories_view_name')->where('topic', 'LIKE', "%$query%");
-//        $blogs = DB::table('blogs_view')->where('topic', 'LIKE', "%$query%");
-//        $personal = DB::table('personals')->where('name', 'LIKE', "%$query%");
-//        $family = DB::table('families')->where('name', 'LIKE', "%$query%")->union($blogs)->union($victories)->union($personal)->first();
-//
-//        dd($family);
-//    }
-//});
+#lawyers
+Route::get('jeremy', ['as' => 'jeremy', 'uses' =>'PagesController@lawyer_jeremy']);
+Route::get('madeline', ['as' => 'jeremy', 'uses' =>'PagesController@lawyer_madeline']);
+Route::get('holly', ['as' => 'jeremy', 'uses' =>'PagesController@lawyer_holly']);
+Route::get('wu', ['as' => 'jeremy', 'uses' =>'PagesController@lawyer_wu']);
+Route::get('peter', ['as' => 'jeremy', 'uses' =>'PagesController@lawyer_peter']);
+Route::get('paul', ['as' => 'jeremy', 'uses' =>'PagesController@lawyer_paul']);

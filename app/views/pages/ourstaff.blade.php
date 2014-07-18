@@ -80,52 +80,52 @@
         <div class="col-md-8 meet_out_attorneys_page">
             <div class="col-md-12 meet_attorney_section">
                 <h3>Attorneys at Taylor&Preston</h3>
-                    <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto blanditiis, cum deleniti deserunt eligendi ipsam itaque, omnis possimus praesentium quam, quia quidem rerum saepe sit vitae voluptate voluptatum. Consequatur, itaque.
+                    <p>"Taylor & Preston Lawyers have years of experience handling family law matters. Our lawyers include David Denby, who has been practicing law for over 40 years and is an ex-president of the Law Institute of Victoria. Jeffrey Stone is another senior lawyer at the firm who has also been practising family law for over 40 years. We have earned this trust by practicing law with the highest ethical standards in the legal profession. The excellence of our family lawyers, and our commitment to our clients has earned the firm its elite standing in the legal community
                     <span>If you would like to learn more about how we can help with your case,
-                    please give us a call at<strong>&nbsp;&nbsp;800-633-625</strong></span>"
+                    <p>please give us a call at<strong>&nbsp;&nbsp;800-633-625</strong></span>"
                     </p>
             </div>
             <ul>
                 <li>
                     <div class="col-md-4 lawyers_img">
-                        <a href="">
-                            <img src="../img/customer.jpeg" alt="" width="156" height="156"/></a>
-                        <span>Lawyer 1</span>
+                        <a href="{{ URL::to('jeremy') }}">
+                            <img src="../img/customer.jpeg" alt="" width="199" height="170"/></a>
+                        <span>Jeremy Williams</span>
                     </div>
                 </li>
                 <li>
                     <div class="col-md-4 lawyers_img">
-                        <a href="">
-                            <img src="../img/customer.jpeg" alt="" width="156" height="156"/></a>
-                        <span>Lawyer 1</span>
+                        <a href="{{ URL::to('madeline')  }}">
+                            <img src="../img/customer.jpeg" alt="" width="199" height="170"/></a>
+                        <span>Madeline Smith</span>
                     </div>
                 </li>
                 <li>
                     <div class="col-md-4 lawyers_img">
-                        <a href="">
-                            <img src="../img/customer.jpeg" alt="" width="156" height="156"/></a>
-                        <span>Lawyer 1</span>
+                        <a href="{{ URL::to('holly') }}">
+                            <img src="../img/customer.jpeg" alt="" width="199" height="170"/></a>
+                        <span>Holly Renwick</span>
                     </div>
                 </li>
                 <li>
                     <div class="col-md-4 lawyers_img">
-                        <a href="">
-                            <img src="../img/customer.jpeg" alt="" width="156" height="156"/></a>
-                        <span>Lawyer 1</span>
+                        <a href="{{ URL::to('wu') }}">
+                            <img src="../img/customer.jpeg" alt="" width="199" height="170"/></a>
+                        <span>Payne Wu</span>
                     </div>
                 </li>
                 <li>
                     <div class="col-md-4 lawyers_img">
-                        <a href="">
-                            <img src="../img/customer.jpeg" alt="" width="156" height="156"/></a>
-                        <span>Lawyer 1</span>
+                        <a href="{{ URL::to('peter') }}">
+                            <img src="../img/customer.jpeg" alt="" width="199" height="170"/></a>
+                        <span>Peter Ansell</span>
                     </div>
                 </li>
                 <li>
                     <div class="col-md-4 lawyers_img">
-                        <a href="">
-                            <img src="../img/customer.jpeg" alt="" width="156" height="156"/></a>
-                        <span>Lawyer 1</span>
+                        <a href="{{ URL::to('paul') }}">
+                            <img src="../img/customer.jpeg" alt=""width="199" height="170"/></a>
+                        <span>Paul Boers</span>
                     </div>
                 </li>
             </ul>
