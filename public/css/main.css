@@ -568,18 +568,13 @@ textarea {
         overflow: scroll;
     }
     .why_taylor_first h2{
-        margin: 5px 0px 15px 0px;
-        border-top: 5px solid gray;
-        padding-top: 5px;
-        font-size: 23px;
+        font-size: 27px;
     }
     .why_taylor_first h3{
-        margin: 5px 0px 15px 0px;
-        border-top: 5px solid gray;
-        padding-top: 5px;
         font-size: 17px;
         font-weight: normal;
     }
+    .why_taylor_first h4{font-size: 20px;}
     .form_inline_contact{ width: 147%;}
     .navbar-inverse{
         height: 20px;
@@ -599,14 +594,16 @@ textarea {
     .common_questions{ margin-top: 22%;}
     .common_questions h2{color:#1B8FE0; font-size: 25px;}
     #HomeTestimonial{margin-top: 12%; font-size: 20px;}
+    #AttyCarousel .AttyInfo h1{ font-size: 1.5em !important;}
+    #HomePracticeAreas h2 a{font-size: 26px;}
 
     hr{width: 300px;}
 
     #BottomInfo a.phonelink {
         font-size: 10px;
     }
-    .lead{font-size: 16px;width:250px;}
-
+    .carousel_text h1{font-size: 16px; width:150px;font-weight: bold;}
+    .carousel_text p{font-size: 14px; width:250px; color: black}
 }
 
 

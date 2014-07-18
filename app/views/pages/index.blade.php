@@ -62,7 +62,7 @@
         <div class="item  @if($i == 0) {{ 'active' }} @endif">
             <img src="./img/{{$image->url }}" alt="">
             <div class="container">
-                <div class="carousel-caption">
+                <div class="carousel-caption carousel_text">
                     <h1>{{ $image->title }}</h1>
                     <p class="lead">Lorem ipsum dolor sit amet, aliquid architecto corporis dolorem,m temporibusloremque, fugit mollitia tenetur.</p>
                     <a class="btn btn-large btn-primary" href="#">Learn More [+]</a>
