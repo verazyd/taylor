@@ -1644,11 +1644,12 @@ html.no-canvas .our-work .mpreview img {
         transform: scale(0.35);
     }
 }
-@media (max-height: 1263px) and (min-width:1150px) {
-    .masthead .Number a{font-size: 28px;}
+@media (max-width: 1250px) and (min-width:1156px) {
+    .masthead .Number a{font-size: 26px;}
     .masthead div.navsection {
-        width: 70%;
+        width: 61%;
     }
+    .masthead .Number{margin-right: -5%;}
 }
 @media (min-width: 1264px) {
     .masthead .Number a{font-size: 30px;}

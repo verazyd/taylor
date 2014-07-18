@@ -52,7 +52,6 @@
 <script>
     $(document).ready(function(){
        $('#NavZone').css('background-image', "url(./img/img_header/BG-topnav.jpg)");
-//        $('.logo-image').css('background-image', "url(./img/img_header/main_logo_cropped.png)");
     });
 </script>
 <body>
@@ -64,8 +63,9 @@
                     <div class="logobg"></div>
                     <a href="{{ URL::to('/') }}">
                         <img class="logo-image" style="background-image:url(./img/img_header/main_logo_cropped.png)"
-                             src="../img/img_header/spacer.gif">
-                    </a>
+
+                             src="../img/img_header/spacer.gif"></a>
+
                     <a class="logo-button" href="{{ URL::to('/') }}">
                         <img src="../img/img_header/spacer.gif">
                     </a>

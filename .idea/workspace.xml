@@ -26,7 +26,7 @@
       <file leaf-file-name="_new_header.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_new_header.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="92" column="22" selection-start="4596" selection-end="4596" vertical-scroll-proportion="-5.8846154" vertical-offset="2147" max-vertical-offset="9250">
+            <state line="64" column="116" selection-start="3124" selection-end="3124" vertical-scroll-proportion="-13.576923" vertical-offset="1247" max-vertical-offset="9250">
               <folding>
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -35,37 +35,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="603" column="21" selection-start="11519" selection-end="11519" vertical-scroll-proportion="0.4820442" vertical-offset="14726" max-vertical-offset="16400">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="meet_our_att.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/meet_our_att.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="729" column="0" selection-start="13686" selection-end="13751" vertical-scroll-proportion="0.0" vertical-offset="18000" max-vertical-offset="20050">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="responsive.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="responsive.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/css/css_header/responsive.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1650" column="5" selection-start="30398" selection-end="30398" vertical-scroll-proportion="0.0" vertical-offset="40714" max-vertical-offset="41500">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style3.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/css_header/style3.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="139" column="1" selection-start="2633" selection-end="2655" vertical-scroll-proportion="0.0" vertical-offset="2901" max-vertical-offset="5300">
+            <state line="1647" column="37" selection-start="30336" selection-end="30336" vertical-scroll-proportion="0.54289734" vertical-offset="40789" max-vertical-offset="41525">
               <folding />
             </state>
           </provider>
@@ -74,7 +47,16 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/css/css_header/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="644" column="0" selection-start="12654" selection-end="12696" vertical-scroll-proportion="-3.0" vertical-offset="16022" max-vertical-offset="109325">
+            <state line="649" column="13" selection-start="12785" selection-end="12785" vertical-scroll-proportion="0.0" vertical-offset="15950" max-vertical-offset="109450">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="580" column="28" selection-start="10960" selection-end="10960" vertical-scroll-proportion="0.0" vertical-offset="14126" max-vertical-offset="16425">
               <folding />
             </state>
           </provider>
@@ -142,13 +124,13 @@
         <option value="$PROJECT_DIR$/app/views/layouts/partials/_footer.blade.php" />
         <option value="$PROJECT_DIR$/app/views/layouts/partials/_feedback.blade.php" />
         <option value="$PROJECT_DIR$/app/views/pages/index.blade.php" />
-        <option value="$PROJECT_DIR$/app/views/layouts/partials/_new_header.blade.php" />
-        <option value="$PROJECT_DIR$/public/css/css_header/style.css" />
-        <option value="$PROJECT_DIR$/public/css/css_header/responsive.css" />
         <option value="$PROJECT_DIR$/public/css/css_header/style3.css" />
         <option value="$PROJECT_DIR$/public/css/meet_our_att.css" />
         <option value="$PROJECT_DIR$/public/css/meet_our_att_responsive.css" />
+        <option value="$PROJECT_DIR$/app/views/layouts/partials/_new_header.blade.php" />
         <option value="$PROJECT_DIR$/public/css/main.css" />
+        <option value="$PROJECT_DIR$/public/css/css_header/style.css" />
+        <option value="$PROJECT_DIR$/public/css/css_header/responsive.css" />
       </list>
     </option>
   </component>
@@ -1149,7 +1131,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2728719" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17422435" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -1504,9 +1486,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/meet_our_att_responsive.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1316" column="5" selection-start="19728" selection-end="19728" vertical-scroll-proportion="0.6729651" vertical-offset="32437" max-vertical-offset="33125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/css_header/style3.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/meet_our_att.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="729" column="0" selection-start="13686" selection-end="13751" vertical-scroll-proportion="-1.3135359" vertical-offset="19176" max-vertical-offset="20050">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_new_header.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="22" selection-start="4596" selection-end="4596" vertical-scroll-proportion="-5.8846154" vertical-offset="2147" max-vertical-offset="9250">
+        <state line="64" column="116" selection-start="3124" selection-end="3124" vertical-scroll-proportion="-13.576923" vertical-offset="1247" max-vertical-offset="9250">
           <folding>
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1516,42 +1519,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/css_header/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="644" column="0" selection-start="12654" selection-end="12696" vertical-scroll-proportion="-3.0" vertical-offset="16022" max-vertical-offset="109325">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/css_header/responsive.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1650" column="5" selection-start="30398" selection-end="30398" vertical-scroll-proportion="0.0" vertical-offset="40714" max-vertical-offset="41500">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/css_header/style3.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="139" column="1" selection-start="2633" selection-end="2655" vertical-scroll-proportion="0.0" vertical-offset="2901" max-vertical-offset="5300">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/meet_our_att_responsive.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1316" column="5" selection-start="19728" selection-end="19728" vertical-scroll-proportion="0.6729651" vertical-offset="32437" max-vertical-offset="33125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/meet_our_att.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="729" column="0" selection-start="13686" selection-end="13751" vertical-scroll-proportion="0.0" vertical-offset="18000" max-vertical-offset="20050">
+        <state line="649" column="13" selection-start="12785" selection-end="12785" vertical-scroll-proportion="0.0" vertical-offset="15950" max-vertical-offset="109450">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="603" column="21" selection-start="11519" selection-end="11519" vertical-scroll-proportion="0.4820442" vertical-offset="14726" max-vertical-offset="16400">
+        <state line="580" column="28" selection-start="10960" selection-end="10960" vertical-scroll-proportion="0.0" vertical-offset="14126" max-vertical-offset="16425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/css_header/responsive.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1647" column="37" selection-start="30336" selection-end="30336" vertical-scroll-proportion="0.54289734" vertical-offset="40789" max-vertical-offset="41525">
           <folding />
         </state>
       </provider>

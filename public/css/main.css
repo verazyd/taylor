@@ -571,13 +571,14 @@ textarea {
         margin: 5px 0px 15px 0px;
         border-top: 5px solid gray;
         padding-top: 5px;
-        font-size: 24px;
+        font-size: 23px;
     }
     .why_taylor_first h3{
         margin: 5px 0px 15px 0px;
         border-top: 5px solid gray;
         padding-top: 5px;
-        font-size: 19px;
+        font-size: 17px;
+        font-weight: normal;
     }
     .form_inline_contact{ width: 147%;}
     .navbar-inverse{
