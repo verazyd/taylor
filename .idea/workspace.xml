@@ -44,19 +44,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/css/css_header/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="450" column="20" selection-start="8752" selection-end="8752" vertical-scroll-proportion="0.28129396" vertical-offset="11050" max-vertical-offset="109450">
+            <state line="450" column="20" selection-start="8752" selection-end="8752" vertical-scroll-proportion="0.0" vertical-offset="11325" max-vertical-offset="109450">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="596" column="44" selection-start="11313" selection-end="11313" vertical-scroll-proportion="0.0" vertical-offset="14626" max-vertical-offset="16475">
+            <state line="604" column="29" selection-start="11572" selection-end="11572" vertical-scroll-proportion="0.51657456" vertical-offset="14726" max-vertical-offset="16500">
               <folding />
             </state>
           </provider>
@@ -129,8 +129,8 @@
         <option value="$PROJECT_DIR$/public/css/meet_our_att_responsive.css" />
         <option value="$PROJECT_DIR$/public/css/css_header/responsive.css" />
         <option value="$PROJECT_DIR$/app/views/layouts/partials/_new_header.blade.php" />
-        <option value="$PROJECT_DIR$/public/css/main.css" />
         <option value="$PROJECT_DIR$/public/css/css_header/style.css" />
+        <option value="$PROJECT_DIR$/public/css/main.css" />
       </list>
     </option>
   </component>
@@ -1524,16 +1524,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/main.css">
+    <entry file="file://$PROJECT_DIR$/public/css/css_header/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="596" column="44" selection-start="11313" selection-end="11313" vertical-scroll-proportion="0.0" vertical-offset="14626" max-vertical-offset="16475">
+        <state line="450" column="20" selection-start="8752" selection-end="8752" vertical-scroll-proportion="0.0" vertical-offset="11325" max-vertical-offset="109450">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/css_header/style.css">
+    <entry file="file://$PROJECT_DIR$/public/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="450" column="20" selection-start="8752" selection-end="8752" vertical-scroll-proportion="0.28129396" vertical-offset="11050" max-vertical-offset="109450">
+        <state line="604" column="29" selection-start="11572" selection-end="11572" vertical-scroll-proportion="0.51657456" vertical-offset="14726" max-vertical-offset="16500">
           <folding />
         </state>
       </provider>

@@ -605,6 +605,7 @@ textarea {
     #BottomInfo a.phonelink {
         font-size: 10px;
     }
+    .lead{font-size: 16px;width:250px;}
 
 }
 
