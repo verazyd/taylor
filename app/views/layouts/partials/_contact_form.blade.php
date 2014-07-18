@@ -19,7 +19,7 @@
                 <textarea class="form-control" rows="3" placeholder="Enter Message" required="required"></textarea>
             </div>
             <div style="width:57%; float: right;margin-top: -47px;">
-                <button type="submit" class="btn btn-default" style="width: 99%; margin-right: 1%; font-size: 17px; font-weight: bold;">SUBMIT</button>
+                <button type="submit" class="btn btn-default" style="margin-right: 1%; font-size: 17px; font-weight: bold;">SUBMIT</button>
             </div>
             </div>
         </form>
