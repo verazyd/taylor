@@ -622,6 +622,7 @@ html.no-boxsizing .PracticeList .details a {
     color: #fff;
     margin: 0;
     line-height: 1em;
+    padding-bottom: 10px;
 }
 #HomeTestimonial p {
     display: block;
@@ -729,7 +730,6 @@ html.no-display-table .social ul li {
 #BottomInfo a.phonelink {
     color: #fff;
     font-size: 24px;
-    margin-left: 7px;
 }
 
 #BottomInfo a {

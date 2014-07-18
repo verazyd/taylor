@@ -268,7 +268,7 @@
 <div class="row" style="background:rgb(27, 143, 224);border-top: 5px solid gray; border-bottom: 5px solid gray; margin-top: -5%">
     <div class="col-md-12" style="padding: 20px;">
         <div id="HomeTestimonial">
-        <h2 style="text-align: center; color: #ffffff; padding-bottom: 10px;">What Our Clients Are Saying About Us</h2>
+        <h2>What Our Clients Are Saying About Us</h2>
         @foreach($testimonials as $testimonial)
         <p style="width: 96%; margin: 0 auto;">"{{ $testimonial->description }}"
             <span>--

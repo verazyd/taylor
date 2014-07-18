@@ -3,7 +3,7 @@
         width: 30px ! important;
     }
 </style>
-<div class="icobalt ilayout" id="SideStickyZone">
+<div class="ilayout" id="SideStickyZone">
     <div icobalt="CobaltControls.Controls.StaticContent" id="StickyBtns">
         <div class="CContainer">
             <img class="ContactBtn" src="./img/Side_Contact.jpg" alt="Free Consultation" title="Free Consultation">

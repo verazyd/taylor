@@ -556,7 +556,7 @@ textarea {
     }
     .carousel-caption .lead,
     .carousel-caption .btn {
-        font-size: 12px;
+        font-size: 10px;
     }
     .container{
         margin-top: 32%;
@@ -564,19 +564,25 @@ textarea {
     .why_taylor p{
         font-size: 13px;
         font-family: font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
-        overflow: scroll;
         max-height: 100px;
+        overflow: scroll;
     }
-
-
-    /*form inline on homepage*/
+    .why_taylor_first h2{
+        margin: 5px 0px 15px 0px;
+        border-top: 5px solid gray;
+        padding-top: 5px;
+        font-size: 24px;
+    }
+    .why_taylor_first h3{
+        margin: 5px 0px 15px 0px;
+        border-top: 5px solid gray;
+        padding-top: 5px;
+        font-size: 19px;
+    }
     .form_inline_contact{ width: 147%;}
-    /*footer navbar*/
     .navbar-inverse{
         height: 20px;
         }
-
-    /*our staff page*/
     .container_section h2{
         position: absolute;
         bottom:95%;
@@ -584,29 +590,22 @@ textarea {
         font-size: 18px;
         background: #ffffff;
     }
-    /*our staff page ends*/
-
-    /*our victories page*/
     .container_section{
         margin-top: 90px;
     }
     .container_section_second h2{ color: black;}
-
-    #HomeTestimonial h2{
-
-    }
-    /*our victories page ends here*/
-
-    /*commons questions*/
     .common_questions{ margin-top: 22%;}
     .common_questions h2{color:#1B8FE0; font-size: 25px;}
-    /*common questions ends here*/
-
-    /*testimonail page*/
     #HomeTestimonial{margin-top: 12%; font-size: 20px;}
-    /*testimonial page ends*/
 
-    /*responsive for header*/
+    hr{width: 300px;}
+
+    #BottomInfo a.phonelink {
+        font-size: 10px;
+    }
+}
+
+
 
 
 
