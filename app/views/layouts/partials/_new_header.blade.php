@@ -21,7 +21,7 @@
 
 
 <!--    header style sheet-->
-    {{ HTML::style('../css/css_header/style2.css') }}
+    {{ HTML::style('/css/css_header/style2.css') }}
     {{ HTML::style('/css/css_header/style3.css') }}
     {{ HTML::style('/css/css_header/style.css') }}
     {{ HTML::style('/css/css_header/responsive.css') }}
@@ -33,18 +33,18 @@
         }
     </style>
 
-    {{ HTML::script('../js/js_header/script.js')  }}
+    {{ HTML::script('/js/js_header/script.js')  }}
 
     <script type="text/javascript">window._mobilemenu=true;</script>
 
-    {{ HTML::style('../css/meet_our_att.css') }}
-    {{ HTML::style('../css/meet_our_att_responsive.css') }}
+    {{ HTML::style('/css/meet_our_att.css') }}
+    {{ HTML::style('/css/meet_our_att_responsive.css') }}
 
 </head>
 
 <style>
     #NavZone{
-        background-image: url("../img/img_header/BG-topnav.jpg");
+        background-image: url("./img/img_header/BG-topnav.jpg");
     }
 </style>
 
@@ -62,7 +62,7 @@
                 <div class="TopLogo">
                     <div class="logobg"></div>
                     <a href="{{ URL::to('/') }}">
-                        <img class="logo-image" style="background-image:url(../img/img_header/main_logo_cropped.png)"
+                        <img class="logo-image" style="background-image:url(./img/img_header/main_logo_cropped.png)"
                              src="../img/img_header/spacer.gif"></a>
 
                     <a class="logo-button" href="{{ URL::to('/') }}">
