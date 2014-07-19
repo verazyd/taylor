@@ -22,9 +22,9 @@
 
 <!--    header style sheet-->
     {{ HTML::style('../css/css_header/style2.css') }}
-    {{ HTML::style('../css/css_header/style3.css') }}
-    {{ HTML::style('../css/css_header/style.css') }}
-    {{ HTML::style('../css/css_header/responsive.css') }}
+    {{ HTML::style('/css/css_header/style3.css') }}
+    {{ HTML::style('/css/css_header/style.css') }}
+    {{ HTML::style('/css/css_header/responsive.css') }}
 
 
     <style type="text/css">
