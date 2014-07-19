@@ -73,16 +73,16 @@
                     <nav class="top-nav" id="TopNavigation">
                         <ul class="t-nav"  _flyout="false" id="ctl03" name="ctl03">
                             <li data-index="1">
-                                <a href="{{URL::to('familyLaw') }}" target="">Family Law</a>
+                                <a target="">Family Law</a>
                             </li>
                             <li data-index="2">
-                                <a href="{{ URL::to('/personalInjury') }}" target="">Personal Injury</a>
+                                <a target="">Personal Injury</a>
                             </li>
                             <li data-index="3">
-                                <a href="" target="">Legal Services</a>
+                                <a target="">Legal Services</a>
                             </li>
                             <li data-index="4">
-                                <a href="{{URL::to('/victories') }}" target="">Our Victories</a>
+                                <a target="">About Us</a>
                             </li>
                             <li data-index="5">
                             <a  target="">Contact Us</a>
@@ -102,12 +102,13 @@
                     <div class="main">
                         <div id="FlyoutContent1" class="flycontent">
                             <h3>Family Law</h3>
-                            <p>Our team can assist in the drafting of pre-nuptial agreements, and provides committed legal counsel in issues involving property settlement, financial agreements, mediation, and child support, both binding child support agreements, limited child support agreements, and cases of objecting child support. We are well-versed in Australian law with regard to child custody, child abduction, and can assist in family dispute resolution. Cases of neglect, domestic violence, or child abduction are of great concern, and should be acted upon by a qualified lawyer from our firm immediately for protection and legal intervention. We also provide legal services for those in same sex relationships that have family law matters to address.</p>
+                            <p>We at Taylor & Preston understand how important the outcome of any family law matter is to you and your future, as well as the urgency of your case when children are involved. Our professional lawyers have impressive credentials and a full understanding of the laws involved in all areas of family law. When we represent you, you can be confident that your interests will be protected, and that you are represented by a quality family lawyer that will do all possible to pursue a favorable outcome for you. We urge you to contact our firm to discuss your personal legal matter. We take all the time necessary to answer your questions about what to expect and how we will proceed to pursue your objectives.</p>
+                            <p><strong>That leaves just one question: Are you ready to get more?</strong></p>
                         </div>
                         <nav class="droplist" id="FlyMenu1" name="FlyMenu1">
                             <ul>
                                 <li class="level1 ">
-                                    <a href="" target="">Employment</a>
+                                    <a href="{{URL::to('familyLaw') }}" target="">Services in Family Law</a>
                                 </li><li class="level1 ">
                                     <a href="" target="">Management Team</a>
                                 </li>
@@ -119,19 +120,19 @@
                     <div class="main">
                         <div id="FlyoutContent2" class="flycontent">
                             <h3>Personal Injury</h3>
-                            <p>Taylor&Preston Personal Injury provides expert Personal Injury law services to clients in throughout Australia. Speak to a
-                            Personal Injury Lawyer now by calling 1.800.633.625</p>
+                            <p>We at Taylor & Preston understand how important the outcome of any family law matter is to you and your future, as well as the urgency of your case when children are involved. Our professional lawyers have impressive credentials and a full understanding of the laws involved in all areas of family law. When we represent you, you can be confident that your interests will be protected, and that you are represented by a quality family lawyer that will do all possible to pursue a favorable outcome for you. We urge you to contact our firm to discuss your personal legal matter. We take all the time necessary to answer your questions about what to expect and how we will proceed to pursue your objectives.</p>
+                            <p><strong>That leaves just one question: Are you ready to get more?</strong></p>
                         </div>
                         <nav class="droplist" id="FlyMenu2" name="FlyMenu2">
                             <ul>
                                 <li class="level1 ">
-                                    <a href="" target="">Divorce</a>
+                                    <a href="{{ URL::to('/personalInjury') }}"  target="">Services in Personal Injury</a>
                                 </li>
                                 <li class="level1 ">
                                     <a href="" target="">Custody</a>
                                 </li>
                                 <li class="level1 ">
-                                    <a href="" target="">Maintainence</a>
+                                    <a href="" target="">Divorce</a>
                                 </li>
                                 <li class="level1 ">
                                     <a href="" target="">Child Support</a>
@@ -145,8 +146,7 @@
                     <div class="main">
                         <div id="FlyoutContent3" class="flycontent">
                             <h3>Our Practice Areas</h3>
-                            <p>We at Taylor & Preston understand how important the outcome of any family law matter is to you and your future, as well as the urgency of your case when children are involved. Our professional lawyers have impressive credentials and a full understanding of the laws involved in all areas of family law. When we represent you, you can be confident that your interests will be protected, and that you are represented by a quality family lawyer that will do all possible to pursue a favorable outcome for you. We urge you to contact our firm to discuss your personal legal matter. We take all the time necessary to answer your questions about what to expect and how we will proceed to pursue your objectives.</p>
-                            <p><strong>That leaves just one question: Are you ready to get more?</strong></p>
+                            <p>Our team can assist in the drafting of pre-nuptial agreements, and provides committed legal counsel in issues involving property settlement, financial agreements, mediation, and child support, both binding child support agreements, limited child support agreements, and cases of objecting child support. We are well-versed in Australian law with regard to child custody, child abduction, and can assist in family dispute resolution. Cases of neglect, domestic violence, or child abduction are of great concern, and should be acted upon by a qualified lawyer from our firm immediately for protection and legal intervention. We also provide legal services for those in same sex relationships that have family law matters to address.</p>
                         </div>
                         <nav class="droplist" id="FlyMenu3" name="FlyMenu3">
                             <ul>
@@ -176,7 +176,7 @@
                 <div class="fly-nav  4">
                     <div class="main">
                         <div id="FlyoutContent4" class="flycontent">
-                            <h3>Our Victories</h3>
+                            <h3>About Us</h3>
                             <p>
                                 There are a lot of reasons why we think you should choose to work with
                                 our team of marketing experts, but we believe the biggest reason is simple:
@@ -189,16 +189,21 @@
                         <nav class="droplist" icobalt="CobaltControls.Controls.AdvancedMenu" id="FlyMenu4" name="FlyMenu4">
                             <ul>
                                 <li class="level1 ">
+                                    <a href="{{URL::to('/victories') }}" target="">Our Victories</a>
+                                </li>
+                                <li class="level1 ">
                                     <a href="{{ URL::to('testimonials') }}" target="">Testimonials</a>
-                                </li><li class="level1 ">
+                                </li>
+                                <li class="level1 ">
                                     <a href="" target="">Our Awards</a>
-                                </li><li class="level1 ">
-                                    <a href="" target="">Effective & Aggressive</a>
-                                </li><li class="level1 ">
+                                </li>
+                                <li class="level1 ">
                                     <a href="" target="">Our Dedication</a>
-                                </li><li class="level1 ">
+                                </li>
+                                <li class="level1 ">
                                     <a href="" target="">Our Philosophy</a>
-                                </li><li class="level1 ">
+                                </li>
+                                <li class="level1 ">
                                     <a href="" target="">What Makes Us Different?</a>
                                 </li>
                             </ul>

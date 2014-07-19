@@ -20,8 +20,6 @@
             @endforeach
         </div>
     </div>
-    <div class="row">
-        @include('layouts.partials._contact_form')
-    </div>
 </div>
+@include('layouts.partials._contact_form')
 @stop
