@@ -108,9 +108,25 @@
                         <nav class="droplist" id="FlyMenu1" name="FlyMenu1">
                             <ul>
                                 <li class="level1 ">
-                                    <a href="{{URL::to('familyLaw') }}" target="">Services in Family Law</a>
-                                </li><li class="level1 ">
-                                    <a href="" target="">Management Team</a>
+                                    <a href="{{URL::to('familyLaw') }}" target="">Our expertise in Family Law</a>
+                                </li>
+                                <li class="level1 ">
+                                    <a href="" target="">Divorce</a>
+                                </li>
+                                <li class="level1 ">
+                                    <a href="" target="">Same sex relationships</a>
+                                </li>
+                                <li class="level1 ">
+                                    <a href="" target="">Property settlements</a>
+                                </li>
+                                <li class="level1 ">
+                                    <a href="" target="">Child Support</a>
+                                </li>
+                                <li class="level1 ">
+                                    <a href="" target="">Family Violence and Intervention orders</a>
+                                </li>
+                                <li class="level1 ">
+                                    <a href="" target="">Domestic partner relationships</a>
                                 </li>
                             </ul>
                         </nav>
@@ -129,13 +145,22 @@
                                     <a href="{{ URL::to('/personalInjury') }}"  target="">Services in Personal Injury</a>
                                 </li>
                                 <li class="level1 ">
-                                    <a href="" target="">Custody</a>
+                                    <a href="" target="">WorkCover</a>
                                 </li>
                                 <li class="level1 ">
-                                    <a href="" target="">Divorce</a>
+                                    <a href="" target="">Employment Law</a>
                                 </li>
                                 <li class="level1 ">
-                                    <a href="" target="">Child Support</a>
+                                    <a href="" target="">Road Injuries and TAC Claims</a>
+                                </li>
+                                <li class="level1 ">
+                                    <a href="" target="">Public Liability</a>
+                                </li>
+                                <li class="level1 ">
+                                    <a href="" target="">Motor Vehicle Accidents</a>
+                                </li>
+                                <li class="level1 ">
+                                    <a href="" target="">Medical Negligence</a>
                                 </li>
                             </ul>
                             <div class="scrollbar"></div>
@@ -151,22 +176,28 @@
                         <nav class="droplist" id="FlyMenu3" name="FlyMenu3">
                             <ul>
                                 <li class="level1 ">
-                                    <a href="" target="">TAC</a>
+                                    <a href="" target="">Family Law</a>
                                 </li>
                                 <li class="level1 ">
-                                    <a href="" target="">Work Injury</a>
+                                    <a href="" target="">Personal Injury</a>
                                 </li>
                                 <li class="level1 ">
-                                    <a href="" target="">Sexual Harrasment</a>
+                                    <a href="" target="">Criminal Law</a>
                                 </li>
                                 <li class="level1 ">
-                                    <a href="" target="">Public Place Injury</a>
+                                    <a href="" target="">Commercial Law</a>
                                 </li>
                                 <li class="level1 ">
-                                    <a href="{{URL::to('/allblogs') }}" target="">Blogging</a>
+                                    <a href="" target="">Employment Law</a>
                                 </li>
                                 <li class="level1 ">
-                                    <a href="" target="">Social Media</a>
+                                    <a href="" target="">International and Chinese Law</a>
+                                </li>
+                                <li class="level1 ">
+                                    <a href="" target="">Property Law</a>
+                                </li>
+                                <li class="level1 ">
+                                    <a href="" target="">Wills & Estates </a>
                                 </li>
                             </ul>
                             <div class="scrollbar"></div>
@@ -193,6 +224,9 @@
                                 </li>
                                 <li class="level1 ">
                                     <a href="{{ URL::to('testimonials') }}" target="">Testimonials</a>
+                                </li>
+                                <li class="level1 ">
+                                    <a href="{{URL::to('/allblogs') }}" target="">Our Blog</a>
                                 </li>
                                 <li class="level1 ">
                                     <a href="" target="">Our Awards</a>
