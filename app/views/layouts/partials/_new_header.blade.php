@@ -33,7 +33,7 @@
         }
     </style>
 
-    {{ HTML::script('js/js_header/script.js')  }}
+    {{ HTML::script('/js/js_header/script.js')  }}
 
     <script type="text/javascript">window._mobilemenu=true;</script>
 
@@ -42,17 +42,17 @@
 
 </head>
 
-<!--<style>-->
-<!--    #NavZone{-->
-<!--        background-image: url("./img/img_header/BG-topnav.jpg");-->
-<!--    }-->
-<!--</style>-->
+<style>
+    #NavZone{
+        background-image: url("/img/img_header/BG-topnav.jpg");
+    }
+</style>
 
-<script>
-    $(document).ready(function(){
-       $('#NavZone').css('background-image', "url(./img/img_header/BG-topnav.jpg)");
-    });
-</script>
+<!--<script>-->
+<!--    $(document).ready(function(){-->
+<!--       $('#NavZone').css('background-image', "url(./img/img_header/BG-topnav.jpg)");-->
+<!--    });-->
+<!--</script>-->
 
 <body>
 

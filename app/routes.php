@@ -127,3 +127,4 @@ Route::get('holly', ['as' => 'jeremy', 'uses' =>'PagesController@lawyer_holly'])
 Route::get('wu', ['as' => 'jeremy', 'uses' =>'PagesController@lawyer_wu']);
 Route::get('peter', ['as' => 'jeremy', 'uses' =>'PagesController@lawyer_peter']);
 Route::get('paul', ['as' => 'jeremy', 'uses' =>'PagesController@lawyer_paul']);
+Route::get('legal_services', ['as' => 'legal_services', 'uses' =>'PagesController@legal_services']);

@@ -5,6 +5,17 @@ Contact Jeremy for any legal consultation
 @stop
 @section('content')
 
+<style>
+    .lawyer_page{margin-top: 8%; width:960px;}
+    .lawyer_page h2{font-size:45px;}
+    .lawyer_page h3{font-size:40px;text-transform: uppercase;  margin-top: 50px;}
+    .lawyer_page p{
+        font-size:35px;
+        font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-style: italic;
+        color: #1182DE;
+    }
+</style>
 <div class="container lawyer_page">
     <h2>STAFF</h2>
     <h3><b>H</b>olly <b>R</b>enwick</h3>

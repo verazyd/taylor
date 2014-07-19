@@ -22,18 +22,22 @@ class PagesController extends \BaseController {
         $victories = Victory::orderBy('created_at', 'DESC')->limit(7)->get();
         return View::make('pages.ourstaff', compact('personals', 'victories'));
     }
+
     public function commonQuestions()
     {
         return View::make('pages.commonquestions');
     }
+
     public function lawyer_jeremy()
     {
         return View::make('pages.jeremy');
     }
+
     public function lawyer_madeline()
     {
         return View::make('pages.madeline');
     }
+
     public function lawyer_holly()
     {
         return View::make('pages.holly');
@@ -42,12 +46,19 @@ class PagesController extends \BaseController {
     {
         return View::make('pages.wu');
     }
+
     public function lawyer_peter()
     {
         return View::make('pages.peter');
     }
+
     public function lawyer_paul()
     {
         return View::make('pages.paul');
+    }
+
+    public function legal_services()
+    {
+        return View::make('pages.legal_services');
     }
 }
