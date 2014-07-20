@@ -41,11 +41,11 @@
 
 </head>
 
-<style>
-    #NavZone{
-        background-image: url("./img/img_header/BG-topnav.jpg");
-    }
-</style>
+<!--<style>-->
+<!--    #NavZone{-->
+<!--        background-image: url("./img/img_header/BG-topnav.jpg");-->
+<!--    }-->
+<!--</style>-->
 
 <!--<script>-->
 <!--    $(document).ready(function(){-->
@@ -54,14 +54,14 @@
 <!--</script>-->
 
 <body>
-
+<?php $path =  base_path();  ?>
     <header>
-        <div  id="NavZone" class="topNabVar">
+        <div  id="NavZone" class="topNabVar" style="background-image: url(<?php echo $path ?>/../img/img_header/BG-topnav.jpg)">
             <div class="cf masthead" id="Masthead" icobalt="CobaltControls.Controls.StaticContent">
                 <div class="TopLogo">
                     <div class="logobg"></div>
                     <a href="{{ URL::to('/') }}">
-                        <img class="logo-image" style="background-image:url(./img/img_header/main_logo_cropped.png)"
+                        <img class="logo-image" style="background-image:url(<?php echo $path ?>/../img/img_header/main_logo_cropped.png)"
                              src="./img/img_header/spacer.gif"></a>
 
                     <a class="logo-button" href="{{ URL::to('/') }}">
