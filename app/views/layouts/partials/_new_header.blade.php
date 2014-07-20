@@ -2,9 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name=description content="">
-    <meta name=viewport content="width=device-width, initial-scale=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>@yield('title')</title>
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
     <meta name="keywords" content="Family Lawyers Melbourne,Divorce Lawyers Melbourne                                                                                                                        ">
@@ -13,9 +12,9 @@
     <!-- Bootstrap CSS -->
     <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
-    {{ HTML::style('css/normalize.css') }}
-    {{ HTML::style("css/font-awesome.min.css")}}
-    {{ HTML::style('css/main.css') }}
+    {{ HTML::style('/css/normalize.css') }}
+    {{ HTML::style('/css/font-awesome.min.css')}}
+    {{ HTML::style('/css/main.css') }}
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
 
@@ -63,10 +62,10 @@
                     <div class="logobg"></div>
                     <a href="{{ URL::to('/') }}">
                         <img class="logo-image" style="background-image:url(./img/img_header/main_logo_cropped.png)"
-                             src="../img/img_header/spacer.gif"></a>
+                             src="./img/img_header/spacer.gif"></a>
 
                     <a class="logo-button" href="{{ URL::to('/') }}">
-                        <img src="../img/img_header/spacer.gif">
+                        <img src="./img/img_header/spacer.gif">
                     </a>
                 </div>
                 <div class="navsection">
