@@ -419,7 +419,7 @@
         <div class="col-md-12 verdict_recent">
                 @foreach($victories as $victory)
             <div class="victory_top_des">
-                    <p>{{ $victory->topic }}</p>
+                    <p style="text-transform: uppercase; font-weight: bold;">{{ $victory->topic }}</p>
                     <p class="verdict_desc">{{ $victory->description }}</p>
             </div>
                 @endforeach
@@ -431,7 +431,7 @@
         <h4>Latest Information</h4>
         <div class="col-md-12 news_recent">
         @foreach($blogs as $blog)
-            <p>{{ $blog->topic }}</p>
+            <p style="text-transform: uppercase;font-weight: bold;">{{ $blog->topic }}</p>
             <p class="verdict_desc">{{ $blog->description }}</p>
             @endforeach
         </div>
