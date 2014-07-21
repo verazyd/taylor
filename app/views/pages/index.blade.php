@@ -10,11 +10,7 @@
         position: fixed;
     }
 </style>
-<style>
-    #PAZone{
-        border-top: 5px solid gray;
-    }
-</style>
+
 <script type="text/javascript">
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -421,10 +417,14 @@
         <h4>Recent Successful Cases</h4>
 
         <div class="col-md-12 verdict_recent">
-            @foreach($victories as $victory)
-                <p>{{ $victory->topic }}</p>
-            @endforeach
+                @foreach($victories as $victory)
+            <div class="victory_top_des">
+                    <p>{{ $victory->topic }}</p>
+                    <p class="verdict_desc">{{ $victory->description }}</p>
+            </div>
+                @endforeach
         </div>
+
     </div>
     <div class="col-md-6">
         <h2>Firms News & Updates</h2>
@@ -432,10 +432,16 @@
         <div class="col-md-12 news_recent">
         @foreach($blogs as $blog)
             <p>{{ $blog->topic }}</p>
+            <p class="verdict_desc">{{ $blog->description }}</p>
             @endforeach
         </div>
     </div>
 </div>
+
+
+
+
+
 
 <script type="text/javascript">
     $(document).ready(function() {

@@ -5,7 +5,7 @@
 </style>
 <div class="ilayout" id="SideStickyZone">
     <div icobalt="CobaltControls.Controls.StaticContent" id="StickyBtns">
-        <div class="CContainer">
+        <div class="CContainer" style="top: -38px;">
             <img class="ContactBtn" src="./img/Side_Contact.jpg" alt="Free Consultation" title="Free Consultation">
             <div id="SlideForm" icobalt="CobaltControls.Controls.DataForm" name="SlideForm">
                 <header>

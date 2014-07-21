@@ -75,7 +75,7 @@ body.Template33649 #WideZone {
     -moz-transition: 1s ease;
     -o-transition: 1s ease;
     transition: 1s ease;
-    background-color:  rgb(27, 143, 224);;
+    background-color:  rgb(0, 19, 33);
     position: relative;
     overflow: hidden;
 }
@@ -656,11 +656,13 @@ html.no-boxsizing .PracticeList .details a {
     position: relative;
     background-color: #001321; /* darken($secondary,70%) */
     padding: 20px 2.5%;
-    border: solid 5px rgba(0,102,177,.37);
+    border: solid 5px #1B8FE0;
     box-shadow: 0 1px 0 rgba(255,255,255,0.1);
     color: #ffffff;
     display: table;
     width: 100%;
+    font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 17px;
 }
 #BottomInfo > * {
     display: table-cell;

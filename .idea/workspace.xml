@@ -32,10 +32,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_new_header.blade.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_new_header.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_new_header.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="0" selection-start="2322" selection-end="2451" vertical-scroll-proportion="0.10548523" vertical-offset="1000" max-vertical-offset="10175">
+            <state line="48" column="0" selection-start="2455" selection-end="2455" vertical-scroll-proportion="0.0" vertical-offset="1000" max-vertical-offset="10175">
               <folding>
                 <element signature="n#style#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -87,41 +87,87 @@
       <file leaf-file-name="PagesController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/PagesController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="50" selection-start="1540" selection-end="1540" vertical-scroll-proportion="0.0" vertical-offset="951" max-vertical-offset="1750">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="1750">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="legal_services.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/pages/legal_services.blade.php">
+      <file leaf-file-name="_contact_form.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_contact_form.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="74" selection-start="1151" selection-end="1151" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1750">
+            <state line="18" column="114" selection-start="1088" selection-end="1088" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="825">
               <folding>
-                <marker date="1405743362000" expanded="true" signature="147:4169" placeholder="..." />
-                <marker date="1405743362000" expanded="true" signature="196:1201" placeholder="..." />
-                <marker date="1405743362000" expanded="true" signature="227:1187" placeholder="..." />
-                <marker date="1405743362000" expanded="true" signature="1238:2220" placeholder="..." />
-                <marker date="1405743362000" expanded="true" signature="1269:2209" placeholder="..." />
-                <marker date="1405743362000" expanded="true" signature="2260:2602" placeholder="..." />
-                <marker date="1405743362000" expanded="true" signature="2295:2588" placeholder="..." />
-                <marker date="1405743362000" expanded="true" signature="2639:2980" placeholder="..." />
-                <marker date="1405743362000" expanded="true" signature="2670:2969" placeholder="..." />
-                <marker date="1405743362000" expanded="true" signature="3018:3341" placeholder="..." />
-                <marker date="1405743362000" expanded="true" signature="3049:3329" placeholder="..." />
-                <marker date="1405743362000" expanded="true" signature="3379:3757" placeholder="..." />
-                <marker date="1405743362000" expanded="true" signature="3410:3745" placeholder="..." />
-                <marker date="1405743362000" expanded="true" signature="3797:4144" placeholder="..." />
-                <marker date="1405743362000" expanded="true" signature="3832:4130" placeholder="..." />
+                <element signature="n#style#0;n#div#0;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#textarea#0;n#div#3;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#div#4;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/pages/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="423" column="18" selection-start="24436" selection-end="24436" vertical-scroll-proportion="0.0" vertical-offset="10175" max-vertical-offset="18300">
+              <folding>
+                <element signature="n#style#0;n#h2#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#li#4;n#ul#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#li#5;n#ul#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#li#6;n#ul#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#li#7;n#ul#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#li#8;n#ul#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#li#9;n#ul#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#li#10;n#ul#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#li#11;n#ul#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#li#12;n#ul#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#li#13;n#ul#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#li#14;n#ul#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#li#15;n#ul#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#li#15;n#ul#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#3;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#3;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#1;n#li#0;n#ul#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#li#0;n#ul#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#1;n#li#0;n#ul#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#1;n#li#1;n#ul#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#li#1;n#ul#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#1;n#li#1;n#ul#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#1;n#li#2;n#ul#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#li#2;n#ul#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#1;n#li#2;n#ul#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#1;n#li#3;n#ul#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#li#3;n#ul#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#1;n#li#3;n#ul#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#1;n#li#4;n#ul#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#li#4;n#ul#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#1;n#li#4;n#ul#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#li#5;n#ul#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#1;n#li#5;n#ul#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#li#5;n#ul#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#1;n#li#5;n#ul#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="357" column="19" selection-start="6979" selection-end="6979" vertical-scroll-proportion="0.0" vertical-offset="8500" max-vertical-offset="16825">
+            <state line="456" column="23" selection-start="8881" selection-end="8881" vertical-scroll-proportion="0.5980663" vertical-offset="10967" max-vertical-offset="16875">
               <folding />
             </state>
           </provider>
@@ -169,14 +215,10 @@
         <option value="$PROJECT_DIR$/app/views/commonquestions/index.blade.php" />
         <option value="$PROJECT_DIR$/app/views/locations/index.blade.php" />
         <option value="$PROJECT_DIR$/app/views/layouts/partials/_footer.blade.php" />
-        <option value="$PROJECT_DIR$/app/views/layouts/partials/_feedback.blade.php" />
         <option value="$PROJECT_DIR$/public/css/css_header/style3.css" />
         <option value="$PROJECT_DIR$/public/css/meet_our_att_responsive.css" />
         <option value="$PROJECT_DIR$/public/css/css_header/responsive.css" />
         <option value="$PROJECT_DIR$/public/css/css_header/style.css" />
-        <option value="$PROJECT_DIR$/app/views/layouts/partials/_contact_form.blade.php" />
-        <option value="$PROJECT_DIR$/public/css/meet_our_att.css" />
-        <option value="$PROJECT_DIR$/app/views/pages/index.blade.php" />
         <option value="$PROJECT_DIR$/app/views/pages/madeline.blade.php" />
         <option value="$PROJECT_DIR$/app/views/pages/peter.blade.php" />
         <option value="$PROJECT_DIR$/app/views/pages/wu.blade.php" />
@@ -188,7 +230,6 @@
         <option value="$PROJECT_DIR$/app/routes.php" />
         <option value="$PROJECT_DIR$/app/views/pages/jeremy.blade.php" />
         <option value="$PROJECT_DIR$/app/views/pages/holly.blade.php" />
-        <option value="$PROJECT_DIR$/public/css/main.css" />
         <option value="$PROJECT_DIR$/app/controllers/PagesController.php" />
         <option value="$PROJECT_DIR$/app/views/pages/legal_services.blade.php" />
         <option value="$PROJECT_DIR$/app/config.php" />
@@ -196,6 +237,11 @@
         <option value="$PROJECT_DIR$/public/.htaccess" />
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/app/views/layouts/partials/_new_header.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/layouts/partials/_contact_form.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/layouts/partials/_feedback.blade.php" />
+        <option value="$PROJECT_DIR$/public/css/meet_our_att.css" />
+        <option value="$PROJECT_DIR$/app/views/pages/index.blade.php" />
+        <option value="$PROJECT_DIR$/public/css/main.css" />
       </list>
     </option>
   </component>
@@ -239,6 +285,126 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="Taylor">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Taylor">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Taylor">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="views">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Taylor">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="views">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="pages">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Taylor">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="views">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="layouts">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Taylor">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="views">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="layouts">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="partials">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Taylor">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="controllers">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -783,7 +949,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19140625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1640625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -908,11 +1074,6 @@
         <state line="2" column="9" selection-start="57" selection-end="92" vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="3900" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_feedback.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="12" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1125" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/locations/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="69" column="13" selection-start="2853" selection-end="2853" vertical-scroll-proportion="2.0042193" vertical-offset="300" max-vertical-offset="2000" />
@@ -980,13 +1141,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/meet_our_att.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="226" column="17" selection-start="3773" selection-end="3778" vertical-scroll-proportion="0.33333334" vertical-offset="5425" max-vertical-offset="20050">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pages/ourstaff.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="84" column="94" selection-start="3010" selection-end="3010" vertical-scroll-proportion="2.7777777" vertical-offset="125" max-vertical-offset="4000" />
@@ -1027,11 +1181,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.519337" vertical-offset="1100" max-vertical-offset="3125" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_contact_form.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="1461" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="800" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/blogs/blog_with_cats.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="42" selection-start="314" selection-end="314" vertical-scroll-proportion="0.32097003" vertical-offset="0" max-vertical-offset="701" />
@@ -1061,54 +1210,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="357" column="19" selection-start="6979" selection-end="6979" vertical-scroll-proportion="0.0" vertical-offset="8500" max-vertical-offset="16825">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pages/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="84" selection-start="2505" selection-end="2569" vertical-scroll-proportion="0.3328467" vertical-offset="1447" max-vertical-offset="18150">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/PagesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="50" selection-start="1540" selection-end="1540" vertical-scroll-proportion="0.0" vertical-offset="951" max-vertical-offset="1750">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="129" column="26" selection-start="7318" selection-end="7332" vertical-scroll-proportion="0.0" vertical-offset="2664" max-vertical-offset="3375">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pages/legal_services.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="74" selection-start="1151" selection-end="1151" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1750">
-          <folding>
-            <marker date="1405743362000" expanded="true" signature="147:4169" placeholder="..." />
-            <marker date="1405743362000" expanded="true" signature="196:1201" placeholder="..." />
-            <marker date="1405743362000" expanded="true" signature="227:1187" placeholder="..." />
-            <marker date="1405743362000" expanded="true" signature="1238:2220" placeholder="..." />
-            <marker date="1405743362000" expanded="true" signature="1269:2209" placeholder="..." />
-            <marker date="1405743362000" expanded="true" signature="2260:2602" placeholder="..." />
-            <marker date="1405743362000" expanded="true" signature="2295:2588" placeholder="..." />
-            <marker date="1405743362000" expanded="true" signature="2639:2980" placeholder="..." />
-            <marker date="1405743362000" expanded="true" signature="2670:2969" placeholder="..." />
-            <marker date="1405743362000" expanded="true" signature="3018:3341" placeholder="..." />
-            <marker date="1405743362000" expanded="true" signature="3049:3329" placeholder="..." />
-            <marker date="1405743362000" expanded="true" signature="3379:3757" placeholder="..." />
-            <marker date="1405743362000" expanded="true" signature="3410:3745" placeholder="..." />
-            <marker date="1405743362000" expanded="true" signature="3797:4144" placeholder="..." />
-            <marker date="1405743362000" expanded="true" signature="3832:4130" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1142,7 +1247,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_new_header.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="0" selection-start="2322" selection-end="2451" vertical-scroll-proportion="0.10548523" vertical-offset="1000" max-vertical-offset="10175">
+        <state line="48" column="0" selection-start="2455" selection-end="2455" vertical-scroll-proportion="0.0" vertical-offset="1000" max-vertical-offset="10175">
           <folding>
             <element signature="n#style#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1187,6 +1292,108 @@
             <marker date="1405852976000" expanded="true" signature="18008:18538" placeholder="..." />
             <marker date="1405852976000" expanded="true" signature="18320:18538" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_contact_form.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="114" selection-start="1088" selection-end="1088" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="825">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#div#3;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#4;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/meet_our_att.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="664" column="20" selection-start="12658" selection-end="12658" vertical-scroll-proportion="0.8518519" vertical-offset="16025" max-vertical-offset="20100">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pages/legal_services.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="74" selection-start="1151" selection-end="1151" vertical-scroll-proportion="0.50872093" vertical-offset="0" max-vertical-offset="1750">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_feedback.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="47" selection-start="240" selection-end="240" vertical-scroll-proportion="0.24613221" vertical-offset="0" max-vertical-offset="1125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/PagesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="1750">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pages/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="423" column="18" selection-start="24436" selection-end="24436" vertical-scroll-proportion="0.0" vertical-offset="10175" max-vertical-offset="18300">
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#4;n#ul#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#5;n#ul#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#6;n#ul#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#7;n#ul#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#8;n#ul#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#9;n#ul#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#10;n#ul#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#11;n#ul#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#12;n#ul#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#13;n#ul#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#14;n#ul#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#15;n#ul#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#li#15;n#ul#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#1;n#li#0;n#ul#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#li#0;n#ul#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#li#0;n#ul#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#1;n#li#1;n#ul#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#li#1;n#ul#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#li#1;n#ul#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#1;n#li#2;n#ul#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#li#2;n#ul#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#li#2;n#ul#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#1;n#li#3;n#ul#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#li#3;n#ul#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#li#3;n#ul#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#1;n#li#4;n#ul#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#li#4;n#ul#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#li#4;n#ul#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#5;n#ul#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#1;n#li#5;n#ul#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#li#5;n#ul#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#li#5;n#ul#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="456" column="23" selection-start="8881" selection-end="8881" vertical-scroll-proportion="0.5980663" vertical-offset="10967" max-vertical-offset="16875">
+          <folding />
         </state>
       </provider>
     </entry>
