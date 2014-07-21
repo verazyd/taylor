@@ -29,15 +29,15 @@
         <div class="row">
              {{HTML::image('/img/our_vic.jpeg', $alt = 'Our Victories - Case Results Taylor & Preston',
             $attributes = array('class' => 'center-block img-responsive',  'width' => '100%')) }}
-            <h2>OUR VICTORIES</h2>
+<!--            <h2>OUR VICTORIES</h2>-->
         </div>
-        <div class="row" style="background:rgb(27, 143, 224);">
-            <div class="col-md-12" style="padding: 20px;">
+        <div class="row">
+            <div class="col-md-12">
                 <div id="HomeTestimonial">
-                    <h3 style="text-align: center; color: #ffffff; font-size: 30px">Our Victories</h3>
-                    <p style="width: 96%; text-align: justify;">
+                    <h1>Our Victories</h1>
+                    <p style="width: 100%; text-align: justify; margin-bottom: 25px;">
                         The lawyers at Taylor & Preston have obtained excellent results for their clients.
-                        For a detailed list of our case results, please visit our blog by <a href="{{ URL::route('allblogs') }}">clicking here</a>.
+                        For a detailed list of our case results, please visit our blog by <a href="{{ URL::route('allblogs') }}">clicking here</a>
                              <span>If you would like to learn more about how we can help with your case,<br>
                                  please give us a call at &nbsp;<strong style="font-size: 28px; text-align: center">800-633-625</strong></span>
 

@@ -25,7 +25,7 @@
     }
     .meet_out_attorneys_page p{
         text-align: justify;
-        font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-family: Helvetica, Arial, sans-serif;
         font-size: 18px;;
         opacity: 0.7;
         padding: 5px 10px;
