@@ -477,10 +477,13 @@ textarea {
 /*family law page ends*/
 /*Victory Page*/
 .vic_description{
-    background: #3685BE;
     text-align: justify;
-    color: #ffffff;
+    color: #000;
     padding: 10px;
+    height: 350px;
+    max-height: 400px;
+    overflow-y: scroll;
+    background-color: rgb(245, 245, 220);
 }
 
 /*locations page*/

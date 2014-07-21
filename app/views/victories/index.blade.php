@@ -18,38 +18,32 @@
 
 
 @section('content')
-<style>
-    .vic_description{
-        height: 350px;
-        max-height: 400px;
-        overflow-y: scroll;
-    }
-</style>
+
     <div class="container_section">
         <div class="row">
-             {{HTML::image('/img/our_vic.jpeg', $alt = 'Our Victories - Case Results Taylor & Preston',
-            $attributes = array('class' => 'center-block img-responsive',  'width' => '100%')) }}
-<!--            <h2>OUR VICTORIES</h2>-->
+            {{HTML::image('/img/our_vic.jpeg', $alt = 'Our Victories - Case Results Taylor & Preston',
+                        $attributes = array('class' => 'center-block img-responsive',  'width' => '100%')) }}
         </div>
         <div class="row">
             <div class="col-md-12">
-                <div id="HomeTestimonial">
-                    <h1>Our Victories</h1>
-                    <p style="width: 100%; text-align: justify; margin-bottom: 25px;">
-                        The lawyers at Taylor & Preston have obtained excellent results for their clients.
-                        For a detailed list of our case results, please visit our blog by <a href="{{ URL::route('allblogs') }}">clicking here</a>
-                             <span>If you would like to learn more about how we can help with your case,<br>
-                                 please give us a call at &nbsp;<strong style="font-size: 28px; text-align: center">800-633-625</strong></span>
-
-                    </p>
-                </div>
+                <div id="HomeTestimonial" style="margin-bottom: 20px;">
+                <h1 style="margin-top: 5px;">Our Victories</h1>
+                <p style="text-align: justify">
+                    The lawyers at Taylor & Preston have obtained excellent results for their clients.
+                    For a detailed list of our case results, please visit our blog by <a href="{{ URL::route('allblogs') }}"><b>clicking here</b></a>
+                    If you would like to learn more about how we can help with your case,<br>
+                    please give us a call at &nbsp;<strong style="font-size: 28px; text-align: center">800-633-625</strong>
+                </p>
+            </div>
             </div>
         </div>
-        @foreach($victories as $victory)
-        <div class="col-md-4 vic_section">
-            <h4>{{$victory->topic }}</h4><br>
-             <p class="vic_description">{{$victory->description }}</p><br>
+        <div class="row">
+           @foreach($victories as $victory)
+             <div class="col-md-4 vic_section">
+                <h4>{{$victory->topic }}</h4><br>
+                  <p class="vic_description">{{$victory->description }}</p><br>
+             </div>
+           @endforeach
         </div>
-        @endforeach
     </div>
 @stop
