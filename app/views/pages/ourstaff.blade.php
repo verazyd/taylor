@@ -1,16 +1,22 @@
 @extends('layouts.master')
 
 @section('title')
-    Best Lawyers for Family and Personal Injury in Melbourne
+    Best Lawyers for Family and Personal Injury in Melbourne | Taylor & Preston Family Lawyers in Melbourne
+@stop
+
+@section('keywords')
+    "lawyers in melbourne, lawyers in vic, lawyers in victoria, family lawyers, family law melbourne, personal injury melbourne,
+    personal injury vic, personal injury victoria, tac lawyers melbourne, workcover lawyers melbourne, melbounre tac lawyers,
+    melbourne workcover lawyers, best lawyers in melbourne, melboourne good laweyrs, injury lawyers meblbourne"
+@stop
+
+@section('description')
+    "Best Lawyers in Melboune, family injury melboune, injuries melbourne, road injuries melboune, best tac laywers melboune,
+    workcover lawyers, we at Taylor & Preston take care of our clients in best possible way. "
 @stop
 
 @section('content')
 <style>
-    .meet_out_attorneys_page{
-        background-color: rgb(216, 227, 246);
-        margin-top: 10px;
-        color: #1D85DC;
-    }
     .meet_out_attorneys_page h1{
         padding: 0px 10px;
         text-align: justify;
@@ -19,23 +25,18 @@
     }
     .meet_out_attorneys_page p{
         text-align: justify;
-        font-family: italic arial, sans-serif;
+        font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
         font-size: 18px;;
         opacity: 0.7;
-        padding: 5px 10px;;
-    }
-    .meet_out_attorneys_page p2{
-        text-align: center;
-        background: #217C9C;
-        color: #ffffff;
-        line-height: 1.5;
-        padding: 10px;
+        padding: 5px 10px;
+        margin-top: 50px;
+        color: rgb(38, 39, 37);;
     }
     .personal_injury h2{
         color: rgb(0, 86, 149);
     }
     .personal_injury h5{
-        cfont-family: Cabin Condensed, Arial;
+        font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
         font-weight: 500;
         font-size: 26px;
         color: rgb(93, 93, 93);
@@ -54,9 +55,6 @@
     .personal_injury_info:hover{
         background: #217C9C;
     }
-    .meet_attorney_section{
-        margin-bottom: 5%;
-    }
     .meet_out_attorneys_page ul li{
         list-style-type: none;
     }
@@ -72,17 +70,22 @@
 </style>
 <div class="container_section">
     <div class="row">
-        {{HTML::image('/img/our_vic.jpeg', $alt = 'Taylor&Preston',
+        {{HTML::image('/img/our_vic.jpeg', $alt = 'Lawyers at Taylor & Preston - Family Law - Personal Injury',
         $attributes = array('class' => 'center-block img-responsive',  'width' => '100%')) }}
         <h2>MEET OUR ATTORNEYS</h2>
     </div>
     <div class="row">
         <div class="col-md-8 meet_out_attorneys_page">
-            <div class="col-md-12 meet_attorney_section">
-                <h3>Attorneys at Taylor&Preston</h3>
-                    <p>"Taylor & Preston Lawyers have years of experience handling family law matters. Our lawyers include David Denby, who has been practicing law for over 40 years and is an ex-president of the Law Institute of Victoria. Jeffrey Stone is another senior lawyer at the firm who has also been practising family law for over 40 years. We have earned this trust by practicing law with the highest ethical standards in the legal profession. The excellence of our family lawyers, and our commitment to our clients has earned the firm its elite standing in the legal community
-                    <span>If you would like to learn more about how we can help with your case,
-                    <p>please give us a call at<strong>&nbsp;&nbsp;800-633-625</strong></span>"
+            <div class="col-md-12">
+                <h2>Attorneys at Taylor&Preston</h2>
+                    <p>"Taylor & Preston Lawyers have years of experience handling <strong>family law</strong> and <strong>personal
+                        injury laweyrs</strong> matters. Our <strong>lawyers</strong> include David Denby, who has been practicing
+                        law for over 40 years and is an ex-president of the Law Institute of Victoria. Jeffrey Stone is another senior
+                        lawyer at the firm who has also been <strong>practising family law </strong>for over 40 years. We have earned this trust by
+                        practicing law with the highest ethical standards in the legal profession. The excellence of our family lawyers,
+                        and our commitment to our clients has earned the firm its elite standing in the legal community
+                    <span>If you would like to learn more about the best family lawyers, how we can help with your case,
+                    <span>please give us a call at<strong>&nbsp;&nbsp;800-633-625</strong></span>"
                     </p>
             </div>
             <ul>

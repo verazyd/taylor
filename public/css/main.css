@@ -83,7 +83,7 @@ textarea {
     resize: vertical;
 }
 .container_section{
-    margin-top: 85px;
+    margin-top: 7%;
 }
 
 /* ==========================================================================
@@ -460,18 +460,21 @@ textarea {
 .personal_sidebar{
     list-style-type: none;
     text-transform: uppercase;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 .personal_sidebar li{
     margin-bottom: 25px;
     text-align: left;
 }
 .personal_sidebar li a{
-    color: #217C9C;
+    color: #005695;
 }
 /*Personal Injury Ends*/
 
-
+/*family law*/
+.container_section h1{margin-bottom: 10px;}
+.container_section p{margin-bottom: 10px;}
+/*family law page ends*/
 /*Victory Page*/
 .vic_description{
     background: #3685BE;
@@ -502,10 +505,10 @@ textarea {
 /*our staff*/
 .container_section h2{
     position: absolute;
-    bottom:81%;
     left: 2%;
     font-size: 48px;
     background: #ffffff;
+    margin-top: 1%;
 }
 /*video center page ends*/
 
@@ -581,7 +584,7 @@ textarea {
     }
     .why_taylor p{
         font-size: 13px;
-        font-family: font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
         max-height: 100px;
         overflow: scroll;
     }

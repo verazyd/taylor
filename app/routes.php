@@ -1,15 +1,16 @@
 <?php
 Route::get('/', ['as' => 'home', 'uses' => 'PagesController@index']);
-Route::get('/ourStaff', ['as' => 'about', 'uses' => 'PagesController@our_staff']);
+Route::get('Our-Staff.html', ['as' => 'about', 'uses' => 'PagesController@our_staff']);
 Route::get('/contactus', ['as' => 'contactus', 'uses' => 'ContactusController@create']);
 Route::post('contactus.store', ['as' => 'contactus.store', 'uses' => 'ContactusController@store']);
 
 #Locations
 Route::resource('location', 'LocationsController');
+Route::get('Our-Locations.html', ['as' => 'location', 'uses' => 'LocationsController@index']);
 
 #Victories
 Route::resource('victories', 'VictoriesController');
-
+Route::get('Our-Victories.html', ['as' => 'ourvictories', 'uses' => 'VictoriesController@index']);
 #Registration
 Route::get('/register','RegisterController@create');
 Route::post('/register', ['as' => 'register.store', 'uses' => 'RegisterController@store']);
@@ -96,26 +97,26 @@ Route::post('admin.store', ['as' => 'admin.store', 'uses' => 'SessionsController
 Route::get('/admin_login', ['as' => 'admin_login', 'uses' => 'SessionsController@index']);
 
 #Blogs for Users
-Route::get('/allblogs', ['as' => 'allblogs', 'uses' => 'BlogsController@index_users' ]);
+Route::get('Blogs.html', ['as' => 'allblogs', 'uses' => 'BlogsController@index_users' ]);
 Route::get('/allblogs/{id}', 'BlogsController@show');
 
 
 #Personal Injuries
-Route::get('personalInjury', ['as' => 'personalInjury', 'uses' => 'PersonalinjuriesController@index']);
-Route::get('personalInjury/{id}', 'PersonalinjuriesController@show');
+Route::get('Personal-Injury.html', ['as' => 'personalInjury', 'uses' => 'PersonalinjuriesController@index']);
+Route::get('Personal-Injury.html/{id}', 'PersonalinjuriesController@show');
 
 #Family Law
 Route::get('Family-Law.html', ['as' => 'familyLaw', 'uses' => 'FamilylawsController@index']);
-Route::get('familyLaw/{id}', 'FamilylawsController@show');
+Route::get('Family-Law.html/{id}', 'FamilylawsController@show');
 
 #Search
 Route::get('search', ['as' => 'search', 'uses' => 'SearchController@index']);
 
 #COMMONQUETIONS
-Route::get('/commonquestions', ['as' => 'commonquestions', 'uses' => 'CommonquestionsController@index']);
+Route::get('Common-Questions.html', ['as' => 'commonquestions', 'uses' => 'CommonquestionsController@index']);
 
 #Testimonials
-Route::get('testimonials', ['as' => 'testimonials', 'uses' => 'TestimonialsController@index']);
+Route::get('Clients-Testimonials.html', ['as' => 'testimonials', 'uses' => 'TestimonialsController@index']);
 
 #Videos
 Route::get('allVideos', ['as' => 'allVideos', 'uses' => 'VideosController@index_users']);

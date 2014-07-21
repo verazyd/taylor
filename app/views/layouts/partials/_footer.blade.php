@@ -54,7 +54,7 @@
                         <a href="{{URL::to('/allblogs') }}">Our Blog</a>
                     </li>
                     <li>
-                        <a href="{{ URL::to('commonquestions') }}">Common Questions</a>
+                        <a href="{{ URL::route('commonquestions') }}">Common Questions</a>
                     </li>
                 </ul>
             </nav>
@@ -101,11 +101,11 @@
                 <li class="{{ set_active('/') }}">
                     <a href="{{URL::to('/')}}">HOME</a>
                 </li>
-                <li class="{{ set_active('ourStaff') }}">
-                    <a href="{{ URL::to('ourStaff') }}">LEGAL TEAM</a>
+                <li class="{{ set_active('about') }}">
+                    <a href="{{ URL::route('about') }}">LEGAL TEAM</a>
                 </li>
                 <li class="{{ set_active('commonquestions') }}">
-                    <a href="{{URL::to('/commonquestions') }}">COMMON QUESTIONS</a>
+                    <a href="{{URL::route('commonquestions') }}">COMMON QUESTIONS</a>
                 </li>
                 <li><a href="">KEYWORDS</a></li>
                 <li class="{{ set_active('allVideos') }}">

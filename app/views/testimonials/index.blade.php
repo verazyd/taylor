@@ -1,7 +1,17 @@
 @extends('layouts.master')
 
 @section('title')
-    Best Law Firm In Melbourne
+    Client's Testimonials | Taylor & Preston Lawyers in Melbourne
+@stop
+
+@section('keywords')
+    "Melbourne, Victoria, Testimonials, Personal Injury Lawyer Melbourne, Famly Lawyers Melbourne, personal injury vic, family law vic,
+    Melbourne injury law, personal injury attorney, family lawyer attorney"
+@stop
+
+@section('description')
+    "At Taylor & Preston, we build great relationships with our clients. To learn more about what it is like working with Taylor & Preston Personal Injury
+    Lawyers and Family Lawyers, read through our testimonials."
 @stop
 
 @section('content')
