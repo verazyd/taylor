@@ -105,7 +105,7 @@ Route::get('personalInjury', ['as' => 'personalInjury', 'uses' => 'Personalinjur
 Route::get('personalInjury/{id}', 'PersonalinjuriesController@show');
 
 #Family Law
-Route::get('familyLaw', ['as' => 'familyLawo', 'uses' => 'FamilylawsController@index']);
+Route::get('Family-Law.html', ['as' => 'familyLaw', 'uses' => 'FamilylawsController@index']);
 Route::get('familyLaw/{id}', 'FamilylawsController@show');
 
 #Search

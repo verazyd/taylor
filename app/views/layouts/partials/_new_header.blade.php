@@ -107,7 +107,7 @@
                         <nav class="droplist" id="FlyMenu1" name="FlyMenu1">
                             <ul>
                                 <li class="level1 ">
-                                    <a href="{{URL::to('familyLaw') }}" target="">Our expertise in Family Law</a>
+                                    <a href="{{URL::route('familyLaw') }}" target="">Our expertise in Family Law</a>
                                 </li>
                                 <li class="level1 ">
                                     <a href="" target="">Divorce</a>
