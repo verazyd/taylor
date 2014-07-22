@@ -36,22 +36,19 @@
                 <h3>Quick Links</h3>
                 <ul>
                     <li>
-                        <a href="{{URL::to('familyLaw') }}" target="">Family Law</a>
+                        <a href="{{URL::route('familyLaw') }}" target="">Family Law</a>
                     </li>
                     <li>
-                        <a href="{{ URL::to('/personalInjury') }}" >Personal Injury</a>
-                    </li>
-<!--                    <li>-->
-<!--                        <a href="#practice_areas">Practice Areas</a>-->
-<!--                    </li>-->
-                    <li>
-                        <a href="{{URL::to('/location')}}">Our Locations</a>
+                        <a href="{{ URL::route('personalInjury') }}" >Personal Injury</a>
                     </li>
                     <li>
-                        <a href="{{URL::to('/victories') }}">Our Victories</a>
+                        <a href="{{URL::route('location')}}">Our Locations</a>
                     </li>
                     <li>
-                        <a href="{{URL::to('/allblogs') }}">Our Blog</a>
+                        <a href="{{URL::route('ourvictories') }}">Our Victories</a>
+                    </li>
+                    <li>
+                        <a href="{{URL::route('allblogs') }}">Our Blog</a>
                     </li>
                     <li>
                         <a href="{{ URL::route('commonquestions') }}">Common Questions</a>
@@ -62,22 +59,22 @@
                 <h3>Legal Network</h3>
                 <ul>
                     <li>
-                        <a href="{{ URL::to('/personalInjury') }}">Personal Injury</a>
+                        <a href="{{ URL::route('personalInjury') }}">Personal Injury</a>
                     </li>
                     <li>
-                        <a href="{{URL::to('familyLaw') }}" >Family Law</a>
+                        <a href="{{URL::route('familyLaw') }}" >Family Law</a>
                     </li>
                     <li>
-                        <a href="" >Criminal Law</a>
+                        <a href="{{ URL::route('practice_areas') }}" >Criminal Law</a>
                     </li>
                     <li>
-                        <a href="" >Sexual & Instituional Abuse</a>
+                        <a href="{{ URL::route('practice_areas') }}" >Sexual & Instituional Abuse</a>
                     </li>
                     <li>
-                        <a href="" >TAC Claims</a>
+                        <a href="{{ URL::route('practice_areas') }}" >TAC Claims</a>
                     </li>
                     <li>
-                        <a href="">Work Injury</a>
+                        <a href="{{ URL::route('practice_areas') }}">Work Injury</a>
                     </li>
                 </ul>
             </nav>
@@ -102,7 +99,7 @@
                     <a href="{{URL::to('/')}}">HOME</a>
                 </li>
                 <li class="{{ set_active('about') }}">
-                    <a href="{{ URL::route('about') }}">LEGAL TEAM</a>
+                    <a href="{{ URL::route('legalteam') }}">LEGAL TEAM</a>
                 </li>
                 <li class="{{ set_active('commonquestions') }}">
                     <a href="{{URL::route('commonquestions') }}">COMMON QUESTIONS</a>
@@ -112,7 +109,7 @@
                     <a href="{{URL::to('allVideos') }}">VIDEO CENTER</a>
                 </li>
                 <li class="{{ set_active('testimonials') }}">
-                    <a href="{{ URL::to('testimonials') }}">TESTIMONIALS</a>
+                    <a href="{{ URL::route('testimonials') }}">TESTIMONIALS</a>
                 </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">

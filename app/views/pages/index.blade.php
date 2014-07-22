@@ -108,7 +108,7 @@
         <h2 style="color: #3685BE !important; font-size: 38px"><a href="practice_areas">Our Practice Areas</a></h2>
         <ul class="cf">
             <li class="active left">
-                <a href="{{ URL::to('personalInjury') }}">Personal Injury</a>
+                <a href="{{ URL::route('personalInjury') }}">Personal Injury</a>
                 <div class="details" style="background-image:url(./img/Practice-Areas/personal_injury.jpg);height: 365px;top: 28px;">
                     <div class="Icon">
                         <img src="./img/Practice-Areas/crutches-icon.png">
@@ -116,11 +116,11 @@
                     <h4>Personal Injury</h4>
                     <p>Taylor & Preston Lawyers practice in Personal Injury Law and accept matters from Victoria and New South Wales</p>
                     <p>If you would like to speak to someone in relation to a personal injury matter, please call on 1800 633 625. between 7A.M.and 11P.M. Monday to Sunday.</p>
-                    <a href="">Learn More</a>
+                    <a href="{{ URL::route('personalInjury') }}">Learn More</a>
                 </div>
             </li>
             <li class="right">
-                <a href="{{ URL::to('familyLaw') }}">Family Law</a>
+                <a href="{{ URL::route('familyLaw') }}">Family Law</a>
                 <div class="details" style="background-image:url(./img/Practice-Areas/maritime_offshore.jpg);height: 365px;top: 28px;">
                     <div class="Icon">
                         <img src="./img/Practice-Areas/maritime-icon.png">
@@ -128,10 +128,10 @@
                     <h4>Family Law</h4>
                     <p>Our family law lawyers are smart, tough, highly ethical and empathetic.</p>
                     <p>Together they have century and a half of experience in this highly-complex legal area that traverses many fields like estate planning, property, commercial, tax and company law.</p>
-                    <a href="">Learn More</a>
+                    <a href="{{ URL::route('familyLaw') }}">Learn More</a>
                 </div>
             </li><li class=" left">
-                <a href="Practice-Areas/Trucking-Accidents.html">Crime Compensation</a>
+                <a href="{{ URL::route('practice_areas') }}">Crime Compensation</a>
                 <div class="details" style="background-image:url(./img/Practice-Areas/trucking.jpg);height: 365px;top: 28px;">
                     <div class="Icon">
                         <img src="./img/Practice-Areas/truck-icon.png">
@@ -139,31 +139,31 @@
                     <h4>Crime Compensation</h4>
                     <p>At Taylor & Preston we understand that going to court can be a daunting experience. We are committed to defending your rights with compassion and understanding.</p>
                     <p>We guarantee that the lawyer you first meet will manage your case until its completion.</p>
-                    <a href="">Learn More</a>
+                    <a href="{{ URL::route('practice_areas') }}">Learn More</a>
                 </div>
             </li><li class="right">
-                <a href="Practice-Areas/Oil-Rig-Explosions.html">Work Injury</a>
+                <a href="{{ URL::route('practice_areas') }}">Work Injury</a>
                 <div class="details" style="background-image:url(./img/Practice-Areas/oil_rig.jpg);height: 365px;top: 28px;">
                     <div class="Icon">
                         <img src="images/Practice-Areas/oil-rig-icon.png">
                     </div>
                     <h4>Work Injury</h4>
-                    <p>Taylor & Preston Lawyers practice in Employment Law  and accept matters from Victoria</p>
+                    <p>Taylor & Preston Lawyers practice in  Law  and accept matters from Victoria</p>
                     <p>If you would like to speak to someone in relation to an employment law matter, please call on 1800 633 625. between 7A.M.and 11P.M. Monday to Sunday.</p>
-                    <a href="">Learn More</a>
+                    <a href="{{ URL::route('practice_areas') }}">Learn More</a>
                 </div>
             </li><li class=" left">
-                <a href="Practice-Areas/Industrial-Injury.html">Superanuation Cover</a>
+                <a href="{{ URL::route('practice_areas') }}">Superanuation Cover</a>
                 <div class="details" style="background-image:url(./img/Practice-Areas/industrial.jpg);height: 365px;top: 28px;">
                     <div class="Icon">
                         <img src="./img/Practice-Areas/industrial-icon.png">
                     </div>
                     <h4>Superanuation Cover</h4>
-                    <p>Due to the nature of their work, individuals employed on industrial work-sites face extreme dangers every day. This could come in the form of fires and explosions, electrocutions, chemical exposure, or even accidents involving heavy machinery. In the wake of such incidents, it is crucial that the victims turn to our firm for help.</p>
-                    <a href="">Learn More</a>
+                    <p>Due to the nature of their, individuals employed on industrial work-sites face extreme dangers every day. This could come in the form of fires and explosions, electrocutions, chemical exposure, or even accidents involving heavy machinery. In the wake of such incidents, it is crucial that the victims turn to our firm for help.</p>
+                    <a href="{{ URL::route('practice_areas') }}">Learn More</a>
                 </div>
             </li><li class="right">
-                <a href="Practice-Areas/Plant-Refinery-Accidents.html">Sexual & Instutional Abuse</a>
+                <a href="{{ URL::route('practice_areas') }}">Sexual & Instutional Abuse</a>
                 <div class="details" style="background-image:url(./img/Practice-Areas/plant_refinery.jpg);height: 365px;top: 28px;">
                     <div class="Icon">
                         <img src="./img/Practice-Areas/plant-icon.png">
@@ -173,22 +173,22 @@
                     <p>Redress Schemes</p>
                     <p>Damages claims</p>
                     <p>Knowing all these is very crucial in filing a case. We can help you the best!!</p>
-                    <a href=""">Learn More</a>
+                    <a href="{{ URL::route('practice_areas') }}">Learn More</a>
                 </div>
             </li>
             <li class=" left">
-                <a href="">Same Sex Relationship</a>
+                <a href="{{ URL::route('practice_areas') }}">Same Sex Relationship</a>
                 <div class="details" style="background-image:url(./img/Practice-Areas/pharmaceutical.jpg);height: 365px;top: 28px;">
                     <div class="Icon">
                         <img src="./img/Practice-Areas/pills-icon.png">
                     </div>
                     <h4>Same Sex Relationship</h4>
                     <p>Australia may not extend marriage and adoption rights to same-sex couples, however, under the numerous State and Federal laws,  a couple who is in a same-sex relationship for all intents and purposes have the same rights as those who are in a legally recognised marriage.</p>
-                    <a href="">Learn More</a>
+                    <a href="{{ URL::route('practice_areas') }}">Learn More</a>
                 </div>
             </li>
             <li class="right">
-                <a href="">Crime and compensation</a>
+                <a href="{{ URL::route('practice_areas') }}">Crime and compensation</a>
                 <div class="details" style="background-image:url(./img/Practice-Areas/product_liability.jpg);height: 365px;top: 28px;">
                     <div class="Icon">
 <!--                        <img src="./img/Practice-Areas/product-icon.png">-->
@@ -196,10 +196,10 @@
                     <h4>Crime and compensation</h4>
                     <p>Taylor&Preston Lawyers have significant expertise in all victims of crime compensation matters.</p>
                     <p>If you are uncertain as to whether you are eligible to make a Victims of Crime Assistance Tribunal application, please do not hesitate to contact our office </p>
-                    <a href="">Learn More</a>
+                    <a href="{{ URL::route('practice_areas') }}">Learn More</a>
                 </div>
             </li><li class=" left">
-                <a href="">Hague Convention</a>
+                <a href="{{ URL::route('practice_areas') }}">Hague Convention</a>
                 <div class="details" style="background-image:url(./img/Practice-Areas/railroad.jpg);height: 365px;top: 28px;">
                     <div class="Icon">
                         <img src="./img/Practice-Areas/railroad-icon.png">
@@ -210,7 +210,7 @@
                     <a href="">Learn More</a>
                 </div>
             </li><li class="right">
-                <a href="">Employment Law</a>
+                <a href="{{ URL::route('practice_areas') }}">Employment Law</a>
                 <div class="details" style="background-image:url(./img/Practice-Areas/catastrophic.jpg);height: 365px;top: 28px;">
                     <div class="Icon">
                         <img src="./img/Practice-Areas/catastrophic-icon.png">
@@ -218,20 +218,20 @@
                     <h4>Employment Law</h4>
                     <p>Taylor & Preston Lawyers practice in Employment Law  and accept matters from Victoria</p>
                     <p>If you would like to speak to someone in relation to an employment law matter, please call on 1800 633 625. between 7A.M.and 11P.M. Monday to Sunday.</p>
-                    <a href="">Learn More</a>
+                    <a href="{{ URL::route('practice_areas') }}">Learn More</a>
                 </div>
             </li><li class=" left">
-                <a href="">Divorce</a>
+                <a href="{{ URL::route('practice_areas') }}">Divorce</a>
                 <div class="details" style="background-image:url(./img/Practice-Areas/motor_vehicle.jpg);height: 365px;top: 28px;">
                     <div class="Icon">
                         <img src="./img/Practice-Areas/motor-vehicle-icon.png">
                     </div>
                     <h4>Divorce</h4>
                     <p>Obtaining a Divorce is the legal end to a marriage. Proceedings for Divorce are usually commenced after all parenting and/or financial matters have been resolved. You can apply for a property settlement at any time after separation and prior to Divorce. </p>
-                    <a href="">Learn More</a>
+                    <a href="{{ URL::route('practice_areas') }}">Learn More</a>
                 </div>
             </li><li class="right">
-                <a href="">TAC Claims</a>
+                <a href="{{ URL::route('practice_areas') }}">TAC Claims</a>
                 <div class="details" style="background-image:url(./img/Practice-Areas/aviation.jpg);height: 365px;top: 28px;">
                     <div class="Icon">
                         <img src="./img/Practice-Areas/aviation-icon.png">
@@ -240,20 +240,20 @@
                     <p>If you're injured in a car accident, motorcycle crash, or as a cyclist or pedestrian, a TAC lawyer fights for your rightful compensation</p>
                     <p>The TAC may not always be on your side</p>
                     <p>Call us to have a confidential consultation for you rights.</p>
-                    <a href="">Learn More</a>
+                    <a href="{{ URL::route('practice_areas') }}">Learn More</a>
                 </div>
             </li><li class=" left">
-                <a href="">Commercial Litigation</a>
+                <a href="{{ URL::route('practice_areas') }}">Commercial Litigation</a>
                 <div class="details" style="background-image:url(./img/Practice-Areas/commercial.jpg);height: 365px;top: 28px;">
                     <div class="Icon">
                         <img src="./img/Practice-Areas/commercial-icon.png">
                     </div>
                     <h4>Commercial Litigation</h4>
                     <p>Whether you are part of a company dealing with a contract or trade practices dispute, or feuding with your joint venture partner, or part of a family business where disputes are literally closer to home (or both), the key in any potentially litigious matter is to recognise what will get you the result you want</p>
-                    <a href="">Learn More</a>
+                    <a href="{{ URL::route('practice_areas') }}">Learn More</a>
                 </div>
             </li><li class="right">
-                <a href="">Insurance Claims</a>
+                <a href="{{ URL::route('practice_areas') }}">Insurance Claims</a>
                 <div class="details" style="background-image:url(./img/Practice-Areas/insurance_claims.jpg);height: 365px;top: 28px;">
                     <div class="Icon">
                         <img src="./img/Practice-Areas/insurance-claims-icon.png">
@@ -261,10 +261,10 @@
                     <h4>Insurance Claims</h4>
                     <p>One of our sole focus is insurance law and we act for a diverse range of risk carriers, underwriting agents, brokers and corporate insureds relevant to litigious and general advisory services.</p>
                     <p>Call us for confidential consultation.</p>
-                    <a href="">Learn More</a>
+                    <a href="{{ URL::route('practice_areas') }}">Learn More</a>
                 </div>
             </li><li class=" left">
-                <a href="">Property Contamination</a>
+                <a href="{{ URL::route('practice_areas') }}">Property Contamination</a>
                 <div class="details" style="background-image:url(./img/Practice-Areas/property_contamination.jpg);height: 365px;top: 28px;">
                     <div class="Icon">
                         <img src="./img/Practice-Areas/property-contamination-icon.png">
@@ -272,17 +272,17 @@
                     <h4>Property Contamination</h4>
                     <p>Contamination is a problem for vendors and purchasers alike. For vendors it may worry potential purchasers resulting in a lower sale price. Most estate agents don’t bother to fully investigate contamination issues.</p>
                     <p>Are you uncertain if you could further you case, call us.</p>
-                    <a href="">Learn More</a>
+                    <a href="{{ URL::route('practice_areas') }}">Learn More</a>
                 </div>
             </li><li class="right">
-                <a href="">Frequently Asked Questions</a>
+                <a href="{{ URL::route('practice_areas') }}">Frequently Asked Questions</a>
                 <div class="details" style="background-image:url(./img/Practice-Areas/faq.jpg);height: 365px;top: 28px;">
                     <div class="Icon">
                         <img src="./img/Practice-Areas/faq-icon.png">
                     </div>
                     <h4>Frequently Asked Questions</h4>
                     <p>Following a serious injury-causing accident, it is not uncommon for the victims to have many questions. If you are in such a situation, our firm is here for you. For this reason, we have compiled a list of some of the most common questions that we hear. Call us for more details.</p>
-                    <a href="" style="padding-bottom: 5px;">Learn More</a>
+                    <a href="{{ URL::route('practice_areas') }}" style="padding-bottom: 5px;">Learn More</a>
                 </div>
             </li>
         </ul>

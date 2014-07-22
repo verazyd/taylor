@@ -424,7 +424,7 @@ textarea {
     border-top: 5px solid gray;
     padding-top: 5px;
 }
-.why_taylor_first h3{text-align: center; color: #000000; font-family: Montserrat}
+.why_taylor_first h3{text-align: center; color: #000000; font-family: Montserrat; font-size: 25px;}
 
 .why_taylor p{
     font-size: 19px;
@@ -485,7 +485,14 @@ textarea {
     overflow-y: scroll;
     background-color: rgb(245, 245, 220);
 }
-
+/*practice areas*/
+.practice_areas_section{margin-top: 7%}
+.practice_areas_section h1{font-size: 48px;; text-transform: uppercase; text-align: center}
+.practice_areas_section h2{font-size: 35px; color:#646464; text-transform: uppercase; font-family: 'Neuton', serif;}
+.practice_areas_section p{font-size: 15px; color:#646464; padding: 10px; text-align: justify}
+.practice_areas_section ul li{font-size: 15px; color:#646464; padding: 10px; text-align: justify}
+.practice_areas_section h3{margin-left: 2%}
+/*practice areas ends*/
 /*locations page*/
 #map{
     width: 832px;

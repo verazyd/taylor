@@ -11,6 +11,7 @@
     <!-- Bootstrap CSS -->
     <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+    <link href='http://fonts.googleapis.com/css?family=Neuton' rel='stylesheet' type='text/css'>
     {{ HTML::style('/css/normalize.css') }}
     {{ HTML::style('/css/font-awesome.min.css')}}
     {{ HTML::style('/css/main.css') }}
@@ -96,22 +97,22 @@
                                     <a href="{{URL::route('familyLaw') }}" target="">Our expertise in Family Law</a>
                                 </li>
                                 <li class="level1 ">
-                                    <a href="" target="">Divorce</a>
+                                    <a href="{{ URL::route('practice_areas') }}" target="">Divorce</a>
                                 </li>
                                 <li class="level1 ">
-                                    <a href="" target="">Same sex relationships</a>
+                                    <a href="{{ URL::route('practice_areas') }}" target="">Same sex relationships</a>
                                 </li>
                                 <li class="level1 ">
-                                    <a href="" target="">Property settlements</a>
+                                    <a href="{{ URL::route('practice_areas') }}" target="">Property settlements</a>
                                 </li>
                                 <li class="level1 ">
-                                    <a href="" target="">Child Support</a>
+                                    <a href="{{ URL::route('practice_areas') }}" target="">Child Support</a>
                                 </li>
                                 <li class="level1 ">
-                                    <a href="" target="">Family Violence and Intervention orders</a>
+                                    <a href="{{ URL::route('practice_areas') }}" target="">Family Violence and Intervention orders</a>
                                 </li>
                                 <li class="level1 ">
-                                    <a href="" target="">Domestic partner relationships</a>
+                                    <a href="{{ URL::route('practice_areas') }}" target="">Domestic partner relationships</a>
                                 </li>
                             </ul>
                         </nav>
@@ -130,22 +131,22 @@
                                     <a href="{{ URL::route('personalInjury') }}"  target="">Services in Personal Injury</a>
                                 </li>
                                 <li class="level1 ">
-                                    <a href="" target="">WorkCover</a>
+                                    <a href="{{ URL::route('practice_areas') }}" target="">WorkCover</a>
                                 </li>
                                 <li class="level1 ">
-                                    <a href="" target="">Employment Law</a>
+                                    <a href="{{ URL::route('practice_areas') }}" target="">Employment Law</a>
                                 </li>
                                 <li class="level1 ">
-                                    <a href="" target="">Road Injuries and TAC Claims</a>
+                                    <a href="{{ URL::route('practice_areas') }}" target="">Road Injuries and TAC Claims</a>
                                 </li>
                                 <li class="level1 ">
-                                    <a href="" target="">Public Liability</a>
+                                    <a href="{{ URL::route('practice_areas') }}" target="">Public Liability</a>
                                 </li>
                                 <li class="level1 ">
-                                    <a href="" target="">Motor Vehicle Accidents</a>
+                                    <a href="{{ URL::route('practice_areas') }}" target="">Motor Vehicle Accidents</a>
                                 </li>
                                 <li class="level1 ">
-                                    <a href="" target="">Medical Negligence</a>
+                                    <a href="{{ URL::route('practice_areas') }}" target="">Medical Negligence</a>
                                 </li>
                             </ul>
                             <div class="scrollbar"></div>
@@ -161,28 +162,28 @@
                         <nav class="droplist" id="FlyMenu3" name="FlyMenu3">
                             <ul>
                                 <li class="level1 ">
-                                    <a href="" target="">Family Law</a>
+                                    <a href="{{ URL::route('familyLaw') }}" target="">Family Law</a>
                                 </li>
                                 <li class="level1 ">
-                                    <a href="" target="">Personal Injury</a>
+                                    <a href="{{ URL::route('personalInjury') }}" target="">Personal Injury</a>
                                 </li>
                                 <li class="level1 ">
-                                    <a href="" target="">Criminal Law</a>
+                                    <a href="{{ URL::route('practice_areas') }}" target="">Criminal Law</a>
                                 </li>
                                 <li class="level1 ">
-                                    <a href="" target="">Commercial Law</a>
+                                    <a href="{{ URL::route('practice_areas') }}" target="">Commercial Law</a>
                                 </li>
                                 <li class="level1 ">
-                                    <a href="" target="">Employment Law</a>
+                                    <a href="{{ URL::route('practice_areas') }}" target="">Employment Law</a>
                                 </li>
                                 <li class="level1 ">
-                                    <a href="" target="">International and Chinese Law</a>
+                                    <a href="{{ URL::route('practice_areas') }}" target="">International and Chinese Law</a>
                                 </li>
                                 <li class="level1 ">
-                                    <a href="" target="">Property Law</a>
+                                    <a href="{{ URL::route('practice_areas') }}" target="">Property Law</a>
                                 </li>
                                 <li class="level1 ">
-                                    <a href="" target="">Wills & Estates </a>
+                                    <a href="{{ URL::route('practice_areas') }}" target="">Wills & Estates </a>
                                 </li>
                             </ul>
                             <div class="scrollbar"></div>
@@ -214,16 +215,16 @@
                                     <a href="{{URL::to('/allblogs') }}" target="">Our Blog</a>
                                 </li>
                                 <li class="level1 ">
-                                    <a href="" target="">Our Awards</a>
+                                    <a href="{{ URL::route('practice_areas') }}" target="">Our Awards</a>
                                 </li>
                                 <li class="level1 ">
-                                    <a href="" target="">Our Dedication</a>
+                                    <a href="{{ URL::route('practice_areas') }}" target="">Our Dedication</a>
                                 </li>
                                 <li class="level1 ">
-                                    <a href="" target="">Our Philosophy</a>
+                                    <a href="{{ URL::route('practice_areas') }}" target="">Our Philosophy</a>
                                 </li>
                                 <li class="level1 ">
-                                    <a href="" target="">What Makes Us Different?</a>
+                                    <a href="{{ URL::route('practice_areas') }}" target="">What Makes Us Different?</a>
                                 </li>
                             </ul>
                         </nav>
@@ -241,7 +242,7 @@
                                     <a href="{{URL::route('location')}}" target="">Our Locations</a>
                                 </li>
                                 <li class="level1 ">
-                                    <a href="{{URL::to('/contactus') }}" target="">Contact Us</a>
+                                    <a href="{{ URL::route('contactus') }}" target="">Contact Us</a>
                                 </li>
                             </ul>
                         </nav>

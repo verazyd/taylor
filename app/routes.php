@@ -1,7 +1,7 @@
 <?php
 Route::get('/', ['as' => 'home', 'uses' => 'PagesController@index']);
-Route::get('Our-Staff.html', ['as' => 'about', 'uses' => 'PagesController@our_staff']);
-Route::get('/contactus', ['as' => 'contactus', 'uses' => 'ContactusController@create']);
+Route::get('Our-Staff.html', ['as' => 'legalteam', 'uses' => 'PagesController@our_staff']);
+Route::get('Contact-Us.html', ['as' => 'contactus', 'uses' => 'ContactusController@create']);
 Route::post('contactus.store', ['as' => 'contactus.store', 'uses' => 'ContactusController@store']);
 
 #Locations
@@ -121,6 +121,8 @@ Route::get('Clients-Testimonials.html', ['as' => 'testimonials', 'uses' => 'Test
 #Videos
 Route::get('allVideos', ['as' => 'allVideos', 'uses' => 'VideosController@index_users']);
 
+#Practice Areas
+Route::get('Practice-Areas.html', ['as' => 'practice_areas', 'uses' => 'PagesController@practice_areas']);
 #lawyers
 Route::get('jeremy', ['as' => 'jeremy', 'uses' =>'PagesController@lawyer_jeremy']);
 Route::get('madeline', ['as' => 'jeremy', 'uses' =>'PagesController@lawyer_madeline']);

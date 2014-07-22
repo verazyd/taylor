@@ -28,6 +28,10 @@ class PagesController extends \BaseController {
         return View::make('pages.commonquestions');
     }
 
+    public function practice_areas()
+    {
+        return View::make('pages.practice_areas');
+    }
     public function lawyer_jeremy()
     {
         return View::make('pages.jeremy');
