@@ -1,0 +1,705 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid gray;
+    margin: 0 auto;
+    padding: 0;
+    width: 960px;
+}
+
+/*
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/440
+ */
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+.container_section{
+    margin-top: 7%;
+    font-family:Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.container_section_blog, .container_section_personal{margin-top: 8%;}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+/*header*/
+.header_back{
+    background: #217C9C;
+}
+.top_logo{
+    height: 110px;
+    margin-left: 15%;
+}
+.experienced{
+    color: #ffffff;
+    font-size: 12px;
+    position: absolute;
+    top: 0px;
+    left: 26%;
+    font-weight: bold;
+}
+.phone_contact{
+    border-radius: 5px 72px 30px;
+    background: #000;
+    height: 45px;
+    margin-top: 7px;
+}
+
+.live_chat {
+    padding: 10px;
+    border-radius: 5px;
+
+    /* HOVER OFF */
+    -webkit-transition: padding 2s;
+}
+
+/* Pulse Grow */
+@-webkit-keyframes pulse-grow {
+    to {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+}
+
+@keyframes pulse-grow {
+    to {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+}
+.phone_header{
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.pulse-grow {
+    display: inline-block;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.pulse-grow:hover, .pulse-grow:focus, .pulse-grow:active {
+    -webkit-animation-name: pulse-grow;
+    animation-name: pulse-grow;
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
+
+/* Wobble Bottom */
+@-webkit-keyframes wobble-bottom {
+    16.65% {
+        -webkit-transform: skew(-12deg);
+        transform: skew(-12deg);
+    }
+
+    33.3% {
+        -webkit-transform: skew(10deg);
+        transform: skew(10deg);
+    }
+
+    49.95% {
+        -webkit-transform: skew(-6deg);
+        transform: skew(-6deg);
+    }
+
+    66.6% {
+        -webkit-transform: skew(4deg);
+        transform: skew(4deg);
+    }
+
+    83.25% {
+        -webkit-transform: skew(-2deg);
+        transform: skew(-2deg);
+    }
+
+    100% {
+        -webkit-transform: skew(0);
+        transform: skew(0);
+    }
+}
+
+@keyframes wobble-bottom {
+    16.65% {
+        -webkit-transform: skew(-12deg);
+        transform: skew(-12deg);
+    }
+
+    33.3% {
+        -webkit-transform: skew(10deg);
+        transform: skew(10deg);
+    }
+
+    49.95% {
+        -webkit-transform: skew(-6deg);
+        transform: skew(-6deg);
+    }
+
+    66.6% {
+        -webkit-transform: skew(4deg);
+        transform: skew(4deg);
+    }
+
+    83.25% {
+        -webkit-transform: skew(-2deg);
+        transform: skew(-2deg);
+    }
+
+    100% {
+        -webkit-transform: skew(0);
+        transform: skew(0);
+    }
+}
+
+.wobble-bottom {
+    display: inline-block;
+    -webkit-transform-origin: 100% 0;
+    transform-origin: 100% 0;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.wobble-bottom:hover, .wobble-bottom:focus, .wobble-bottom:active {
+    -webkit-animation-name: wobble-bottom;
+    animation-name: wobble-bottom;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+
+
+.social_logo{
+    -moz-transition: all 0.8s ease-in-out;
+    -webkit-transition: all 0.8s ease-in-out;
+    -o-transition: all 0.8s ease-in-out;
+    -ms-transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
+}
+
+.social_logo:hover{
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+
+/*carasaul-homepage*/
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+.carousel_text h1{font-size: 27px; width:350px;font-weight: bold; text-transform: uppercase}
+.carousel_text p{font-size: 18px; width:550px; }
+/*contact-us form*/
+
+.any_questions p{
+    text-align: center;
+    font-size: 2.5em;
+    color: #ffffff;
+    font-family: 'Neuton', serif;
+    margin-top: 18px;
+}
+.any_questions p:nth-child(2){
+    font-size: 1.3em;
+}
+.any_questions p:nth-child(2) span{
+    font-weight: bold;
+    font-style: italic;
+    color: #000000;
+}
+.any_questions p:nth-child(3){
+    font-size: 1.2em;
+}
+.contact_form_details{
+    background-image: url(../img/contact_form_back.png);
+}
+.form_label label{
+   color: #000;
+}
+
+/*feedback form*/
+.feedback{
+    position:absolute;
+    right:0;
+    top:50px;
+}
+.feedback a {
+    display:block;
+    height:50px;
+    width:100px;
+    text-align:center;
+    background:gray;
+    border:2px solid #fff;
+    outline:1px solid #a1a1a1;
+    padding:5px;
+    float:right;
+    cursor:pointer;
+
+    /*Font*/
+    color:#FFF;
+    font-weight:bold;
+    font-size:18px;
+}
+.feedback .form{
+    clear:both;
+    height:300px;
+    width:450px;
+    border:1px solid #000;
+    background:#fff;
+    padding:15px;
+    display: none;
+}
+.feedback .form textarea{
+    height:170px;
+    width:400px;
+    padding:5px;
+}
+.feedback .status{
+    font-size:16px;
+}
+.question_img{
+    margin-top: 10px;
+}
+
+/*homepage carasaul bootstrap*/
+
+
+/*keywords starts here*/
+.keywords{
+    margin-top: 7%;
+    font-family: 'Neuton', serif;
+}
+.keywords h1{font-size: 40px;}
+.keywords h2{font-size: 30px; text-align: justify}
+.keywords a{font-size: 18px;}
+/*keywords ends here*/
+
+
+/*legal_services*/
+.legal_services{
+    margin-top: 8%;
+}
+/*legal_services ends*/
+
+/*contact form*/
+    .send_button{width:57%; float: right;margin-top: -54px;}
+    .send_button button{margin-right: 4%; font-size: 17px; font-weight: bold; margin-top: -56px; height: 70px;}
+    .contac_msg_box{width:47%; float: right;margin-top: -147px; margin-right: 12%;}
+/*contact form ends*/
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+/* Carousel base class */
+
+.is_carasaul{
+    background: gray;
+    color: blue;
+}
+.carousel {
+    margin: 80px 0px 0px 0px;
+}
+
+.carousel .container {
+    position: relative;
+    z-index: 9;
+}
+
+.carousel-control {
+    top: 100px;
+    margin-top: 0;
+    font-size: 120px;
+    text-shadow: 0 1px 1px rgba(0,0,0,.4);
+    background-color: transparent;
+    border: 0;
+    z-index: 10;
+}
+
+.carousel .item {
+    height: 500px;
+}
+.carousel img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 500px;
+}
+
+.carousel-caption {
+    background-color: transparent;
+    position: static;
+    max-width: 550px;
+    padding: 0 20px;
+    margin-top: 200px;
+}
+.carousel-caption h1,
+.carousel-caption .lead {
+    margin: 0;
+    line-height: 1.25;
+    color: #fff;
+    text-shadow: 0 1px 1px rgba(0,0,0,.4);
+}
+.carousel-caption .btn {
+    margin-top: 10px;
+}
+
+/*why choose taylor section*/
+.why_taylor_first{font-family: 'Neuton', serif;}
+.why_taylor_first h2{
+    margin: 5px 0px 15px 0px;
+    border-top: 5px solid gray;
+    padding-top: 5px;
+    font-size: 45px;
+}
+.why_taylor_first h3{text-align: center; color: #000000; font-size: 30px;}
+
+.why_taylor p{
+    font-size: 19px;
+    font-family: 'Neuton', serif;
+    padding: 10px;
+    text-align: justify;
+}
+/*why choose taylor section ends*/
+
+/*verdicts and settlements section in homepage*/
+    .why_taylor_first_verdict{font-family: 'Neuton', serif;background-color: rgba(128, 128, 128, 0.07);}
+   .why_taylor_first_verdict h4{
+       text-align: center;
+       color: #000000;
+       margin-bottom: 5px;
+       font-size: 35px;
+   }
+    .victory_top_des{
+        border: 3px solid gray;
+        margin-bottom: 1%;
+        background: #ffffff;
+    }
+    .verdict_recent p, .news_recent p{
+        text-align: justify;
+        width: 100%;
+        font-size: 17px;
+        color: rgb(28, 143, 224);
+        font-weight: bolder;
+        padding: 0px 5px;
+    }
+p.verdict_desc{
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.69);
+    text-align: justify;
+    padding: 0px 5px;
+    }
+/*Personal Injury*/
+.container_section_personal{font-family: 'Neuton', helvetica, serif}
+.container_section_personal h1{font-size: 40px;}
+.container_section_personal p{font-size: 18px;}
+.container_section_personal h3{font-size: 30px;}
+.personal_sidebar{
+    text-transform: uppercase;
+}
+.personal_sidebar p{font-size: 18px;text-transform: none}
+
+/*Personal Injury Ends*/
+
+/*family law*/
+.container_section h1{font-size: 40px;color: rgb(0, 0, 0);}
+.container_section a{font-family: 'Neuton', serif; font-size: 30px; margin-top: 5%}
+.container_section_blog h1{font-size: 45px;font-family: 'Neuton', serif; margin-bottom: 2%;}
+.container_section_blog p{font-size: 20px;font-family: 'Neuton', serif; text-align: justify}
+.personal_sidebar h3{color: #005695; margin-top: 2%;}
+/*family law page ends*/
+/*Victory Page*/
+.vic_section{background: #F6F6F6}
+.vic_section h2{font-family: 'Neuton', serif; font-size: 25px !important; text-align: justify; margin: 0 4%;}
+.vic_description{
+    text-align: justify;
+    color: #000;
+    padding: 10px;
+    height: 350px;
+    max-height: 400px;
+    overflow-y: scroll;
+    font-family: 'Neuton', serif;
+    font-size: 17px;
+}
+/*practice areas*/
+.practice_areas_section{margin-top: 7%}
+.practice_areas_section h1{font-size: 48px;; text-transform: uppercase; text-align: center; font-family: 'Neuton', serif}
+.practice_areas_section h2{font-size: 35px; color: #005695; text-transform: uppercase; font-family: 'Neuton', serif;}
+.practice_areas_section p{font-size: 15px; color:#646464; padding: 10px; text-align: justify;font-family: 'Neuton', serif; font-size: 17px;}
+.practice_areas_section ul li{font-size: 15px; color:#646464; text-align: justify;font-family: 'Neuton', serif;font-size: 17px;}
+.practice_areas_section h3{margin-left: 2%;font-family: 'Neuton', serif;font-size: 30px;}
+/*practice areas ends*/
+
+
+
+/*locations page*/
+#map{
+    width: 832px;
+    height: 400px;
+    left: 20px;
+    margin-bottom: 10px;
+}
+/*location page ends*/
+
+/*video center page*/
+
+.video_center{
+    margin-top: 100px;
+}
+.video_center h2{
+    margin-bottom: 10px;
+}
+
+
+/*our staff*/
+.container_section h2{
+    position: absolute;
+    left: 2%;
+    font-size: 48px;
+    background: #ffffff;
+    margin-top: 1%;
+}
+/*video center page ends*/
+
+
+/*common questions*/
+.common_questions{margin-top: 8%;}
+
+
+
+/*legal team*/
+
+
+/*legal team ends here*/
+
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+/*for tablet version*/
+@media (max-width: 979px) {
+
+    h2{
+        font-size: 13px;
+    }
+    .carousel .item {
+        height: 500px;
+    }
+    .carousel img {
+        width: auto;
+        height: 500px;
+    }
+}
+
+/*tablet version ends here*/
+
+
+
+
+/*for mobile version*/
+@media (max-width: 767px) {
+
+    .navbar-inner {
+        margin: -20px;
+    }
+    .carousel {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+    .carousel {
+        margin: -15px 0px 0px 0px;
+    }
+    .carousel .item {
+        height: 300px;
+    }
+    .carousel img {
+        height: 300px;
+    }
+    .carousel-caption {
+        width: 65%;
+        padding: 0 70px;
+        margin-top: 100px;
+    }
+    .carousel-caption h1 {
+        font-size: 10px;
+    }
+    .carousel-caption .lead,
+    .carousel-caption .btn {
+        font-size: 10px;
+    }
+    .container{
+        margin-top: 32%;
+    }
+    .why_taylor p{
+        font-size: 13px;
+        font-family: 'Neuton', serif;
+        max-height: 100px;
+        overflow: scroll;
+    }
+    .why_taylor_first h2{
+        font-size: 27px;
+    }
+    .why_taylor_first h3{
+        font-size: 17px;
+        font-weight: normal;
+    }
+    .why_taylor_first h4{font-size: 20px;}
+    .form_inline_contact{ width: 147%;}
+    .navbar-inverse{
+        height: 20px;
+        }
+    .container_section h2{
+        position: absolute;
+        bottom:95%;
+        left: 2%;
+        font-size: 18px;
+        background: #ffffff;
+    }
+    .container_section{
+        margin-top: 90px;
+    }
+    .masthead .Number a{margin-right: 100px;}
+    .container_section_second h2{ color: black;}
+    .common_questions{ margin-top: 22%;}
+    .common_questions h2{color:#1B8FE0; font-size: 25px;}
+    #HomeTestimonial{margin-top: 12%; font-size: 20px;}
+    #AttyCarousel .AttyInfo h1{ font-size: 1.5em !important;}
+    #HomePracticeAreas h2 a{font-size: 26px;}
+
+    hr{width: 300px;}
+
+    #BottomInfo a.phonelink {
+        font-size: 10px;
+    }
+    .carousel_text h1{font-size: 16px; width:150px;font-weight: bold;}
+    .carousel_text p{font-size: 14px; width:250px; color: black}
+    send_button{width:37%; }
+    .send_button button{margin-right: -2%; font-size: 14px; height: 60px;}
+    .contac_msg_box{width:42%; float: right;margin-top: -147px; margin-right: 17%;}
+}
+
+
+
+
+
+/*mobile version ends here*/
+
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+}
+

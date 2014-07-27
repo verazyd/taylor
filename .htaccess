@@ -1,0 +1,17 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.php [L]
+
+#RewriteRule ^ index.php [L]
+#RewriteEngine On
+#
+#
+#
+#RewriteRule ^(.*)(js|map)(.+)$ public/$2$3 [L]
+#RewriteCond %{REQUEST_FILENAME} !^(.+)(js)(.+)$
+#RewriteRule ^(.*)(img|css)(.+)$ public/$2$3 [L]
+#RewriteCond $1 !^(index\.php|robots\.txt)
+#RewriteRule ^(.*)$ index.php/$1 [L]
