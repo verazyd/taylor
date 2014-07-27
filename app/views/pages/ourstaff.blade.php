@@ -139,7 +139,7 @@
             <div class="btn-group btn-group-justified">
                 <div class="btn-group">
                     @foreach($personals as $personal)
-                    <button type="button" class="btn btn-default personal_injury_info"><a href=""> {{ $personal->name }} </a> </button>
+                    <button type="button" class="btn btn-default personal_injury_info"><a href="" style="font-size: 20px;"> {{ $personal->name }} </a> </button>
                     @endforeach
                 </div>
             </div>
@@ -148,7 +148,7 @@
             <div class="btn-group btn-group-justified">
                 <div class="btn-group">
                     @foreach($victories as $victory)
-                    <button type="button" class="btn btn-default personal_injury_info"><a href=""> {{ $victory->topic }} </a> </button>
+                    <button type="button" class="btn btn-default personal_injury_info"><a href="" style="font-size: 20px;"> {{ $victory->topic }} </a> </button>
                     @endforeach
                 </div>
             </div>
