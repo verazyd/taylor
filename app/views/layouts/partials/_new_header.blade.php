@@ -12,18 +12,18 @@
     <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
     <link href='http://fonts.googleapis.com/css?family=Neuton' rel='stylesheet' type='text/css'>
-    {{ HTML::style('/css/normalize.css') }}
-    {{ HTML::style('/css/font-awesome.min.css')}}
-    {{ HTML::style('/css/main.css') }}
+    {{ HTML::style('./css/normalize.css') }}
+    {{ HTML::style('./css/font-awesome.min.css')}}
+    {{ HTML::style('./css/main.css') }}
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
 
 
 <!--    header style sheet-->
-    {{ HTML::style('/css/css_header/style2.css') }}
-    {{ HTML::style('/css/css_header/style3.css') }}
-    {{ HTML::style('/css/css_header/style.css') }}
-    {{ HTML::style('/css/css_header/responsive.css') }}
+    {{ HTML::style('./css/css_header/style2.css') }}
+    {{ HTML::style('./css/css_header/style3.css') }}
+    {{ HTML::style('./css/css_header/style.css') }}
+    {{ HTML::style('./css/css_header/responsive.css') }}
 
 
     <style type="text/css">
@@ -32,12 +32,12 @@
         }
     </style>
 
-    {{ HTML::script('/js/js_header/script.js')  }}
+    {{ HTML::script('./js/js_header/script.js')  }}
 
     <script type="text/javascript">window._mobilemenu=true;</script>
 
-    {{ HTML::style('/css/meet_our_att.css') }}
-    {{ HTML::style('/css/meet_our_att_responsive.css') }}
+    {{ HTML::style('./css/meet_our_att.css') }}
+    {{ HTML::style('./css/meet_our_att_responsive.css') }}
 
 </head>
 <body>
