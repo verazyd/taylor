@@ -677,7 +677,7 @@ html.no-boxsizing .PracticeList .details a {
 #BottomInfo h3 {
     color: #fff;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 400;
 }
 
@@ -706,7 +706,7 @@ html.no-display-table .social ul li {
 #BottomInfo li a {
     display: block;
     padding: 6px 0;
-    border-bottom: solid 1px #217C9C;
+    border-bottom: solid 1px rgb(255, 255, 255);
     color: #ffffff;
 }
 
