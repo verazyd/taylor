@@ -640,7 +640,6 @@ p.verdict_desc{
     .container_section{
         margin-top: 90px;
     }
-    .masthead .Number a{margin-right: 100px;}
     .container_section_second h2{ color: black;}
     .common_questions{ margin-top: 22%;}
     .common_questions h2{color:#1B8FE0; font-size: 25px;}
@@ -650,7 +649,7 @@ p.verdict_desc{
     .PracticeList{margin-top: -30px ! important;}
     .PracticeList ul{margin: -20px 0px 0px 0px ! important;}
     #BottomInfo h3{font-size: 18px !important;}
-    html{margin-top: 10px !important;}
+    html{margin-top: 0px !important;}
 
     hr{width: 300px;}
 

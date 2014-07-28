@@ -1141,7 +1141,7 @@ html.no-canvas .our-work .mpreview img {
 
     .TopLogo .logo-image {
         background-size: 100%;
-        top: 0;
+        top: -6px;
     }
 
     #NavZone {
