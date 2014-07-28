@@ -318,7 +318,7 @@
 
                     <img src="./img/right2.png" style="width:21px;height:44px"></a>
 
-                <img src="./img/spacer-2.gif" style="border-width:0px;background-image:url('./img/process/s5k30s_i1xx.svg');" />
+                <img src="./img/spacer-2.gif" style="border-width:0px;background-image:url('./img/process/8.png');" />
 
                 <img data-bg-image="./img/process/uuwtdmzwk9t.png" src="./img/spacer-2.gif" style="border-width:0px;display:none;" />
 
@@ -338,7 +338,7 @@
                 <a class="nav right" href="javascript:void('Right');">
                     <img src="./img/right2.png" style="width:21px;height:44px"></a>
 
-                <img src="./img/shared/spacer-2.gif" style="border-width:0px;background-image:url('./img/process/73mloujkgzw.svg');" />
+                <img src="./img/shared/spacer-2.gif" style="border-width:0px;background-image:url('./img/process/2.png');" />
                 <img data-bg-image="img/process/0p_uzoez0yu.png" src="img/spacer-2.gif" style="border-width:0px;display:none;" />
 
                 <div class="AttyInfo">
@@ -355,7 +355,7 @@
                     <img src="img/left2.png" style="width:21px;height:44px"></a>
                 <a class="nav right" href="javascript:void('Right');">
                     <img src="img/right2.png" style="width:21px;height:44px"></a>
-                <img src="./img/spacer-2.gif" style="border-width:0px;background-image:url('./img/process/nxd63i37rjs.svg');"
+                <img src="./img/spacer-2.gif" style="border-width:0px;background-image:url('./img/process/3.png');"
                 <img data-bg-image="./img/process/tbwy8d5odzn.png" src="./img//spacer-2.gif" style="border-width:0px;display:none;" />
 
                 <div class="AttyInfo">
@@ -373,7 +373,7 @@
                     <img src="img/left2.png" style="width:21px;height:44px"></a>
                 <a class="nav right" href="javascript:void('Right');">
                     <img src="img/right2.png" style="width:21px;height:44px"></a>
-                <img src="img/spacer-2.gif" style="border-width:0px;background-image:url('./img/process/6g5q27g6jjm.svg');" />
+                <img src="img/spacer-2.gif" style="border-width:0px;background-image:url('./img/process/4.png');" />
                 <img data-bg-image="./img/process/16csjzk079q.png" src="img/spacer-2.gif" style="border-width:0px;display:none;" />
 
                 <div class="AttyInfo">
@@ -390,7 +390,7 @@
                     <img src="img/left2.png" style="width:21px;height:44px"></a>
                 <a class="nav right" href="javascript:void('Right');">
                     <img src="img/right2.png" style="width:21px;height:44px"></a>
-                <img src="img/spacer-2.gif" style="border-width:0px;background-image:url('./img/process/ac6c5v0np2s.svg');" />
+                <img src="img/spacer-2.gif" style="border-width:0px;background-image:url('./img/process/5.png');" />
                 <img data-bg-image="./img/process/jrg5w8tvjsx.png" src="img/spacer-2.gif" style="border-width:0px;display:none;" />
 
                 <div class="AttyInfo">
@@ -408,7 +408,7 @@
                     <img src="img/left2.png" style="width:21px;height:44px"></a>
                 <a class="nav right" href="javascript:void('Right');">
                     <img src="img/right2.png" style="width:21px;height:44px"></a>
-                <img src="img/spacer-2.gif" style="border-width:0px;background-image:url('./img/process/byxj03k58z0.svg');" />
+                <img src="img/spacer-2.gif" style="border-width:0px;background-image:url('./img/process/6.png');" />
                 <img data-bg-image="./img/process/6n5lfxlmhyp.png" src="img/spacer-2.gif" style="border-width:0px;display:none;" />
 
                 <div class="AttyInfo">
