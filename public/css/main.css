@@ -650,6 +650,7 @@ p.verdict_desc{
     .PracticeList{margin-top: -30px ! important;}
     .PracticeList ul{margin: -20px 0px 0px 0px ! important;}
     #BottomInfo h3{font-size: 18px !important;}
+    html{margin-top: 10px !important;}
 
     hr{width: 300px;}
 

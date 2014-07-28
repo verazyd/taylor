@@ -43,8 +43,9 @@
         $(function(){
             if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1)
             {
-                $('html').css('margin-top', '-80px');
+               $('html').css('margin-top', '-80px');
             }
+
         });
     </script>
 
