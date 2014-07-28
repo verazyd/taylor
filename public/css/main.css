@@ -592,7 +592,7 @@ p.verdict_desc{
         margin: -15px 0px 0px 0px;
     }
     .carousel .item {
-        height: 300px;
+        height: 225px;
     }
     .carousel img {
         height: 300px;
@@ -646,14 +646,17 @@ p.verdict_desc{
     .common_questions h2{color:#1B8FE0; font-size: 25px;}
     #HomeTestimonial{margin-top: 12%; font-size: 20px;}
     #AttyCarousel .AttyInfo h1{ font-size: 1.5em !important;}
-    #HomePracticeAreas h2 a{font-size: 26px;}
+    .any_questions p{ margin-top: -4px; font-size:1.7em; }
+    .PracticeList{margin-top: -30px ! important;}
+    .PracticeList ul{margin: -20px 0px 0px 0px ! important;}
+    #BottomInfo h3{font-size: 18px !important;}
 
     hr{width: 300px;}
 
     #BottomInfo a.phonelink {
         font-size: 10px;
     }
-    .carousel_text h1{font-size: 16px; width:150px;font-weight: bold;}
+    .carousel_text h1{font-size: 13px; width:150px;font-weight: bold;}
     .carousel_text p{font-size: 14px; width:250px; color: black}
     send_button{width:37%; }
     .send_button button{margin-right: -2%; font-size: 14px; height: 60px;}

@@ -39,6 +39,15 @@
     {{ HTML::style('./css/meet_our_att.css') }}
     {{ HTML::style('./css/meet_our_att_responsive.css') }}
 
+    <script>
+        $(function(){
+            if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1)
+            {
+                $('html').css('margin-top', '-80px');
+            }
+        });
+    </script>
+
 </head>
 <body>
 <?php $path =  base_path().'/public';?>

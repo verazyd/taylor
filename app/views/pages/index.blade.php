@@ -211,7 +211,7 @@
                 </div>
             </li><li class="right">
                 <a href="{{ URL::route('practice_areas') }}">Employment Law</a>
-                <div class="details" style="background-image:url(./img/Practice-Areas/catastrophic.jpg);height: 365px;top: 28px;">
+                <div class="details" style="background-image:url(./img/Practice-Areas/catastrophic_2.png);height: 365px;top: 28px;">
                     <div class="Icon">
                         <img src="./img/Practice-Areas/catastrophic-icon.png">
                     </div>
