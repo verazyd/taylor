@@ -35,10 +35,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="responsive.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="responsive.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/css/css_header/responsive.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1143" column="17" selection-start="20458" selection-end="20458" vertical-scroll-proportion="0.21097046" vertical-offset="28425" max-vertical-offset="41525">
+            <state line="734" column="19" selection-start="13408" selection-end="13408" vertical-scroll-proportion="0.0" vertical-offset="18200" max-vertical-offset="41525">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="meet_our_att_responsive.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/css/meet_our_att_responsive.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="739" column="24" selection-start="11012" selection-end="11012" vertical-scroll-proportion="0.6680731" vertical-offset="18000" max-vertical-offset="33150">
               <folding />
             </state>
           </provider>
@@ -83,7 +92,6 @@
         <option value="$PROJECT_DIR$/app/views/search/index.blade.php" />
         <option value="$PROJECT_DIR$/app/views/videos/index_users.blade.php" />
         <option value="$PROJECT_DIR$/public/css/css_header/style3.css" />
-        <option value="$PROJECT_DIR$/public/css/meet_our_att_responsive.css" />
         <option value="$PROJECT_DIR$/app/views/pages/madeline.blade.php" />
         <option value="$PROJECT_DIR$/app/views/pages/peter.blade.php" />
         <option value="$PROJECT_DIR$/app/views/pages/wu.blade.php" />
@@ -122,6 +130,7 @@
         <option value="$PROJECT_DIR$/public/css/main.css" />
         <option value="$PROJECT_DIR$/app/views/layouts/partials/_new_header.blade.php" />
         <option value="$PROJECT_DIR$/public/css/css_header/responsive.css" />
+        <option value="$PROJECT_DIR$/public/css/meet_our_att_responsive.css" />
       </list>
     </option>
   </component>
@@ -990,11 +999,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/pages/holly.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1150" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="25" selection-start="455" selection-end="455" vertical-scroll-proportion="0.5706134" vertical-offset="0" max-vertical-offset="875">
@@ -1379,7 +1383,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/css_header/responsive.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1143" column="17" selection-start="20458" selection-end="20458" vertical-scroll-proportion="0.21097046" vertical-offset="28425" max-vertical-offset="41525">
+        <state line="734" column="19" selection-start="13408" selection-end="13408" vertical-scroll-proportion="0.0" vertical-offset="18200" max-vertical-offset="41525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/meet_our_att_responsive.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="739" column="24" selection-start="11012" selection-end="11012" vertical-scroll-proportion="0.6680731" vertical-offset="18000" max-vertical-offset="33150">
           <folding />
         </state>
       </provider>
